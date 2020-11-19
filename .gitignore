@@ -48,3 +48,6 @@ tmp/
 
 # Misc & Project-Unique
 themes/.scope-referance.json
+themes/.alt-theme-referance.json
+vsc-extension-quickstart.md
+themes/.*
