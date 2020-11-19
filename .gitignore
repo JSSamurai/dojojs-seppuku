@@ -1,18 +1,50 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Git Version Controll
+.git/*
+.gitconfig
+.gitignore
+.gitattributes
+.vscodeignore
 
-# Other files and folders
-.settings/
+# Editor/IDE Configuration
+.vscode/*.json
+.vscodeignore
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Dependancies
+node_modules/*.*
+package.json
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Formatting & Linting Configuration
+.prettierrc
+.jsbeautifyrc
+.babelrc.json
+.eslintrc.json
+.markdownlintrc
+
+# Testing
+test/
+*.test.js
+
+# Project Logs
+CHANGELOG.md
+*.log
+
+# Enviroment
+.ENV
+.env
+
+# Temporary Storage
+Cache/
+cache/
+Temp/
+tmp/
+
+# Configuration Files
+*.conf.*
+.conf.*
+
+# Dev Notes & Dev Referances
+.ajay/*.json
+.ajay/*.txt
+
+# Misc & Project-Unique
+themes/.scope-referance.json
