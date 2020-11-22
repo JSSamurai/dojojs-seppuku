@@ -1,53 +1,49 @@
-# Git Version Controll
-.git/*
+# Version Controll
+.git/
+
 .gitconfig
 .gitignore
-.gitattributes
 .vscodeignore
 
-# Editor/IDE Configuration
-.vscode/*.json
-.vscodeignore
+# VSCode
+.vscode/
 
 # Dependancies
-node_modules/*.*
+node_modules/
 package.json
 
-# Formatting & Linting Configuration
-.prettierrc
-.jsbeautifyrc
-.babelrc.json
+# Linting & Formatting
+prettier.conf.js
+babel.conf.js
+.markdownlint.jsonc
+.markdownlint.json
+.jsbeautifyrc.json
 .eslintrc.json
+.babelrc.json
 .markdownlintrc
+.jsbeautifyrc
+.prettierrc
+.babelrc
 
 # Testing
 test/
 *.test.js
 
-# Project Logs
-CHANGELOG.md
-*.log
+# Logging
 
 # Enviroment
 .ENV
 .env
 
 # Temporary Storage
-Cache/
 cache/
-Temp/
 tmp/
+*.log
+CHANGELOG.md
 
 # Configuration Files
 *.conf.*
 .conf.*
 
-# Dev Notes & Dev Referances
-.ajay/*.json
-.ajay/*.txt
-
-# Misc & Project-Unique
-themes/.scope-referance.json
-themes/.alt-theme-referance.json
-vsc-extension-quickstart.md
-themes/.*
+# Development
+referance/

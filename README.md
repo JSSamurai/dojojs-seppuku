@@ -1,2 +1,40 @@
-# dojojs-seppuku
-This is a VS-Code Color Theme. 'DojoJS-Seppuku' is a dark theme that was created to be used for writing JavaScript inside of the VS-Code editor, backend &amp;/or frontend. There is support for CSS, HTML and a few other integrated language-type technologies like JSDocs &amp; Regular Expressions. This theme is professional, it took a long time to for me to get a good enough understanding of the TextMate JSON API tha VSCode uses as its method for theme creation. I made several themes, and used theme for myself before I was comfortable enough to create one for the public. I really enjoy developing anything that lets me play with colors, weather its GUI development, or Theme Building, IMO Gui/Theme development is an art, some people have a knack for it. I worked for quite some time on two themes, this one, and another-one DojoJS-Sunyata, there are thouroughly built, so long as you stick to the languages they support. I will continue to release updates for the themes, that will more thoroughly design every little detail as well as adding support for PHP soon. I Hope you enjoy this theme, feedback is always welcome AndrewChambers.JSSamurai@Gmail.com.
+# DojoJS Seppuku
+
+By JSSamurai
+
+**REPOSITORY** <http://github.com/JSSamurai/dojojs-seppuku.git/>
+
+DojoJS-Seppuku is a 'Dark VS-Code Theme', that was created for professionals.
+
+There are sooooo... many VSC themes in the VSC marketplace. How do you choose? If your
+anything like me, you have downloaded scores of them, if not hundreds. I started by trying
+the themes that have been downloaded the most, then I tried themes recomended on forums. I
+can say, with confidence, that I have tried enough themes to know what makes a theme good,
+and what makes a theme bad, therefore; I can tell you, 70% of the themes are just plain
+bad. The reason their are so many bad themes is becuase alot of them are quickly produced
+by the same person. Its common for a developer to make a good theme, then swap the colors
+around anywhere from a couple times to 100 times, offering those that download his/her
+theme-extension-package 100 different themes, but really its a single theme that has been
+color swaped several times over. A theme will not be good unless the developer creates the
+theme, and uses the theme to develop other work. As he works (I use he becuase I am a he,
+but obvously the developer could be a she...), he makes suddle altercations to his theme.
+Changing a color by a couple points of R, or maybe B, changing a certain syntax to be
+italic, or to not be italic, alters the color when hovering over an item in dropdowns from
+editor widgets to be different than the titlebar menu drop downs. All these suttle but
+consistant well thought out, tried and tested changes are what makes a theme good, and
+very few themes in the marketplace have had this done to them. The ones that have been
+worked on vigorously are actually not that popularized. Don't be afraid to try some themes
+that only have 20-2k downloads, you might be supprised what you find.
+
+that their are many VSCode themes out there. Still even with all
+of the selection, only a few actually offered the readability, syntax highlighting,
+beautiful look, and great feel of a theme that could be considered top notch, and
+professional.
+
+<br>
+
+> ---
+>
+> ## Colors
+>
+> ---
