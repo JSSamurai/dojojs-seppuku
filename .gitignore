@@ -1,6 +1,5 @@
 # Version Controll
 .git/
-
 .gitconfig
 .gitignore
 .vscodeignore
