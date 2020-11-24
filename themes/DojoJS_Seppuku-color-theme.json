@@ -205,7 +205,7 @@
         "menubar.selectionBackground": "#00FFA090",
         "menubar.selectionForeground": "#FFFFFF",
         //    <<==*================( Mini-Map )================*==>>
-        "minimap.background": "#0C0000",
+        "minimap.background": "#020204",
         "minimap.errorHighlight": "#FF0800",
         "minimap.findMatchHighlight": "#00FF50",
         "minimap.selectionHighlight": "#00c8ff",
@@ -268,7 +268,7 @@
         "settings.dropdownListBorder": "#cccccc",
         "settings.modifiedItemIndicator": "#00c8ff",
         //    <<==*================( SideBar )================*==>>
-        "sideBar.background": "#040507",
+        "sideBar.background": "#020204",
         "sideBar.border": "#64000f",
         "sideBar.dropBackground": "#409FD8",
         "sideBar.foreground": "#9F9F9F",
