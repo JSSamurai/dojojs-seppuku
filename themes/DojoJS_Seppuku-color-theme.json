@@ -214,7 +214,7 @@
         "minimapGutter.deletedBackground": "#A00000",
         "minimapGutter.modifiedBackground": "#00c8ff",
         "minimapSlider.activeBackground": "#FF4A4040",
-        "minimapSlider.background": "#00FFA060",
+        "minimapSlider.background": "#00C8ff80",
         "minimapSlider.hoverBackground": "#FF4A40A0",
         "notificationCenterHeader.background": "#08090d",
         "notificationLink.foreground": "#4090FF",
