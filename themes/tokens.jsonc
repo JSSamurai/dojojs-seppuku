@@ -1,0 +1,109 @@
+{
+    // Puncuation
+    "SOURCE_TOKENS": [
+        "source.js",
+        "source.json"
+    ],
+    "COMMENT": [
+        "comment",
+        "comment.block.documentation",
+        "comment.line.double-slash",
+        "source.json.comments",
+        "meta.structure.dictionary.json.comments"
+    ],
+    "JSON_PROPERTIES": "support.type.property-name.json",
+    "STRING": [
+        "string",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.template",
+        "string.unquoted.js" // JS Object Properties (Combo W/jsonProperties Above^)
+    ],
+    "PUNCTUATION": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json",
+        "punctuation.terminator.statement",
+        "punctuation.separator.key-value",
+        "punctuation.section.class.begin",
+        "punctuation.section.class.end",
+        "keyword.operator.accessor",
+        "meta.delimiter.comma"
+    ],
+    "STRING_PUNCTUATION": [
+        "punctuation.quasi.element",
+        "punctuation.definition.quasi",
+        "punctuation.definition.string.template",
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end"
+    ],
+    "COMMENT_PUNCTUATION": [
+        "punctuation.definition.comment",
+        "punctuation.definition.comment.json.comments"
+    ],
+    "PUNCTUATION_&_META_BRACES": [
+        "meta.brace.square",
+        "meta.brace.round",
+        "meta.brace.curly",
+        "punctuation.definition.block"
+    ],
+    "KEYWORD_OPERATOR": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.assignment.augmented",
+        "keyword.operator.relational",
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison",
+        "keyword.operator.instanceof",
+        "keyword.operator.private",
+        "keyword.operator.typeof",
+        "keyword.operator.new"
+    ],
+    "KEYWOR_CONTROL": [
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.loop",
+        "keyword.control.trycatch",
+        "keyword.control.conditional"
+    ],
+    "storage": [
+        "storage.type",
+        "storage.type.function",
+        "storage.type.function.arrow",
+        "storage.type.function.method",
+        "storage.type.class",
+        "storage.type.extends",
+        "storage.type.accessor",
+        "storage.type.property"
+    ],
+    "ENTITIES": [
+        "entity",
+        "entity.name",
+        "entity.name.type",
+        "entity.name.function"
+    ],
+    /*
+
+
+     ..........................................................
+        <<~~~~~~~~~~~~~~~~( Meta-Tokens )~~~~~~~~~~~~~~~~>>
+     ..........................................................                     */
+    "META": {
+        "META_DEFINITION": [
+            "meta.definition",
+            "meta.definition.method"
+        ],
+        "META_METHOOD": [
+            "meta.method",
+            "meta.method.declaration"
+        ]
+    }
+}

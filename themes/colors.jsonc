@@ -1,0 +1,76 @@
+{
+    "whites": {
+        "cerimonialKimono": "#dddddd",
+        "ritualKimono": "#cccccc",
+        "battleWornKomono": "#bbbbbb",
+        "No name yet": "#aaaaaa"
+    },
+    "blacks": {
+        "ninjaGarmet": "#07080B",
+        "ninjaSteel": "#141519",
+        "ninjaConvert": "#0c0000",
+        "NightInAFuedalJapan": "#020204"
+    },
+    "reds": {
+        "JapansAncientSymbolicSun": "#FF1F3F",
+        "ColorOfTheSamurai": "#FF001D",
+        "RedDragon": "#EE1024",
+        "PaleRedDragon": "#D44444",
+        "DragonBreath": "#cc1a20",
+        "SwordSlashed": "#aa0000",
+        "Harakiri": "#901018",
+        "Seppuku": "#64000f",
+        "FatalBlood": "#200004"
+    },
+    "greens": {
+        "Fuedal-Japan-Garmets(Indigo)": "#00c8ff",
+        "Sora-iro(High-Contrast)": "#20bbee",
+        "Pacific Japan": "#18aae4",
+        "japaneseDragons": "#409fd8",
+        "japanese-pale-indigo-flower": "#88b8e2"
+    },
+    "default": {
+        "findMatch": "#00c8ff",
+        "bracketMatch": "#ff001f",
+        "selection": "#ff0f30",
+        "highlight": "#ffffff",
+        "highlightStrong": "#00ff60",
+        "added": "#00f0c0",
+        "modified": "#0fceff",
+        "ignored": "#78444c",
+        "untracked": "#486480",
+        "conflicting": "#FF1800",
+        "deleted": "#BB0a00",
+        "warning": "#f0ff00",
+        "info": "#fff048",
+        "link": "#40ff88"
+    },
+    "Highlights": {
+        "foregroundAndBorder-highlight-a": "#F4F4F4",
+        "foregroundAndBorder-highlight-b": "#00CCff",
+        "foregroundAndBorder-highlight-c": "#00FFBB",
+        "foregroundAndBorder-highlight-d": "#00fCff",
+        "foregroundAndBorder-highlight-e": "#FF0A32", // Bracket Match
+        "foregroundAndBorder-highlight-f": "#FF2000",
+        "foregroundAndBorder-highlight-g": "#FF8080"
+    },
+    "HighlightDefined": {
+        "foregroundAndBorder-highlight-a": "#F4F4F4",
+        "foregroundAndBorder-highlight-b": "#00CCff",
+        "foregroundAndBorder-highlight-c": "#00FFBB",
+        "foregroundAndBorder-highlight-d": "#00fCff",
+        "BracketMatch": "#FF0A32", // Bracket Match
+        "foregroundAndBorder-highlight-f": "#FF2000",
+        "foregroundAndBorder-highlight-g": "#FF8080",
+    },
+    "CommunicationColors": {
+        "Added": "#40FFCC", // ---> Synonyms:
+        "Modified": "#4CCDFF", // ---> Synonyms: Changed, altered
+        "Ignored": "#80484D", // ---> Synonyms: 
+        "Deleted": "#AA000F", // ---> Synonyms: 'Not found', 'Does Not Exist'
+        "Error": "#FF1800", // ---> Synonyms: 'Problem', 'Issue' 
+        "Warning": "#F0FF00", // ---> Synonyms: 
+        "Hint": "#FFF040", // ---> Synonyms: 'Info', 'Suggestion', 'Lightbulb'
+        "": "#" // ---> Synonyms:
+    }
+}
