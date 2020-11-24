@@ -4,7 +4,7 @@
     "colors": {
         //    <<==*==========| ActivityBar |==========*==>>
         "activityBar.activeBackground": "#64000f",
-        "activityBar.background": "#080404",
+        "activityBar.background": "#08090d",
         "activityBar.inactiveForeground": "#dddddd",
         "activityBar.foreground": "#20c4ff",
         "activityBar.activeBorder": "#64000f",
