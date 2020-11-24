@@ -97,10 +97,10 @@
         "editorIndentGuide.activeBackground": "#ff001d",
         "editorIndentGuide.background": "#480000",
         //    <<==*==========( Line-Numbers )==========*==>>
-        "editorLineNumber.activeForeground": "#ffffff",
+        "editorLineNumber.activeForeground": "#cccccc",
         "editorLineNumber.foreground": "#64000f",
-        "editor.lineHighlightBackground": "#400000",
-        "editor.lineHighlightBorder": "#BBBBBB",
+        "editor.lineHighlightBackground": "#08090D",
+        "editor.lineHighlightBorder": "#64000f",
         //    <<==*============( Links )=============*==>>
         "editorLink.activeForeground": "#00c8ff",
         "editorMarkerNavigation.background": "#08090d",
