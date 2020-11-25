@@ -341,7 +341,7 @@
 
         //    Unfocused Active
         "tab.unfocusedActiveBackground": "#07080C",
-        "tab.unfocusedActiveForeground": "#BBBBBB",
+        "tab.unfocusedActiveForeground": "#AAAAAA",
         "tab.unfocusedActiveBorder": "#000000",
         "tab.unfocusedActiveBorderTop": "#07080C",
         "tab.unfocusedActiveModifiedBorder": "#07080C",

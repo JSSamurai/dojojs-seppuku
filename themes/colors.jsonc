@@ -63,7 +63,7 @@
         },
 
         "(3) Select/Selection": {
-            "|1| Active & Active-Selection": "#FFFFFF",
+            "|1| Active & Active-Selection": "#CCCCCC",
             "|2| Inactive": "#7C1C20",
             "|3| ": "#",
             "|4| ": "#",
