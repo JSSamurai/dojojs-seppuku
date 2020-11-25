@@ -1,76 +1,98 @@
 {
-    "whites": {
-        "cerimonialKimono": "#dddddd",
-        "ritualKimono": "#cccccc",
-        "battleWornKomono": "#bbbbbb",
-        "No name yet": "#aaaaaa"
+    "-CS- COLOR_SCHEME": {
+        "<1> PRIMARY: CHARCOALS": {
+            "|1| PaleCharcoal": "#18191D",
+            "|2| Anvil       ": "#12131A",
+            "|3| Charcoal    ": "#07080B",
+            "|4| Black       ": "#020204",
+            "|5| TrueBlack   ": "#000000",
+
+            "|6|": "#",
+            "|7|": "#",
+            "|8|": "#"
+        },
+
+        "<2> SECONDARY: REDS": {
+            "|1| PaleRed      ": "#FF4848",
+            "|2| ElectricRed  ": "#FF002F",
+            "|3| PlainRed     ": "#DF242A", // Opaque(@88) Version used mostly (#DD242A88)
+            "|4| BrimeStone   ": "#AA1820",
+            "|5| Harakiri     ": "#901018",
+            "|6| Seppuku      ": "#64000F",
+            "|7| DarkRed      ": "#40000A",
+            "|8| DarkBurgandy ": "#20000A"
+        },
+
+        "<3> ACCENT: WHITES/LIGHT_GREYS": {
+            "|1| True-White ": "#FFFFFF",
+            "|3| White      ": "#DDDDDD",
+            "|4| Off-White  ": "#CCCCCC",
+            "|5| Light-Grey ": "#AAAAAA",
+            "|6| Grey       ": "#888888"
+        },
+
+        // Color Scheme Highlight
+        "<4> HIGHLIGHT: CYANS": {
+            "|1| TrueCyan     ": "#00FFFF",
+            "|2| BlueCyan     ": "#00CEFF",
+            "|3| GreenCyan    ": "#00FFC0",
+            "|4| DarkCyan     ": "#00A8A8",
+            "|5| DarkBlueCyan ": "#00A8B8",
+
+            "|6|": "#",
+            "|7|": "#",
+            "|8|": "#"
+        }
     },
-    "blacks": {
-        "ninjaGarmet": "#07080B",
-        "ninjaSteel": "#141519",
-        "ninjaConvert": "#0c0000",
-        "NightInAFuedalJapan": "#020204"
-    },
-    "reds": {
-        "JapansAncientSymbolicSun": "#FF1F3F",
-        "ColorOfTheSamurai": "#FF001D",
-        "RedDragon": "#EE1024",
-        "PaleRedDragon": "#D44444",
-        "DragonBreath": "#cc1a20",
-        "SwordSlashed": "#aa0000",
-        "Harakiri": "#901018",
-        "Seppuku": "#64000f",
-        "FatalBlood": "#200004"
-    },
-    "greens": {
-        "Fuedal-Japan-Garmets(Indigo)": "#00c8ff",
-        "Sora-iro(High-Contrast)": "#20bbee",
-        "Pacific Japan": "#18aae4",
-        "japaneseDragons": "#409fd8",
-        "japanese-pale-indigo-flower": "#88b8e2"
-    },
-    "default": {
-        "findMatch": "#00c8ff",
-        "bracketMatch": "#ff001f",
-        "selection": "#ff0f30",
-        "highlight": "#ffffff",
-        "highlightStrong": "#00ff60",
-        "added": "#00f0c0",
-        "modified": "#0fceff",
-        "ignored": "#78444c",
-        "untracked": "#486480",
-        "conflicting": "#FF1800",
-        "deleted": "#BB0a00",
-        "warning": "#f0ff00",
-        "info": "#fff048",
-        "link": "#40ff88"
-    },
-    "Highlights": {
-        "foregroundAndBorder-highlight-a": "#F4F4F4",
-        "foregroundAndBorder-highlight-b": "#00CCff",
-        "foregroundAndBorder-highlight-c": "#00FFBB",
-        "foregroundAndBorder-highlight-d": "#00fCff",
-        "foregroundAndBorder-highlight-e": "#FF0A32", // Bracket Match
-        "foregroundAndBorder-highlight-f": "#FF2000",
-        "foregroundAndBorder-highlight-g": "#FF8080"
-    },
-    "HighlightDefined": {
-        "foregroundAndBorder-highlight-a": "#F4F4F4",
-        "foregroundAndBorder-highlight-b": "#00CCff",
-        "foregroundAndBorder-highlight-c": "#00FFBB",
-        "foregroundAndBorder-highlight-d": "#00fCff",
-        "BracketMatch": "#FF0A32", // Bracket Match
-        "foregroundAndBorder-highlight-f": "#FF2000",
-        "foregroundAndBorder-highlight-g": "#FF8080",
-    },
-    "CommunicationColors": {
-        "Added": "#40FFCC", // ---> Synonyms:
-        "Modified": "#4CCDFF", // ---> Synonyms: Changed, altered
-        "Ignored": "#80484D", // ---> Synonyms: 
-        "Deleted": "#AA000F", // ---> Synonyms: 'Not found', 'Does Not Exist'
-        "Error": "#FF1800", // ---> Synonyms: 'Problem', 'Issue' 
-        "Warning": "#F0FF00", // ---> Synonyms: 
-        "Hint": "#FFF040", // ---> Synonyms: 'Info', 'Suggestion', 'Lightbulb'
-        "": "#" // ---> Synonyms:
+    "-XH- SYNTAX_HIGHLIGHTING": {
+        
+            "(1) DragAndDrop": {
+                "|1| BackGround": "#00EEFF90",
+                "|2| Border": "[E-1] True-Cyan ---> #00FFFF"
+            },
+
+            "(2) Hover": {
+                "|1| Background ": "#",
+                "|2| Foreground ": "#FFFFFF",
+                "|3| Active": "#",
+                "|4| Inactive": "#",
+                
+                "|5| ": "#"
+            },
+
+            "(3) Select/Selection": {
+                "|1| Active": "#",
+                "|2| Inactive": "#",
+                "|3| ": "#",
+                "|4| ": "#",
+                "|5| ": "#"
+            },
+
+            "(4) Hover": {
+                "|1| ": "#",
+                "|2| ": "#",
+                "|3| ": "#",
+                "|4| ": "#",
+                "|5| ": "#"
+            },
+
+            "(5) Hover": {
+                "|1| ": "#",
+                "|2| ": "#",
+                "|3| ": "#",
+                "|4| ": "#",
+                "|5| ": "#"
+            },
+
+            "(6) Hover": {
+                "|1| ": "#",
+                "|2| ": "#",
+                "|3| ": "#",
+                "|4| ": "#",
+                "|5| ": "#"
+            }
+
+           
+        }
     }
 }
