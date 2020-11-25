@@ -14,14 +14,14 @@
         "welcomePage.background": "#12141A",
 
         //  <<==*==========| ActivityBar |==========*==>>
-        "activityBar.activeBackground": "#440000",
+        "activityBar.activeBackground": "#440408",
         "activityBar.background": "#07080B",
-        "activityBar.inactiveForeground": "#AA1820",
-        "activityBar.foreground": "#FFFFFF",
-        "activityBar.activeBorder": "#FF0030",
+        "activityBar.inactiveForeground": "#701218",
+        "activityBar.foreground": "#DDDDDD",
+        "activityBar.activeBorder": "#440408",
         "activityBar.activeFocusBorder": "#FFFFFF",
         "activityBar.dropBorder": "#00FFFF",
-        "activityBar.border": "#280000",
+        "activityBar.border": "#64000F",
 
         //  <<==*==========| Badge |==========*==>>
         "activityBarBadge.background": "#020204",
@@ -37,36 +37,13 @@
         "breadcrumb.focusForeground": "#00FFFF", //           |> Hover Highlighting
         "breadcrumbPicker.background": "#12131A",
 
-        //  <<==*==============| Interactable |==============*==>>
-        "button.background": "#07080B",
-        "button.foreground": "#00F0FF",
-        "button.hoverBackground": "#00F0FF48",
-        "button.secondaryBackground": "#12141A",
-        "button.secondaryForeground": "#00F0FF",
-        "button.secondaryHoverBackground": "#00F0FF48",
-        "extensionButton.prominentBackground": "#AA00AA",
-        "extensionButton.prominentForeground": "#FF77FF",
-        "extensionButton.prominentHoverBackground": "#F000F0",
-        "welcomePage.buttonBackground": "#07080B",
-        "welcomePage.buttonHoverBackground": "#00F0FF48",
-        "checkbox.background": "#020204",
-        "checkbox.border": "#0CCCFF",
-        "checkbox.foreground": "#00F0FF",
-        "settings.checkboxBackground": "#020204",
-        "settings.checkboxBorder": "#0CCCFF",
-        "settings.checkboxForeground": "#00F0FF",
-        "dropdown.background": "#07080B",
-        "dropdown.border": "#0CCCFF",
-        "dropdown.foreground": "#00F0FF",
-        "dropdown.listBackground": "#12141A",
-
         //  <<==*=================| Debugging |=================*==>>
         "debugExceptionWidget.background": "#07080B",
         "debugExceptionWidget.border": "#07080B",
         "debugToolBar.background": "#07080B",
 
         //    <<==*===( Editor Background/Foreground )===*==>>
-        "editor.background": "#0C0C10",
+        "editor.background": "#111218",
         "editor.foreground": "#CCCCCC",
 
         //    <<==*=======( Syntax Highlighting )=======*==>>
@@ -96,16 +73,16 @@
         "editorCursor.foreground": "#00ffaa",
 
         //    <<==*===========( Editor-Groups )===========*==>>
-        "editorGroup.border": "#404040",
+        "editorGroup.border": "#64000F",
         "editorGroup.dropBackground": "#00EEFF90",
-        "editorGroupHeader.border": "#020204",
+        "editorGroupHeader.border": "#000002",
         "editorGroupHeader.noTabsBackground": "#0C0000",
         "editorGroupHeader.tabsBackground": "#07080C",
         "editorGroupHeader.tabsBorder": "#020204",
         "editorGroup.focusedEmptyBorder": "#FF1A00",
 
         //    <<==*===========( Gutter )===========*==>>
-        "editorGutter.background": "#07080B",
+        "editorGutter.background": "#090A0D",
         "editorGutter.addedBackground": "#00FFBBA0",
         "editorGutter.modifiedBackground": "#00CCFFA0",
         "editorGutter.commentRangeForeground": "#E000E0",
@@ -141,8 +118,8 @@
         "editorMarkerNavigation.background": "#07080B",
 
         //    <<==*=========( Overview Ruler )=========*==>>
-        "editorOverviewRuler.addedForeground": "#00FFBB",
         "editorOverviewRuler.background": "#020204",
+        "editorOverviewRuler.addedForeground": "#00FFBB",
         "editorOverviewRuler.border": "#64000F",
         "editorOverviewRuler.bracketMatchForeground": "#FF0A32",
         "editorOverviewRuler.commonContentForeground": "#8080ff",
@@ -175,6 +152,29 @@
         "editorWidget.background": "#07080B",
         "editorWidget.border": "#454545",
         "editorWidget.foreground": "#FFFFFF",
+
+        //  <<==*==============| Interactable |==============*==>>
+        "button.background": "#07080B",
+        "button.foreground": "#00F0FF",
+        "button.hoverBackground": "#00F0FF48",
+        "button.secondaryBackground": "#12141A",
+        "button.secondaryForeground": "#00F0FF",
+        "button.secondaryHoverBackground": "#00F0FF48",
+        "extensionButton.prominentBackground": "#AA00AA",
+        "extensionButton.prominentForeground": "#FF77FF",
+        "extensionButton.prominentHoverBackground": "#F000F0",
+        "welcomePage.buttonBackground": "#07080B",
+        "welcomePage.buttonHoverBackground": "#00F0FF48",
+        "checkbox.background": "#020204",
+        "checkbox.border": "#0CCCFF",
+        "checkbox.foreground": "#00F0FF",
+        "settings.checkboxBackground": "#020204",
+        "settings.checkboxBorder": "#0CCCFF",
+        "settings.checkboxForeground": "#00F0FF",
+        "dropdown.background": "#07080B",
+        "dropdown.border": "#0CCCFF",
+        "dropdown.foreground": "#00F0FF",
+        "dropdown.listBackground": "#12141A",
 
         //    <<==*==========( GIT Highlighting )==========*==>>
         "gitDecoration.addedResourceForeground": "#00FFBB", //          Added
@@ -209,6 +209,7 @@
         "quickInputTitle.background": "#ffffff1b",
         "inputOption.activeBackground": "#3c425066",
         "inputOption.activeForeground": "#CCCCCC",
+
         //    <<==*================( Lists )================*==>>
         "list.activeSelectionBackground": "#40424FA0", // Item Selected & in focus
         "list.activeSelectionForeground": "#2090FF",
@@ -306,11 +307,11 @@
         "settings.dropdownListBorder": "#CCCCCC",
         "settings.modifiedItemIndicator": "#0CCCFF",
         //    <<==*================( SideBar )================*==>>
-        "sideBar.background": "#040404",
-        "sideBar.border": "#300408",
+        "sideBar.background": "#111218",
+        "sideBar.border": "#64000F",
         "sideBar.dropBackground": "#00EEFF90",
         "sideBar.foreground": "#AAAAAA",
-        "sideBarSectionHeader.background": "#64000F",
+        "sideBarSectionHeader.background": "#020204",
         "sideBarSectionHeader.border": "#AAAAAA",
         "sideBarSectionHeader.foreground": "#CCCCCC",
         "sideBarTitle.foreground": "#CCCCCC",
@@ -391,9 +392,9 @@
         "textSeparator.foreground": "#AAAAAA",
 
         //  <<==*=================| TITLEBAR |=================*==>>
-        "titleBar.activeBackground": "#180000",
-        "titleBar.activeForeground": "#B0B0B0",
-        "titleBar.border": "#020204",
+        "titleBar.activeBackground": "#200000",
+        "titleBar.activeForeground": "#CCCCCC",
+        "titleBar.border": "#808080",
         "titleBar.inactiveBackground": "#383830",
         "titleBar.inactiveForeground": "#808074",
         "tree.indentGuidesStroke": "#FF3020AA",

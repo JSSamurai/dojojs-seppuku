@@ -1,23 +1,24 @@
 {
     "|CS| COLOR_SCHEME": {
         "(1) PRIMARY: CHARCOALS": {
-            "[CS-1.1]  LightCharcoal ": "#181C24", // [X-----]
-            "[CS-1.2]  Anvil         ": "#12131A", // [-----]
-            "[CS-1.3]  Charcoal      ": "#07080B", // [XXXXX]
-            "[CS-1.4]  JustBlack     ": "#020204", // [XXXXX]
-            "[CS-1.6] ": "#",
-            "[CS-1.7] ": "#",
-            "[CS-1.8] ": "#"
+            "[CS-1.1]  BlackSmoke       ": "#181C24", // [X-----]
+            "[CS-1.2]  BlackNinjaPowder ": "#12131A", // [-----]
+            "[CS-1.3]  LightCharcoal    ": "#111218", // [XXXXX] Editor/Sidebar BGs
+            "[CS-1.4]  Coal             ": "#090A0D", // [X]
+            "[CS-1.5]  Charcoal         ": "#07080B", // [XXXXX]
+            "[CS-1.6]  Black            ": "#020204", // [XXXXX]
+            "[CS-1.7] ": "#"
         },
 
         "(2) SECONDARY: REDS": {
             "[CS-2.1] PaleRed      ": "#FF2428", // [X----] (Terminal FG)
             "[CS-2.2] ElectricRed  ": "#FF0028", // [XX---]
-            "[CS-2.3] PlainRed     ": "#DF242A", // [-----]
+            "[CS-2.3] PlainRed     ": "#DF242A", // [X----]
             "[CS-2.4] BrimeStone   ": "#AA1820", // [X----] (Terminal HiLit)
             "[CS-2.5] Harakiri     ": "#901018", // [XXX]
             "[CS-2.6] Seppuku      ": "#64000F", // [XXXXX]
-            "[CS-2.7] DarkRed      ": "#300408", // [XXXXX]
+            "[CS-2.7] BellyCutting ": "#44080F", // [XX]
+            "[CS-2.7] DarkRed      ": "#300408", // [X] Indent Guide
             "[CS-2.8] VeryDarkRed  ": "#20000A" //  [-----]
         },
 
@@ -71,13 +72,13 @@
             },
             // ==>> Git Highlighting
             "(XH-1.4ZA) GIT": {
-                "[XH-3.4.01] Added         ": "#0FFFBB",
-                "[XH-3.4.02] Deleted       ": "#",
-                "[XH-3.4.03] Modified      ": "#0CCCFF",
-                "[XH-3.4.04] Problematic   ": "#",
-                "[XH-3.4.05] Untracked     ": "#",
-                "[XH-3.4.06] Ignored       ": "#",
-                "[XH-3.4.07] Miscellaneous ": "#",
+                "[XH-3.4.01] Modified      ": "#0CCCFF",
+                "[XH-3.4.02] Added         ": "#0FFFBB",
+                "[XH-3.4.03] Ignored       ": "#A04850",
+                "[XH-3.4.04] Problematic   ": "#FF1C00",
+                "[XH-3.4.05] Deleted       ": "#C41400",
+                "[XH-3.4.06] Untracked     ": "#90929A",
+                "[XH-3.4.07] Miscellaneous ": "#AA88CC",
                 "[XH-3.4.08] ": "#",
                 "[XH-3.4.09] ": "#"
             }
