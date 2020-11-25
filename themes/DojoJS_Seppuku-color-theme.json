@@ -14,8 +14,8 @@
         "activityBar.activeBackground": "#440000",
         "activityBar.background": "#07080B",
         "activityBar.inactiveForeground": "#AA1820",
-        "activityBar.foreground": "#00FFFF",
-        "activityBar.activeBorder": "#00AAAA",
+        "activityBar.foreground": "#FFFFFF",
+        "activityBar.activeBorder": "#FF0030",
         "activityBar.activeFocusBorder": "#FFFFFF",
         "activityBar.dropBorder": "#00FFFF",
         "activityBar.border": "#280000",
@@ -30,8 +30,8 @@
         //  <<==*=================| BreadCrumbs |=================*==>>
         "breadcrumb.background": "#181C24",
         "breadcrumb.foreground": "#787874",
-        "breadcrumb.activeSelectionForeground": "#00FFFF", // |> Selection Highlighting
-        "breadcrumb.focusForeground": "#FFFFFF", //           |> Hover Highlighting
+        "breadcrumb.activeSelectionForeground": "#FFFFFF", // |> Selection Highlighting
+        "breadcrumb.focusForeground": "#00FFFF", //           |> Hover Highlighting
         "breadcrumbPicker.background": "#12131A",
 
         //  <<==*==============| Button-/-ButtonSecondary |==============*==>>
@@ -261,7 +261,7 @@
         "panelTitle.activeBorder": "#CCCCCC",
         "panelTitle.activeForeground": "#CCCCCC",
         "panelTitle.inactiveForeground": "#845254",
-        "peekView.border": "#FF2A24",
+        "peekView.border": "#FF2428",
         "peekViewEditor.background": "#07080B",
         "peekViewEditor.matchHighlightBackground": "#0C0000",
         "peekViewEditor.matchHighlightBorder": "#CCCCCC",
@@ -320,25 +320,35 @@
         "tab.lastPinnedBorder": "#2C0004",
         "tab.hoverBackground": "#07080C",
         "tab.hoverForeground": "#00FFFF",
+
+        // Active BG, FG, Borders
         "tab.activeBackground": "#07080C",
-        "tab.activeForeground": "#02D4FF",
+        "tab.activeForeground": "#CCCCCC",
         "tab.activeBorder": "#000000",
         "tab.activeBorderTop": "#07080C",
         "tab.activeModifiedBorder": "#07080C",
+
+        // Inactive
         "tab.inactiveBackground": "#07080C",
-        "tab.inactiveForeground": "#6F1424",
+        "tab.inactiveForeground": "#7C1C20",
         "tab.inactiveModifiedBorder": "#07080C",
+
+        // Unfocused Hover
+        "tab.hoverBorder": "#ff0000",
+        "tab.unfocusedHoverForeground": "#00FFFF",
         "tab.unfocusedHoverBackground": "#07080C",
         "tab.unfocusedHoverBorder": "#07080C", //    >=> ("Testing for border highlight.")
+
         //    Unfocused Active
         "tab.unfocusedActiveBackground": "#07080C",
-        "tab.unfocusedActiveForeground": "#00CEFF",
+        "tab.unfocusedActiveForeground": "#BBBBBB",
         "tab.unfocusedActiveBorder": "#000000",
         "tab.unfocusedActiveBorderTop": "#07080C",
         "tab.unfocusedActiveModifiedBorder": "#07080C",
+
         //    Unfocused Inactive
         "tab.unfocusedInactiveBackground": "#07080C",
-        "tab.unfocusedInactiveForeground": "#704040",
+        "tab.unfocusedInactiveForeground": "#7C1C20",
         "tab.unfocusedInactiveModifiedBorder": "#07080C",
 
         //  <<==*=================| FOOBAR |=================*==>>
@@ -360,7 +370,7 @@
         "terminal.ansiYellow": "#FFFF00",
         "terminal.background": "#000000",
         "terminal.border": "#901018",
-        "terminal.foreground": "#FF2A24",
+        "terminal.foreground": "#FF2428",
         "terminal.selectionBackground": "#AA1820BB",
         "textBlockQuote.background": "#0C0000",
         "textCodeBlock.background": "#07080B",

@@ -13,14 +13,14 @@
         },
 
         "<2> SECONDARY: REDS": {
-            "|1| PaleRed      ": "#FF4848",
-            "|2| ElectricRed  ": "#FF002F",
-            "|3| PlainRed     ": "#DF242A", // Used as opaque mostly (#DD242A88)
-            "|4| BrimeStone   ": "#AA1820",
-            "|5| Harakiri     ": "#901018",
-            "|6| Seppuku      ": "#64000F",
-            "|7| DarkRed      ": "#300408",
-            "|8| VeryDarkRed  ": "#20000A"
+            "|1| PaleRed      ": "#FF2428", // [X----] (Terminal FG)
+            "|2| ElectricRed  ": "#FF0028", // [XX---]
+            "|3| PlainRed     ": "#DF242A", // [-----]
+            "|4| BrimeStone   ": "#AA1820", // [X----] (Terminal HiLit)
+            "|5| Harakiri     ": "#901018", // [XXX]
+            "|6| Seppuku      ": "#64000F", // [XXXXX]
+            "|7| DarkRed      ": "#300408", // [XXXXX]
+            "|8| VeryDarkRed  ": "#20000A" //  [-----]
         },
 
         "<3> ACCENT: WHITES/LIGHT_GREYS": {
@@ -56,15 +56,15 @@
 
         "(2) Hover": {
             "|1| Background ": "#",
-            "|2| Foreground ": "#FFFFFF",
+            "|2| Foreground ": "#00FFFF",
             "|3| Active": "#",
             "|4| Inactive": "#",
             "|5| ": "#"
         },
 
         "(3) Select/Selection": {
-            "|1| Active": "#",
-            "|2| Inactive": "#",
+            "|1| Active & Active-Selection": "#FFFFFF",
+            "|2| Inactive": "#7C1C20",
             "|3| ": "#",
             "|4| ": "#",
             "|5| ": "#"
