@@ -6,6 +6,7 @@
         "focusBorder": "#DDDDDD",
         "foreground": "#DDDDDD",
         "errorForeground": "#FF1100",
+        "descriptionForeground": "#E000E0",
 
         //  <<==*=================| Sole-Items |=================*==>>
         "window.activeBorder": "#ff0000",
@@ -49,13 +50,13 @@
         "welcomePage.buttonBackground": "#07080B",
         "welcomePage.buttonHoverBackground": "#00F0FF48",
         "checkbox.background": "#020204",
-        "checkbox.border": "#0FCCFF",
+        "checkbox.border": "#0CCCFF",
         "checkbox.foreground": "#00F0FF",
         "settings.checkboxBackground": "#020204",
-        "settings.checkboxBorder": "#0FCCFF",
+        "settings.checkboxBorder": "#0CCCFF",
         "settings.checkboxForeground": "#00F0FF",
         "dropdown.background": "#07080B",
-        "dropdown.border": "#0FCCFF",
+        "dropdown.border": "#0CCCFF",
         "dropdown.foreground": "#00F0FF",
         "dropdown.listBackground": "#12141A",
 
@@ -63,7 +64,6 @@
         "debugExceptionWidget.background": "#07080B",
         "debugExceptionWidget.border": "#07080B",
         "debugToolBar.background": "#07080B",
-        "descriptionForeground": "#AAAAAA",
 
         //    <<==*===( Editor Background/Foreground )===*==>>
         "editor.background": "#0C0C10",
@@ -105,10 +105,10 @@
         "editorGroup.focusedEmptyBorder": "#FF1A00",
 
         //    <<==*===========( Gutter )===========*==>>
-        "editorGutter.addedBackground": "#00FFA840",
-        "editorGutter.modifiedBackground": "#00B8FF40",
         "editorGutter.background": "#07080B",
-        "editorGutter.commentRangeForeground": "#186842dd",
+        "editorGutter.addedBackground": "#00FFBBA0",
+        "editorGutter.modifiedBackground": "#00CCFFA0",
+        "editorGutter.commentRangeForeground": "#E000E0",
         "editorGutter.deletedBackground": "#FF2F0F",
         "editorGutter.foldingControlForeground": "#00FFFF",
         "gitlens.gutterBackgroundColor": "#E000E0",
@@ -141,7 +141,7 @@
         "editorMarkerNavigation.background": "#07080B",
 
         //    <<==*=========( Overview Ruler )=========*==>>
-        "editorOverviewRuler.addedForeground": "#40FFCC",
+        "editorOverviewRuler.addedForeground": "#00FFBB",
         "editorOverviewRuler.background": "#020204",
         "editorOverviewRuler.border": "#64000F",
         "editorOverviewRuler.bracketMatchForeground": "#FF0A32",
@@ -152,7 +152,7 @@
         "editorOverviewRuler.findMatchForeground": "#CCCCCC",
         // "editorOverviewRuler.incomingContentForeground": "#a464e4",
         "editorOverviewRuler.infoForeground": "#FFF050",
-        "editorOverviewRuler.modifiedForeground": "#CCCCCC",
+        "editorOverviewRuler.modifiedForeground": "#0CCCFF",
         // "editorOverviewRuler.rangeHighlightForeground": "#901018",
         "editorOverviewRuler.selectionHighlightForeground": "#FF001D",
         "editorOverviewRuler.warningForeground": "#f0ff00",
@@ -177,16 +177,15 @@
         "editorWidget.foreground": "#FFFFFF",
 
         //    <<==*==========( GIT Highlighting )==========*==>>
-        "gitDecoration.addedResourceForeground": "#40FFCC",
-        "gitDecoration.stageDeletedResourceForeground": "#A0000F",
-        "gitDecoration.stageModifiedResourceForeground": "#CCCCCC",
-        "gitDecoration.conflictingResourceForeground": "#FF1800",
-        "gitDecoration.deletedResourceForeground": "#A0000F",
-        "gitDecoration.ignoredResourceForeground": "#78444C",
-        "gitDecoration.modifiedResourceForeground": "#40CCFF",
-        "gitDecoration.submoduleResourceForeground": "#C480AA",
-        "gitDecoration.untrackedResourceForeground": "#486480",
-
+        "gitDecoration.addedResourceForeground": "#00FFBB", //          Added
+        "gitDecoration.stageDeletedResourceForeground": "#A0000F", //   Deleted
+        "gitDecoration.stageModifiedResourceForeground": "#0CCCFF", //  Modified
+        "gitDecoration.conflictingResourceForeground": "#FF1800", //    Problematic
+        "gitDecoration.deletedResourceForeground": "#A0000F", //        Deleted
+        "gitDecoration.ignoredResourceForeground": "#78444C", //        Ignored
+        "gitDecoration.modifiedResourceForeground": "#0CCCFF", //       Modified
+        "gitDecoration.submoduleResourceForeground": "#C480AA", //      Submodule
+        "gitDecoration.untrackedResourceForeground": "#486480", //      Untracked
         //  <<==*=================| FOOBAR |=================*==>>
         "imagePreview.border": "#AAAAAA",
 
@@ -204,7 +203,7 @@
         "inputValidation.warningBorder": "#f0ff00",
         "settings.textInputBackground": "#141519",
         "settings.textInputBorder": "#2b303a",
-        "settings.textInputForeground": "#00F",
+        "settings.textInputForeground": "#AAAAAA",
         "quickInput.background": "#07080B",
         "quickInput.foreground": "#FFFFFF",
         "quickInputTitle.background": "#ffffff1b",
@@ -247,12 +246,12 @@
         "minimap.findMatchHighlight": "#00FF50",
         "minimap.selectionHighlight": "#00FFC2",
         "minimap.warningHighlight": "#FFF000",
-        "minimapGutter.addedBackground": "#40FFCC",
+        "minimapGutter.addedBackground": "#00FFBB",
         "minimapGutter.deletedBackground": "#A0000F",
-        "minimapGutter.modifiedBackground": "#CCCCCC",
-        "minimapSlider.activeBackground": "#00C8ffA0",
-        "minimapSlider.background": "#FFFFFF1A",
-        "minimapSlider.hoverBackground": "#00C8ff60",
+        "minimapGutter.modifiedBackground": "#0CCCFF",
+        "minimapSlider.activeBackground": "#0CCCFF24",
+        "minimapSlider.background": "#0AAAFF68",
+        "minimapSlider.hoverBackground": "#0CCCFFA0",
         "notificationCenterHeader.background": "#07080B",
         "notificationLink.foreground": "#4090FF",
         "notifications.background": "#07080B",
@@ -305,7 +304,7 @@
         "settings.dropdownBorder": "#FFFFFF",
         "settings.dropdownForeground": "#E04840",
         "settings.dropdownListBorder": "#CCCCCC",
-        "settings.modifiedItemIndicator": "#CCCCCC",
+        "settings.modifiedItemIndicator": "#0CCCFF",
         //    <<==*================( SideBar )================*==>>
         "sideBar.background": "#040404",
         "sideBar.border": "#300408",
