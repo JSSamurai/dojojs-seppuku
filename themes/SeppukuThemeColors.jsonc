@@ -51,11 +51,11 @@
         "|07| Opaque_Blue-Cyan": "#00EEFF90"
     },
     "Highlights": {
-        "(1) DropItems": {
+        "(0) DropItems": {
             "|A| BackGround": "[E-3] Opaque BlueCyan ---> #00EEFF90",
             "|B| Border": "[E-1] True-Cyan ---> #00FFFF"
         },
-        "(2): ActiveItem": {
+        "(1): ActiveItem": {
             "|1| Primary BG": "#07080B",
             "|2|": "#",
             "|3|": "#",
