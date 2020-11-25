@@ -15,12 +15,12 @@
         "<2> SECONDARY: REDS": {
             "|1| PaleRed      ": "#FF4848",
             "|2| ElectricRed  ": "#FF002F",
-            "|3| PlainRed     ": "#DF242A", // Opaque(@88) Version used mostly (#DD242A88)
+            "|3| PlainRed     ": "#DF242A", // Used as opaque mostly (#DD242A88)
             "|4| BrimeStone   ": "#AA1820",
             "|5| Harakiri     ": "#901018",
             "|6| Seppuku      ": "#64000F",
-            "|7| DarkRed      ": "#40000A",
-            "|8| DarkBurgandy ": "#20000A"
+            "|7| DarkRed      ": "#300408",
+            "|8| VeryDarkRed  ": "#20000A"
         },
 
         "<3> ACCENT: WHITES/LIGHT_GREYS": {
@@ -38,61 +38,60 @@
             "|3| GreenCyan    ": "#00FFC0",
             "|4| DarkCyan     ": "#00A8A8",
             "|5| DarkBlueCyan ": "#00A8B8",
-
             "|6|": "#",
             "|7|": "#",
             "|8|": "#"
         }
     },
+    /*
+
+
+    |> Syntax Highlighting  
+    ......................................................... */
     "-XH- SYNTAX_HIGHLIGHTING": {
-        
-            "(1) DragAndDrop": {
-                "|1| BackGround": "#00EEFF90",
-                "|2| Border": "[E-1] True-Cyan ---> #00FFFF"
-            },
+        "(1) DragAndDrop": {
+            "|1| BackGround": "#00EEFF90",
+            "|2| Border": "[E-1] True-Cyan ---> #00FFFF"
+        },
 
-            "(2) Hover": {
-                "|1| Background ": "#",
-                "|2| Foreground ": "#FFFFFF",
-                "|3| Active": "#",
-                "|4| Inactive": "#",
-                
-                "|5| ": "#"
-            },
+        "(2) Hover": {
+            "|1| Background ": "#",
+            "|2| Foreground ": "#FFFFFF",
+            "|3| Active": "#",
+            "|4| Inactive": "#",
+            "|5| ": "#"
+        },
 
-            "(3) Select/Selection": {
-                "|1| Active": "#",
-                "|2| Inactive": "#",
-                "|3| ": "#",
-                "|4| ": "#",
-                "|5| ": "#"
-            },
+        "(3) Select/Selection": {
+            "|1| Active": "#",
+            "|2| Inactive": "#",
+            "|3| ": "#",
+            "|4| ": "#",
+            "|5| ": "#"
+        },
 
-            "(4) Hover": {
-                "|1| ": "#",
-                "|2| ": "#",
-                "|3| ": "#",
-                "|4| ": "#",
-                "|5| ": "#"
-            },
+        "(4) Hover": {
+            "|1| ": "#",
+            "|2| ": "#",
+            "|3| ": "#",
+            "|4| ": "#",
+            "|5| ": "#"
+        },
 
-            "(5) Hover": {
-                "|1| ": "#",
-                "|2| ": "#",
-                "|3| ": "#",
-                "|4| ": "#",
-                "|5| ": "#"
-            },
+        "(5) Hover": {
+            "|1| ": "#",
+            "|2| ": "#",
+            "|3| ": "#",
+            "|4| ": "#",
+            "|5| ": "#"
+        },
 
-            "(6) Hover": {
-                "|1| ": "#",
-                "|2| ": "#",
-                "|3| ": "#",
-                "|4| ": "#",
-                "|5| ": "#"
-            }
-
-           
+        "(6) Hover": {
+            "|1| ": "#",
+            "|2| ": "#",
+            "|3| ": "#",
+            "|4| ": "#",
+            "|5| ": "#"
         }
     }
 }

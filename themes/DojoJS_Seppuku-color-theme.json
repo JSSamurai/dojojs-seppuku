@@ -7,25 +7,31 @@
         "foreground": "#DDDDDD",
         "errorForeground": "#FF1100",
 
+        //  <<==*=================| Sole-Items |=================*==>>
+        "window.activeBorder": "#ff0000",
+
         //  <<==*==========| ActivityBar |==========*==>>
-        "activityBar.activeBackground": "#44000A",
+        "activityBar.activeBackground": "#440000",
         "activityBar.background": "#07080B",
         "activityBar.inactiveForeground": "#AA1820",
         "activityBar.foreground": "#00FFFF",
-        "activityBar.activeBorder": "#64000F",
+        "activityBar.activeBorder": "#00AAAA",
         "activityBar.activeFocusBorder": "#FFFFFF",
         "activityBar.dropBorder": "#00FFFF",
-        "activityBar.border": "#64000F",
+        "activityBar.border": "#280000",
 
         //  <<==*==========| Badge |==========*==>>
         "activityBarBadge.background": "#000000",
         "activityBarBadge.foreground": "#FF0F2F",
+        "badge.background": "#000000",
+        // "contrastActiveBorder": "#209090",
+        "contrastBorder": "#AAAAAA",
 
         //  <<==*=================| BreadCrumbs |=================*==>>
-        "breadcrumb.background": "#07080B",
-        "breadcrumb.foreground": "#8F0012",
+        "breadcrumb.background": "#181C24",
+        "breadcrumb.foreground": "#787874",
         "breadcrumb.activeSelectionForeground": "#00FFFF", // |> Selection Highlighting
-        "breadcrumb.focusForeground": "#FFFFFF   ", //           |> Hover Highlighting
+        "breadcrumb.focusForeground": "#FFFFFF", //           |> Hover Highlighting
         "breadcrumbPicker.background": "#12131A",
 
         //  <<==*==============| Button-/-ButtonSecondary |==============*==>>
@@ -80,10 +86,10 @@
         //    <<==*===========( Editor-Groups )===========*==>>
         "editorGroup.border": "#404040",
         "editorGroup.dropBackground": "#00EEFF90",
-        "editorGroupHeader.border": "#64000F",
+        "editorGroupHeader.border": "#000000",
         "editorGroupHeader.noTabsBackground": "#0C0000",
-        "editorGroupHeader.tabsBackground": "#242832",
-        "editorGroupHeader.tabsBorder": "#64000F",
+        "editorGroupHeader.tabsBackground": "#07080C",
+        "editorGroupHeader.tabsBorder": "#000000",
 
         //    <<==*===========( Gutter )===========*==>>
         "editorGutter.addedBackground": "#40FFCC",
@@ -105,14 +111,14 @@
         "editorLightBulbAutoFix.foreground": "#fff048",
 
         //    <<==*==========( Indent Guides )==========*==>>
-        "editorIndentGuide.activeBackground": "#FF001D",
-        "editorIndentGuide.background": "#480000",
+        "editorIndentGuide.activeBackground": "#FF0028",
+        "editorIndentGuide.background": "#300408",
 
         //    <<==*==========( Line-Numbers )==========*==>>
-        "editorLineNumber.activeForeground": "#CCCCCC",
-        "editorLineNumber.foreground": "#404250",
+        "editorLineNumber.activeForeground": "#00FFFF",
+        "editorLineNumber.foreground": "#642428",
         "editor.lineHighlightBackground": "#08090D",
-        "editor.lineHighlightBorder": "#901018",
+        "editor.lineHighlightBorder": "#CCCCCC",
 
         //    <<==*============( Links )=============*==>>
         "editorLink.activeForeground": "#CCCCCC",
@@ -128,18 +134,10 @@
         "editorOverviewRuler.deletedForeground": "#AA000F",
         "editorOverviewRuler.errorForeground": "#FF1800",
         "editorOverviewRuler.findMatchForeground": "#CCCCCC",
-
-        //
         // "editorOverviewRuler.incomingContentForeground": "#a464e4",
-        //
-
         "editorOverviewRuler.infoForeground": "#FFF050",
         "editorOverviewRuler.modifiedForeground": "#CCCCCC",
-
-        //
         // "editorOverviewRuler.rangeHighlightForeground": "#901018",
-        //
-
         "editorOverviewRuler.selectionHighlightForeground": "#FF001D",
         "editorOverviewRuler.warningForeground": "#f0ff00",
         "editorOverviewRuler.wordHighlightForeground": "#FF90B8",
@@ -148,7 +146,7 @@
 
         //    <<==*=====( Ruler | UN-NecessaryCode Opacity )======*==>>
 
-        "editorRuler.foreground": "#FF081016",
+        "editorRuler.foreground": "#00CCCC14",
         "editorUnnecessaryCode.opacity": "#000000AA",
         //    <<==*==========( SUGGESTION WIDGET )==========*==>>
         "editorSuggestWidget.background": "#0c0000",
@@ -271,7 +269,7 @@
         "peekViewResult.background": "#07080B",
         "peekViewResult.fileForeground": "#202020",
         "peekViewResult.lineForeground": "#101010",
-        "peekViewResult.matchHighlightBackground": "#242832",
+        "peekViewResult.matchHighlightBackground": "#07080C",
         "peekViewResult.selectionBackground": "#07080B",
         "peekViewResult.selectionForeground": "#AAAAAA",
         "peekViewTitle.background": "#07080B",
@@ -286,7 +284,7 @@
 
         //  <<==*=================| FOOBAR |=================*==>>
 
-        "scrollbar.shadow": "#000000F0",
+        // "scrollbar.shadow": "#404040",
         "scrollbarSlider.activeBackground": "#FFFFFF40",
         "scrollbarSlider.background": "#901018",
         "scrollbarSlider.hoverBackground": "#FF0F3F",
@@ -298,7 +296,7 @@
         "settings.modifiedItemIndicator": "#CCCCCC",
         //    <<==*================( SideBar )================*==>>
         "sideBar.background": "#040404",
-        "sideBar.border": "#64000F",
+        "sideBar.border": "#300408",
         "sideBar.dropBackground": "#00EEFF90",
         "sideBar.foreground": "#AAAAAA",
         "sideBarSectionHeader.background": "#64000F",
@@ -318,30 +316,30 @@
         "statusBarItem.prominentHoverBackground": "#00000030",
         "symbolIcon.typeParameterForeground": "#0CCA85",
         //    <<==*==========( Tabs )==========*==>>
-        "tab.border": "#242832",
-        "tab.lastPinnedBorder": "#242832",
-        "tab.hoverBackground": "#242832",
+        "tab.border": "#2C0004",
+        "tab.lastPinnedBorder": "#2C0004",
+        "tab.hoverBackground": "#07080C",
         "tab.hoverForeground": "#00FFFF",
-        "tab.activeBackground": "#242832",
+        "tab.activeBackground": "#07080C",
         "tab.activeForeground": "#02D4FF",
-        "tab.activeBorder": "#64000F",
-        "tab.activeBorderTop": "#242832",
-        "tab.activeModifiedBorder": "#242832",
-        "tab.inactiveBackground": "#242832",
-        "tab.inactiveForeground": "#DD2C38",
-        "tab.inactiveModifiedBorder": "#242832",
-        "tab.unfocusedHoverBackground": "#242832",
-        "tab.unfocusedHoverBorder": "#242832", //    >=> ("Testing for border highlight.")
+        "tab.activeBorder": "#000000",
+        "tab.activeBorderTop": "#07080C",
+        "tab.activeModifiedBorder": "#07080C",
+        "tab.inactiveBackground": "#07080C",
+        "tab.inactiveForeground": "#6F1424",
+        "tab.inactiveModifiedBorder": "#07080C",
+        "tab.unfocusedHoverBackground": "#07080C",
+        "tab.unfocusedHoverBorder": "#07080C", //    >=> ("Testing for border highlight.")
         //    Unfocused Active
-        "tab.unfocusedActiveBackground": "#242832",
+        "tab.unfocusedActiveBackground": "#07080C",
         "tab.unfocusedActiveForeground": "#00CEFF",
-        "tab.unfocusedActiveBorder": "#64000F",
-        "tab.unfocusedActiveBorderTop": "#242832",
-        "tab.unfocusedActiveModifiedBorder": "#242832",
+        "tab.unfocusedActiveBorder": "#000000",
+        "tab.unfocusedActiveBorderTop": "#07080C",
+        "tab.unfocusedActiveModifiedBorder": "#07080C",
         //    Unfocused Inactive
-        "tab.unfocusedInactiveBackground": "#242832",
+        "tab.unfocusedInactiveBackground": "#07080C",
         "tab.unfocusedInactiveForeground": "#704040",
-        "tab.unfocusedInactiveModifiedBorder": "#242832",
+        "tab.unfocusedInactiveModifiedBorder": "#07080C",
 
         //  <<==*=================| FOOBAR |=================*==>>
         "terminal.ansiBlack": "#000000",
@@ -372,7 +370,7 @@
         "textSeparator.foreground": "#AAAAAA",
 
         //  <<==*=================| TITLEBAR |=================*==>>
-        "titleBar.activeBackground": "#36000A",
+        "titleBar.activeBackground": "#180000",
         "titleBar.activeForeground": "#B0B0B0",
         "titleBar.border": "#000000",
         "titleBar.inactiveBackground": "#383830",
