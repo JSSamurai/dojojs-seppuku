@@ -45,71 +45,89 @@
     /*
 
 
-    |> Syntax Highlighting  
-    ......................................................... */
-    "|XH| SYNTAX_HIGHLIGHTING": {
-        "<XH-1> EditorAndWorkbench": {
-            "(XH-1.1) DragAndDrop": {
-                "[XH-1.1.1] BackGround": "#00EEFF90",
-                "[XH-1.1.2] Border": "[E-1] True-Cyan ---> #00FFFF"
+
+
+    |||>        <<-------------<|[ HILIGHTING ]|>------------->>        */
+    "|HL| HIGHLIGHTING": {
+        // ~~> Editor & WorkBench Style-Highlighting
+        "<HL-1> EditorAndWorkbench": {
+            "(HL-1.1) DragAndDrop": {
+                "[HL-1.1.1] BackGround": "#00EEFF90",
+                "[HL-1.1.2] Border": "[E-1] True-Cyan ---> #00FFFF"
             },
 
-            "(XH-1.2) Hover": {
-                "[XH-1.2.1] Background ": "#",
-                "[XH-1.2.2] Foreground ": "#00FFFF",
-                "[XH-1.2.3] Active": "#",
-                "[XH-1.2.4] Inactive": "#",
-                "[XH-1.2.5] ": "#"
+            "(HL-1.2) Hover": {
+                "[HL-1.2.1] Background ": "#",
+                "[HL-1.2.2] Foreground ": "#00FFFF",
+                "[HL-1.2.3] Active": "#",
+                "[HL-1.2.4] Inactive": "#",
+                "[HL-1.2.5] ": "#"
             },
 
-            "(XH-1.3) Select/Selection": {
-                "[XH-1.3.1] Active Icon": "#FFFFFF",
-                "[XH-1.3.2] Active Foreground": "#CCCCCC",
-                "[XH-1.3.3] Unfocused-Active FG & Icon": "#AAAAAA",
-                "[XH-1.3.4] Inactive": "#7C1C20",
-                "[XH-1.3.5] ": "#",
-                "[XH-1.3.6] ": "#"
-            },
-            // ==>> Git Highlighting
-            "(XH-1.4ZA) Version Controll Status Highlighting": {
-                "[XH-3.4.01] Modified      ": "#0CCCFF",
-                "[XH-3.4.02] Added         ": "#0FFFBB",
-                "[XH-3.4.03] Ignored       ": "#A04850",
-                "[XH-3.4.04] Problematic   ": "#FF1D00",
-                "[XH-3.4.05] Deleted       ": "#C41D00",
-                "[XH-3.4.06] Untracked     ": "#90929A",
-                "[XH-3.4.07] Miscellaneous ": "#AA88CC",
-                "[XH-3.4.08] ": "#",
-                "[XH-3.4.09] ": "#"
+            "(HL-1.3) Select/Selection": {
+                "[HL-1.3.01] Active Icon": "#FFFFFF",
+                "[HL-1.3.02] Active Foreground": "#0CCCFF",
+                "[HL-1.3.03] Unfocused-Active FG & Icon": "#AAAAAA",
+                "[HL-1.3.04] Inactive": "#7C1C20",
+                "[HL-1.3.05] Focus": "#00FFCC",
+                "[HL-1.3.06] ": "#",
+                "[HL-1.3.07] ": "#",
+                "[HL-1.3.08] ": "#",
+                "[HL-1.3.09] ": "#",
+                "[HL-1.3.10] ": "#",
+                "[HL-1.3.11] ": "#",
+                "[HL-1.3.12] ": "#"
             }
         },
 
-        // *-> Interactactive Highlighting
-        "<XH-2> Interactable": {
-            // ||> Lists, Buttons, Drop Down Menus, Checkboxes
-            "[XH-2.0.01] BG_LrgItems ": "#12141A",
-            "[XH-2.0.02] BG_SmItems  ": "#07080B",
-            "[XH-2.0.03] BG_XsmItems ": "#020204",
-            "[XH-2.0.04] Foreground  ": "#00F0FF",
-            "[XH-2.0.05] Hover       ": "#00FFFF40",
-            "[XH-2.0.06] Border      ": "#0CCCFF",
-            "[XH-2.07] URL_Links     ": "#00FF80",
-            "[XH-2.08] ": "#",
-            "[XH-2.09] ": "#"
+        // ==>> StatusHighlighting
+        "(HL-3) StatusHighlighting": {
+            "[HL-3.01] Modified                    ": "#0CCCFF",
+            "[HL-3.02] Added                       ": "#0FFFBB",
+            "[HL-3.03] Ignored                     ": "#A04850",
+            "[HL-3.04] Problematic                 ": "#FF1D00",
+            "[HL-3.05] Deleted                     ": "#C41D00",
+            "[HL-3.06] Untracked                   ": "#90929A",
+            "[HL-3.10] Warning                     ": "#F0FF00",
+            "[HL-3.11] HINT/Lightbulb              ": "#FFEE14",
+            "[HL-3.12] ": "#",
+            "[HL-3.07] Misc_or_MergeConflictAlpha  ": "#F08040",
+            "[HL-3.08] Misc_or_MergeConflictBeta   ": "#B880E8",
+            "[HL-3.09] Misc_or_MergeConflictDelta  ": "#80E020"
         },
 
-        "<4> Empty": {
-            "[XH-0.0.1] ": "#",
-            "[XH-0.0.2] ": "#",
-            "[XH-0.0.3] ": "#",
-            "[XH-0.0.4] ": "#"
+        // *==> Syntactical Highlighting
+        "<HL-3> SyntacticalHighlighting": {
+            "[HL-3.1] ": "#",
+            "[HL-3.2] ": "#",
+            "[HL-3.3] ": "#",
+            "[HL-3.4] ": "#"
         },
 
         "<5> Empty": {
-            "[XH-0.0.1] ": "#",
-            "[XH-0.0.2] ": "#",
-            "[XH-0.0.3] ": "#",
-            "[XH-0.0.4] ": "#"
+            "[HL-0.0.1] ": "#",
+            "[HL-0.0.2] ": "#",
+            "[HL-0.0.3] ": "#",
+            "[HL-0.0.4] ": "#"
+        }
+    },
+    "[Group] GroupStyle": {
+        /*
+
+        <------------------------------------------------------------------------->
+            |> "Important: Group~Styling only colors, it does not Highlight."        
+        <------------------------------------------------------------------------->      */
+        "<#01> INTERACTIVE-GROUP": {
+            // ||> Lists, Buttons, Drop Down Menus, Checkboxes, Widgets
+            "[GI-1.01] BG_LrgItems         ": "#12141A",
+            "[GI-1.02] BG_SmItems          ": "#07080B",
+            "[GI-1.03] BG_XsmItems         ": "#020204",
+            "[GI-1.04] FG            ": "#00F0FF",
+            "[GI-1.06] Border              ": "#0CCCFF",
+            "[GI-1.07] Selected           ": " #0CCCFF70",
+            "[GI-1.08] ": "#",
+            "[GI-1.09] ": "#",
+            "[GI-1.xx] URL_Links           ": "#00FF80"
         }
     }
 }
