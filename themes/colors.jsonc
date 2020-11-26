@@ -65,10 +65,12 @@
             },
 
             "(HL-1.3) Select/Selection": {
-                "[HL-1.3.01] Active Icon": "#FFFFFF",
-                "[HL-1.3.02] Active Foreground": "#0CCCFF",
-                "[HL-1.3.03] Unfocused-Active FG & Icon": "#AAAAAA",
-                "[HL-1.3.04] Inactive": "#7C1C20",
+                "[HL-1.3.01] FG_ActiveSelection             ": "#FFFFFF",
+                "[HL-1.3.02] BG_Highlight_ActiveSelection   ": "#00F0FF3C",
+
+                // |> NOTE: "The border color bellow is allowed, or the border can be omitted."
+                "[HL-1.3.03] Border_ActiveSelection         ": "#00CCCC",
+                "[HL-1.3.04] FG_InactiveSelection": "#7C1C20",
                 "[HL-1.3.05] Focus": "#00FFCC",
                 "[HL-1.3.06] ": "#",
                 "[HL-1.3.07] ": "#",
@@ -128,6 +130,42 @@
             "[GI-1.08] ": "#",
             "[GI-1.09] ": "#",
             "[GI-1.xx] URL_Links           ": "#00FF80"
+        }
+    },
+    "SelectionHightLighting": {
+        "Active_FG_Highlight": {
+            "BG_and_BORDER": {
+                // ||> Note: "Border maybe omitted by using, #00000000."
+                "FG": "#FFFFFF",
+                "BG": "#00F0FF3C",
+                "Brdr": "#00C2D2"
+            },
+
+            "BG_NO_BORDER": {
+                "FG": "#FFFFFF",
+                "BG": "#00F0FF3C"
+            },
+
+            "NO_BG_NO_BORDER": {
+                "FG": "#00F0FF"
+            }
+        },
+        "Inactive_FG_Highlight": {
+            "BG_and_BORDER": {
+                // ||> Note: "Border is just ommitted if even an option"
+                "FG": "#AAAAAA",
+                "BG": "#DDDDDD40",
+                "Brdr": "#00000000"
+            },
+
+            "BG_NO_BORDER": {
+                "FG": "#AAAAAA",
+                "BG": "#DDDDDD40"
+            },
+
+            "NO_BG_NO_BORDER": {
+                "FG": "#A0A0A0"
+            }
         }
     }
 }
