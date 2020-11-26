@@ -25,10 +25,10 @@
 
         //  <<==*==========| Badge |==========*==>>
         "activityBarBadge.background": "#020204",
-        "activityBarBadge.foreground": "#FF0F2F",
+        "activityBarBadge.foreground": "#FFFFFF",
         "badge.background": "#020204",
         // "contrastActiveBorder": "#209090",
-        "contrastBorder": "#00AAAA",
+        "contrastBorder": "#AAAAAA",
 
         //  <<==*=================| BreadCrumbs |=================*==>>
         "breadcrumb.background": "#181C24",
@@ -68,11 +68,11 @@
         "editorBracketMatch.border": "#FF001D",
         "editorCodeLens.foreground": "#626a73",
 
-        //    <<==*=============( Cursor )=============*==>>
+        //    <<==*=============| Cursor |==============*==>>
         "editorCursor.background": "#00aaff",
         "editorCursor.foreground": "#00ffaa",
 
-        //    <<==*===========( Editor-Groups )===========*==>>
+        //    <<==*==========| Editor-Groups |==========*==>>
         "editorGroup.border": "#64000F",
         "editorGroup.dropBackground": "#00EEFF90",
         "editorGroupHeader.border": "#000002",
@@ -81,44 +81,47 @@
         "editorGroupHeader.tabsBorder": "#020204",
         "editorGroup.focusedEmptyBorder": "#FF1A00",
 
-        //    <<==*===========( Gutter )===========*==>>
+        //  <<==*=====| Gutter BG / Fold-Controls |=====*==>>
         "editorGutter.background": "#090A0D",
-        "editorGutter.addedBackground": "#00FFBBA0",
-        "editorGutter.modifiedBackground": "#00CCFFA0",
-        "editorGutter.commentRangeForeground": "#E000E0",
-        "editorGutter.deletedBackground": "#FF2F0F",
         "editorGutter.foldingControlForeground": "#00FFFF",
+
+        //  <<==*======| Gutter: Ver-Ctrl Status |======*==>>
+        "editorGutter.addedBackground": "#00FFBB50",
+        "editorGutter.modifiedBackground": "#00CCFF50",
+        "editorGutter.commentRangeForeground": "#E000E0",
+        "editorGutter.deletedBackground": "#C41D00",
+
         "gitlens.gutterBackgroundColor": "#E000E0",
         "gitlens.gutterForegroundColor": "#E000E0",
         "gitlens.gutterUncommittedForegroundColor": "#E000E0",
 
-        //    <<==*============( Hover Widget )============*==>>
+        //  <<==*===========| Hover Widget |===========*==>>
         "editorHoverWidget.background": "#07080B",
         "editorHoverWidget.border": "#AA1820", // ||> Hover Border
         "editorHoverWidget.foreground": "#CCCCCC",
         "editorHoverWidget.statusBarBackground": "#004020",
 
-        //    <<==*======( INFO/HINT/Light-Bulb )======*==>>
+        //  <<==*======( INFO/HINT/Light-Bulb )======*==>>
         "editorInfo.foreground": "#fff048",
         "editorHint.foreground": "#fff048",
         "editorLightBulbAutoFix.foreground": "#fff048",
 
-        //    <<==*==========( Indent Guides )==========*==>>
+        //  <<==*==========( Indent Guides )===========*==>>
         "editorIndentGuide.activeBackground": "#FF0028",
         "editorIndentGuide.background": "#300408",
 
-        //    <<==*==========( Line-Numbers )==========*==>>
+        //  <<==*===========( Line-Numbers )===========*==>>
         "editorLineNumber.activeForeground": "#00FFFF",
-        "editorLineNumber.foreground": "#642428",
-        "editor.lineHighlightBackground": "#08090D",
-        "editor.lineHighlightBorder": "#CCCCCC",
+        "editorLineNumber.foreground": "#72181E",
+        "editor.lineHighlightBackground": "#090A0D",
+        "editor.lineHighlightBorder": "#090A0D",
 
-        //    <<==*============( Links )=============*==>>
-        "editorLink.activeForeground": "#CCCCCC",
-        "editorMarkerNavigation.background": "#07080B",
+        //    <<==*============| Links |=============*==>>
+        "editorLink.activeForeground": "#00FF80",
+        "editorMarkerNavigation.background": "#E000E0",
 
         //    <<==*=========( Overview Ruler )=========*==>>
-        "editorOverviewRuler.background": "#020204",
+        "editorOverviewRuler.background": "#07080B",
         "editorOverviewRuler.addedForeground": "#00FFBB",
         "editorOverviewRuler.border": "#64000F",
         "editorOverviewRuler.bracketMatchForeground": "#FF0A32",

@@ -71,12 +71,12 @@
                 "[XH-1.3.6] ": "#"
             },
             // ==>> Git Highlighting
-            "(XH-1.4ZA) GIT": {
+            "(XH-1.4ZA) Version Controll Status Highlighting": {
                 "[XH-3.4.01] Modified      ": "#0CCCFF",
                 "[XH-3.4.02] Added         ": "#0FFFBB",
                 "[XH-3.4.03] Ignored       ": "#A04850",
-                "[XH-3.4.04] Problematic   ": "#FF1C00",
-                "[XH-3.4.05] Deleted       ": "#C41400",
+                "[XH-3.4.04] Problematic   ": "#FF1D00",
+                "[XH-3.4.05] Deleted       ": "#C41D00",
                 "[XH-3.4.06] Untracked     ": "#90929A",
                 "[XH-3.4.07] Miscellaneous ": "#AA88CC",
                 "[XH-3.4.08] ": "#",
@@ -87,13 +87,13 @@
         // *-> Interactactive Highlighting
         "<XH-2> Interactable": {
             // ||> Lists, Buttons, Drop Down Menus, Checkboxes
-            "[XH-2.0.01] BG_LrgItems": "#12141A",
-            "[XH-2.0.02] BG_SmItems": "#07080B",
-            "[XH-2.0.03] BG_XsmItems": "#020204",
-            "[XH-2.0.04] Foreground": "#00F0FF",
-            "[XH-2.0.05] Hover": "#00FFFF40",
-            "[XH-2.0.06] Border": "#0CCCFF",
-            "[XH-2.07] ": "#",
+            "[XH-2.0.01] BG_LrgItems ": "#12141A",
+            "[XH-2.0.02] BG_SmItems  ": "#07080B",
+            "[XH-2.0.03] BG_XsmItems ": "#020204",
+            "[XH-2.0.04] Foreground  ": "#00F0FF",
+            "[XH-2.0.05] Hover       ": "#00FFFF40",
+            "[XH-2.0.06] Border      ": "#0CCCFF",
+            "[XH-2.07] URL_Links     ": "#00FF80",
             "[XH-2.08] ": "#",
             "[XH-2.09] ": "#"
         },
