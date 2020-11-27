@@ -3,43 +3,242 @@
     "type": "dark",
     "colors": {
         /*
-        ..............................................................................
-        
-        |> Omitted Itemes
-            // "contrastActiveBorder": "#000000"                                         -
-            
-        ..............................................................................   */
 
-        //  <<==*====================| Items |====================*==>>
-        "selection.background": "#00F0FF64",
+        .................|| Noneditor Items, that are not in a group||................   */
+        "contrastBorder": "#AAAAAA",
         "focusBorder": "#00F0FF",
         "foreground": "#CC5058",
         "errorForeground": "#FF1A00",
+        "selection.background": "#00F0FF64",
         "imagePreview.border": "#AA1820",
-        "welcomePage.background": "#12141A",
-        "window.activeBorder": "#AA1820",
-        "activityBarBadge.background": "#020204",
-        "activityBarBadge.foreground": "#FFFFFF",
-        "badge.background": "#020204",
-        "contrastBorder": "#AAAAAA",
+
+        // ==> Badges
+
         /* ----------------------------------------------------------------
         
 
 
-         _ _ _ _ _ _ _ _ _ _Editor~Items (x3+ or more)_ _ _ _ _ _ _ _ _ _*/
-        // ==> Widgets ***
-        "editorWidget.background": "#111218",
+         _ _ _ _ _ _ _ _ _ Items (Large Groups of 7x or more)_ _ _ _ _ _ _ _ _ _*/
+        // ==> ActivityBar
+        "activityBar.background": "#07080B",
+        "activityBar.foreground": "#DDDDDD",
+        "activityBar.activeBorder": "#440408",
+        "activityBar.activeFocusBorder": "#FFFFFF",
+        "activityBar.activeBackground": "#440408",
+        "activityBar.inactiveForeground": "#701218",
+        "activityBar.dropBorder": "#00F0FF",
+        "activityBar.border": "#64000F",
+
+        // ==> SideBar
+        "sideBar.background": "#111218",
+        "sideBar.border": "#64000F",
+        "sideBar.dropBackground": "#00F0FF64",
+        "sideBar.foreground": "#AAAAAA",
+        "sideBarSectionHeader.background": "#020204",
+        "sideBarSectionHeader.border": "#AAAAAA",
+        "sideBarSectionHeader.foreground": "#CCCCCC",
+        "sideBarTitle.foreground": "#CCCCCC",
+
+        // ==> BreadCrumbz & EditorGroups (These 2-SubGroups are a Single Group)
+        "breadcrumb.background": "#090A0D",
+        "breadcrumb.foreground": "#7A7A72",
+        "breadcrumb.activeSelectionForeground": "#00F0FF",
+        "breadcrumb.focusForeground": "#00F0FF", // |> FG Highlight: no-bg & no-border
+        "breadcrumbPicker.background": "#12131A",
+        "editorGroup.border": "#64000F",
+        "editorGroup.dropBackground": "#00F0FF64",
+        "editorGroup.focusedEmptyBorder": "#FF1A00",
+        "editorGroup.emptyBackground": "#64000F",
+        "editorGroupHeader.border": "#000002",
+        "editorGroupHeader.noTabsBackground": "#0C0000",
+        "editorGroupHeader.tabsBackground": "#07080C",
+        "editorGroupHeader.tabsBorder": "#020204",
+
+        // ==> EditorTabs
+        "tab.border": "#2C0004",
+        "tab.lastPinnedBorder": "#2C0004",
+        "tab.hoverBackground": "#07080C",
+        "tab.hoverForeground": "#00F0FF",
+        //    Active BG, FG, Borders
+        "tab.activeBackground": "#07080C",
+        "tab.activeForeground": "#0CCCFF",
+        "tab.activeBorder": "#020204",
+        "tab.activeBorderTop": "#07080C",
+        "tab.activeModifiedBorder": "#901018",
+        //    Inactive
+        "tab.inactiveBackground": "#07080C",
+        "tab.inactiveForeground": "#909090",
+        "tab.inactiveModifiedBorder": "#901018",
+        //    Unfocused Hover
+        "tab.hoverBorder": "#EE00EE", // |> NOTE: Why won't this work for me?
+        "tab.unfocusedHoverForeground": "#00F0FF",
+        "tab.unfocusedHoverBackground": "#07080C",
+        "tab.unfocusedHoverBorder": "#07080C", //    >=> ("Testing for border highlight.")
+        //    Unfocused Active
+        "tab.unfocusedActiveBackground": "#07080C",
+        "tab.unfocusedActiveForeground": "#AAAAAA",
+        "tab.unfocusedActiveBorder": "#020204",
+        "tab.unfocusedActiveBorderTop": "#07080C",
+        "tab.unfocusedActiveModifiedBorder": "#901018",
+        //    Unfocused Inactive
+        "tab.unfocusedInactiveBackground": "#07080C",
+        "tab.unfocusedInactiveForeground": "#7C1C20",
+        "tab.unfocusedInactiveModifiedBorder": "#901018",
+
+        // ==> VerCtrlHighlighting(Git/Github)
+        "gitDecoration.modifiedResourceForeground": "#0CCCFF", //    Modified
+        "gitDecoration.stageModifiedResourceForeground": "#40DDff", //    StageModified
+        "gitDecoration.deletedResourceForeground": "#AA000F", //  Deleted
+        "gitDecoration.stageDeletedResourceForeground": "#B22233", //  StageDeleted
+        "gitDecoration.addedResourceForeground": "#0FFFCC", //  Added
+        "gitDecoration.conflictingResourceForeground": "#FF1800", //  Problematic
+        "gitDecoration.untrackedResourceForeground": "#566472", //  Untracked
+        "gitDecoration.ignoredResourceForeground": "#80444C", //  Ignored
+        "gitDecoration.submoduleResourceForeground": "#C480AA", //  Submodule
+
+        "merge.commonHeaderBackground": "#DDDDDD48", // Common
+        "merge.commonContentBackground": "#DDDDDD28", // Common
+        "merge.currentHeaderBackground": "#20B0FF80", // Current
+        "merge.currentContentBackground": "#20B0FF50", // Current
+        "merge.incomingHeaderBackground": "#20FFB060", // Incoming
+        "merge.incomingContentBackground": "#20FFB040", // Incoming
+
+        // ==> OverviewRuler
+        "editorOverviewRuler.background": "#07080B",
+        "editorOverviewRuler.border": "#64000F",
+        "editorOverviewRuler.modifiedForeground": "#0CCCFF",
+        "editorOverviewRuler.addedForeground": "#0FFFCC",
+        "editorOverviewRuler.warningForeground": "#F0FF00",
+        "editorOverviewRuler.errorForeground": "#FF1A00",
+        "editorOverviewRuler.deletedForeground": "#AA000F",
+        // |> Version-Merge Highlighting
+        "editorOverviewRuler.commonContentForeground": "#AAAAAA",
+        "editorOverviewRuler.currentContentForeground": "#20B0FF",
+        "editorOverviewRuler.incomingContentForeground": "#20FFB0",
+
+        // ==> Widgets
+        "widget.shadow": "#000000F0",
+        // EditorWidget
+        "editorWidget.background": "#16181E",
+        "editorWidget.foreground": "#CCCCCC",
+        "editorWidget.border": "#901018",
         "editorWidget.resizeBorder": "#FF002F",
+        // SugestionWidget
+        "editorSuggestWidget.background": "#16181E",
+        "editorSuggestWidget.foreground": "#CCCCCC",
+        "editorSuggestWidget.border": "#901018",
+        "editorSuggestWidget.highlightForeground": "#FF0440",
+        "editorSuggestWidget.selectedBackground": "#00FFFF40",
+        // HoverWidget
+        "editorHoverWidget.background": "#16181E",
+        "editorHoverWidget.foreground": "#CCCCCC",
+        "editorHoverWidget.border": "#901018",
+        "editorHoverWidget.statusBarBackground": "#FF002FAA",
+        // DebugException Widget
+        "debugExceptionWidget.background": "#16181E",
+        "debugExceptionWidget.border": "#FF1A00",
 
-        // ==> HoverWidget
-        "editorHoverWidget.background": "#111218",
-        "editorHoverWidget.border": "#64000F",
-        "editorHoverWidget.foreground": "#00F0FF",
+        //  ==> Interactable  (All subgroups make up a single group)
+        // =>> Button
+        "button.background": "#07080B",
+        "button.foreground": "#00F0FF",
+        "button.hoverBackground": "#00F0FF48",
+        "button.secondaryBackground": "#07080B",
+        "button.secondaryForeground": "#FF1040",
+        "button.secondaryHoverBackground": "#FF104050",
+        // =>> ExtensionButton
+        "extensionButton.prominentBackground": "#000000",
+        "extensionButton.prominentForeground": "#FFFFFF",
+        "extensionButton.prominentHoverBackground": "#008090",
+        "checkbox.background": "#020204",
+        "checkbox.border": "#0CCCFF",
+        "checkbox.foreground": "#00F0FF",
+        "settings.checkboxBackground": "#020204",
+        "settings.checkboxBorder": "#0CCCFF",
+        "settings.checkboxForeground": "#00F0FF",
+        "dropdown.background": "#07080B",
+        "dropdown.border": "#0CCCFF",
+        "dropdown.foreground": "#00F0FF",
+        "dropdown.listBackground": "#12141A",
+
+        // ==> Menubar & MenubarMenu
+        "menu.background": "#090A10",
+        "menu.border": "#901018",
+        "menu.foreground": "#A49292",
+        "menu.selectionBackground": "#00F0FF3C",
+        "menu.selectionForeground": "#FFFFFF",
+        "menu.selectionBorder": "#FFFFFF00", // |> NOTE: "Border Omitted"
+        "menu.separatorBackground": "#64000F",
+        "menubar.selectionBackground": "#00F0FF3C",
+        "menubar.selectionForeground": "#FFFFFF",
+
         /* ----------------------------------------------------------------
         
 
 
-         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (x2)_ _ _ _ _ _ _ _ _ _ _ _ */
+         _ _ _ _ _ _ _ _ _ Items (4x-6x)_ _ _ _ _ _ _ _ _ _*/
+        // ==> TitleBar
+        "titleBar.activeBackground": "#40060C",
+        "titleBar.activeForeground": "#CCCCCC",
+        "titleBar.border": "#CCCCCC",
+        "titleBar.inactiveBackground": "#383830",
+        "titleBar.inactiveForeground": "#808074",
+
+        // ==> Badges
+        "activityBarBadge.background": "#020204",
+        "activityBarBadge.foreground": "#00FFFF",
+        "badge.background": "#020204",
+        "badge.foreground": "#00FFFF",
+
+        // ==> WordHighlight* (SyntaxHighlight)
+        "editor.wordHighlightBackground": "#1f0000",
+        "editor.wordHighlightBorder": "#AAAAAA",
+        "editor.wordHighlightStrongBackground": "#020204",
+        "editor.wordHighlightStrongBorder": "#CCCCCC",
+
+        // ==> FindMatchHighlight* (SyntaxHighlight)
+        "editor.findMatchBackground": "#000000",
+        "editor.findMatchBorder": "#00FFEE",
+        "editor.findMatchHighlightBackground": "#00AAFF10",
+        "editor.findMatchHighlightBorder": "#00FFEE",
+
+        // ==> EditorSelection* (SyntaxHighlight)
+        "editor.selectionBackground": "#00FFEE2C",
+        "editor.selectionForeground": "#00FFEE",
+        "editor.inactiveSelectionBackground": "#DDDDDD40",
+        "editor.selectionHighlightBackground": "#000000",
+        "editor.selectionHighlightBorder": "#00FFEE",
+
+        // ==> Gutter BG -&- VerCtrl Highlighting
+        "editorGutter.background": "#090A0D",
+        "editorGutter.foldingControlForeground": "#00F0FF",
+        "editorGutter.addedBackground": "#0FFFCCAA",
+        "editorGutter.modifiedBackground": "#0CCCFFAA",
+        "editorGutter.deletedBackground": "#A0000FCC",
+
+        /* ----------------------------------------------------------------
+        
+
+
+         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (2x-3X)_ _ _ _ _ _ _ _ _ _ _ _ */
+        // ==> SearchEditor
+        "searchEditor.findMatchBackground": "#00F0FF40",
+        "searchEditor.findMatchBorder": "#00F0FF",
+        "searchEditor.textInputBorder": "#00F0FF",
+
+        // ==> WelcomePage
+        "welcomePage.background": "#12141A",
+        "welcomePage.buttonBackground": "#07080B",
+        "welcomePage.buttonHoverBackground": "#00F0FF48",
+
+        // ==> Window
+        "window.activeBorder": "#CC101F",
+        "window.inactiveBorder": "#40000A",
+
+        // ==> BracketMatch* (SyntaxHighlight)
+        "editorBracketMatch.background": "#0FFFAA60",
+        "editorBracketMatch.border": "#0FFFBB",
+
         // ==> BG & FG
         "editor.background": "#111218",
         "editor.foreground": "#D49C9C",
@@ -75,175 +274,20 @@
         // ==> LineNumber
         "editorLineNumber.activeForeground": "#00F0FF",
         "editorLineNumber.foreground": "#72181E",
+
+        // ==> Cursor
+        "editorCursor.background": "#00FF60",
+        "editorCursor.foreground": "#00F0FF",
         /* 
         
 
 
-         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (x1)_ _ _ _ _ _ _ _ _ _ _ _ */
+         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (1x soloz)_ _ _ _ _ _ _ _ _ _ _ _ */
+        "editorWhitespace.foreground": "#AA1820",
         "editor.foldBackground": "#080808",
         "editorRuler.foreground": "#00FFFF12",
         "editorLink.activeForeground": "#00FF80",
         "editorPane.background": "#111218",
-        //  <<==*===================| ActivityBar |===================*==>>
-        "activityBar.activeBackground": "#440408",
-        "activityBar.background": "#07080B",
-        "activityBar.inactiveForeground": "#701218",
-        "activityBar.foreground": "#DDDDDD",
-        "activityBar.activeBorder": "#440408",
-        "activityBar.activeFocusBorder": "#FFFFFF",
-        "activityBar.dropBorder": "#00F0FF",
-        "activityBar.border": "#64000F",
-
-        //  <<==*============| BreadCrumbs |============*==>>
-        "breadcrumb.background": "#181C24",
-        "breadcrumb.foreground": "#7A7A72",
-        "breadcrumb.activeSelectionForeground": "#00F0FF",
-        "breadcrumb.focusForeground": "#00F0FF", // |> FG Highlight: no-bg & no-border
-        "breadcrumbPicker.background": "#12131A",
-
-        //    <<==*=============| Cursor |==============*==>>
-        "editorCursor.background": "#00FF60",
-        "editorCursor.foreground": "#00F0FF",
-
-        //    <<==*==========| Editor-Groups |==========*==>>
-        "editorGroup.border": "#64000F",
-        "editorGroup.dropBackground": "#00F0FF64",
-        "editorGroupHeader.border": "#000002",
-        "editorGroupHeader.noTabsBackground": "#0C0000",
-        "editorGroupHeader.tabsBackground": "#07080C",
-        "editorGroupHeader.tabsBorder": "#020204",
-        "editorGroup.focusedEmptyBorder": "#FF1A00",
-
-        //  <<==*=====| Gutter BG / Fold-Controls |=====*==>>
-        "editorGutter.background": "#090A0D",
-        "editorGutter.foldingControlForeground": "#00F0FF",
-
-        //  <<==*======| Gutter: Ver-Ctrl Status |======*==>>
-        "editorGutter.addedBackground": "#0FFFCCAA",
-        "editorGutter.modifiedBackground": "#0CCCFFAA",
-        "editorGutter.deletedBackground": "#A0000FCC",
-
-        //  <<==*======| OverviewRuler: Styling |======*==>>
-        "editorOverviewRuler.background": "#07080B",
-        "editorOverviewRuler.border": "#64000F",
-
-        //  <<==*======| OverviewRuler: VerCtrl |======*==>>
-        "editorOverviewRuler.modifiedForeground": "#0CCCFF",
-        "editorOverviewRuler.addedForeground": "#0FFFCC",
-        "editorOverviewRuler.warningForeground": "#F0FF00",
-        "editorOverviewRuler.errorForeground": "#FF1A00",
-        "editorOverviewRuler.deletedForeground": "#AA000F",
-        // |> VerCtrl Merge Conflict, Special Color Highlighting
-        "editorOverviewRuler.commonContentForeground": "#AAAAAA",
-        "editorOverviewRuler.currentContentForeground": "#20B0FF",
-        "editorOverviewRuler.incomingContentForeground": "#20FFB0",
-
-        //  <<==*==============| Interactable |==============*==>>
-        "button.background": "#07080B",
-        "button.foreground": "#00F0FF",
-        "button.hoverBackground": "#00F0FF48",
-        "button.secondaryBackground": "#07080B",
-        "button.secondaryForeground": "#FF1040",
-        "button.secondaryHoverBackground": "#FF104050",
-        "extensionButton.prominentBackground": "#000000",
-        "extensionButton.prominentForeground": "#FFFFFF",
-        "extensionButton.prominentHoverBackground": "#008090",
-        "welcomePage.buttonBackground": "#07080B",
-        "welcomePage.buttonHoverBackground": "#00F0FF48",
-        "checkbox.background": "#020204",
-        "checkbox.border": "#0CCCFF",
-        "checkbox.foreground": "#00F0FF",
-        "settings.checkboxBackground": "#020204",
-        "settings.checkboxBorder": "#0CCCFF",
-        "settings.checkboxForeground": "#00F0FF",
-        "dropdown.background": "#07080B",
-        "dropdown.border": "#0CCCFF",
-        "dropdown.foreground": "#00F0FF",
-        "dropdown.listBackground": "#12141A",
-
-        //    <<==*==========( GIT Highlighting )==========*==>>
-        "gitDecoration.modifiedResourceForeground": "#0CCCFF", //    Modified
-        "gitDecoration.stageModifiedResourceForeground": "#40DDff", //    StageModified
-        "gitDecoration.deletedResourceForeground": "#AA000F", //  Deleted
-        "gitDecoration.stageDeletedResourceForeground": "#B22233", //  StageDeleted
-        "gitDecoration.addedResourceForeground": "#0FFFCC", //  Added
-        "gitDecoration.conflictingResourceForeground": "#FF1800", //  Problematic
-        "gitDecoration.untrackedResourceForeground": "#566472", //  Untracked
-        "gitDecoration.ignoredResourceForeground": "#80444C", //  Ignored
-        "gitDecoration.submoduleResourceForeground": "#C480AA", //  Submodule
-
-        "merge.commonHeaderBackground": "#DDDDDD48", // Common
-        "merge.commonContentBackground": "#DDDDDD28", // Common
-        "merge.currentHeaderBackground": "#20B0FF80", // Current
-        "merge.currentContentBackground": "#20B0FF50", // Current
-        "merge.incomingHeaderBackground": "#20FFB060", // Incoming
-        "merge.incomingContentBackground": "#20FFB040", // Incoming
-
-        //  <<==*=================| Titlebar~Menu (RightClick) |=================*==>>
-        "menu.background": "#090A10",
-        "menu.border": "#600008",
-        "menu.foreground": "#A49292",
-        "menu.selectionBackground": "#00F0FF3C",
-        "menu.selectionForeground": "#FFFFFF",
-        "menu.selectionBorder": "#FFFFFF00", // |> NOTE: "Border Omitted"
-        "menu.separatorBackground": "#600008",
-
-        //    <<==*================( Menbar )================*==>>
-        "menubar.selectionBackground": "#00F0FF3C",
-        "menubar.selectionForeground": "#FFFFFF",
-
-        //    <<==*==========( Tabs )==========*==>>
-        "tab.border": "#2C0004",
-        "tab.lastPinnedBorder": "#2C0004",
-        "tab.hoverBackground": "#07080C",
-        "tab.hoverForeground": "#00F0FF",
-
-        // Active BG, FG, Borders
-        "tab.activeBackground": "#07080C",
-        "tab.activeForeground": "#0CCCFF",
-        "tab.activeBorder": "#020204",
-        "tab.activeBorderTop": "#07080C",
-        "tab.activeModifiedBorder": "#901018",
-
-        // Inactive
-        "tab.inactiveBackground": "#07080C",
-        "tab.inactiveForeground": "#909090",
-        "tab.inactiveModifiedBorder": "#901018",
-
-        // Unfocused Hover
-        "tab.hoverBorder": "#EE00EE", // |> NOTE: Why won't this work for me?
-        "tab.unfocusedHoverForeground": "#00F0FF",
-        "tab.unfocusedHoverBackground": "#07080C",
-        "tab.unfocusedHoverBorder": "#07080C", //    >=> ("Testing for border highlight.")
-
-        //    Unfocused Active
-        "tab.unfocusedActiveBackground": "#07080C",
-        "tab.unfocusedActiveForeground": "#AAAAAA",
-        "tab.unfocusedActiveBorder": "#020204",
-        "tab.unfocusedActiveBorderTop": "#07080C",
-        "tab.unfocusedActiveModifiedBorder": "#901018",
-
-        //    Unfocused Inactive
-        "tab.unfocusedInactiveBackground": "#07080C",
-        "tab.unfocusedInactiveForeground": "#7C1C20",
-        "tab.unfocusedInactiveModifiedBorder": "#901018",
-
-        //  <<==*=================| TITLEBAR |=================*==>>
-        "titleBar.activeBackground": "#200000",
-        "titleBar.activeForeground": "#CCCCCC",
-        "titleBar.border": "#808080",
-        "titleBar.inactiveBackground": "#383830",
-        "titleBar.inactiveForeground": "#808074",
-
-        //    <<==*================( SideBar )================*==>>
-        "sideBar.background": "#111218",
-        "sideBar.border": "#64000F",
-        "sideBar.dropBackground": "#00F0FF64",
-        "sideBar.foreground": "#AAAAAA",
-        "sideBarSectionHeader.background": "#020204",
-        "sideBarSectionHeader.border": "#AAAAAA",
-        "sideBarSectionHeader.foreground": "#CCCCCC",
-        "sideBarTitle.foreground": "#CCCCCC",
 
         /*
         ..................................................................................
@@ -253,19 +297,21 @@
 
         ||>  <<=========================( FINISH LINE )=========================>> 
 */
+        // <<--------------------| Omitted Itemes |-------------------->>
+        // --> contrastActiveBorder
+        // // "contrastActiveBorder": "#000000"
+        // --> menubar.selectionBorder
+        // // "menubar.selectionBorder": "#00F0FF00",
+        // empty
+        // empty
 
         //  <<==*==================| IDFK Items... |==================*==>>
 
         "descriptionForeground": "#EE00EE",
 
-        "editorWhitespace.foreground": "#EE00EE",
-
         "editorMarkerNavigationError.background": "#EE00EE",
         "editorMarkerNavigation.background": "#EE00EE",
-        "gitlens.gutterBackgroundColor": "#E000E0",
-        "gitlens.gutterForegroundColor": "#E000E0",
-        "gitlens.gutterUncommittedForegroundColor": "#E000E0",
-        "editorHoverWidget.statusBarBackground": "#EE00EE",
+
         "editorGutter.commentRangeForeground": "#E000E0",
         "editor.onTypeRenameBackground": "#E000E0",
         "walkThrough.embeddedEditorBackground": "#E000E0",
@@ -275,7 +321,8 @@
 
         "editor.findRangeHighlightBackground": "#EE00EE",
         "editor.findRangeHighlightBorder": "#EE00EE",
-        "editor.focusedStackFrameHighlightBackground": "#EE00EE",
+        "editor.focusedStackFrameHighlightBackground": "#E000E0",
+
         "editor.snippetFinalTabstopHighlightBorder": "#EE00EE",
         "editor.snippetTabstopHighlightBackground": "#EE00EE",
 
@@ -288,15 +335,7 @@
         "editorMarkerNavigationInfo.background": "#EE00EE",
         "editorMarkerNavigationWarning.background": "#EE00EE",
 
-        "editorGroup.emptyBackground": "#EE00EE",
-        "searchEditor.findMatchBackground": "#EE00EE",
-        "searchEditor.findMatchBorder": "#EE00EE",
-        "searchEditor.textInputBorder": "#EE00EE",
-
-        "debugExceptionWidget.background": "#EE00EE",
-        "debugExceptionWidget.border": "#EE00EE",
         "debugToolBar.background": "#EE00EE",
-
         "debugConsole.errorForeground": "#ff3333",
         "debugConsole.infoForeground": "#75beff",
         "debugConsole.sourceForeground": "#FFFFFF",
@@ -304,28 +343,13 @@
         "debugConsoleInputIcon.foreground": "#FFFFFF",
 
         //  <<==*=======( Syntax Highlighting )=======*==>>
-        "editor.selectionBackground": "#00FFEE2C",
-        "editor.selectionForeground": "#00FFEE",
-        "editor.inactiveSelectionBackground": "#DDDDDD40",
-        "editor.selectionHighlightBackground": "#000000",
-        "editor.selectionHighlightBorder": "#00FFEE",
 
         "editor.rangeHighlightBorder": "#00000000",
         "editor.rangeHighlightBackground": "#00FFEE3C",
-        "editor.findMatchBackground": "#000000",
-        "editor.findMatchBorder": "#00FFEE",
-
-        "editor.findMatchHighlightBackground": "#00AAFF10",
-        "editor.findMatchHighlightBorder": "#00FFEE",
 
         "editor.hoverHighlightBackground": "#020204",
         "editor.snippetFinalTabstopHighlightBackground": "#ff2000",
-        "editor.wordHighlightBackground": "#1f0000",
-        "editor.wordHighlightBorder": "#AAAAAA",
-        "editor.wordHighlightStrongBackground": "#020204",
-        "editor.wordHighlightStrongBorder": "#CCCCCC",
-        "editorBracketMatch.background": "#0C0000",
-        "editorBracketMatch.border": "#FF001D",
+
         "editorCodeLens.foreground": "#626a73",
 
         //  <<==*=====| OverviewRuler: SyntaxHiLi |=====*==>>
@@ -338,14 +362,6 @@
         "editorOverviewRuler.rangeHighlightForeground": "#901018",
 
         //  <<==*==========( SUGGESTION WIDGET )==========*==>>
-        "editorSuggestWidget.background": "#12141A",
-        "editorSuggestWidget.foreground": "#CCCCCC",
-        "editorSuggestWidget.border": "#0CCCFF",
-        "editorSuggestWidget.highlightForeground": "#00F0FF",
-        "editorSuggestWidget.selectedBackground": "#ffffff12",
-
-        "editorWidget.border": "#454545",
-        "editorWidget.foreground": "#FFFFFF",
 
         //    <<==*===============( Inputs )===============*==>>
         "input.background": "#141519",
@@ -423,6 +439,7 @@
         "panelTitle.activeForeground": "#0AB8F8",
         "panelTitle.inactiveForeground": "#909090",
         "peekView.border": "#FF2428",
+
         "peekViewEditor.background": "#07080B",
         "peekViewEditor.matchHighlightBackground": "#0C0000",
         "peekViewEditor.matchHighlightBorder": "#CCCCCC",
@@ -498,9 +515,7 @@
         "textLink.activeForeground": "#e6b450",
         "textLink.foreground": "#e6b450",
         "textPreformat.foreground": "#0CCA85",
-        "textSeparator.foreground": "#AAAAAA",
-
-        "widget.shadow": "#020204"
+        "textSeparator.foreground": "#AAAAAA"
 
         //  <<==*=================| INFO/TIPS/LIGHTBULB |=================*==>>
 

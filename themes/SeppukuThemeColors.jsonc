@@ -25,7 +25,7 @@
             "Seppuku": "#64000F",
             "DarkRedA": "#44080F",
             "DarkRedB": "#300408",
-            "VeryDarkRedC": "#20000A"
+            "VeryDarkRedC": "#200008"
         },
 
         "(4) HIGHLIGHT: CYANS": {
@@ -64,12 +64,25 @@
             }
         },
         "<2>-SyntaxHighlighting": {
-            "Issue": "#FF1A00",
-            "Warning": "#F0FF00",
-            "A": "#",
-            "B": "#",
-            "C": "#",
-            "D": "#"
+            "[1]-Status": {
+                "Issue": "#FF1A00",
+                "Warning": "#F0FF00",
+                "A": "#",
+                "B": "#"
+            },
+
+            "[2]-BG_and_FG_Highlighting": {
+                "SelectedBG": "#00FFFF50",
+                "SelectedFG": "#F8F8F8",
+                "C": "#",
+                "D": "#"
+            },
+            "[3]-xxx": {
+                "A": "#",
+                "B": "#",
+                "C": "#",
+                "D": "#"
+            }
         }
     }
 }
