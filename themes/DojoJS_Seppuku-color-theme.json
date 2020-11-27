@@ -22,8 +22,24 @@
         "activityBarBadge.foreground": "#FFFFFF",
         "badge.background": "#020204",
         "contrastBorder": "#AAAAAA",
+        /* ----------------------------------------------------------------
+        
 
-        //  <<==*====================| Editor~Items |====================*==>>
+
+         _ _ _ _ _ _ _ _ _ _Editor~Items (x3+ or more)_ _ _ _ _ _ _ _ _ _*/
+        // ==> Widgets ***
+        "editorWidget.background": "#111218",
+        "editorWidget.resizeBorder": "#FF002F",
+
+        // ==> HoverWidget
+        "editorHoverWidget.background": "#111218",
+        "editorHoverWidget.border": "#64000F",
+        "editorHoverWidget.foreground": "#00F0FF",
+        /* ----------------------------------------------------------------
+        
+
+
+         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (x2)_ _ _ _ _ _ _ _ _ _ _ _ */
         // ==> BG & FG
         "editor.background": "#111218",
         "editor.foreground": "#D49C9C",
@@ -59,12 +75,12 @@
         // ==> LineNumber
         "editorLineNumber.activeForeground": "#00F0FF",
         "editorLineNumber.foreground": "#72181E",
+        /* 
+        
 
-        // *==> One-off Editor~Items
+
+         _ _ _ _ _ _ _ _ _ _ _ _Editor~Items (x1)_ _ _ _ _ _ _ _ _ _ _ _ */
         "editor.foldBackground": "#080808",
-        "editorWidget.background": "#07080B",
-
-        "editorWidget.resizeBorder": "#00ff60",
         "editorRuler.foreground": "#00FFFF12",
         "editorLink.activeForeground": "#00FF80",
         "editorPane.background": "#111218",
@@ -106,11 +122,6 @@
         "editorGutter.addedBackground": "#0FFFCCAA",
         "editorGutter.modifiedBackground": "#0CCCFFAA",
         "editorGutter.deletedBackground": "#A0000FCC",
-
-        //  <<==*===========| Hover Widget |===========*==>>
-        "editorHoverWidget.background": "#111218",
-        "editorHoverWidget.border": "#64000F", // ||> Hover Border
-        "editorHoverWidget.foreground": "#00F0FF",
 
         //  <<==*======| OverviewRuler: Styling |======*==>>
         "editorOverviewRuler.background": "#07080B",
