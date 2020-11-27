@@ -1,7 +1,7 @@
 {
     "|CS| COLOR_SCHEME": {
         "(1) PRIMARY: CHARCOALS": {
-            "[CS-1.1]  BlackSmoke       ": "#181C24", // [X-----]
+            "[CS-1.1]  BlackSmoke       ": "#181C24", // [XX----] Panel.BG
             "[CS-1.2]  BlackNinjaPowder ": "#12131A", // [-----]
             "[CS-1.3]  LightCharcoal    ": "#111218", // [XXXXX] Editor/Sidebar BGs
             "[CS-1.4]  Coal             ": "#090A0D", // [X]
@@ -14,8 +14,8 @@
             "[CS-2.1] PaleRed      ": "#FF2428", // [X----] (Terminal FG)
             "[CS-2.2] ElectricRed  ": "#FF0028", // [XX---]
             "[CS-2.3] PlainRed     ": "#DF242A", // [X----]
-            "[CS-2.4] BrimeStone   ": "#AA1820", // [X----] (Terminal HiLit)
-            "[CS-2.5] Harakiri     ": "#901018", // [XXX]
+            "[CS-2.4] BrimeStone   ": "#AA1820", // [XXXXX  ] (Terminal HiLit)
+            "[CS-2.5] Harakiri     ": "#901018", // [XXXXX]
             "[CS-2.6] Seppuku      ": "#64000F", // [XXXXX]
             "[CS-2.7] BellyCutting ": "#44080F", // [XX]
             "[CS-2.7] DarkRed      ": "#300408", // [X] Indent Guide

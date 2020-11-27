@@ -1,103 +1,77 @@
 {
-    /*   
+    "[1] EditorStyle": {
+        "(Overview) Scheme": {
+            "Primary": "Charcoal",
+            "Secondary": "DarkRed",
+            "Accent": "White",
+            "Highlight": "Cyan"
+        },
 
-      ==> Note:  Talleys track a colors usage frequency.   
-      ==> Note: Color #E000E0 Highlights things that I didn't know what their propery name did. Using this color to try and spot them, hopefully...
-    
-    
-    
-  */
-    "(A) colorScheme": {
-        "primary": "Charcoals",
-        "Secondary": "PureReds",
-        "Accent-Primary": "Pure Whites",
-        "Accent-Secondary": "BlueGreen & GreenBlue Cyans"
+        "(1) Charcoal_Pallete": {
+            "BlackSmoke": "#181C24", // Panels-BG & Breadcrumb-Bar-BG
+            "CharcoalC": "#111218", // Editor-BG & Sidebar-BG
+            "CharcoalB": "#090A0D", // Editor-Gutter-BG
+            "CharcoalA": "#07080B", // ActvBar-BG & StatBar-BG
+            "Black": "#020204", // Minimap & Sidebar-Header-BG
+            "TrueBlack": "#000000" // Alot of highlighting, used opaquely
+        },
+
+        "(2) DarkRed_Pallete": {
+            "BrightRed": "#FF2428",
+            "ElectricRed": "#FF0028",
+            "Red": "#DF242A",
+            "MedRed": "#AA1820",
+            "Harakiri": "#901018",
+            "Seppuku": "#64000F",
+            "DarkRedA": "#44080F",
+            "DarkRedB": "#300408",
+            "VeryDarkRedC": "#20000A"
+        },
+
+        "(4) HIGHLIGHT: CYANS": {
+            "TrueCyan": "#00FFFF",
+            "BlueCyanA": "#00F0FF",
+            "BlueCyanB": "#0CCCFF",
+            "GreenCyanA": "#0FFFEE",
+            "GreenCyanB": "#0FFFCC",
+            "DarkCyanB": "#00BBCB",
+            "DarkCyanA": "#0AAAAA",
+            "DarkCyanC": "#00909F"
+        },
+
+        "(3) White_Pallete": {
+            "TrueWhite": "#FFFFFF",
+            "White": "#DDDDDD",
+            "OffWhite": "#CCCCCC",
+            "LightGrey": "#AAAAAA",
+            "Grey": "#888888"
+        }
     },
-    "(B) Charcoals": {
-        "PaleCharcoal": "#18191D",
-        "Anvil": "#12131A", // Tallys: [X]
-        "Charcoal": "#07080B", // Tallys: [XXXX]
-        "Black": "#020204", // Tallys: [X]
-        "TrueBlack": "#000000"
-    },
-    "(C): PureReds": {
-        "|01| HC-Red": "#FF8080",
-        "|02| IntenseRed": "#FF0F2F", // Tallys: [XXXX]
-        "|03| PlainRed": "#EE1014",
-        "|04| PaleRed": "#DD2C38",
-        "|TEST| TestRed": "#DD2C3890",
-        "|05| DeepRed": "#AA1820", // Tallys: [X]
-        "|06| TransparentRed": "#AA1820AA", // Tallys: [X]
-        "|07| Harakiri": "#901018", // Tallys: [XXXX]
-        "|08| Seppuku": "#64000f", // Tallys: [XXXX]
-        "|09| DarkRed": "#44000A",
-        "|10| VeryDarkRed": "#200004"
-    },
-    "(D): PureWhites": {
-        "TrueWhite": "#FFFFFF", // Tallys: [XXXX]
-        "White": "#DDDDDD", // Tallys: [XXXX]
-        "OffWhite": "#CCCCCC", // Tallys: [XXXX]
-        "LightGrey": "#AAAAAA", // Tallys: [XXXX]
-        "Grey": "#888888" // Tallys: [X]
-    },
-    "(E): Cyans": {
-        "|01| TrueCyan": "#00FFFF", // Tallys: [X]
-        "|02| LightCyan": "#44FFFF", // Tallys: []
-        "|03| DarkCyan": "#00CCCC",
-        "|04| BlueCyan": "#00CFFF", // Tallys: []
-        "|05| GreenCyan": "#00FFC4", // Tallys: []
-        "|06| DarkCyan_Blue": "#00A8B8", // Tallys: [X]
-        "| 07| DarkCyan_Green": "#00FFFF",
-        "|07| Opaque_Blue-Cyan": "#00EEFF90"
-    },
-    "Highlights": {
-        "(0) DropItems": {
-            "|A| BackGround": "[E-3] Opaque BlueCyan ---> #00EEFF90",
-            "|B| Border": "[E-1] True-Cyan ---> #00FFFF"
+
+    "(B) EditorHighlights": {
+        "<1>-VersionControl": {
+            "Modified": "#0CCCFF",
+            "StageModified": "#40DDFF",
+            "Deleted": "#A0000F",
+            "StageDeleted": "#B22233",
+            "Added": "#0FFFCC",
+            "Ignored": "#80444C",
+            "Untracked": "#566472",
+            "Merge": {
+                "common": ["#AAAAAA", "#DDDDDD48", "#DDDDDD28"],
+                "current": ["#20B0FF", "#20B0FF80", "#20B0FF50"],
+                "incoming": ["#20FFB0", "#20FFB060", "#20FFB040"]
+            }
         },
-        "(1): ActiveItem": {
-            "|1| Primary BG": "#07080B",
-            "|2|": "#",
-            "|3|": "#",
-            "|4| Secondary BG": "##08A8B8",
-            "|5|": "#",
-            "|6|": "#"
-        },
-        "(3):  CURSOR-SELECT-HIGHLIGHTING &/or HOVER-HIGHLIGHTING": {
-            "|A|-Active": {
-                "<>foreground": "#00CEFF",
-                "background": "#DDDDDD20" // ? Guessing here...
-            },
-            "|B|-Hover"
-            "|B| Inactive": "#",
-            "|C| Focus-In": "#",
-            "|D| Focus-Out": "#",
-            "|E| Hover-BG": "#",
-            "|F| Hover-FG": "#",
-            "|G| Terminal": "[C-4] or TransparentRed",
-            "|H| ": "[EMPTY]"
-        },
-        "(3): 'PROBLEM/ISSUE' ": {
-            "|A| Error/Conflict": "#FF1100",
-            "|B| Deleted": "#AA0018",
-            "|C| ": "#"
-        },
-        "(4): 'ALERT/NOTIFICATION' ": {
-            "|A| Warning": "#EEFF00",
-            "|B| Hint/Lightbulb": "#FFFF20",
-            "|C| ": "#"
-        },
-        "(5): 'GIT/OVERVIEW' ": {
-            "|A| Modified": "#",
-            "|B| Added": "#",
-            "|C| Ignored": "#964040",
-            "|D| Untracked": "#60647A",
-            "|E| Error": "(2A)",
-            "|F| Warning": "#"
-        },
-        "(6): 'WIDGET/SYNTAX HIGHLIGHTING' ": {
-            "Match": "#",
-            "MatchStrong": "#"
+        "<2>-SyntaxHighlighting": {
+            "Issue": "#FF1A00",
+            "Warning": "#F0FF00",
+            "": "#",
+            "": "#",
+            "": "#",
+            "": "#",
+            "": "#",
+            "": "#"
         }
     }
 }
