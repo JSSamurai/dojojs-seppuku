@@ -1,0 +1,133 @@
+{
+  "(ALPHA) ==> Editor Style": {
+    "<1>-SchemeSummary": {
+      "Primary": "Charcoal",
+      "Secondary": "DarkRed",
+      "Accent": "White",
+      "Highlight": "Cyan"
+    },
+    "<2>-SchemeDescription": {
+      "(1) Charcoal_Pallete": {
+        "BlackSmoke": "#181C24", // Panels-BG & Breadcrumb-Bar-BG
+        "CharcoalC": "#111218", // Editor-BG & Sidebar-BG
+        "CharcoalB": "#090A0D", // Editor-Gutter-BG
+        "CharcoalA": "#07080B", // ActvBar-BG & StatBar-BG
+        "Black": "#020204", // Minimap & Sidebar-Header-BG
+        "TrueBlack": "#000000" // Alot of highlighting, used opaquely
+      },
+
+      "(2) DarkRed_Pallete": {
+        "BrightRed": "#FF2428",
+        "ElectricRed": "#FF0434",
+        "Red": "#DF242A",
+        "MedRed": "#AA1820",
+        "Harakiri": "#901018",
+        "Seppuku": "#64000F",
+        "DarkRedA": "#44080F",
+        "DarkRedB": "#300408",
+        "VeryDarkRedC": "#200008"
+      },
+
+      "(4) HIGHLIGHT: CYANS": {
+        "TrueCyan": "#00FFFF",
+        "BlueCyanA": "#00F0FF",
+        "BlueCyanB": "#0CCCFF",
+        "GreenCyanA": "#0FFFEE",
+        "GreenCyanB": "#0FFFCC",
+        "DarkCyanB": "#00BBCB",
+        "DarkCyanA": "#0AAAAA",
+        "DarkCyanC": "#00909F"
+      },
+
+      "(3) White_Pallete": {
+        "TrueWhite": "#FFFFFF",
+        "White": "#DDDDDD",
+        "OffWhite": "#CCCCCC",
+        "LightGrey": "#AAAAAA",
+        "Grey": "#888888"
+      }
+    },
+    "<3>-ItemStyling (StaticProperties Only)": {
+      // |||>  Dynamic Properties should fit into VSC~Highlighting somewhere.
+      "(1) Input": {
+        "[1] Background": "#07080B",
+        "[2] Foreground": "#CCCCCC",
+        "[3] Border": "#AA2028",
+        "[4] ???": "#"
+      },
+
+      "(2) Widgets": {
+        "[1] ???": "#",
+        "[2] ???": "#",
+        "[3] ???": "#",
+        "[4] ???": "#"
+      },
+      "(3) ???": {
+        "[1] ???": "#",
+        "[2] ???": "#",
+        "[3] ???": "#",
+        "[4] ???": "#"
+      }
+    }
+  },
+
+  "(BETA) ==> VSC-Highlighting": {
+    // // >-> VSC-Highlighting
+    "<1> VersionControl": {
+      "[1] Modified": "#0CCCFF",
+      "[2] StageModified": "#0CCCFF70",
+      "[3] Deleted": "#AA1A00",
+      "[4] StageDeleted": "#AA1A0070",
+      "[5] Added": "#0FFFCC",
+      "[6] Ignored": "#80444C",
+      "[7] Untracked": "#566472",
+      "[8] Merge": {
+        "|A|: common": ["#BBBBBB", "#DDDDDD48", "#DDDDDD28"],
+        "|B|: current": ["#20B0FF", "#20B0FF80", "#20B0FF50"],
+        "|C|: incoming": ["#20FFB0", "#20FFB060", "#20FFB040"]
+      }
+    },
+
+    "<2> SyntaxHighlighting": {
+      "[1] Status": {
+        "|A|: Problem/Issue/Error": "#FF1F00",
+        "|B|: Warning/Alert": "#E8FF00",
+        "|E|: Info/Notification ": "#FFEE20",
+        "|C|: RecentlyAdded": "#0FFFCC",
+        "|D|: Deleted": "#AA1A00",
+        "|E|: Modification": "#0CCCFF"
+
+        //// "|C|: Empty ": "#",
+      },
+
+      "[2] BG_and_FG_Highlighting": {
+        "(1) Selection": {
+          "|A|: SelectedText_BG": "#00FFDDFF", // ||> Note: "Opacity may vary"
+          "|B|: SelectedText_FG": "#FFFFFF",
+          "|C|: Selectable_FG": "#C4C4C4"
+        },
+
+        "(2)- Hover": {
+          "|A|: Text_BG": "#00F0FF60",
+          "|B|: Text_FG": "#00FFD0F0",
+          "|C|: Border ": "#00FFFFFF"
+          //// "|D|: Empty  ": "#",
+        }
+      },
+
+      "[3]-BorderHighlighting": {
+        "|A|: Standard_WidgetFindMatch": "#",
+        "|B|: Strong_WigetFindMatch": "#",
+        "|C|: Standard_EditorFindText": "#",
+        "|D|: Strong_EditorFindText": "#",
+        "|E|: FindPunuationMatch": "#",
+        "": "#"
+      }
+
+      //// "[3]-xxx": {
+      //// "A": "#",
+      //// "B": "#",
+      //// }
+    }
+  }
+}
