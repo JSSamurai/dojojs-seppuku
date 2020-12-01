@@ -1,0 +1,56 @@
+{
+  "ColorPallete": {
+    "Whites": {
+      "A": "#",
+      "B": "#"
+    },
+
+    "Blacks": {
+      "A": "#",
+      "B": "#"
+    },
+
+    "GreyBlue": {
+      "A": "#",
+      "B": "#"
+    },
+
+    "DarkBlue": {
+      "D": "#000A2E",
+      "E": "#00143C",
+      "F": "#"
+    },
+
+    "Cyan": {
+      "G": "#00FFFF",
+      "H": "#48EEFF"
+    },
+
+    "I": "#",
+    "J": "#"
+  },
+
+  "STATUS": {
+    "Modified": "#0CCCFF",
+    "Deleted": "#AA1A00",
+    "Added": "#0DDD99",
+    "Probelm/Error": "#FF1F00",
+    "Warning": "#E0FF00",
+    "Info": "#FFF444",
+    "Untracked": "#708090",
+    "Ignored": "#84545A",
+    "": ""
+  },
+  "SYNTAX_HIGHLIGHTING": {
+    "A": "#",
+    "B": "#",
+    "C": "#",
+    "D": "#",
+    "E": "#",
+    "F": "#",
+    "G": "#",
+    "H": "#",
+    "I": "#",
+    "J": "#"
+  }
+}
