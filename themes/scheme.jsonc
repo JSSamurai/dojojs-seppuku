@@ -24,35 +24,56 @@
     },
 
     "Cyan": {
-      "G": "#00FFFF",
-      "H": "#48EEFF"
+      "Cyan": "#00FFFF",
+      "BlueCyan": "#1EEEFF",
+      "GreenCyan": "#0FFFD8"
     },
 
     "I": "#",
     "J": "#"
   },
 
-  "STATUS": {
-    "Modified": "#0CCCFF",
-    "Deleted": "#AA1A00",
-    "Added": "#0DDD99",
-    "Probelm/Error": "#FF1F00",
-    "Warning": "#E0FF00",
-    "Info": "#ffee20",
-    "Untracked": "#708090",
-    "Ignored": "#84545A",
-    "": ""
-  },
-  "SYNTAX_HIGHLIGHTING": {
-    "A": "#",
-    "B": "#",
-    "C": "#",
-    "D": "#",
-    "E": "#",
-    "F": "#",
-    "G": "#",
-    "H": "#",
-    "I": "#",
-    "J": "#"
+  "STYLEING":{
+    "WIDGETS": {
+      "Background": "#24060C",
+      "Foreground": "#80E0EE",
+      "Border": "#",
+      "Accent": "#"
+    }
+  }
+
+  "HIGHLIGHTING": {
+    "STATUS": {
+      "Modified": "#0CCCFF",
+      "Deleted": "#AA1A00",
+      "Added": "#0DDD99",
+      "Probelm/Error": "#FF1F00",
+      "Warning": "#E0FF00",
+      "Info": "#ffee20",
+      "Untracked": "#708090",
+      "Ignored": "#84545A",
+      "": ""
+    },
+
+    "DRAG_N_DROP": {
+      "Background": "#0FF8FF90",
+      "Border": "#0EEEFF",
+      "E": "#"
+    },
+
+    "SYNTAX": {
+      "active": "#0EEEFF",
+      "focus": "#FFFFFF",
+      "B": "#",
+      "C": "#",
+      "D": "#",
+      "E": "#",
+      "": "#",
+      "G": "#",
+      "H": "#",
+      "I": "#",
+      "J": "#"
+    },
+
   }
 }
