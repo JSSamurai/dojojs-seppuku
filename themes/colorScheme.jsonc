@@ -1,0 +1,157 @@
+{
+    "ColorScheme": {
+        "Primary": "Charcoal",
+        "Secondary": "DarkBlue",
+        "Accent": "Bright Yellows & Whites",
+        "Highlight": "BlueCyan"
+    },
+
+    "ColorScheme Pallete": {
+        "Charcoal Pallete": {
+            "Primary": "",
+            "Secondary": "",
+            "Accent": "",
+            "Highlight": ""
+        },
+
+        "Dark-Blue Pallete": {
+            "Primary": "#0C0F1D", //    |> Eeditor BG
+            "Secondary": "#080A18", //  |> ActivityBar BG
+            "Accent": "#322c26", //     |> SideBar SectionHeaders BG
+            "Highlight": ""
+        },
+
+        "YellowSunshine Pallete": {
+            "Primary": "#F4E440",
+            "Secondary": "",
+            "Accent": "",
+            "Highlight": "#FFF999"
+        },
+
+        "BlueCyans Pallete": {
+            "Primary": "#1DDDFF",
+            "Secondary": "#2CCCFF",
+            "Accent": "",
+            "Highlight": "#FFF999"
+        },
+
+        "WhitePallete": {
+            "Primary": "#AAAAAA",
+            "Secondary": "#D4D4DA",
+            "Accent": "",
+            "Highlight": ""
+        }
+    },
+
+    "Background/Foreground/Border Grouping": {
+        "Alt Background": {
+            "Background": "##70FF90",
+            "Foreground": "",
+            "Border": ""
+        },
+
+        "Alt Foreground": "#"
+    },
+    /*
+    
+    
+    
+    <<----------------------------------------------------------------------->>  */
+
+    "Item-Styling": {
+        "Primary Pallete": {
+            "Primary": "",
+            "Secondary": "",
+            "Border": "#FF0A4A"
+        }
+    },
+
+    "Item-Status": {
+        "Editor & Widget Syntax Highlighting ": {
+            "Active": {
+                "Active W/Focus": {
+                    // Interactable item, being interacted with.
+                    "Background": "#",
+                    "Foreground": "#",
+                    "Alt Background": "#",
+                    "Alt Foreground": "#"
+                },
+
+                "Active w/o Focus ": {
+                    // Interactable Item that isn't been interacted with.
+                    "Background": "##70FF90",
+                    "Foreground": "",
+                    "Border": "",
+                    "Alt Background": "#",
+                    "Alt Foreground": "#"
+                },
+
+                "Background": "#",
+                "Foreground": "#",
+                "Alt Background": "#",
+                "Alt Foreground": "#"
+            },
+
+            "Inactive": {
+                "Background": "#",
+                "Foreground": "#",
+                "Alt Background": "#",
+                "Alt Foreground": "#"
+            }
+        },
+
+        "VersionControl Status Colors": {
+            "Added": {
+                "Primary": "#",
+                "Secondary": "#",
+                "Accent": "#",
+                "StagedAdded": "#"
+            },
+
+            "Deleted": {
+                "Primary": "#",
+                "Secondary": "#",
+                "Accent": "#",
+                "StagedDeleted": "#"
+            },
+
+            "Modified": {
+                "Primary": "#",
+                "Secondary": "#",
+                "Accent": "#",
+                "StagedModify": "#"
+            },
+
+            "Version-Merge Highlighting": {
+                "CommonContent": "#",
+                "IncomingContent": "#",
+                "RemovedContent": "#"
+            },
+
+            "NonGrouped-Statuses": {
+                "Ignored": "#6C4850",
+                "Untracked": "#"
+            }
+        },
+
+        "Debugging, Linting & Formatting Status Colors": {
+            "Error/Problem": {
+                "Primary": "#",
+                "Secondary": "#",
+                "Accent": "#"
+            },
+
+            "Warning": {
+                "Primary": "#E0FF00",
+                "Secondary": "#D0EE0D",
+                "Accent": "#"
+            },
+
+            "Info/Lightbulb": {
+                "Primary": "#FFCC40",
+                "Secondary": "#",
+                "Accent": "#"
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+
+  body {
+    width: 100vw;
+    height: auto;
+    background: black;
+    color: red;
+    border: 1px solid red;
+  }
+
+  .cssClass {
+    background: #000000;
+    border: 1px solid #64000F;
+  }
