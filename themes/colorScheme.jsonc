@@ -1,72 +1,106 @@
 {
-    "Styling by Color Grouping": {
-        /*  'Using Ligatures'
-        
-        -> Note: Every part (or item), of/in the editor/workspace is styled, loosley, using one of the custom created Color-Groups bellow as a scheme. The groups are named on whatever I thought was a good representation of the groups primary-color. 
-        
-        --> Example: The ActivityBar uses BlueCarbon. The editor uses DarkCharcoal.
-        
-        */
-        "MoonLight": {
-            "Primary/BG": "#181C28",
-            "Secondary/FG": "#968E40",
-            "Accent/border": "#40DDEE",
-            "Highlight": "#FF005F"
-        },
-
-        // ::|> Editors Color Group 
-        "DarkCharcoal": {
-            "Primary/BG": "#0C0F1D",
-            "Secondary/FG": "#CCC990",
-            "Accent/border": "#EECC40",
-            "Highlight": "#FF005F"
-        },
-
-        //
-        "BlueCarbon (Beta)": {
-            "Primary/BG": "#0A0D1B",
-            "Secondary/FG": "#305F7A",
-            "Accent/border": "#54565C",
-            "Highlight": "#18E2FF"
-        },
-
-        "VaryDark Grouping": {
-            "Primary/BG": "#01061A",
-            "Secondary/FG": "#D4D4DA",
-            "Accent/border": "#2a2924",
-            "Highlight": "#FFF333"
-        },
-        ""
-    }
-
     /* 
- ||> Food 4 Thought: 
-     |> "stati is the latin plural use of status. Status can be used as statuses, in 
-     |> certain use cases, however; according to some dictionaries it would not be 
-     |> appropriate for me to use statuses to replace my current use case where I am 
-     |> useing 'stati'."*/
+    --> Scheme Pallete is somthing I invented (or made up). Instead of creating palletes of colors, I created color schemes, each scheme was made up of the following: 
+        >> primary color
+        >> Secondary Color 
+        >> Accent Color
+        >> And Highlight Color (Often remains the same in each scheme). The
+    I then found that organizing the schemes into a pallete using a custom JSON format was very helpful. I included it in the extentions directory just incase anyone ever decides to open up the directory and do a lil'poking around. I felt if someone were to make custom changes to make the theme customized to there personal needs and prefrences, having the schemes pallete might be of use to theme. If some one wanted to they can change all occurances in the theme dot json file, for one of the colors, and then just change the color in the scheme as well. Much can be change reletivly quick and easy that way.
+    */
 
-    "Editors Stati": {
-        "Problematic/Erroneous": {
-            "Solid": "#FF1F00",
-            "Transparent": "#FF1F003F"
+    /*
+
+            ..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__.. 
+                |> PrevColor: [0E1220]
+                |> PrevColor: [0EE0FF]
+                |> PrevColor: [4E8294]
+                |> PrevColor: [0E1220]      
+            ..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..
+            
+        */
+
+    "SchemePallete": {
+        "DreayBodegaNight": {
+            "ColorCatagory": "Grey~Blue",
+            "HexCode": "#131C2C",
+            "Pallete": {
+                "Primary": "#131C2C",
+                "Secondary": "#1A243A",
+                "Accent": "#CCC438",
+                "Highlight": "#14E4FF"
+            }
         },
-        "Warnings": {
-            "Solid": "#E0FF0E",
-            "Transparent": "#E0FF0E2F"
+
+        "GoldenGateFog": {
+            "ColorCatagory": "Grey~Blue",
+            "ColorHexCode": "#1A243A",
+            "Pallete": {
+                "Primary": "#1A243A",
+                "Secondary": "#131C2C",
+                "Accent": "#8A805C",
+                "Highlights": ["#14E4FF", "#CCC438"]
+            }
         },
-        "Info/Notification": {
-            "Solid": "#A5FF05",
-            "Transparent": "#9FF01F3C"
+
+        "PacificTwilight": {
+            "ColorCatagory": "VeryDarkBlue",
+            "ColorHexCode": "#01061A",
+            "Pallete": {
+                "Primary": "#01061A",
+                "Secondary": "#857550",
+                "Accent": "#101D38",
+                "Highlight": "#40FF00"
+            }
         },
-        "Hint/Autofix": {
-            "Solid": "#FFD818",
-            "Transparent": "#F1CC1F3C"
-        }
+
+        "HighlightColor": {
+            "ColorCatagory": "",
+            "ColorName": "",
+            "ColorHexCode": "#00FF84"
+        },
+
+        "NuetralWhite": "#",
+        "NuetralBlack": "#"
     },
 
-    // |===> Syntactical Highlight Colors used for Version Controll (or by Git).
-    "SyntaxStatusColoring": {
+    "Status/StatusQue Highlighting": {
+        /*
+
+        |> Genral Editor Statuses highlight the following things:
+            <||> Syntax
+            <||> Files
+            <||> Gutter
+            <||> Overview-Ruler
+            <||> Editor
+        
+        |> Version Controll Statuses highlights the following things:
+            <||> Files
+            <||> Gutter
+            <||> Overview-Ruler
+            <||> Editor
+        
+        
+        */
+        "EDITOR-STATUES": {
+            "Erroneous &/or Problematic": {
+                "Solid-Error": "#FF2804",
+                "Solid-Invalid": "#D00D00",
+                "Transparent Err/Nvld": "#FF1F003F"
+            },
+            "Warnings": {
+                "Solid": "#E0FF0E",
+                "Transparent": "#E0FF0E2F"
+            },
+            "Info/Notification": {
+                "Solid": "#A5FF05",
+                "Transparent": "#9FF01F3C"
+            },
+            "Hint/Autofix": {
+                "Solid": "#FFD818",
+                "Transparent": "#F1CC1F3C"
+            }
+        },
+
         "VersionControl": {
             "Modified": "#7DDFFF",
             "Stage-Modify": "#7DDFFF99",
@@ -95,6 +129,8 @@
         }
     },
 
+    "VersionControll Stautus": {},
+
     "SyntaxHighlighting": {
         "Active Selection": {
             "Standard": "#00FFFF",
@@ -106,7 +142,7 @@
         },
         "Inactive W/ Focus": {
             "Standard": "#587899",
-            "Transparent": "#58789980"
+            "Transparent": "#00000064"
         },
         "Inactive w/o Focus": {
             "Standard": "#587899",
@@ -121,4 +157,42 @@
             "Transparent": "#"
         }
     }
+
+    /*
+    "Styling by Color Grouping": {
+        "MoonLight": {
+            "Primary/BG": "#181C28",
+            "Secondary/FG": "#968E40",
+            "Accent/border": "#40DDEE",
+            "Highlight": "#FF005F"
+        },
+
+        // ::|> Editors Color Group
+        "NightSky": {
+            "Primary/BG": "#0C1220",
+            "Secondary/FG": "#CCC999",
+            "Accent/border": "#EECC40",1223332
+            "Highlight": "#FF005F"
+        },
+
+        //
+        "BlueCarbon (Beta)": {
+            "Primary/BG": "#0A0D1B",
+            "Secondary/FG": "#305F7A",
+            "Accent/border": "#54565C",
+            "Highlight": "#18E2FF"
+        },
+
+        "VaryDark Grouping": {
+            "Primary/BG": "#01061A",
+            "Secondary/FG": "#D4D4DA",
+            "Accent/border": "#2a2924",
+            "Highlight": "#FFF333"
+        }
+    },
+
+    
+    // |===> Syntactical Highlight Colors used for Version Controll (or by Git).
+   
+    */
 }
