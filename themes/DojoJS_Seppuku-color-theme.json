@@ -31,9 +31,9 @@
         "editorLightBulbAutoFix.foreground": "#FFEE20",
 
         //  ~|> ActivityBar
-        "activityBar.background": "#040C22",
+        "activityBar.background": "#131C2C", //  *>  PrevColor: ('#061427')
         "activityBar.foreground": "#14E4FF",
-        "activityBar.border": "#000000",
+        "activityBar.border": "#3080BB",
         // Active
         "activityBar.activeFocusBorder": "#FF6C0C",
         "activityBar.activeBackground": "#01000000",
@@ -51,20 +51,20 @@
 
         // |> SideBar
 
-        "sideBar.background": "#1b253d", // -|> PrevColor ['#01061A']
-        "sideBar.border": "#FFC400",
+        "sideBar.background": "#0c1322", // -|> PrevColor ['#1b253d']191915
+        "sideBar.border": "#4090CC",
         "sideBar.dropBackground": "#0FF8FF90",
         "sideBar.foreground": "#CFCFCF",
         // ~|> SideBar: 'SectionHeader'
         "sideBarSectionHeader.background": "#1A243A",
         "sideBarSectionHeader.border": "#000000",
         "sideBarSectionHeader.foreground": "#CCCCCC",
-        "sideBarTitle.foreground": "#FF20CC",
+        "sideBarTitle.foreground": "#D0EE0E",
 
         // |> TitleBar
         "titleBar.activeBackground": "#0A0C14",
         "titleBar.activeForeground": "#92F2F2",
-        "titleBar.border": "#C0C0A0C0",
+        "titleBar.border": "#01000000",
         "titleBar.inactiveBackground": "#52463C",
         "titleBar.inactiveForeground": "#9999AA",
 
@@ -80,19 +80,19 @@
         "tab.unfocusedInactiveBackground": "#1A243A",
         "tab.unfocusedInactiveForeground": "#8A805C",
 
-        "tab.border": "#FFC400",
-        "tab.lastPinnedBorder": "#FFC400",
+        "tab.border": "#4090CC",
+        "tab.lastPinnedBorder": "#4090CC",
 
         "tab.activeBorder": "#1A243A",
-        "tab.activeBorderTop": "#FFC400",
+        "tab.activeBorderTop": "#4090CC",
 
         "tab.unfocusedActiveBorder": "#1A243A",
-        "tab.unfocusedActiveBorderTop": "#FFC400",
+        "tab.unfocusedActiveBorderTop": "#4090CC",
 
-        "tab.activeModifiedBorder": "#FF0088",
-        "tab.inactiveModifiedBorder": "#FF0088",
-        "tab.unfocusedActiveModifiedBorder": "#FF0088",
-        "tab.unfocusedInactiveModifiedBorder": "#FF0088",
+        "tab.activeModifiedBorder": "#4090CC",
+        "tab.inactiveModifiedBorder": "#4090CC",
+        "tab.unfocusedActiveModifiedBorder": "#4090CC",
+        "tab.unfocusedInactiveModifiedBorder": "#4090CC",
 
         "tab.hoverBackground": "#1A243A",
         "tab.hoverForeground": "#0FF0FF",
@@ -108,14 +108,14 @@
         "breadcrumb.focusForeground": "#F2FF2F",
         "breadcrumbPicker.background": "#12131A",
         // ~|> 'EditorTabzGroupz'
-        "editorGroup.border": "#FFC400",
+        "editorGroup.border": "#4090CC",
         "editorGroup.dropBackground": "#00F0FF64",
         "editorGroup.focusedEmptyBorder": "#884DDD",
         "editorGroup.emptyBackground": "#AA4000",
         "editorGroupHeader.border": "#00010C60",
         "editorGroupHeader.noTabsBackground": "#0C0000",
         "editorGroupHeader.tabsBackground": "#08080F",
-        "editorGroupHeader.tabsBorder": "#FFC400",
+        "editorGroupHeader.tabsBorder": "#4090CC",
 
         //   |> Panels
         "panel.background": "#010418",
@@ -125,10 +125,10 @@
         "panelSection.border": "#901018",
         "panelSection.dropBackground": "#00F0FF64",
         "panelSectionHeader.background": "#010418",
-        "panelSectionHeader.border": "#FFC400",
-        "panelSectionHeader.foreground": "#FFC400",
+        "panelSectionHeader.border": "#4090CC",
+        "panelSectionHeader.foreground": "#4090CC",
         "panelTitle.activeBorder": "#FF104F",
-        "panelTitle.activeForeground": "#FFC400",
+        "panelTitle.activeForeground": "#4090CC",
         "panelTitle.inactiveForeground": "#524A64",
 
         //  |> Terminal
@@ -154,7 +154,7 @@
         "terminal.ansiGreen": "#20E820",
         "terminal.ansiMagenta": "#FF00FF",
         "terminal.ansiRed": "#FF2804",
-        "terminal.ansiWhite": "#FFC400",
+        "terminal.ansiWhite": "#4090CC",
         "terminal.ansiYellow": "#FFFF00",
 
         // |> Problems Panel
@@ -163,7 +163,7 @@
         "problemsWarningIcon.foreground": "#E0FF0E",
 
         // |> Minimap
-        "minimap.background": "#0F111B",
+        // "minimap.background": "#0F111B",
         "minimap.errorHighlight": "#FF2804",
         "minimap.findMatchHighlight": "#00A0FF",
         "minimap.selectionHighlight": "#00FFDD",
@@ -174,7 +174,7 @@
         "minimapGutter.deletedBackground": "#B2220B",
         // ~|> MiniMap: 'Slider'
         "minimapSlider.activeBackground": "#00000080",
-        "minimapSlider.background": "#00FFAA30",
+        "minimapSlider.background": "#FF004F40",
         "minimapSlider.hoverBackground": "#00FFAA60",
 
         //   ||> Version Control
@@ -203,7 +203,7 @@
         "merge.border": "#20FFB0A0",
 
         //   ||> OverviewRuler
-        "editorOverviewRuler.background": "#000000",
+        "editorOverviewRuler.background": "#202020",
         "editorOverviewRuler.border": "#202020",
         "editorOverviewRuler.modifiedForeground": "#7DDFFF",
         "editorOverviewRuler.addedForeground": "#80FFAA",
@@ -225,7 +225,7 @@
         "quickInputTitle.background": "#ffffff1b",
 
         "inputOption.activeBackground": "#3c425066",
-        "inputOption.activeForeground": "#FFC400",
+        "inputOption.activeForeground": "#4090CC",
         "inputOption.activeBorder": "#e6b450",
 
         "inputValidation.infoBackground": "#07080B",
@@ -250,7 +250,7 @@
         // ~|> Widgets: 'SuggestWidget'
         "editorSuggestWidget.background": "#1A243A",
         "editorSuggestWidget.foreground": "#C4C4C4",
-        "editorSuggestWidget.border": "#FFC400",
+        "editorSuggestWidget.border": "#4090CC",
         "editorSuggestWidget.highlightForeground": "#FF005F",
         "editorSuggestWidget.selectedBackground": "#00000080",
         // ~|> Widgets: 'HoverWidget'
@@ -325,7 +325,7 @@
         "editor.wordHighlightBackground": "#1F0000",
         "editor.wordHighlightBorder": "#AAAAAA",
         "editor.wordHighlightStrongBackground": "#020204",
-        "editor.wordHighlightStrongBorder": "#FFC400",
+        "editor.wordHighlightStrongBorder": "#4090CC",
 
         "editor.selectionBackground": "#00FFEE2C",
         "editor.selectionForeground": "#0FFFCC",
@@ -339,10 +339,10 @@
         "editorGutter.modifiedBackground": "#0CCCFFAA",
         "editorGutter.deletedBackground": "#B2220B",
 
-        "editorIndentGuide.activeBackground": "#E0FF0080",
-        "editorIndentGuide.background": "#00000080",
-        "tree.indentGuidesStroke": "#E0FF00",
-        "textPreformat.foreground": "#FF00FF", //                   WTF?
+        "editorIndentGuide.activeBackground": "#FFC40080",
+        "editorIndentGuide.background": "#00000054",
+        "tree.indentGuidesStroke": "#FFFFFF50",
+        "textPreformat.foreground": "#61FB01", //                   WTF?
         "editorRuler.foreground": "#0AAAAA10",
 
         "welcomePage.background": "#12141A",
@@ -476,7 +476,7 @@
         "peekView.border": "#FF104F",
         "peekViewEditor.background": "#07080B",
         "peekViewEditor.matchHighlightBackground": "#0C0000",
-        "peekViewEditor.matchHighlightBorder": "#FFC400",
+        "peekViewEditor.matchHighlightBorder": "#4090CC",
         "peekViewEditorGutter.background": "#07080B",
         "peekViewResult.background": "#07080B",
         "peekViewResult.fileForeground": "#202020",
@@ -485,10 +485,10 @@
         "peekViewResult.selectionBackground": "#00F0FF3C",
         "peekViewResult.selectionForeground": "#FFFFFFFF",
         "peekViewTitle.background": "#07080B",
-        "peekViewTitleDescription.foreground": "#FFC400",
-        "peekViewTitleLabel.foreground": "#FFC400",
-        "pickerGroup.border": "#FFC400",
-        "pickerGroup.foreground": "#FFC400",
+        "peekViewTitleDescription.foreground": "#4090CC",
+        "peekViewTitleLabel.foreground": "#4090CC",
+        "pickerGroup.border": "#4090CC",
+        "pickerGroup.foreground": "#4090CC",
 
         "progressBar.background": "#07080B",
 
