@@ -21,42 +21,30 @@
 
     "SchemePallete": {
         "DreayBodegaNight": {
-            "ColorCatagory": "Grey~Blue",
-            "HexCode": "#131C2C",
             "Pallete": {
-                "Primary": "#131C2C",
-                "Secondary": "#1A243A",
-                "Accent": "#CCC438",
-                "Highlight": "#14E4FF"
+                "Primary": ["#131C2C", "#1A243A"],
+                "Secondary": ["#857550", "#285C68"],
+                "Accent": ["#9D8400"],
+                "Highlights": ["#00FFB8", "#00FFFF"]
             }
-        },
-
-        "GoldenGateFog": {
-            "ColorCatagory": "Grey~Blue",
-            "ColorHexCode": "#1A243A",
-            "Pallete": {
-                "Primary": "#1A243A",
-                "Secondary": "#131C2C",
-                "Accent": "#8A805C",
-                "Highlights": ["#14E4FF", "#CCC438"]
-            }
+            // Used For: 'Editor, Tabs, BreadCrumbz'
         },
 
         "PacificTwilight": {
             "ColorCatagory": "VeryDarkBlue",
-            "ColorHexCode": "#01061A",
+            "ColorHexCode": "#0C1322",
             "Pallete": {
-                "Primary": "#01061A",
-                "Secondary": "#857550",
-                "Accent": "#101D38",
+                "Primary": "#0C1322",
+                "Secondary": "#203448",
+                "Accent": ["#CFCFCF"],
                 "Highlight": "#40FF00"
             }
         },
 
-        "HighlightColor": {
+        "": {
             "ColorCatagory": "",
             "ColorName": "",
-            "ColorHexCode": "#00FF84"
+            "ColorHexCode": "#0C1322"
         },
 
         "NuetralWhite": "#",
