@@ -1,79 +1,61 @@
 {
-    /* 
-    --> Scheme Pallete is somthing I invented (or made up). Instead of creating palletes of colors, I created color schemes, each scheme was made up of the following: 
-        >> primary color
-        >> Secondary Color 
-        >> Accent Color
-        >> And Highlight Color (Often remains the same in each scheme). The
-    I then found that organizing the schemes into a pallete using a custom JSON format was very helpful. I included it in the extentions directory just incase anyone ever decides to open up the directory and do a lil'poking around. I felt if someone were to make custom changes to make the theme customized to there personal needs and prefrences, having the schemes pallete might be of use to theme. If some one wanted to they can change all occurances in the theme dot json file, for one of the colors, and then just change the color in the scheme as well. Much can be change reletivly quick and easy that way.
-    */
-
-    /*
-
-            ..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__.. 
-                |> PrevColor: [0E1220]
-                |> PrevColor: [0EE0FF]
-                |> PrevColor: [4E8294]
-                |> PrevColor: [0E1220]      
-            ..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..__..
-            
-        */
-
     "SchemePallete": {
-        "DreayBodegaNight": {
-            "Pallete": {
-                "Primary": ["#131C2C", "#1A243A"],
-                "Secondary": ["#857550", "#285C68"],
-                "Accent": ["#9D8400"],
-                "Highlights": ["#00FFB8", "#00FFFF"]
-            }
-            // Used For: 'Editor, Tabs, BreadCrumbz'
-        },
+        "Primary": ["#0C1322", "#131C2C", "#1A243A", "#203448"],
+        "Secondary": ["#857550", "#285C68"],
+        "Accent": ["#72F4F4", "#1DDEEE", "#FFD210"],
+        "Highlights": ["#2FFFF0", "#00FFCF", "#44F40A", "#64FF00"],
+        "Nuetrals": [
+            "#000000",
+            "#00020A",
+            "#202020",
+            "#808080",
+            "#AAAAAA",
+            "#C4C4C4",
+            "#D4D4D4",
+            "#E4E4E4"
+        ],
 
-        "PacificTwilight": {
-            "ColorCatagory": "VeryDarkBlue",
-            "ColorHexCode": "#0C1322",
-            "Pallete": {
-                "Primary": "#0C1322",
-                "Secondary": "#203448",
-                "Accent": ["#CFCFCF"],
-                "Highlight": "#40FF00"
-            }
-        },
-
-        "": {
-            "ColorCatagory": "",
-            "ColorName": "",
-            "ColorHexCode": "#0C1322"
-        },
-
-        "NuetralWhite": "#",
-        "NuetralBlack": "#"
+        "Misc"
     },
-
-    "Status/StatusQue Highlighting": {
-        /*
-
-        |> Genral Editor Statuses highlight the following things:
-            <||> Syntax
-            <||> Files
-            <||> Gutter
-            <||> Overview-Ruler
-            <||> Editor
-        
-        |> Version Controll Statuses highlights the following things:
-            <||> Files
-            <||> Gutter
-            <||> Overview-Ruler
-            <||> Editor
-        
-        
-        */
-        "EDITOR-STATUES": {
+    "STATUS-HIGHLIGHTING": {
+        "ActivityStatuses": {
+            "Active": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "Active-Focus": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "Inactive": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "Inactive-Focus": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "Focus": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "Invalid": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "G": {
+                "Background": "#",
+                "Foreground": "#"
+            },
+            "H": {
+                "Background": "#",
+                "Foreground": "#"
+            }
+        },
+        "AttentionRequiredStatuses": {
             "Erroneous &/or Problematic": {
-                "Solid-Error": "#FF2804",
-                "Solid-Invalid": "#D00D00",
-                "Transparent Err/Nvld": "#FF1F003F"
+                "Solid": "#FF2804",
+                "Transparent": "#FF1F003F"
             },
             "Warnings": {
                 "Solid": "#E0FF0E",
@@ -88,7 +70,6 @@
                 "Transparent": "#F1CC1F3C"
             }
         },
-
         "VersionControl": {
             "Modified": "#7DDFFF",
             "Stage-Modify": "#7DDFFF99",
@@ -99,7 +80,6 @@
             "Conflict/Problem": "#FF2400",
             "Untracked": "#9F8C75",
             "SubModuleResource": "#8F70BB",
-
             "VersionMerging": {
                 "Common": {
                     "Header": "#DDDDDD34",
@@ -115,72 +95,5 @@
                 }
             }
         }
-    },
-
-    "VersionControll Stautus": {},
-
-    "SyntaxHighlighting": {
-        "Active Selection": {
-            "Standard": "#00FFFF",
-            "Transparent": "#00FFE030"
-        },
-        "Active": {
-            "Standard": "#18E2FF",
-            "Transparent": "#18E2FF38"
-        },
-        "Inactive W/ Focus": {
-            "Standard": "#587899",
-            "Transparent": "#00000064"
-        },
-        "Inactive w/o Focus": {
-            "Standard": "#587899",
-            "Transparent": "#"
-        },
-        "Selection": {
-            "Standard": "#",
-            "Transparent": "#"
-        },
-        "Hover": {
-            "Standard": "#",
-            "Transparent": "#"
-        }
     }
-
-    /*
-    "Styling by Color Grouping": {
-        "MoonLight": {
-            "Primary/BG": "#181C28",
-            "Secondary/FG": "#968E40",
-            "Accent/border": "#40DDEE",
-            "Highlight": "#FF005F"
-        },
-
-        // ::|> Editors Color Group
-        "NightSky": {
-            "Primary/BG": "#0C1220",
-            "Secondary/FG": "#CCC999",
-            "Accent/border": "#EECC40",1223332
-            "Highlight": "#FF005F"
-        },
-
-        //
-        "BlueCarbon (Beta)": {
-            "Primary/BG": "#0A0D1B",
-            "Secondary/FG": "#305F7A",
-            "Accent/border": "#54565C",
-            "Highlight": "#18E2FF"
-        },
-
-        "VaryDark Grouping": {
-            "Primary/BG": "#01061A",
-            "Secondary/FG": "#D4D4DA",
-            "Accent/border": "#2a2924",
-            "Highlight": "#FFF333"
-        }
-    },
-
-    
-    // |===> Syntactical Highlight Colors used for Version Controll (or by Git).
-   
-    */
 }
