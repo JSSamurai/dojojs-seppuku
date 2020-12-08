@@ -88,7 +88,8 @@
         //  *=> WelcomePage SmGroup
         "welcomePage.background": "#12141A",
         "welcomePage.buttonBackground": "#07080B",
-        "welcomePage.buttonHoverBackground": "#00F0FF48",
+        "welcomePage.buttonHoverBackground": "#00F0FF4A",
+
         /*
 
 
