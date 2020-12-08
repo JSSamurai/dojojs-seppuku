@@ -1,29 +1,32 @@
 {
     "PrimaryColors (BG, Alt-FG)": [
-        "#01000000",
-        "#01000000",
-        "#01000000",
-        "#01000000",
+        "#1A243A", // Editor
+        "#13202c", // Acitvity/Tabz/Breadcrumb
+        "#00031C", // Titlebar/StatusBar/Terminal-Panel
+        "#081622", // SideBar/EmptyTabSpace/Integrated-Terminal
         "#01000000"
     ],
     "SecondaryColors (FG, Alt-BG)": [
-        "#01000000",
-        "#01000000",
+        "#0EEEA0",
+        "#00DDD4",
+        "#307C98",
         "#01000000",
         "#01000000",
         "#01000000"
     ],
     "AccentColors (Borders, Titles, Icons, Promanance, Interactive, Alt-Highlight)": [
-        "#01000000",
-        "#01000000",
-        "#01000000",
+        "#20E064",
+        "#F47830",
+        "#FF7014",
+        "#FF680D",
         "#01000000",
         "#01000000"
     ],
     "HighlightColors (Highliting, Promance, Interactive, Alt-Accent)": [
-        "#54FF00", //  *===>  #(54FF00)
-        "#64FFFF", //  *===>  #(64FFFF)
-        "#01000000",
+        "#00FFF0",
+        "#00FF50",
+        "#48FF00",
+
         "#01000000",
         "#01000000"
     ]
