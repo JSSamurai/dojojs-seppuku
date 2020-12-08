@@ -76,7 +76,7 @@
         "tree.indentGuidesStroke": "#FFFFFF50",
 
         //  *=> MENU
-        "menu.background": "#13202c",
+        "menu.background": "#172535",
         "menu.border": "#999012",
         "menu.foreground": "#BBBBBB",
         "menu.selectionBackground": "#0000186F",
@@ -136,8 +136,6 @@
 
         <<~~~~~~~~~~~~~~~~~~( Item Detail~&~Highlight )~~~~~~~~~~~~~~~~~~>>             */
         //     *> ActivityBar Detail
-        "activityBar.activeFocusBorder": "#FFDA00",
-        "activityBar.activeBorder": "#0CFFCC",
 
         //     *> SideBar Detail
         "sideBarSectionHeader.background": "#203448",
@@ -160,13 +158,15 @@
         <<~~~~~~~~~~~~~~~~~~( Synchronized Background )~~~~~~~~~~~~~~~~~~>>             */
         //    *> ALPHA
         "editor.background": "#1A243A",
-        //    *> BETA
-        "activityBar.background": "#13202c",
-        "tab.activeBackground": "#13202c",
-        "tab.inactiveBackground": "#13202c",
-        "breadcrumb.background": "#13202c",
-        "tab.unfocusedActiveBackground": "#13202c",
-        "tab.unfocusedInactiveBackground": "#13202c",
+
+        //    *> Active Beta
+        "activityBar.background": "#172535",
+        "breadcrumb.background": "#172535", //  *|> SavedVal: |'#13202C'|
+        "tab.activeBackground": "#172535",
+        "tab.unfocusedActiveBackground": "#172535",
+        //     *> Inactive Beta
+        "tab.inactiveBackground": "#172535BE",
+        "tab.unfocusedInactiveBackground": "#172535BE",
         //     *> DELTA
         "panel.background": "#00031C",
         "titleBar.activeBackground": "#00031C",
@@ -211,19 +211,17 @@
         "editorGroupHeader.border": "#0D0200",
         "scrollbar.shadow": "#140400",
         "widget.shadow": "#140400",
-        //     *> Deemphasized
-        "window.inactiveBorder": "#FFB080A0",
-        "titleBar.border": "#FFB080A0",
-        "statusBar.border": "#FFB080A0",
-        "activityBar.border": "#FFB080A0",
-        "tab.border": "#FF8030A0",
-        "tab.lastPinnedBorder": "#FF8030A0",
-        //     *> Emphasized
-        "tab.activeModifiedBorder": "#40FF00",
-        "tab.inactiveModifiedBorder": "#40FF00",
-        "tab.unfocusedActiveModifiedBorder": "#40FF00",
-        "tab.unfocusedInactiveModifiedBorder": "#40FF00",
-        "panelTitle.activeBorder": "#48FF00",
+
+        //     *> Emphasized Active
+        "tab.activeModifiedBorder": "#00FF8F",
+        "tab.unfocusedActiveModifiedBorder": "#00FF8F",
+        "panelTitle.activeBorder": "#00FF9A",
+        "activityBar.activeBorder": "#00FF9A",
+
+        //     *> Emphasized Inactive
+        "tab.inactiveModifiedBorder": "#00FFB4A4",
+        "tab.unfocusedInactiveModifiedBorder": "#00FFB4A4",
+
         //     *> Common-Border
         "window.activeBorder": "#FF680D",
         "sideBar.border": "#FF680D",
@@ -234,10 +232,19 @@
         "panelSection.border": "#FF680D",
         "panelInput.border": "#FF680D", // WTF?
         "panelSectionHeader.border": "#FF680D", // WTF?
-        // -->> Hidden
-        "tab.activeBorder": "#13202c", // --->> Hidden
-        "tab.unfocusedActiveBorder": "#13202c", // --->> Hidden
+        "activityBar.activeFocusBorder": "#FF680D",
+        //     *> Common-BorderDeemphasized
+        "window.inactiveBorder": "#FFB080A0",
+        "titleBar.border": "#FFB080A0",
+        "statusBar.border": "#FFB080A0",
+        "activityBar.border": "#FFB080A0",
+        "tab.border": "#FF8030A0",
+        "tab.lastPinnedBorder": "#FF8030A0",
+        // -->> HIDDEN BORDERZ
+        "tab.activeBorder": "#172535", // --->> Hidden
+        "tab.unfocusedActiveBorder": "#172535", // --->> Hidden
         /*
+
 
 
         <<~~~~~~~~~~~~~~~( Sync Hover/Focus Highlighting )~~~~~~~~~~~~~~~>>             */
@@ -247,18 +254,18 @@
         "breadcrumb.focusForeground": "#00FFF0",
         "breadcrumb.activeSelectionForeground": "#00FFF0",
         //     *> Background
-        "tab.unfocusedHoverBackground": "#13202c",
+        "tab.unfocusedHoverBackground": "#172535",
         /*
 
 
         <<~~~~~~~~~~~~~~~( Synchronized Drop Highlighting )~~~~~~~~~~~~~~>>             */
         //     *> Drop~Borders
-        "activityBar.dropBorder": "#48FF00",
-        "panel.dropBorder": "#48FF00",
+        "activityBar.dropBorder": "#00FFC4",
+        "panel.dropBorder": "#00FFC4",
         //     *> Drop~Backgrounds
-        "sideBar.dropBackground": "#48FF00AA",
-        "editorGroup.dropBackground": "#48FF00AA",
-        "panelSection.dropBackground": "#48FF00AA",
+        "sideBar.dropBackground": "#00FFF0C4",
+        "editorGroup.dropBackground": "#00FFF0C4",
+        "panelSection.dropBackground": "#00FFF0C4",
         /*
 
 
@@ -461,7 +468,7 @@
         "editorWidget.resizeBorder": "#01000000",
 
         //     *> Widgets: 'SuggestWidget'
-        "editorSuggestWidget.background": "#13202c",
+        "editorSuggestWidget.background": "#172535",
         "editorSuggestWidget.foreground": "#C4C4C4",
         "editorSuggestWidget.border": "#C4C035B0",
         "editorSuggestWidget.highlightForeground": "#FF005F",
@@ -495,7 +502,7 @@
         "checkbox.border": "#0FFFCC",
         "checkbox.foreground": "#F2FF2F",
         // ~|> Button: 'Dropdown'
-        "dropdown.background": "#13202c",
+        "dropdown.background": "#172535",
         "dropdown.border": "#0FFFCC",
         "dropdown.foreground": "#F2FF2F",
         "dropdown.listBackground": "#12141A",
