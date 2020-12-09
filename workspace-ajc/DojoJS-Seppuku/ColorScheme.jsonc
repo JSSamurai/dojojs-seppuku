@@ -1,33 +1,49 @@
 {
     "PrimaryColors (BG, Alt-FG)": [
-        "#1A243A", // Editor
-        "#13202c", // Acitvity/Tabz/Breadcrumb
-        "#00031C", // Titlebar/StatusBar/Terminal-Panel
-        "#081622", // SideBar/EmptyTabSpace/Integrated-Terminal
-        "#01000000"
+        "#172535", // Mother~Color from which every Primary color was birthed from.
+        "#1C2A40", // Editor
+        "#18243A", // Tabz/Breadcrumb, Alt-Widget-Bg
+        "#0C1A33", // ActivityBar
+        "#081D36", // Widget-Bg
+        "#061827", // SideBar/EmptyTabSpace/Integrated-Terminal
+        "#00031C", // Titlebar/StatusBar/Terminal-Panel/BadgeBG's/OverviewRuler
+
+        "--EMPTY--"
     ],
     "SecondaryColors (FG, Alt-BG)": [
-        "#0EEEA0",
+        "#8FFFF0",
+        "#00FFF0",
         "#00DDD4",
         "#307C98",
-        "#01000000",
-        "#01000000",
-        "#01000000"
+        "#267385", // *>> Often used in an opque form
+        "--EMPTY--",
+        "--EMPTY--"
     ],
     "AccentColors (Borders, Titles, Icons, Promanance, Interactive, Alt-Highlight)": [
-        "#20E064",
+        "#FFB080", // *>> Often used in an opque form
         "#F47830",
-        "#FF7014",
         "#FF680D",
-        "#01000000",
-        "#01000000"
+        "--EMPTY--"
     ],
     "HighlightColors (Highliting, Promance, Interactive, Alt-Accent)": [
-        "#00FFF0",
+        "#0EEEA0",
+        "#20E064",
+        "#00FF64",
         "#00FF50",
         "#48FF00",
+        "#4EEE0E",
+        "--EMPTY--",
+        "--EMPTY--"
+    ],
 
-        "#01000000",
-        "#01000000"
-    ]
+    "StatusScheme": {
+        "Error/Issue/Problem": "#FF2800",
+        "Warning": "#DCFF00",
+        "Info": "#FFD400",
+        "Hint": "#FFF222",
+        "": "#FFFFFF",
+        "": "#FFFFFF",
+        "": "#FFFFFF",
+        "": "#FFFFFF"
+    }
 }
