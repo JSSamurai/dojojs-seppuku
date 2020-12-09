@@ -1,8 +1,8 @@
 {
     "PrimaryColors (BG, Alt-FG)": [
         "#172535", // Mother~Color from which every Primary color was birthed from.
-        "#1C2A40", // Editor
-        "#18243A", // Tabz/Breadcrumb, Alt-Widget-Bg
+        "#112647", // Editor
+        "#102242", // Tabz/Breadcrumb, Alt-Widget-Bg
         "#0C1A33", // ActivityBar
         "#081D36", // Widget-Bg
         "#061827", // SideBar/EmptyTabSpace/Integrated-Terminal
@@ -34,16 +34,5 @@
         "#4EEE0E",
         "--EMPTY--",
         "--EMPTY--"
-    ],
-
-    "StatusScheme": {
-        "Error/Issue/Problem": "#FF2800",
-        "Warning": "#DCFF00",
-        "Info": "#FFD400",
-        "Hint": "#FFF222",
-        "": "#FFFFFF",
-        "": "#FFFFFF",
-        "": "#FFFFFF",
-        "": "#FFFFFF"
-    }
+    ]
 }

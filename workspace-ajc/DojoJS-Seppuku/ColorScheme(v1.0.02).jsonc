@@ -1,0 +1,57 @@
+{
+    "TAB PREVIOUS COLORS": ["#152333", "#102242", "#0d2652"],
+
+    "PrimaryColors (BG, Alt-FG)": [
+        "#172535", // Mother~Color from which every Primary color was birthed from.
+        "#112647", // Editor
+        "#102242", // Tabz/Breadcrumb, Alt-Widget-Bg
+        "#0C1A33", // ActivityBar
+        "#081D36", // Widget-Bg
+        "#061827", // SideBar/EmptyTabSpace/Integrated-Terminal
+        "#00031C", // Titlebar/StatusBar/Terminal-Panel/BadgeBG's/OverviewRuler
+
+        "--EMPTY--"
+    ],
+    "AccentColors": {
+        "Accent-Greens": [
+            "#00FFAA",
+            "#00FF72",
+            "#00FF64",
+            "#00FF72",
+            "#48FF00",
+            "#00FF48",
+            "#0AFF3A",
+            "#00FF20",
+            "#1EE88E" // Used for Syntax/Text
+        ],
+
+        "Accent-Cyans": [
+            "#7FFFEE",
+            "#00FFFF",
+            "#00FFF0",
+            "#3DDDD3", // Used for Syntax/Text
+            "#2CCFFC", // Used for Syntax/Text
+            "#3a92b3", // Used to deemphsize Syntax/Text.
+
+            "#01000000",
+            "#01000000"
+        ]
+    },
+    "StatusScheme": {
+        "Error/Issue/Problem": "#FF2800",
+        "Warning": "#DCFF00",
+        "Info": "#FFD400",
+        "Hint": "#FFF222",
+        "A": "#FFFFFF",
+        "B": "#FFFFFF",
+        "C": "#FFFFFF",
+        "D": "#FFFFFF"
+    },
+
+    "TEXT/SYNTAX_HIGHLIGHTING_SCHEME": {
+        "Selection-Bg": ["#002FFFC4", "#0020DCC4", "#0010AA80"],
+        "Selection-Fg": ["#4EEE0E", "#00FF64", "#0AFF3A"],
+        "Active-Fg": ["#7FFFEE"],
+        "Active-Bg": "#"
+    }
+}
