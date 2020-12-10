@@ -13,65 +13,56 @@
         "editorPane.background": "#302C20",
         "editorWhitespace.foreground": "#FFFFFF",
         "editorLink.activeForeground": "#FFFFFF",
-        "icon.foreground": "#00FF28",
-        "foreground": "#EEEEEE",
+        "icon.foreground": "#00FF2A",
+        "foreground": "#9DD9FF",
         "focusBorder": "#01000000",
-        "contrastBorder": "#08FF34",
-        "selection.background": "#0020DCC4",
-
+        "contrastBorder": "#FF6808",
         /*
 
         
 
-
  
         
-        <<~~~~~~~~~~~~~~~~~~~( Small CompleteGroups )<~~~~~~~~~~~~~~~~~~~>>             */
-        //  *=> ScrollbarSlider
-        "scrollbarSlider.background": "#FFFFFFCC",
-        "scrollbarSlider.activeBackground": "#00FF50",
-        "scrollbarSlider.hoverBackground": "#FFFFFF70",
+        <<~~~~~~~~~~~~~~~~~~~( Small CompleteGroups )<~~~~~~~~~~~~~~~~~~~>>                    */
+        //  *=> Scroll~Bar Slider --------------------------
+        "scrollbarSlider.background": "#64FF00A8",
+        "scrollbarSlider.activeBackground": "#64FF0040",
+        "scrollbarSlider.hoverBackground": "#64FF00",
 
-        //  *=> Badge ('Activity')
-        "activityBarBadge.background": "#000000", // -->> Hidden
-        "activityBarBadge.foreground": "#FFFFFF",
+        //  *=> Badge --------------------------------------
+        //      *>> Background
+        "badge.background": "#040709",
+        "activityBarBadge.background": "#040709",
+        //      *>> Foreground
+        "activityBarBadge.foreground": "#48FF00",
+        "badge.foreground": "#48FF00",
 
-        //  *=> Badge ('Sidebar/Widgets')
-        "badge.background": "#000000", // -->> Hidden
-        "badge.foreground": "#FFFFFF",
-
-        //  *=> SearchEditor
+        //  *=> SearchEditor -------------------------------
         "searchEditor.findMatchBackground": "#00FFF01C",
         "searchEditor.findMatchBorder": "#00FFF0",
         "searchEditor.textInputBorder": "#00FF72",
 
-        //  *=> UnnecessaryCode
+        //  *=> UnnecessaryCode ----------------------------
         "editorUnnecessaryCode.border": "#000000FF",
         "editorUnnecessaryCode.opacity": "#000000BB",
 
-        //  *=> Line Highlight & Line Numbers
+        //  *=> Line Highlight & Line Numbers --------------
         "editor.lineHighlightBackground": "#0000284C",
         "editor.lineHighlightBorder": "#000018",
         "editorLineNumber.activeForeground": "#00FF64",
         "editorLineNumber.foreground": "#1064DD",
 
-        //  *=> Cursor Color
+        //  *=> Cursor Color -------------------------------
         "editorCursor.background": "#FFFFFF",
         "editorCursor.foreground": "#AA20FF",
-        //  *=> Gutter Highlighting
-        "editorGutter.background": "#00000015",
-        "editorGutter.foldingControlForeground": "#00FF20",
-        "editorGutter.addedBackground": "#0FFFCCAA",
-        "editorGutter.modifiedBackground": "#0CCCFFAA",
-        "editorGutter.deletedBackground": "#B2220B",
 
-        //  *=>  Indent~Guidez
+        //  *=>  Indent~Guidez -----------------------------
         "editorIndentGuide.activeBackground": "#00FFF0",
         "editorIndentGuide.background": "#000000",
         "tree.indentGuidesStroke": "#FFFFFF50",
 
-        //  *=> Menu
-        "menu.background": "#092442",
+        //  *=> Menu ---------------------------------------
+        "menu.background": "#052644",
         "menu.border": "#00FF72",
         "menu.foreground": "#6CCCC4",
         "menu.selectionBackground": "#001424",
@@ -79,10 +70,10 @@
         "menu.selectionBorder": "#FF7014",
         "menu.separatorBackground": "#00FFF0",
 
-        //  *=> Menubar
+        //  *=> Menubar ------------------------------------
         "menubar.selectionForeground": "#FFFFFF",
 
-        //  *=> WelcomePG
+        //  *=> WelcomePG ----------------------------------
         "welcomePage.background": "#1A243A",
         "welcomePage.buttonBackground": "#061827",
         "welcomePage.buttonHoverBackground": "#FFFFFF",
@@ -106,127 +97,181 @@
         "editor.symbolHighlightBackground": "#EE00EE", //               Wtf?
         "editor.symbolHighlightBorder": "#EE00EE", //                   Wtf?
         "textPreformat.foreground": "#EE00EE", //                       WTF?
-
         /*
+
+
 
 
         <<~~~~~~~~~~~~~~~~~~~~( FOUND PROPERTY's EFFECT )~~~~~~~~~~~~~~~~~~~~~>>                 */
         /* 
         
         "selection.background": "#FF000",
-        
+
         So far I found that this setting highlights text in input when selection the text with a curser. Its the same type of selection used to 
         Copy~&~Paste Text, however, the property only works in input elements, specificly text-boxes. Though I havn't seen it, I know its effect has to reach outside of text-inputs alone. My guess is based on how genralized its naming is, notice its not a input property, but rather a selection property?!
 
+        //     *>>  Status
+        
+        
+        
+        
+        * Cordination
+        * Conformity
+        * Synchronize
+        * Harmonize
+        * Cordination
+
+        
 
 
-
-
-
-        <<~~~~~~~~~~~~~~~~~~( Status-Que Groups/Items )~~~~~~~~~~~~~~~~~~>>             */
-        //     *> Problem Icon(s)
-        "problemsErrorIcon.foreground": "#FF2800",
-        "problemsInfoIcon.foreground": "#A5FF05",
+    <<~~~~~~~~~~~~~~~~~~( Editor~Status Color~Conformity )~~~~~~~~~~~~~~~~~~>>             */
+        //     *>> Error/Problem/Issue
+        "problemsErrorIcon.foreground": "#FF0444",
+        "editorError.foreground": "#FF0444",
+        "editorError.border": "#FF0444",
+        "errorForeground": "#FF0444",
+        "list.errorForeground": "#FF0444",
+        "gitDecoration.conflictingResourceForeground": "#FF0444",
+        "editorOverviewRuler.errorForeground": "#FF0444",
+        "minimap.errorHighlight": "#FF0444",
+        "list.invalidItemForeground": "#FF0444",
+        //     *>>  Warning
+        "minimap.warningHighlight": "#DCFF00",
+        "list.warningForeground": "#DCFF00",
         "problemsWarningIcon.foreground": "#DCFF00",
-        //     *> Error
-        "editorError.foreground": "#FF2800",
-        "editorError.border": "#FF2800",
-        "errorForeground": "#FF2800",
-        //     *>  Warning
-        "editorWarning.border": "#DFFF00",
-        "editorWarning.foreground": "#DFFF00",
-        //     *>  Info
-        "editorInfo.border": "#FFD400",
-        "editorInfo.foreground": "#FFD400",
-        //     *>  Hint
-        "editorHint.foreground": "#EEFF64",
-        "editorHint.border": "#00FF72",
-        //     *>  Lightbulb
-        "editorLightBulb.foreground": "#FFEE20",
-        "editorLightBulbAutoFix.foreground": "#FFEE20",
+        "editorWarning.border": "#DCFF00",
+        "editorWarning.foreground": "#DCFF00",
+        "editorOverviewRuler.warningForeground": "#DCFF00",
+        //     *>>  Info
+        "problemsInfoIcon.foreground": "#FFD820",
+        "editorInfo.border": "#FFD820",
+        "editorInfo.foreground": "#FFD820",
+        "editorOverviewRuler.infoForeground": "#FFD820",
+        //     *>>  Hint
+        "editorHint.foreground": "#FFEE0F",
+        "editorHint.border": "#FFEE0F",
+        //     *>>  Lightbulb/AutoFix
+        "editorLightBulbAutoFix.foreground": "#FFFF0F",
+        "editorLightBulb.foreground": "#FFFF0F",
+        //     *>> Added Resource
+        "editorOverviewRuler.addedForeground": "#00D444",
+        "gitDecoration.addedResourceForeground": "#00D444",
+        "minimapGutter.addedBackground": "#00D444",
+        "editorGutter.addedBackground": "#0FFFCCAA",
+        //     *>> Modified Resource
+        "editorOverviewRuler.modifiedForeground": "#399FFF",
+        "minimapGutter.modifiedBackground": "#399FFF",
+        "gitDecoration.modifiedResourceForeground": "#399FFF",
+        "gitDecoration.stageModifiedResourceForeground": "#00AFFF",
+        "editorGutter.modifiedBackground": "#0CCCFFAA",
 
-        //     *> GitDecoration
-        "gitDecoration.modifiedResourceForeground": "#7DDFFF",
-        "gitDecoration.deletedResourceForeground": "#C5555C",
-        "gitDecoration.stageModifiedResourceForeground": "#7DDFFF99",
-        "gitDecoration.stageDeletedResourceForeground": "#C5555C99",
-        "gitDecoration.addedResourceForeground": "#7CFFC7",
-        "gitDecoration.conflictingResourceForeground": "#FF2800",
-        "gitDecoration.ignoredResourceForeground": "#485672",
-        "gitDecoration.untrackedResourceForeground": "#9F8C75",
-        "gitDecoration.submoduleResourceForeground": "#8F70BB",
+        //     *>> Deleted
+        "editorOverviewRuler.deletedForeground": "#C43C30",
+        "minimapGutter.deletedBackground": "#C43C30",
+        "gitDecoration.deletedResourceForeground": "#C43C30",
+        "editorGutter.deletedBackground": "#B2220B",
+        "gitDecoration.stageDeletedResourceForeground": "#D22200",
 
-        // ~|> VerCtrl: 'Version Merging'
+        //     *>> Untracked Resource
+        "gitDecoration.untrackedResourceForeground": "#DD78BB",
+
+        //     *>> Ignored Resource-/-Deemphasized
+        "list.deemphasizedForeground": "#9F8050",
+        "gitDecoration.ignoredResourceForeground": "#9F8050",
+
+        //     *>> Common Content
+        "editorOverviewRuler.commonContentForeground": "#BBBBBBE0",
         "merge.commonHeaderBackground": "#DDDDDD3C",
         "merge.commonContentBackground": "#DDDDDD1E",
+
+        //     *>> Current Content
+        "editorOverviewRuler.currentContentForeground": "#20B0FFE0",
         "merge.currentHeaderBackground": "#20B0FF64",
         "merge.currentContentBackground": "#20B0FF3C",
+
+        //     *>> Incoming Content
+        "editorOverviewRuler.incomingContentForeground": "#20FFB0E0",
         "merge.incomingHeaderBackground": "#20FFB050",
         "merge.incomingContentBackground": "#20FFB030",
         "merge.border": "#20FFB0A0",
+        /*
 
-        //     *> OverviewRuler Item-Style & Status~Highlighting
-        "editorOverviewRuler.background": "#141414",
-        "editorOverviewRuler.border": "#00FF80",
-        "editorOverviewRuler.modifiedForeground": "#7DDFFF",
-        "editorOverviewRuler.addedForeground": "#80FFAA",
-        "editorOverviewRuler.warningForeground": "#DCFF00",
-        "editorOverviewRuler.errorForeground": "#FF2800",
-        "editorOverviewRuler.deletedForeground": "#B2220B",
-        "editorOverviewRuler.commonContentForeground": "#BBBBBBE0",
-        "editorOverviewRuler.currentContentForeground": "#20B0FFE0",
-        "editorOverviewRuler.incomingContentForeground": "#20FFB0E0",
+        PENDING CONFORMITIZATION
+
+        
+
+        "minimap.findMatchHighlight": "#00A0FF",
+        "gitDecoration.submoduleResourceForeground": "#8F70BB",
+
+        // ~|> VerCtrl: 'Version Merging'
+       
+
+        
+
+        
+
         "editorOverviewRuler.selectionHighlightForeground": "#FFFFFF",
         "editorOverviewRuler.bracketMatchForeground": "#ee00ee",
         "editorOverviewRuler.findMatchForeground": "#ee00ee",
-        "editorOverviewRuler.infoForeground": "#ee00ee",
+        
         "editorOverviewRuler.wordHighlightStrongForeground": "#ee00ee",
         "editorOverviewRuler.rangeHighlightForeground": "#ee00ee",
         "editorOverviewRuler.wordHighlightForeground": "#ee00ee",
+
+*/
+
         /*
 
-
-        <<~~~~~~~~~~~~~~~~~~( Item Detail~&~Highlight )~~~~~~~~~~~~~~~~~~>>             */
-        //     *> ActivityBar Detail
-
-        //     *> SideBar Detail
-        "sideBarSectionHeader.background": "#203448",
-        "sideBarSectionHeader.border": "#000000",
+Y
+        <<~~~~~~~~~~~~~~~~~~( Item Detail~&~Highlight )~~~~~~~~~~~~~~~~~~>>                    */
+        /*
+        *=>  SideBar Detail
+            +> Note: SidebarSectionHeader dot border & foreground are seperated from the conformitiaiation of other properties, becuase they are being used to try an give the section headers a 3d rounded look, and there values need to be customized to the needs of the 3d rounded effect that I hope looks good when all is said n done.
+                                                                                               */
+        "sideBarSectionHeader.border": "#1a579190",
         "sideBarSectionHeader.foreground": "#CCCCCC",
 
-        //     *> Tab/Breadcrumb/Editor~Group Detail
+        //     *>> Tab/Breadcrumb/Editor~Group Detail
         "breadcrumbPicker.background": "#12131A",
         "editorGroup.focusedEmptyBorder": "#884DDD",
         "editorGroup.emptyBackground": "#08164C",
-        //     *> StatusBar Details
+        //     *>> StatusBar Details
         "statusBarItem.prominentForeground": "#FFF400",
         "statusBar.debuggingBackground": "#800F30",
         "statusBar.debuggingForeground": "#533DD8",
         "statusBar.noFolderBackground": "#07080B",
         "statusBarItem.activeBackground": "#40FFFF1C",
+        //     *>> Editor-Gutter Details
+        "editorGutter.background": "#00000015",
+        "editorGutter.foldingControlForeground": "#00FF20",
         /*
 
 
         <<~~~~~~~~~~~~~~~~~~( Synchronized Background )~~~~~~~~~~~~~~~~~~>>             */
-        //    *> Primary
-        "editor.background": "#05182C",
-        //    *> Secondary
-        "breadcrumb.background": "#092442",
-        "tab.activeBackground": "#092442",
-        "tab.unfocusedActiveBackground": "#092442",
-        //     *> Secondary Inactive
-        "tab.inactiveBackground": "#092442",
-        "tab.unfocusedInactiveBackground": "#092442",
-        //     *>  Secondary Alt-A
-        "activityBar.background": "#092442",
-        //     *> Secondary Alt-B
-        "sideBar.background": "#08162c",
-        "editorGroupHeader.tabsBackground": "#08162c",
-        //     *> Bar Bg Color, titlebar, statusBar, terminal-Header/Panel
+        //    *>> Primary
+        "editor.background": "#0A1D36",
+        //     *>> Primary Alt
+        "sideBar.background": "#05152A",
+        "editorGroupHeader.tabsBackground": "#05152A",
+
+        //    *>> Secondary
+        "breadcrumb.background": "#052644",
+        "tab.activeBackground": "#052644",
+        "tab.unfocusedActiveBackground": "#052644",
+        "tab.inactiveBackground": "#052644",
+        "tab.unfocusedInactiveBackground": "#052644",
+        "activityBar.background": "#052644",
+        "editorHoverWidget.statusBarBackground": "#052644",
+
+        //     *>> Secondary Alt
+        "sideBarSectionHeader.background": "#052644",
+
+        //     *>> Bar Bg Color, titlebar, statusBar, terminal-Header/Panel
         "panel.background": "#00031E",
         "titleBar.activeBackground": "#00031E",
         "statusBar.background": "#00031E",
-        //     *> Inactive Bar Bg color
+        "editorOverviewRuler.background": "#00031E",
+        //     *>> Inactive Bar Bg color
         "titleBar.inactiveBackground": "#181810",
         "editorGroupHeader.noTabsBackground": "#181810",
         /*
@@ -237,28 +282,28 @@
         
 
         <<~~~~~~~~~~~~~~~~~~( Synchronized Foreground )~~~~~~~~~~~~~~~~~~>>             */
-        //     *> FG Selected
+        //     *>> FG Selected
         "sideBarTitle.foreground": "#08FF34",
         "activityBar.foreground": "#08FF34",
         "panelTitle.activeForeground": "#08FF34",
 
-        //     *> FG Active
+        //     *>> FG Active
         "tab.activeForeground": "#7FFFEE",
         "statusBar.foreground": "#7FFFEE",
 
-        // *> FG PlainText
+        // *>> FG PlainText
         "tab.unfocusedActiveForeground": "#B2B2B2",
         "editor.foreground": "#B2B2B2",
         "titleBar.activeForeground": "#B2B2B2",
         "sideBar.foreground": "#B2B2B2",
 
-        //  *>  Fg Inactive
+        //  *>>  Fg Inactive
         "breadcrumb.foreground": "#3a92b3",
         "tab.inactiveForeground": "#3a92b3",
         "tab.unfocusedInactiveForeground": "#3a92b3", //  *|> SavedVal: |'#2C788F'|
         "panelTitle.inactiveForeground": "#3a92b3",
 
-        //  *>  Fg Inactive-Alt &/or Deemphasized
+        //  *>>  Fg Inactive-Alt &/or Deemphasized
         "activityBar.inactiveForeground": "#3a92b3",
         "titleBar.inactiveForeground": "#3a92b3",
         /*
@@ -266,78 +311,135 @@
  
 
         <<~~~~~~~~~~~~~~~~~( Synchronized Border~Group )~~~~~~~~~~~~~~~~~>>             */
-        //     *> Shadowing
+        //     *>> Shadowing
         "editorGroupHeader.border": "#0D0200",
         "scrollbar.shadow": "#140400",
         "widget.shadow": "#140400",
 
-        //     *> Emphasized Active
-        "tab.activeModifiedBorder": "#00FF8F",
-        "tab.unfocusedActiveModifiedBorder": "#00FF8F",
-        "panelTitle.activeBorder": "#00FF9A",
-        "activityBar.activeBorder": "#00FF9A",
-        "activityBar.activeFocusBorder": "#FFFFFF",
+        //     *>> Emphasized Active
+        "tab.activeModifiedBorder": "#00FF30",
+        "tab.unfocusedActiveModifiedBorder": "#00FF30",
+        "panelTitle.activeBorder": "#00FF30",
+        "activityBar.activeBorder": "#00FF30",
+        "activityBar.activeFocusBorder": "#00FF30",
 
-        //     *> Emphasized Inactive
+        //     *>> Emphasized Inactive
         "tab.inactiveModifiedBorder": "#00FFB4A4",
         "tab.unfocusedInactiveModifiedBorder": "#00FFB4A4",
 
-        //     *> Common-Border
-        "window.activeBorder": "#00FF72",
-        "sideBar.border": "#00FF72",
-        "editorGroup.border": "#00FF72",
-        "tab.activeBorderTop": "#00FF72",
-        "editorGroupHeader.tabsBorder": "#00FF72",
-        "panel.border": "#00FF72",
-        "panelSection.border": "#00FF72",
-        "panelInput.border": "#00FF72", // WTF?
-        "panelSectionHeader.border": "#00FF72", // WTF?
-        "activityBar.border": "#00FF72",
+        //     *>> Common-Border
+        "window.activeBorder": "#FF6A0C",
+        "sideBar.border": "#FF6A0C",
+        "editorGroup.border": "#FF6A0C",
+        "editorOverviewRuler.border": "#FF6A0C",
+        "tab.activeBorderTop": "#FF6A0C",
+        "tab.unfocusedActiveBorderTop": "#FF6A0C",
+        "editorGroupHeader.tabsBorder": "#FF6A0C",
+        "panel.border": "#FF6A0C",
+        "panelSection.border": "#FF6A0C",
+        "panelInput.border": "#FF6A0C", // WTF?
+        "panelSectionHeader.border": "#FF6A0C", // WTF?
+        "activityBar.border": "#FF6A0C",
 
-        //     *> Common-BorderDeemphasized
-        "window.inactiveBorder": "#FFB080A0",
-        "titleBar.border": "#FFB080A0",
-        "statusBar.border": "#FFB080A0",
+        //     *>> Common-BorderDeemphasized
+        "window.inactiveBorder": "#FF8040AA",
+        "titleBar.border": "#FF8040AA",
+        "statusBar.border": "#FF8040AA",
+        "tab.border": "#FF6A0CAA",
+        "tab.lastPinnedBorder": "#FF6A0CAA",
+        //     *>> Alternate-Border
 
-        "tab.border": "#FF8030A0",
-        "tab.lastPinnedBorder": "#FF8030A0",
         // -->> HIDDEN BORDERZ
-        "tab.activeBorder": "#092442", // --->> Hidden
-        "tab.unfocusedActiveBorder": "#092442", // --->> Hidden
-        /*                                092442
+        "tab.activeBorder": "#052644", // --->> Hidden
+        "tab.unfocusedActiveBorder": "#052644", // --->> Hidden
+        /*                                052644
 
 
         <<~~~~~~~~~~~~~~~( Sync Hover/Focus Highlighting )~~~~~~~~~~~~~~~>>             */
-        //     *> Foreground
+        //     *>> Foreground
         "tab.hoverForeground": "#00FFF0",
         "tab.unfocusedHoverForeground": "#00FFF0",
         "breadcrumb.focusForeground": "#00FFF0",
         "breadcrumb.activeSelectionForeground": "#00FFF0",
-        //     *> Background
-        "tab.unfocusedHoverBackground": "#092442",
+        //     *>> Background
+        "tab.unfocusedHoverBackground": "#052644",
         /*
 
 
+
         <<~~~~~~~~~~~~~~~( Synchronized Drop Highlighting )~~~~~~~~~~~~~~>>             */
-        //     *> Drop~Borders
+        //     *>> Drop~Borders
         "activityBar.dropBorder": "#00FFC4",
         "panel.dropBorder": "#00FFC4",
-        //     *> Drop~Backgrounds
+
+        //     *>> Drop~Backgrounds
         "sideBar.dropBackground": "#00FFF0C4",
         "editorGroup.dropBackground": "#00FFF0C4",
         "panelSection.dropBackground": "#00FFF0C4",
         /*
 
 
+
+
         <<~~~~~~~~~~~~( Synchronized Selection Highlighting )~~~~~~~~~~~~>>             */
         "terminal.selectionBackground": "#00FFF064",
         "minimap.selectionHighlight": "#00FFF040",
-
         /*
 
 
-        <<~~~~~~~~~~~~~~~~~~~~( Editor Highlighting )~~~~~~~~~~~~~~~~~~~~>>             */
-        //     *> Find Match Highlighting
+        //     *>> Widgets: 'HoverWidget'
+
+
+
+        <<~~~~~~~~~~~~~~~~~~( Sync Text Highlighting )~~~~~~~~~~~~~~~~~~~>>                 */
+        //    *=> |BACKGROUND~GROUPS|------------------------->
+        //    *>> Common
+        "editorHoverWidget.background": "#051030",
+        "editorWidget.background": "#051030",
+        "quickInput.background": "#051030",
+        "editorSuggestWidget.background": "#020E27",
+        //     *>> Text-Highlight Background
+        "list.focusBackground": "#0010C478",
+        "selection.background": "#0020DCC4",
+        "quickInputTitle.background": "#0020FF88", //     WTF?
+
+        //     *>> TextInput Items
+        "input.background": "#121315",
+
+        //  *=> |FOREGROUND~GROUPS|------------------------->
+        //     *>> Highlighted
+        "input.foreground": "#3FF00F",
+        //     *>> Emphasized
+        "list.focusForeground": "#F0FFFF",
+        "editorHoverWidget.foreground": "#DDDDDD",
+        "editorSuggestWidget.highlightForeground": "#E4E4E4",
+
+        //     *>> Common
+        "quickInput.foreground": "#C4CCCC",
+        "editorWidget.foreground": "#C4CCCC",
+        "editorSuggestWidget.foreground": "#B2B2B2",
+        //     *>> De-emphasized
+        "input.placeholderForeground": "#6C6864",
+
+        //  *=> |BORDER~GROUPS|----------------------------->
+        //     *>> Common
+        "editorHoverWidget.border": "#48FF00",
+        "editorWidget.border": "#C47838",
+
+        "editorSuggestWidget.border": "#C47838",
+        //     *>> Demphasized
+        "input.border": "#FF803040",
+
+        // <<-----|OMITTED|-------------------------------->>
+        "editorWidget.resizeBorder": "#01000000", //    -->> Ommited: 'opacity = 1.0'
+        /*
+
+
+
+
+
+        <<~~~~~~~~~~~~~~~~~~~~( Sync Editor Highlighting )~~~~~~~~~~~~~~~~~~~~>>             */
+        //     *>> Find Match Highlighting
         "editor.findMatchBackground": "#000000",
         "editor.findMatchBorder": "#FFFF6C",
         "editor.findMatchHighlightBackground": "#00AAFF10",
@@ -346,54 +448,47 @@
         "editor.rangeHighlightBackground": "#10121A",
         "editor.findRangeHighlightBackground": "#40DFFF0E",
         "editor.findRangeHighlightBorder": "#01000000",
-
-        //     *> BracketMatch
+        //     *>> BracketMatch
         "editorBracketMatch.background": "#0FFFAA60",
         "editorBracketMatch.border": "#0FFFBB",
-
-        //     *> Word Highlighting
+        //     *>> Word Highlighting
         "editor.wordHighlightBackground": "#1F0000",
         "editor.wordHighlightBorder": "#AAAAAA",
         "editor.wordHighlightStrongBackground": "#020204",
         "editor.wordHighlightStrongBorder": "#C4C035B0",
-        //     *> Selection Highlighting
+        //     *>> Selection Highlighting
         "editor.selectionBackground": "#00FFEE2C",
         "editor.selectionForeground": "#0FFFCC",
         "editor.inactiveSelectionBackground": "#DDDDDD40",
         "editor.selectionHighlightBackground": "#000000",
         "editor.selectionHighlightBorder": "#0FFFCC",
+
+        "editorSuggestWidget.selectedBackground": "#0000B490",
         /*
-        <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>
-        
-        
-
+        <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>
+        .._______________________________________________________________..
+                
+            ==>  <|[ LARGE COMPLETE GROUPZ ]|>  <== 
 
         .._______________________________________________________________..
-        =>                 <|[ LARGE COMPLETE GROUPZ ]|>                
-        .._______________________________________________________________..
+        <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>                     */
 
-
-
-
-        <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>>            */
         //  *=> SETTINGS-MENU GROUP
-        //     *> Status Highlighting
+        //     *>> Status Highlighting
         "settings.modifiedItemIndicator": "#FFFFFF",
-        //     *> Background
+        //     *>> Background
         "settings.focusedRowBackground": "#061827",
         "settings.dropdownBackground": "#091828",
         "settings.checkboxBackground": "#091828",
         "settings.textInputBackground": "#091828",
         "settings.numberInputBackground": "#091828",
-
-        //     *> Foreground
+        //     *>> Foreground
         "settings.dropdownForeground": "#80FFE0",
         "settings.checkboxForeground": "#80FFE0",
         "settings.textInputForeground": "#80FFE0",
         "settings.numberInputForeground": "#80FFE0",
         "settings.headerForeground": "#0CD4C4",
-
-        //     *> Border
+        //     *>> Border
         "settings.dropdownBorder": "#56FFE0",
         "settings.checkboxBorder": "#56FFE0",
         "settings.textInputBorder": "#56FFE0",
@@ -404,11 +499,10 @@
         "terminal.background": "#061827",
         "terminal.border": "#00FF72",
         "terminal.foreground": "#DDDDDD",
-
-        // *> Terminal: 'Cursor'
+        //     *>> Terminal: 'Cursor'
         "terminalCursor.foreground": "#FFFFFF",
         "terminalCursor.background": "#FFFFFF",
-        // *> Terminal: 'Syntax'
+        //     *>> Terminal: 'Syntax'
         "terminal.ansiBlack": "#242424",
         "terminal.ansiBlue": "#45A5FF",
         "terminal.ansiBrightBlack": "#404040",
@@ -422,138 +516,101 @@
         "terminal.ansiCyan": "#3CCCCC",
         "terminal.ansiGreen": "#3CC444",
         "terminal.ansiMagenta": "#DA40A8",
-        "terminal.ansiRed": "#FF2800",
+        "terminal.ansiRed": "#FF0444",
         "terminal.ansiWhite": "#C4C4C4",
         "terminal.ansiYellow": "#D8C444",
 
         //  *=> MINIMAP
-        "minimap.errorHighlight": "#FF2800",
-        "minimap.findMatchHighlight": "#00A0FF",
-
-        "minimap.warningHighlight": "#DCFF00",
         // --->> "minimap.background": "#0F111B",    <|| DISABLED ||>
         // ~|> MiniMap: 'Gutter'
-        "minimapGutter.modifiedBackground": "#7DDFFF",
-        "minimapGutter.addedBackground": "#0FFF80",
-        "minimapGutter.deletedBackground": "#B2220B",
+
         // ~|> MiniMap: 'Slider'
         "minimapSlider.activeBackground": "#FFFFFF0A",
         "minimapSlider.background": "#00FFE056",
         "minimapSlider.hoverBackground": "#00FFE09F",
 
         //  *=> LIST
-        "list.focusBackground": "#000000",
-        "list.focusForeground": "#08FF34",
-        //     *> Active
+        //     *>> Active
         "list.activeSelectionBackground": "#0A000088",
         "list.activeSelectionForeground": "#00FF6F",
-        //     *> Inactive
+        //     *>> Inactive
         "list.inactiveSelectionBackground": "#FFFFFF30",
         "list.inactiveSelectionForeground": "#7290C4",
         "list.inactiveFocusBackground": "#FFFFFF00",
-        //     *>  Status
-        "list.errorForeground": "#FF2800",
-        "list.invalidItemForeground": "#D00D00",
-        "list.warningForeground": "#DCFF00",
-        "list.deemphasizedForeground": "#FF1F80",
-        //     *> Highlighting/Misc
-        "list.highlightForeground": "#FF5864",
-        "list.filterMatchBackground": "#80ffcc",
-        "list.filterMatchBorder": "#0000FF",
-        //     *> Hover
+        //     *>> Hover
         "list.hoverBackground": "#FFFF4040",
-        "list.hoverForeground": "#DFFF00",
+        "list.hoverForeground": "#DCFF00",
         "list.dropBackground": "#0DDDFF",
-
-        //  *=>  INPUT
-        "input.background": "#0A0A0A",
-        "input.foreground": "#4EEE0E",
-        "input.border": "#4EEE0E64",
-        "input.placeholderForeground": "#90FFF064",
-
-        "quickInput.background": "#000C24",
-        "quickInput.foreground": "#8FFFF0",
-        "quickInputTitle.background": "#4EEE0E", //     WTF?
-
+        //     *>> Highlighting/Misc
+        "list.highlightForeground": "#00FF30",
+        "list.filterMatchBackground": "#00FF6080",
+        "list.filterMatchBorder": "#FFFFFF80",
+        //     *>> Active
         "inputOption.activeBackground": "#000000",
         "inputOption.activeForeground": "#4EEE0E",
         "inputOption.activeBorder": "#4EEE0E",
-
+        //     *>> Info
         "inputValidation.infoBackground": "#000624",
         "inputValidation.infoForeground": "#FFEE20",
         "inputValidation.infoBorder": "#FFEE20",
-
+        //     *>> Error
         "inputValidation.errorBackground": "#121212",
-        "inputValidation.errorForeground": "#FF2800",
-        "inputValidation.errorBorder": "#FF2800",
-
+        "inputValidation.errorForeground": "#FF0444",
+        "inputValidation.errorBorder": "#FF0444",
+        //     *>>  Warning
         "inputValidation.warningBackground": "#280000",
         "inputValidation.warningForeground": "#E0FF00",
         "inputValidation.warningBorder": "#E0FF00",
 
-        //  *=> Widgets:
-        "editorWidget.background": "#020E27", //  *|> SavedVal: |'132e44'|
-        "editorWidget.foreground": "#DDDDDD",
-        "editorWidget.border": "#01000000",
-        "editorWidget.resizeBorder": "#01000000",
-
-        //     *> Widgets: 'SuggestWidget'
-        "editorSuggestWidget.background": "#020E27", //  *|> SavedVal: |'04182A'|
-        "editorSuggestWidget.foreground": "#B2B2B2",
-        "editorSuggestWidget.border": "#48FF00",
-        "editorSuggestWidget.highlightForeground": "#0AFF3A",
-        "editorSuggestWidget.selectedBackground": "#0010AA80",
-
-        //     *> Widgets: 'HoverWidget'
-        "editorHoverWidget.background": "#020E27",
-        "editorHoverWidget.foreground": "#DDDDDD",
-        "editorHoverWidget.border": "#48FF00",
-        "editorHoverWidget.statusBarBackground": "#203448",
-
-        //     *> Widgets: 'DebugExceptionWidget'
+        //  *=>  Widgets: 'DebugExceptionWidget'
         "debugExceptionWidget.background": "#2E2E34",
         "debugExceptionWidget.border": "#806850",
 
-        //     *> ListFilterWidget
+        //  *=>  ListFilterWidget
         "listFilterWidget.background": "#2E2E34",
         "listFilterWidget.noMatchesOutline": "#806850",
         "listFilterWidget.outline": "#00FFCC",
+        /*
 
-        // |> Button
+
+        <<~~~~~~~~~~~~~~~~~~~~( Button )~~~~~~~~~~~~~~~~~~~~>>                                 */
         "button.background": "#07080B",
         "button.foreground": "#F2FF2F",
         "button.hoverBackground": "#00F0FF48",
         "button.secondaryBackground": "#07080B",
         "button.secondaryForeground": "#FF1040",
         "button.secondaryHoverBackground": "#FF104044",
-
-        // ~|> Button: 'ExtentionButton'
+        //     *>> Button: 'ExtentionButton'
         "extensionButton.prominentBackground": "#000000",
         "extensionButton.prominentForeground": "#80FFE0",
         "extensionButton.prominentHoverBackground": "#008090",
-
-        // ~|> Button: 'Checkbox'
+        //     *>> Button: 'Checkbox'
         "checkbox.background": "#020204",
         "checkbox.border": "#0FFFCC",
         "checkbox.foreground": "#F2FF2F",
-
-        // ~|> Button: 'Dropdown'
-        "dropdown.background": "#092442",
+        //     *>> Button: 'Dropdown'
+        "dropdown.background": "#052644",
         "dropdown.border": "#00FF72",
         "dropdown.foreground": "#00FF64",
         "dropdown.listBackground": "#12141A",
 
         "editor.stackFrameHighlightBackground": "#0FFFF0",
 
-        // |> DebugToolBar
+        /*
+
+
+        <<~~~~~~~~~~~~~~~~~~~~( DebugToolBar )~~~~~~~~~~~~~~~~~~~~>>                           */
         "debugToolBar.border": "#FFFFFF",
         "debugToolBar.background": "#EE00EE",
-        "debugConsole.errorForeground": "#FF2800",
+        "debugConsole.errorForeground": "#FF0444",
         "debugConsole.infoForeground": "#75beff",
         "debugConsole.sourceForeground": "#80FFE0",
         "debugConsole.warningForeground": "#DCFF00",
         "debugConsoleInputIcon.foreground": "#FF8080",
+        /*
 
+
+        <<~~~~~~~~~~~~~~~~~~~~( Marker~Nav )~~~~~~~~~~~~~~~~~~~~>>                             */
         "editorMarkerNavigationError.background": "#FF1F003C",
         "editorMarkerNavigationWarning.background": "#E0FF0E2F",
         "editorMarkerNavigationInfo.background": "#A5FF053C",
@@ -567,7 +624,7 @@
         "notifications.background": "#FFEE1460",
         "notifications.border": "#FFEE20",
         "notifications.foreground": "#FFEE20",
-        "notificationsErrorIcon.foreground": "#FF2800",
+        "notificationsErrorIcon.foreground": "#FF0444",
         "notificationsInfoIcon.foreground": "#FFEE20",
         "notificationsWarningIcon.foreground": "#DCFF00",
         "peekView.border": "#FF104F",
@@ -1028,7 +1085,7 @@
     {
       "scope": ["message.error"],
       "settings": {
-        "foreground": "#FF2800",
+        "foreground": "#FF0444",
         "fontStyle": ""
       }
     }

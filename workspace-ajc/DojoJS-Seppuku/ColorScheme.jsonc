@@ -1,38 +1,60 @@
 {
-    "PrimaryColors (BG, Alt-FG)": [
+    "BgColors (BG, Alt-FG)": [
         "#172535", // Mother~Color from which every Primary color was birthed from.
         "#112647", // Editor
         "#102242", // Tabz/Breadcrumb, Alt-Widget-Bg
         "#0C1A33", // ActivityBar
         "#081D36", // Widget-Bg
         "#061827", // SideBar/EmptyTabSpace/Integrated-Terminal
-        "#00031C", // Titlebar/StatusBar/Terminal-Panel/BadgeBG's/OverviewRuler
+        "#00031C" // Titlebar/StatusBar/Terminal-Panel/BadgeBG's/OverviewRuler
+    ],
 
-        "--EMPTY--"
+    "BorderColors": [
+        "#FF8020",
+        "#FF7C1E",
+        "#FF781C",
+        "#F4741A",
+        "#FF7018",
+        "#FF6C0E",
+        "#FF680C",
+        "#FF640A",
+        "#FF6008",
+        "#FF5804",
+        "#FF5402",
+        "#FF5000"
     ],
-    "SecondaryColors (FG, Alt-BG)": [
-        "#8FFFF0",
-        "#00FFF0",
-        "#00DDD4",
-        "#307C98",
-        "#267385", // *>> Often used in an opque form
-        "--EMPTY--",
-        "--EMPTY--"
-    ],
-    "AccentColors (Borders, Titles, Icons, Promanance, Interactive, Alt-Highlight)": [
-        "#FFB080", // *>> Often used in an opque form
-        "#F47830",
-        "#FF680D",
-        "--EMPTY--"
-    ],
-    "HighlightColors (Highliting, Promance, Interactive, Alt-Accent)": [
-        "#0EEEA0",
-        "#20E064",
-        "#00FF64",
+
+    "HighlightColors": [
+        "#2484FF",
+        "#3292FF",
+        "#00A0FF",
+        "#10A4FF",
+        "#20A8FF",
+        "#30ACFF",
+        "#10B4FF",
+        "#20C4FF",
+        "#30D4FF",
+        "#40E4FF",
+        "#50EEFF",
+        "#60F8FF",
+        "#80FCFF",
+        "#A0FFFF",
+        "#80FFFC",
+        "#60FFFF",
+        "#50FFF0",
+        "#40FFE0",
+        "#30FFD0",
+        "#20FFC0",
+        "#10FFB0",
+        "#10FFA0",
+        "#00FF80",
+        "#00FF60",
         "#00FF50",
+        "#00FF40",
+        "#00FF30",
+        "#00FF00",
+        "#34FF00",
         "#48FF00",
-        "#4EEE0E",
-        "--EMPTY--",
-        "--EMPTY--"
+        "#64FF00"
     ]
 }

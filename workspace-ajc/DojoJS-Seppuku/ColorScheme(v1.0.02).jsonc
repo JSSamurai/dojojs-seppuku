@@ -38,14 +38,12 @@
         ]
     },
     "StatusScheme": {
-        "Error/Issue/Problem": "#FF2800",
-        "Warning": "#DCFF00",
-        "Info": "#FFD400",
-        "Hint": "#FFF222",
-        "A": "#FFFFFF",
-        "B": "#FFFFFF",
-        "C": "#FFFFFF",
-        "D": "#FFFFFF"
+        "Error/Issue/Problem": "#FF0444",
+        "Warning": "#D8FF12",
+        "Info": "#FFD820",
+        "Hint": "#FFEE0F",
+        "AutoFix": "#FFC400",
+        "LightBulb": "#FFFF00"
     },
 
     "TEXT/SYNTAX_HIGHLIGHTING_SCHEME": {
@@ -53,5 +51,13 @@
         "Selection-Fg": ["#4EEE0E", "#00FF64", "#0AFF3A"],
         "Active-Fg": ["#7FFFEE"],
         "Active-Bg": "#"
+    },
+
+    "SEARCH/MATCH_HIGHLIGHTING": {
+        "Match-Strong": "#",
+        "Match-Syntax": "#",
+        "Match-SearchCriteria": "#",
+        "Match-Bracket": "#",
+        "Search-Returned-False": "#"
     }
 }
