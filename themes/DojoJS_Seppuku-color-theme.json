@@ -274,31 +274,59 @@
 
 
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
-        //    <==> Primary-Color
-        "editor.background": "#150b29",
-        //    <==> Primary Alt
-        "sideBar.background": "#1b1131",
+        //  |ALPHA| BACKGROUND
+        "editor.background": "#181228",
 
-        //    ---> Secondary
-        "breadcrumb.background": "#062028",
-        "tab.activeBackground": "#062028",
-        "tab.unfocusedActiveBackground": "#062028",
-        "tab.inactiveBackground": "#062028",
-        "tab.unfocusedInactiveBackground": "#062028",
-        //    ---> Secondary Alt
-        "sideBarSectionHeader.background": "#04171E",
-        "activityBar.background": "#04171E",
+        //  |BETA| Color-Scheme
+        "tab.border": "#328EEE4C",
+        "tab.lastPinnedBorder": "#328EEE4C",
+        "titleBar.border": "#328EEE70",
+        "editorGroupHeader.tabsBorder": "#328EEE70",
 
-        //    ~~>>  Accent
-        "panel.background": "#0E021C",
-        "titleBar.activeBackground": "#0E021C",
-        "statusBar.background": "#0E021C",
-        "editorOverviewRuler.background": "#0E021C",
-        "debugToolBar.background": "#0E021C",
-        //    ~~>> Accent Alt
+        "tab.activeBackground": "#102040",
+        "tab.inactiveBackground": "#102040",
+        "tab.activeForeground": "#20F0FF",
+        // "tab.activeBorderTop": "#328EEE",
+        // "tab.activeBorder": "#328EEE",
+        "tab.inactiveModifiedBorder": "#0090A0",
+
+        "tab.inactiveForeground": "#5070A0",
+        "tab.activeModifiedBorder": "#0090A0",
+
+        //  |DELTA| Color-Scheme
+        "tab.unfocusedActiveBackground": "#400024",
+        "tab.unfocusedInactiveBackground": "#400024C4",
+        "tab.unfocusedActiveForeground": "#FF32A4",
+        "tab.unfocusedActiveBorderTop": "#FF32A4",
+        "tab.unfocusedActiveBorder": "#FF32A4",
+        "tab.unfocusedActiveModifiedBorder": "#FF32A4",
+        "tab.unfocusedInactiveForeground": "#9F2070",
+        "tab.unfocusedInactiveModifiedBorder": "#9F2070",
+
+        //  |GAMMA|
+        "tab.hoverBackground": "#042024",
+        "tab.unfocusedHoverBackground": "#00001C28",
+        "tab.unfocusedHoverBorder": "#00FFE0",
+        "tab.hoverBorder": "#00FFE0",
+
+        //  |EPSILON|
+        "sideBar.background": "#1A1630",
+
+        //  |ZETA|
+        "sideBarSectionHeader.background": "#020A24",
+        "activityBar.background": "#020A24",
+        "titleBar.activeBackground": "#020A24",
+        "statusBar.background": "#020A24",
+
+        "panel.background": "#140626",
+        "editorOverviewRuler.background": "#140626",
+        "debugToolBar.background": "#140626",
+        "breadcrumb.background": "#140626",
+
+        //  |THETA|
         "editorGroupHeader.tabsBackground": "#00060C",
 
-        //    *==>>  Deemphasize
+        //    ~~>> Inactive
         "titleBar.inactiveBackground": "#333320",
         "editorGroupHeader.noTabsBackground": "#333320",
         /*
@@ -311,22 +339,19 @@
         "breadcrumb.focusForeground": "#00FFEE",
 
         //    *==>> Foreground: Active-Title-Scheme Conformity
-        "tab.activeForeground": "#1CCCFF",
+
         "sideBarTitle.foreground": "#1CCCFF",
         "panelTitle.activeForeground": "#1CCCFF",
 
         //    <==>> FG Active
-
         "statusBar.foreground": "#DDDDDD",
         //    <==>> FG PlainText'
         "titleBar.activeForeground": "#C4C4C4",
-        "tab.unfocusedActiveForeground": "#C4C4C4",
+
         "editor.foreground": "#C4C4C4",
         "sideBar.foreground": "#C4C4C4",
         //    <==>>  Fg Inactive
-        "breadcrumb.foreground": "#5070A0",
-        "tab.inactiveForeground": "#5070A0",
-        "tab.unfocusedInactiveForeground": "#5070A0",
+        "breadcrumb.foreground": "#148F98",
         "panelTitle.inactiveForeground": "#5070A0",
         //    <==>>  Fg Inactive-Alt &/or Deemphasized
         "activityBar.inactiveForeground": "#5070A0",
@@ -337,44 +362,34 @@
 
         <<~~~~~~~~~~~~~~~~~~~~~~~~( BORDER-CONFORMITY )~~~~~~~~~~~~~~~~~~~~~~~>>               */
         //    <==>> Shadowing
-        "editorGroupHeader.border": "#201800A0",
-        "scrollbar.shadow": "#201800",
-        "widget.shadow": "#201800",
+        "editorGroupHeader.border": "#000000",
+        "scrollbar.shadow": "#000000",
+        "widget.shadow": "#000000",
 
         //    <==>> Emphasized Active
-        "tab.activeModifiedBorder": "#2BBFFF",
-        "tab.unfocusedActiveModifiedBorder": "#2BBFFF",
         "panelTitle.activeBorder": "#2BBFFF",
         "activityBar.activeBorder": "#2BBFFF",
         "activityBar.activeFocusBorder": "#2BBFFF",
-        "tab.inactiveModifiedBorder": "#2BBFFF",
-        "tab.unfocusedInactiveModifiedBorder": "#2BBFFF",
 
         //    <==>> Common-Border
         "window.activeBorder": "#777780",
-        "sideBar.border": "#777780",
-        "editorGroup.border": "#777780",
-        "editorOverviewRuler.border": "#777780",
-        "tab.activeBorderTop": "#777780",
-        "tab.unfocusedActiveBorderTop": "#777780",
-        "editorGroupHeader.tabsBorder": "#777780",
+        "sideBar.border": "#328EEE70",
+        "editorGroup.border": "#328EEE70",
+        "editorOverviewRuler.border": "#328EEE70",
+
         "panel.border": "#777780",
         "panelSection.border": "#777780",
-        "panelInput.border": "#777780", // WTF?
-        "panelSectionHeader.border": "#777780", // WTF?
+        "panelInput.border": "#777780",
+        "panelSectionHeader.border": "#777780",
         "activityBar.border": "#777780",
         "debugToolBar.border": "#777780",
         "statusBar.border": "#777780",
 
         //    <==>> Deemphasized/Inactive
         "window.inactiveBorder": "#404040",
-        "titleBar.border": "#404040",
-        "tab.border": "#404040",
-        "tab.lastPinnedBorder": "#404040",
 
         // -*==>> HIDDEN BORDERZ
-        "tab.activeBorder": "#042024", // --*==>> Hidden
-        "tab.unfocusedActiveBorder": "#042024", // --*==>> Hidden
+
         /*                                042024
 
 
@@ -406,11 +421,7 @@
         "statusBarItem.prominentHoverBackground": "#ff0000",
 
         // <==> EditorTabGroups Tabs & BreadcrumbBar
-        "tab.hoverBackground": "#042024",
-        "tab.unfocusedHoverBackground": "#00001C28",
 
-        "tab.unfocusedHoverBorder": "#ff0000",
-        "tab.hoverBorder": "#ff0000",
         "breadcrumb.activeSelectionForeground": "#52FF00",
 
         // <==> Sliderz
@@ -466,10 +477,6 @@
         "listFilterWidget.background": "#2E2E34",
         "listFilterWidget.noMatchesOutline": "#806850",
         "listFilterWidget.outline": "#00FFCC",
-
-
-
-        <<~~~~~~~~~~~~~~~( COLOR~S333333333333333333333333333333333333333333333333333333333333333333333333333q3q.
         CHEME: 'Text-Highlighting' )~~~~~~~~~~~~~~~~>>               */
         //    <==> |BACKGROUND~GROUPS|------------------------->
         //    <==>> Common
@@ -477,19 +484,22 @@
         //    <==>> Text-Highlight Background
         "list.focusBackground": "#0010C478",
         "selection.background": "#0020DCC4",
+        //      <==>> TextInput Items
 
-        //    <==>> TextInput Items
+        //      <==> |FOREGROUND~GROUPS|------------------------->
 
-        //  <==> |FOREGROUND~GROUPS|------------------------->
-        //    <==>> Highlighted
+        //      <==>> Highlighted
         "input.foreground": "#3FF00F",
+
         //    <==>> Emphasized
         "list.focusForeground": "#F0FFFF",
         "editorSuggestWidget.highlightForeground": "#E4E4E4",
+
         //    <==>> Common
         "quickInput.foreground": "#C4CCCC",
         "editorWidget.foreground": "#C4CCCC",
         "editorSuggestWidget.foreground": "#D4D4D4",
+
         //    <==>> De-emphasized
         "input.placeholderForeground": "#6C6864",
 
@@ -665,7 +675,7 @@
             "name": "PUNCTUATION & BRACES",
             "scope": ["punctuation", "meta.brace"],
             "settings": {
-                "foreground": "#64F0FF",
+                "foreground": "#ADFFC4",
                 "fontStyle": ""
             }
         },
@@ -683,7 +693,7 @@
             "name": "COMMENT",
             "scope": ["comment"],
             "settings": {
-                "foreground": "#556080",
+                "foreground": "#406A90",
                 "fontStyle": "italic"
             }
         },
@@ -692,7 +702,7 @@
             "name": "OBJECT LITERAL",
             "scope": ["metact-literal.key.js", "support.type.property-name.json"],
             "settings": {
-                "foreground": "#4098FF",
+                "foreground": "#AA88FF",
                 "fontStyle": ""
             }
         },
@@ -701,7 +711,7 @@
             "name": "OBJECT LITERAL",
             "scope": ["string.quoted.double.json"],
             "settings": {
-                "foreground": "#C4C4CF",
+                "foreground": "#C2C2C2",
                 "fontStyle": ""
             }
         },
