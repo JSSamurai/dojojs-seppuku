@@ -7,14 +7,17 @@
 
 
         <<~~~~~~~~~~~~~~~~( Singular Properties )~~~~~~~~~~~~~~~~>>                           */
-        "editorRuler.foreground": "#FFFFFF07",
-        "editor.foldBackground": "#000F3040",
+        "focusBorder": "#01000000",
+        "editorRuler.foreground": "#00FF0010",
+        "editor.foldBackground": "#20FF000A",
         "editorPane.background": "#302C20",
         "editorWhitespace.foreground": "#FFFFFF",
         "editorLink.activeForeground": "#FFFFFF",
-        "foreground": "#00FFE8",
-        "focusBorder": "#01000000",
+
         "contrastBorder": "#00C0FF",
+        "foreground": "#0FFFE0",
+        "debugConsoleInputIcon.foreground": "#00F0FF",
+        "icon.foreground": "#00FF2A",
         /*
 
 
@@ -90,14 +93,6 @@
         "textPreformat.foreground": "#EE00EE", //                       WTF?
         /*
 
-
-
-        <<~~~~~~~~~~~~~~~~~~~~( Icon-Coloration Conformity )~~~~~~~~~~~~~~~~~~~~>>             */
-        "debugConsoleInputIcon.foreground": "#00F0FF",
-        "icon.foreground": "#00F0FF",
-        /*
-        
-        
 
         <<~~~~~~~~~~~~~~~~~~( Status-Coloration Conformity  )~~~~~~~~~~~~~~~~~~>>              
         
@@ -278,36 +273,20 @@
         "editor.background": "#181228",
 
         //  |BETA| Color-Scheme
-        "tab.border": "#328EEE4C",
-        "tab.lastPinnedBorder": "#328EEE4C",
-        "titleBar.border": "#328EEE70",
-        "editorGroupHeader.tabsBorder": "#328EEE70",
 
-        "tab.activeBackground": "#102040",
+        "tab.activeBackground": "#12244A",
         "tab.inactiveBackground": "#102040",
-        "tab.activeForeground": "#20F0FF",
-        // "tab.activeBorderTop": "#328EEE",
-        // "tab.activeBorder": "#328EEE",
-        "tab.inactiveModifiedBorder": "#0090A0",
+        "tab.unfocusedActiveBackground": "#12244A",
+        "tab.unfocusedInactiveBackground": "#102040",
 
-        "tab.inactiveForeground": "#5070A0",
-        "tab.activeModifiedBorder": "#0090A0",
+        "tab.unfocusedActiveForeground": "#0CCCFF",
+        "tab.activeForeground": "#0CCCFF",
+        "tab.inactiveForeground": "#4E72AA",
+        "tab.unfocusedInactiveForeground": "#4E72AA",
 
         //  |DELTA| Color-Scheme
-        "tab.unfocusedActiveBackground": "#400024",
-        "tab.unfocusedInactiveBackground": "#400024C4",
-        "tab.unfocusedActiveForeground": "#FF32A4",
-        "tab.unfocusedActiveBorderTop": "#FF32A4",
-        "tab.unfocusedActiveBorder": "#FF32A4",
-        "tab.unfocusedActiveModifiedBorder": "#FF32A4",
-        "tab.unfocusedInactiveForeground": "#9F2070",
-        "tab.unfocusedInactiveModifiedBorder": "#9F2070",
 
         //  |GAMMA|
-        "tab.hoverBackground": "#042024",
-        "tab.unfocusedHoverBackground": "#00001C28",
-        "tab.unfocusedHoverBorder": "#00FFE0",
-        "tab.hoverBorder": "#00FFE0",
 
         //  |EPSILON|
         "sideBar.background": "#1A1630",
@@ -318,10 +297,10 @@
         "titleBar.activeBackground": "#020A24",
         "statusBar.background": "#020A24",
 
-        "panel.background": "#140626",
-        "editorOverviewRuler.background": "#140626",
-        "debugToolBar.background": "#140626",
-        "breadcrumb.background": "#140626",
+        "panel.background": "#16052D",
+        "editorOverviewRuler.background": "#16052D",
+        "debugToolBar.background": "#16052D",
+        "breadcrumb.background": "#16052D",
 
         //  |THETA|
         "editorGroupHeader.tabsBackground": "#00060C",
@@ -333,10 +312,6 @@
 
         <<~~~~~~~~~~~~~~~~~~~~~~( FOREGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~~~~>>               */
         //    *==>> Foreground: Hover-Highlight-Scheme Conformity
-        "activityBar.foreground": "#00FFEE",
-        "tab.hoverForeground": "#00FFEE",
-        "tab.unfocusedHoverForeground": "#00FFEE",
-        "breadcrumb.focusForeground": "#00FFEE",
 
         //    *==>> Foreground: Active-Title-Scheme Conformity
 
@@ -361,15 +336,32 @@
  
 
         <<~~~~~~~~~~~~~~~~~~~~~~~~( BORDER-CONFORMITY )~~~~~~~~~~~~~~~~~~~~~~~>>               */
-        //    <==>> Shadowing
+        //    <==> Shadowing
         "editorGroupHeader.border": "#000000",
         "scrollbar.shadow": "#000000",
         "widget.shadow": "#000000",
 
-        //    <==>> Emphasized Active
+        // <==> Common Border Color
+        "tab.border": "#00A0FF50",
+        "tab.lastPinnedBorder": "#00A0FF40",
+        "titleBar.border": "#00A0FF40",
+        "editorGroupHeader.tabsBorder": "#00A0FF50",
+
+        // <==> Emphasized Border Color
         "panelTitle.activeBorder": "#2BBFFF",
         "activityBar.activeBorder": "#2BBFFF",
         "activityBar.activeFocusBorder": "#2BBFFF",
+
+        "tab.activeBorder": "#40FFE0",
+        "tab.unfocusedActiveBorder": "#80FFE0",
+
+        "tab.activeModifiedBorder": "#AA00ff",
+        "tab.inactiveModifiedBorder": "#AA00ff",
+        "tab.unfocusedActiveModifiedBorder": "#AA00ff",
+        "tab.unfocusedInactiveModifiedBorder": "#AA00ff",
+
+        // / "tab.activeBorderTop": "#01000000",
+        // / "tab.unfocusedActiveBorderTop": "#01000000",
 
         //    <==>> Common-Border
         "window.activeBorder": "#777780",
@@ -394,6 +386,17 @@
 
 
         <<~~~~~~~~~~~~~~~( Hover Highlighting )~~~~~~~~~~~~~~~>>                               */
+        // <==> Common Hover Color (Foreground/Border)
+        "tab.unfocusedHoverBorder": "#00FFD0",
+        "tab.hoverBorder": "#00FFD0",
+        "activityBar.foreground": "#00FFD0",
+        "breadcrumb.focusForeground": "#00FFD0",
+        "tab.unfocusedHoverForeground": "#00FFD0",
+        "tab.hoverForeground": "#00FFD0",
+
+        // <==> Common Hover Color (Background)
+        "tab.hoverBackground": "#102040A0",
+        "tab.unfocusedHoverBackground": "#102040A0",
 
         // <==> Editor Hover Settings
         "editor.hoverHighlightBackground": "#FFFF0028",
@@ -421,13 +424,11 @@
         "statusBarItem.prominentHoverBackground": "#ff0000",
 
         // <==> EditorTabGroups Tabs & BreadcrumbBar
-
         "breadcrumb.activeSelectionForeground": "#52FF00",
 
         // <==> Sliderz
         "scrollbarSlider.hoverBackground": "#30FF0040",
         "minimapSlider.hoverBackground": "#30FF0040",
-
         /*
 
 
