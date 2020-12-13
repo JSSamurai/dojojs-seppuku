@@ -15,15 +15,16 @@
         "editorWhitespace.foreground": "#FFFFFF",
         "editorLink.activeForeground": "#FFFFFF",
 
-        "contrastBorder": "#FFFFFF",
-        "foreground": "#FFFFFF",
+        "contrastBorder": "#000000",
+
+        "foreground": "#20C400",
         /*
 
 
         <<~~~~~~~~~~~~~~~~~~~~( Icon~Properties Group )~~~~~~~~~~~~~~~~~~~~>>                */
-        "editorGutter.foldingControlForeground": "#FFFFFF",
-        "debugConsoleInputIcon.foreground": "#FFFFFF",
-        "icon.foreground": "#FFFFFF",
+        "editorGutter.foldingControlForeground": "#FF2080",
+        "debugConsoleInputIcon.foreground": "#FF004F",
+        "icon.foreground": "#FF004F",
         /*
 
 
@@ -52,10 +53,10 @@
         "editorUnnecessaryCode.opacity": "#000000BB",
 
         //  <===> Line Highlight & Line Numbers --------------
-        "editor.lineHighlightBackground": "#FFFFFF06",
-        "editor.lineHighlightBorder": "#0000003F",
-        "editorLineNumber.foreground": "#901818",
-        "editorLineNumber.activeForeground": "#FFFFFF",
+        "editor.lineHighlightBackground": "#00000024",
+        "editor.lineHighlightBorder": "#000000",
+        "editorLineNumber.foreground": "#2070DD",
+        "editorLineNumber.activeForeground": "#40FF00",
 
         //  <===> Cursor Color -------------------------------
         "editorCursor.background": "#FFFFFF",
@@ -193,6 +194,7 @@
         "merge.incomingContentBackground": "#20FFB030",
         /*
 
+
         <===>      -> Miscellenous (A single Status-Property, or a pair of Status-Properties) */
         //      --> Deemphasize
         "list.deemphasizedForeground": "#345678",
@@ -272,28 +274,30 @@
 
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
         // <==> Primary Background
-        "editor.background": "#181C25",
-        "editorGutter.background": "#1A1A1A",
+        "editor.background": "#101420",
+        "editorGutter.background": "#101420", // ~~>> Omitted
 
         // <==> Primary Alternative
-        "sideBar.background": "#14161E",
+        "sideBar.background": "#080A18",
         "editorGroupHeader.tabsBackground": "#081014",
 
         // <==> Accent - (ALPHA)
-        "tab.activeBackground": "#202020",
-        "tab.inactiveBackground": "#202020",
-        "tab.unfocusedActiveBackground": "#202020",
-        "tab.unfocusedInactiveBackground": "#202020",
-        "activityBar.background": "#080C16",
-        "editorOverviewRuler.background": "#101010",
+        "tab.activeBackground": "#101420",
+        "tab.inactiveBackground": "#101420",
+        "tab.unfocusedActiveBackground": "#101420",
+        "tab.unfocusedInactiveBackground": "#101420",
+        "activityBar.background": "#101424",
+        "editorOverviewRuler.background": "#000010",
 
         // <==> Accent (BETA)
-        "sideBarSectionHeader.background": "#101010",
-        "titleBar.activeBackground": "#040812",
-        "statusBar.background": "#101010",
-        "panel.background": "#101010",
-        "debugToolBar.background": "#101010",
-        "breadcrumb.background": "#300000",
+        "sideBarSectionHeader.background": "#090E24",
+
+        "panel.background": "#090E24",
+        "debugToolBar.background": "#090E24",
+        "breadcrumb.background": "#090E24",
+        // <==>
+        "titleBar.activeBackground": "#040E38",
+        "statusBar.background": "#040E38",
 
         // -> Inactive
         "titleBar.inactiveBackground": "#333320",
@@ -303,7 +307,7 @@
 
         <<~~~~~~~~~~~~~~~~~( GROUPS PENDING DECONSTRUCTION )~~~~~~~~~~~~~~~~~~>>               */
 
-        "sideBarSectionHeader.border": "#FFFFFFA0",
+        "sideBarSectionHeader.border": "#1AAA00",
 
         /*
 
@@ -317,7 +321,7 @@
 
         <<~~~~~~~~~~~~~~~~~~~~~~( FOREGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~~~~>>               */
         //    *==>> Foreground Emphasized
-        "statusBar.foreground": "#BBBBBB",
+        "statusBar.foreground": "#D8D8D8",
         "sideBarTitle.foreground": "#BBBBBB",
         "tab.unfocusedActiveForeground": "#CCCCCC",
         "tab.activeForeground": "#CCCCCC",
@@ -330,9 +334,9 @@
 
         //    *==>> Foreground De-emphasizedR
 
-        "breadcrumb.foreground": "#A0A0A0",
+        "breadcrumb.foreground": "#506888",
         "panelTitle.inactiveForeground": "#BBBBBB",
-        "activityBar.inactiveForeground": "#BBBBBB",
+        "activityBar.inactiveForeground": "#524F40",
         "titleBar.inactiveForeground": "#BBBBBB",
 
         "tab.inactiveForeground": "#707880",
@@ -350,17 +354,17 @@
 
         // |ALPHA| Border: Common
 
-        "sideBar.border": "#585859",
-        "editorGroup.border": "#585859",
-        "editorOverviewRuler.border": "#585859",
-        "window.activeBorder": "#585859",
-        "panel.border": "#585859",
-        "panelSection.border": "#585859",
-        "panelInput.border": "#585859",
-        "panelSectionHeader.border": "#585859",
-        "activityBar.border": "#585859",
-        "debugToolBar.border": "#585859",
-        "statusBar.border": "#585859",
+        "sideBar.border": "#010100",
+        "editorGroup.border": "#010100",
+        "editorOverviewRuler.border": "#010100",
+        "window.activeBorder": "#010100",
+        "panel.border": "#010100",
+        "panelSection.border": "#010100",
+        "panelInput.border": "#010100",
+        "panelSectionHeader.border": "#010100",
+        "activityBar.border": "#010100",
+        "debugToolBar.border": "#010100",
+        "statusBar.border": "#010100",
 
         // |BETA| Border: Active
         "panelTitle.activeBorder": "#999999",
@@ -376,11 +380,11 @@
         "tab.unfocusedInactiveModifiedBorder": "#999999",
 
         // |GAMMA| Border: Deemphasized
-        "titleBar.border": "#808081",
+        "titleBar.border": "#000000",
         "window.inactiveBorder": "#404040",
-        "tab.border": "#585859",
-        "tab.lastPinnedBorder": "#585859",
-        "editorGroupHeader.tabsBorder": "#808081",
+        "tab.border": "#010100",
+        "tab.lastPinnedBorder": "#010100",
+        "editorGroupHeader.tabsBorder": "#0CC440",
 
         //  |EPSILON| Border: HIDDEN BORDERZ
         // "tab.activeBorder": "#9FFFFF",
@@ -393,13 +397,13 @@
         "editorHoverWidget.border": "#FFFFFFFF",
         "editorHoverWidget.foreground": "#EEEEEEEE",
         "editorHoverWidget.background": "#080808",
-        "editorHoverWidget.statusBarBackground": "#202020",
+        "editorHoverWidget.statusBarBackground": "#160E2C",
 
         // <===> Common Hover Color (Foreground/Border)
         "panelTitle.activeForeground": "#EDEDEE",
         "tab.unfocusedHoverBorder": "#EDEDEE",
         "tab.hoverBorder": "#EDEDEE",
-        "activityBar.foreground": "#EDEDEE",
+        "activityBar.foreground": "#FF0F50",
         "breadcrumb.focusForeground": "#EDEDEE",
         "tab.unfocusedHoverForeground": "#EDEDEE",
         "tab.hoverForeground": "#EDEDEE",
@@ -407,7 +411,6 @@
         // <===> Common Hover-Syntax (Background)
         "list.hoverBackground": "#00000080",
         // <===> Hover-Item (Background)
-        // Note: Item-hover-BG's will always vary on color, as the background needs to be customized in oreder to have 'HOVER-FOREGROUND CONFORMITY' to work. W/o Hover-BG customization for individual properties, the hover-FG will end up to dark in some cases, and too contrasting in other cases, which will cuase the hover foregrounds to be individualy customized, thus being the case; we sacrifice background conformity to keep fore ground conformity, as the hover-foreground should be on of the items, if not the items, that stand out amongst the rest of the theme the most. Every time one of out theme users hovers over, somthing that reacts to the cursor, we want that reaction to always show a bright shiney color that co
         "tab.hoverBackground": "#00000080",
         "tab.unfocusedHoverBackground": "#00000080",
         // <===> Editor Hover Settings
