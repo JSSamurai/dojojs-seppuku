@@ -9,7 +9,7 @@
 
         <<~~~~~~~~~~~~~~~~( EDITOR DETAIL )~~~~~~~~~~~~~~~~>>                           */
         "editor.foldBackground": "#FFFFFF02",
-        "editorRuler.foreground": "#FFFFFF0A",
+        "editorRuler.foreground": "#00003C1E",
         "editorWhitespace.foreground": "#FFFFFF",
         "editorPane.background": "#222222",
 
@@ -48,26 +48,74 @@
         "searchEditor.findMatchBorder": "#00FFF0",
         "searchEditor.textInputBorder": "#00FF72",
 
-        //  <===> UnnecessaryCode ----------------------------
+        //  <=> UnnecessaryCode ----------------------------
         "editorUnnecessaryCode.border": "#000000FF",
         "editorUnnecessaryCode.opacity": "#000000BB",
 
-        //  <===> Line Highlight & Line Numbers --------------
+        //  <=> Line Highlight & Line Numbers --------------
         "editor.lineHighlightBackground": "#0050FF0A",
         "editor.lineHighlightBorder": "#FF400018",
+        //  <=> Line Numbers --------------
         "editorLineNumber.foreground": "#0A4ADD",
         "editorLineNumber.activeForeground": "#FF7020",
 
-        //  <===> Cursor Color -------------------------------
+        //  <=> Cursor Color -------------------------------
         "editorCursor.background": "#FFFFFF",
         "editorCursor.foreground": "#AA20FF",
 
-        //  <===>  Indent~Guidez -----------------------------
-        "editorIndentGuide.activeBackground": "#FFFFFF",
+        //  <=>  Indent~Guidez -----------------------------
+        "editorIndentGuide.activeBackground": "#000090",
         "editorIndentGuide.background": "#000000",
         "tree.indentGuidesStroke": "#000000",
 
-        //  <===> Menu ---------------------------------------
+        //  <=> WelcomePG ----------------------------------
+        "welcomePage.background": "#1A243A",
+        "welcomePage.buttonBackground": "#061827",
+        /*
+        ........................................................................
+
+
+
+
+        ..............................| WIDGETS |...............................                */
+
+        //   <=> EDITOR-WIDHGET <=>
+        "editorWidget.background": "#0A0A18",
+        "editorWidget.foreground": "#C4CCCC",
+        "editorWidget.border": "#C47838",
+        "editorWidget.resizeBorder": "#01000000",
+
+        //   <=> HOVER WIDGET <=>
+        "editorHoverWidget.border": "#FFFFFFFF",
+        "editorHoverWidget.foreground": "#EEEEEEEE",
+        "editorHoverWidget.background": "#080808",
+        "editorHoverWidget.statusBarBackground": "#160E2C",
+
+        //   <=> SUGGEST WIDGET <=>
+        "editorSuggestWidget.background": "#020E27",
+        "editorSuggestWidget.foreground": "#D4D4D4",
+        "editorSuggestWidget.highlightForeground": "#E4E4E4",
+        "editorSuggestWidget.border": "#C47838",
+
+        "debugExceptionWidget.background": "#2E2E34",
+        "debugExceptionWidget.border": "#806850",
+
+        //   <=> LIST-FILTER WIDGET <=>
+        "listFilterWidget.background": "#2E2E34",
+        "listFilterWidget.noMatchesOutline": "#806850",
+        "listFilterWidget.outline": "#00E555",
+
+        //   <=> NOTIFICATIONS -/- NOTIFICATION CENTER <=>
+        "notificationCenterHeader.background": "#07080B",
+        "notificationLink.foreground": "#90FF00",
+        "notifications.background": "#000000",
+        "notifications.border": "#FFFFFF",
+        "notifications.foreground": "#FFFFFF",
+        "notificationCenter.border": "#0020FF",
+        "notificationCenterHeader.foreground": "#ff0000",
+        "notificationToast.border": "#0020FF",
+
+        //   <=> TITLE-BAR MENU -/- RIGHT-CLICK MENU <=>
         "menu.background": "#181818",
         "menu.border": "#EEEEEE",
         "menu.foreground": "#AAAAAA",
@@ -76,9 +124,6 @@
         "menu.selectionBorder": "#FFFFFF",
         "menu.separatorBackground": "#FFFFFF",
 
-        //  <===> WelcomePG ----------------------------------
-        "welcomePage.background": "#1A243A",
-        "welcomePage.buttonBackground": "#061827",
         /*
 
 
@@ -241,16 +286,6 @@
         "statusBarItem.activeBackground": "#40FFFF1C",
         //     <===> Debug
         "debugConsole.sourceForeground": "#80FFE0", // Leftover, other properties had an obvious place, however, ('debugConsole.sourceForeground') did not...
-        //     <===> NotificationCenter // Most likey will not reman here
-        "notificationCenterHeader.background": "#07080B",
-        "notificationLink.foreground": "#00FFAA",
-        "notifications.background": "#FFEE1460",
-        "notifications.border": "#38FF83",
-        "notifications.foreground": "#38FF83",
-        /*
-        
-        <===> Editor-Gutter Details       
-            +> Note: "EditorGutter Background has its own sub group in the item-detail main-group, becuase it simply addeds a shade of darkness to the edditor where the gutter is. Like every other property in here, its value needed to be unique in order to (best) serve its purpose."                                                              */
 
         /*
 
@@ -261,19 +296,19 @@
     <-------( Pending-Placement: 'Background' )----------------------------->
                 
                 "quickInput.background": "#051030",
-                "editorSuggestWidget.background": "#020E27",
+                
                 "quickInputTitle.background": "#0020FF88",
 
 
 
-
+ Also inactive items are almost a form of a dark highlight, that maintains decent readability which is very imoportant to every theme, or atleast every good theme. Inactive is monochromatic, and could be considered single colored as the different shades are soley used to make the color appear as one color when placed in different colored enviroments, that color is: #2070EE". These colors will change, but if all goes well, they will only go up and down a couple points when reviewing readability and contrasting. I am very happy with this theme
 
 
 
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
         // |ALPHA|
         "editor.background": "#141824",
-        "editorGutter.background": "#101420", // ~~>> Omitted
+        "editorGutter.background": "#0F1322", // ~~>> Omitted
         // |BETA|
         "sideBar.background": "#0B1729",
         "input.background": "#0B1729",
@@ -282,7 +317,6 @@
         "editorGroupHeader.tabsBackground": "#040410",
         "panel.background": "#0A0A18",
         "activityBar.background": "#0A0A18",
-        "editorWidget.background": "#0A0A18",
         "editorOverviewRuler.background": "#0A0A18",
 
         // |GAMMA|
@@ -398,17 +432,12 @@
 
 
         <<~~~~~~~~~~~~~~~( Hover Highlighting )~~~~~~~~~~~~~~~>>                               */
-        // <===> HoverWidget
-        "editorHoverWidget.border": "#FFFFFFFF",
-        "editorHoverWidget.foreground": "#EEEEEEEE",
-        "editorHoverWidget.background": "#080808",
-        "editorHoverWidget.statusBarBackground": "#160E2C",
 
-        // <===> Primary Hover Highlight Color (#60FF00)
+        // :|> Hov
+
+        //  *>> Primary Hover Highlight Color (#60FF00)
         "tab.unfocusedHoverBorder": "#00FF60",
         "tab.hoverBorder": "#00FF60",
-        "panelTitle.activeForeground": "#00FF60",
-        "activityBar.foreground": "#00E555",
         "breadcrumb.focusForeground": "#00E555",
         "tab.unfocusedHoverForeground": "#00E555",
         "tab.hoverForeground": "#00E555",
@@ -477,13 +506,7 @@
         "inputOption.activeBorder": "#4EEE0E",
 
         
-        "debugExceptionWidget.background": "#2E2E34",
-        "debugExceptionWidget.border": "#806850",
 
-        
-        "listFilterWidget.background": "#2E2E34",
-        "listFilterWidget.noMatchesOutline": "#806850",
-        "listFilterWidget.outline": "#00E555",
         CHEME: 'Text-Highlighting' )~~~~~~~~~~~~~~~~>>               */
         //    <===> |BACKGROUND~GROUPS|------------------------->
         //    <===> Common
@@ -500,25 +523,20 @@
 
         //  <===> Emphasized
         "list.focusForeground": "#F0FFFF",
-        "editorSuggestWidget.highlightForeground": "#E4E4E4",
 
         //  <===> Common
         "quickInput.foreground": "#C4CCCC",
-        "editorWidget.foreground": "#C4CCCC",
-        "editorSuggestWidget.foreground": "#D4D4D4",
 
         //  <===> De-emphasized
         "input.placeholderForeground": "#6C6864",
 
         //  <===> |BORDER~GROUPS|----------------------------->
         //  <===> Common
-        "editorWidget.border": "#C47838",
-        "editorSuggestWidget.border": "#C47838",
         //  <===> Demphasized
         "input.border": "#FF803040",
 
         // ~~>> Omitted
-        "editorWidget.resizeBorder": "#01000000", //    -*==>> Ommited: 'opacity = 1.0'
+
         /*
 
 
@@ -671,7 +689,7 @@
             "name": "SOURCE",
             "scope": ["source"],
             "settings": {
-                "foreground": "#AAAAAA",
+                "foreground": "#B0B8C4",
                 "fontStyle": ""
             }
         },
@@ -680,7 +698,7 @@
             "name": "PUNCTUATION & BRACES",
             "scope": ["punctuation", "meta.brace"],
             "settings": {
-                "foreground": "#30E0FF",
+                "foreground": "#EEE0C0",
                 "fontStyle": ""
             }
         },
@@ -707,7 +725,7 @@
             "name": "OBJECT LITERAL",
             "scope": ["metact-literal.key.js", "support.type.property-name.json"],
             "settings": {
-                "foreground": "#3ca0f8",
+                "foreground": "#5AAAFF",
                 "fontStyle": ""
             }
         },
