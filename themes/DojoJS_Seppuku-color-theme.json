@@ -24,7 +24,7 @@
         "focusBorder": "#01000000",
         "foreground": "#FF7010",
         "icon.foreground": "#FFFF0F",
-        "contrastBorder": "#0C3CC4",
+        "contrastBorder": "#00FF80",
         /*
 
 
@@ -37,12 +37,11 @@
 
         //  <===> Badge --------------------------------------
         //    <===> Background
-        "badge.background": "#040709",
-        "activityBarBadge.background": "#040709",
+        "badge.background": "#000000",
+        "activityBarBadge.background": "#000000",
         //    <===> Foreground
-        "activityBarBadge.foreground": "#FFFFFF",
-        "badge.foreground": "#FFFFFF",
-
+        "activityBarBadge.foreground": "#00FF80",
+        "badge.foreground": "#00FF80",
         //  <===> SearchEditor -------------------------------
         "searchEditor.findMatchBackground": "#00FFF01C",
         "searchEditor.findMatchBorder": "#00FFF0",
@@ -103,7 +102,7 @@
         //   <=> LIST-FILTER WIDGET <=>
         "listFilterWidget.background": "#2E2E34",
         "listFilterWidget.noMatchesOutline": "#806850",
-        "listFilterWidget.outline": "#00E555",
+        "listFilterWidget.outline": "#00FF80",
 
         //   <=> NOTIFICATIONS -/- NOTIFICATION CENTER <=>
         "notificationCenterHeader.background": "#07080B",
@@ -316,7 +315,7 @@
         // |DELTA|
         "editorGroupHeader.tabsBackground": "#040410",
         "panel.background": "#0A0A18",
-        "activityBar.background": "#0A0A18",
+        "activityBar.background": "#13141C",
         "editorOverviewRuler.background": "#0A0A18",
 
         // |GAMMA|
@@ -358,7 +357,7 @@
         "statusBar.foreground": "#D8D8D8",
         "sideBarTitle.foreground": "#BBBBBB",
         "tab.unfocusedActiveForeground": "#CCCCCC",
-        "tab.activeForeground": "#1DD050",
+        "tab.activeForeground": "#4AAFFF",
         //    *==>> Foreground Standard
 
         "terminal.foreground": "#C4C4C4",
@@ -370,7 +369,9 @@
         //    *==>> Foreground De-emphasizedR
         "breadcrumb.foreground": "#506888",
         "panelTitle.inactiveForeground": "#BBBBBB",
-        "activityBar.inactiveForeground": "#1468F8",
+        "activityBar.inactiveForeground": "#2878FF",
+        "activityBar.foreground": "#60F0FF",
+        // "activityBar.activeBackground": "#00000034",
         "titleBar.inactiveForeground": "#BBBBBB",
         "tab.inactiveForeground": "#3078EE",
         "tab.unfocusedInactiveForeground": "#0040FF",
@@ -436,12 +437,12 @@
         // :|> Hov
 
         //  *>> Primary Hover Highlight Color (#60FF00)
-        "tab.unfocusedHoverBorder": "#00FF60",
-        "tab.hoverBorder": "#00FF60",
-        "breadcrumb.focusForeground": "#00E555",
-        "tab.unfocusedHoverForeground": "#00E555",
-        "tab.hoverForeground": "#00E555",
-        "list.hoverForeground": "#00E555",
+        "tab.unfocusedHoverBorder": "#00FF80",
+        "tab.hoverBorder": "#00FF80",
+        "breadcrumb.focusForeground": "#00FF80",
+        "tab.unfocusedHoverForeground": "#00FF80",
+        "tab.hoverForeground": "#00FF80",
+        "list.hoverForeground": "#00FF80",
 
         // <==> Secondary Hover Highlight Color
 
