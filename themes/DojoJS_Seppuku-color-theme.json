@@ -9,7 +9,7 @@
 
         <<~~~~~~~~~~~~~~~~( EDITOR DETAIL )~~~~~~~~~~~~~~~~>>                           */
         "editor.foldBackground": "#FFFFFF02",
-        "editorRuler.foreground": "#00003C1E",
+        "editorRuler.foreground": "#00000010",
         "editorWhitespace.foreground": "#FFFFFF",
         "editorPane.background": "#222222",
 
@@ -21,10 +21,10 @@
 
         <<~~~~~~~~~~~~~~~~~~~~( Entire Theme Properties )~~~~~~~~~~~~~~~~~~~~>>                */
 
-        "focusBorder": "#01000000",
-        "foreground": "#FF7010",
-        "icon.foreground": "#FFFF0F",
-        "contrastBorder": "#00FF80",
+        "focusBorder": "#00000100",
+        "foreground": "#2CC4FF",
+        "icon.foreground": "#FF6A08",
+        "contrastBorder": "#FF7010",
         /*
 
 
@@ -32,7 +32,7 @@
         <<~~~~~~~~~~~~~~~~~~~( Small CompleteGroups )<~~~~~~~~~~~~~~~~~~~>>                    */
 
         //  <===> Scroll~Bar Slider --------------------------
-        "scrollbarSlider.background": "#FFFF00A0",
+        "scrollbarSlider.background": "#DD5D0D",
         "scrollbarSlider.activeBackground": "#FFFF0030",
 
         //  <===> Badge --------------------------------------
@@ -82,7 +82,7 @@
         "editorWidget.background": "#0A0A18",
         "editorWidget.foreground": "#C4CCCC",
         "editorWidget.border": "#C47838",
-        "editorWidget.resizeBorder": "#01000000",
+        "editorWidget.resizeBorder": "#00000100",
 
         //   <=> HOVER WIDGET <=>
         "editorHoverWidget.border": "#FFFFFFFF",
@@ -306,17 +306,18 @@
 
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
         // |ALPHA|
-        "editor.background": "#141824",
-        "editorGutter.background": "#0F1322", // ~~>> Omitted
+        "editor.background": "#121A34",
+        "editorGutter.background": "#101625", // ~~>> Omitted
         // |BETA|
-        "sideBar.background": "#0B1729",
+        "sideBar.background": "#061B2D",
         "input.background": "#0B1729",
         "terminal.background": "#0B1729",
         // |DELTA|
-        "editorGroupHeader.tabsBackground": "#040410",
-        "panel.background": "#0A0A18",
-        "activityBar.background": "#13141C",
-        "editorOverviewRuler.background": "#0A0A18",
+        "activityBar.background": "#0A002F",
+        "editorGroupHeader.tabsBackground": "#010410",
+        "panel.background": "#0D031E",
+
+        "editorOverviewRuler.background": "#001030",
 
         // |GAMMA|
         "tab.activeBackground": "#10182C",
@@ -325,12 +326,12 @@
         "tab.unfocusedInactiveBackground": "#10182C",
 
         // |EPSILON|
-        "sideBarSectionHeader.background": "#090E24",
-        "debugToolBar.background": "#090E24",
-        "breadcrumb.background": "#090E24",
+        "sideBarSectionHeader.background": "#120222",
+        "debugToolBar.background": "#120222",
+        "breadcrumb.background": "#120034",
+        "statusBar.background": "#180040",
         // <==>
-        "titleBar.activeBackground": "#040E38",
-        "statusBar.background": "#040E38",
+        "titleBar.activeBackground": "#080A14",
 
         // -> Inactive
         "titleBar.inactiveBackground": "#333320",
@@ -339,8 +340,6 @@
 
 
         <<~~~~~~~~~~~~~~~~~( GROUPS PENDING DECONSTRUCTION )~~~~~~~~~~~~~~~~~~>>               */
-
-        "sideBarSectionHeader.border": "#1AAA00",
 
         /*
 
@@ -357,7 +356,7 @@
         "statusBar.foreground": "#D8D8D8",
         "sideBarTitle.foreground": "#BBBBBB",
         "tab.unfocusedActiveForeground": "#CCCCCC",
-        "tab.activeForeground": "#4AAFFF",
+        "tab.activeForeground": "#EEEEEE",
         //    *==>> Foreground Standard
 
         "terminal.foreground": "#C4C4C4",
@@ -367,13 +366,16 @@
         "sideBarSectionHeader.foreground": "#C4C4C4",
 
         //    *==>> Foreground De-emphasizedR
-        "breadcrumb.foreground": "#506888",
-        "panelTitle.inactiveForeground": "#BBBBBB",
-        "activityBar.inactiveForeground": "#2878FF",
-        "activityBar.foreground": "#60F0FF",
+        "breadcrumb.foreground": "#707070",
+        "panelTitle.inactiveForeground": "#888888",
+
+        "activityBar.foreground": "#FF7A14",
+
+        "activityBar.inactiveForeground": "#005060",
+
         // "activityBar.activeBackground": "#00000034",
         "titleBar.inactiveForeground": "#BBBBBB",
-        "tab.inactiveForeground": "#3078EE",
+        "tab.inactiveForeground": "#50789F",
         "tab.unfocusedInactiveForeground": "#0040FF",
         /*
 
@@ -382,50 +384,48 @@
 
         <<~~~~~~~~~~~~~~~~~~~~~~~~( BORDER-CONFORMITY )~~~~~~~~~~~~~~~~~~~~~~~>>               */
         //    <===> SHADOWING EFFECTS
-        "editorGroupHeader.border": "#000000",
-        "scrollbar.shadow": "#000000",
-        "widget.shadow": "#000000",
+        "editorGroupHeader.border": "#000001",
+        "scrollbar.shadow": "#000001",
+        "widget.shadow": "#000001",
 
         // <==>
-        "activityBar.border": "#2050E0",
-        "panel.border": "#1868FF",
-        "editorGroupHeader.tabsBorder": "#00FF206C",
+        "activityBar.border": "#CC4C18",
+        "panel.border": "#000001",
+        "editorGroupHeader.tabsBorder": "#8000FF70",
+        "sideBarSectionHeader.border": "#000001",
         // |ALPHA| Border: Common
-        "terminal.border": "#010100",
-        "sideBar.border": "#010100",
-        "editorGroup.border": "#010100",
-        "editorOverviewRuler.border": "#010100",
-        "window.activeBorder": "#010100",
+        "terminal.border": "#000001",
+        "sideBar.border": "#CC4C18",
+        "editorGroup.border": "#CC4C18",
+        "editorOverviewRuler.border": "#CC4C18",
+        "window.activeBorder": "#000001",
 
-        "panelSection.border": "#010100",
-        "panelInput.border": "#010100",
-        "panelSectionHeader.border": "#010100",
+        "panelSection.border": "#000001",
+        "panelInput.border": "#000001",
+        "panelSectionHeader.border": "#000001",
 
-        "debugToolBar.border": "#010100",
-        "statusBar.border": "#010100",
+        "debugToolBar.border": "#000001",
+        "statusBar.border": "#20C400",
 
         // |BETA| Border: Active
-        "panelTitle.activeBorder": "#FF8014",
-        "activityBar.activeBorder": "#FF8014",
-        "activityBar.activeFocusBorder": "#FF8014",
+        "panelTitle.activeBorder": "#FF7A14",
+        "activityBar.activeBorder": "#FF7A14",
+        "activityBar.activeFocusBorder": "#FF7A14",
         // "tab.activeBorder": "#FF8014",
         // "tab.unfocusedActiveBorder": "#FF8014",
 
-        "tab.activeBorderTop": "#FF8014",
-        "tab.unfocusedActiveBorderTop": "#FF8014",
+        "tab.activeBorderTop": "#FF7A14",
+        "tab.unfocusedActiveBorderTop": "#FF7A14",
 
-        // |DELTA| Border: Emphasized
-        "tab.activeModifiedBorder": "#144FFF",
-        "tab.inactiveModifiedBorder": "#144FFF",
-        "tab.unfocusedActiveModifiedBorder": "#144FFF",
-        "tab.unfocusedInactiveModifiedBorder": "#144FFF",
-        // |GAMMA| Border: Deemphasized
-        "titleBar.border": "#000000",
-        "window.inactiveBorder": "#404040",
-        "tab.border": "#010100",
-        "tab.lastPinnedBorder": "#010100",
+        "tab.activeModifiedBorder": "#FF8400",
+        "tab.inactiveModifiedBorder": "#822FFF",
+        "tab.unfocusedActiveModifiedBorder": "#822FFF",
+        "tab.unfocusedInactiveModifiedBorder": "#822FFF",
 
-        //  |EPSILON| Border: HIDDEN BORDERZ
+        "titleBar.border": "#444444",
+        "window.inactiveBorder": "#34486C",
+        "tab.border": "#000001",
+        "tab.lastPinnedBorder": "#000001",
 
         /*                                
 
@@ -438,7 +438,7 @@
 
         //  *>> Primary Hover Highlight Color (#60FF00)
         "tab.unfocusedHoverBorder": "#00FF80",
-        "tab.hoverBorder": "#00FF80",
+        "tab.hoverBorder": "#FF0FFF",
         "breadcrumb.focusForeground": "#00FF80",
         "tab.unfocusedHoverForeground": "#00FF80",
         "tab.hoverForeground": "#00FF80",
@@ -468,7 +468,7 @@
         // <===> EditorTabGroups Tabs & BreadcrumbBar
 
         // <===> Sliderz
-        "scrollbarSlider.hoverBackground": "#040404",
+        "scrollbarSlider.hoverBackground": "#FF18AF",
         "minimapSlider.hoverBackground": "#FFFFFF28",
         /*
 
@@ -551,7 +551,7 @@
         "editor.rangeHighlightBorder": "#DDDD64A0",
         "editor.rangeHighlightBackground": "#10121A",
         "editor.findRangeHighlightBackground": "#40DFFF0E",
-        "editor.findRangeHighlightBorder": "#01000000",
+        "editor.findRangeHighlightBorder": "#00000100",
         //    <===> BracketMatch
         "editorBracketMatch.background": "#0FFFAA60",
         "editorBracketMatch.border": "#0FFFBB",
