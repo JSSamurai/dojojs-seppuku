@@ -21,7 +21,7 @@
     },
 
     "BorderColors": {
-        "ALPHA": "#01000000",
+        "ALPHA": "#FF7010",
         "BETA": "#01000000",
         "GAMMA": "#01000000",
         "DELTA": "#01000000",
@@ -34,8 +34,8 @@
     },
 
     "HighlightColors": {
-        "ALPHA": "#01000000",
-        "BETA": "#01000000",
+        "ALPHA": "#1CCFFF",
+        "BETA": "#40FF00",
         "GAMMA": "#01000000",
         "DELTA": "#01000000",
         "EPSILON": "#01000000",

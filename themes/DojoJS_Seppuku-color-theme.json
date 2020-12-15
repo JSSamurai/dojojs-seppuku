@@ -22,8 +22,8 @@
         <<~~~~~~~~~~~~~~~~~~~~( Entire Theme Properties )~~~~~~~~~~~~~~~~~~~~>>                */
 
         "focusBorder": "#00000100",
-        "foreground": "#2CC4FF",
-        "icon.foreground": "#FF6A08",
+        "foreground": "#1CCFFF",
+        "icon.foreground": "#40FF00",
         "contrastBorder": "#FF7010",
         /*
 
@@ -305,19 +305,26 @@
 
 
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
+        // > Primary~Color: Gun-Metal/Blue-Space
+
+        // |> Secondary~Color: Royal-Purple/Eggplant
+        "sideBarSectionHeader.background": "#120222",
+        "debugToolBar.background": "#120222",
+        "breadcrumb.background": "#120034",
+        "editorOverviewRuler.background": "#180040",
+        "statusBar.background": "#180040",
+
         // |ALPHA|
-        "editor.background": "#121A34",
-        "editorGutter.background": "#101625", // ~~>> Omitted
+        "editor.background": "#0E1643", //  *|> SavedVal: |'12123C'|
+        "editorGutter.background": "#0000001C",
         // |BETA|
-        "sideBar.background": "#061B2D",
-        "input.background": "#0B1729",
-        "terminal.background": "#0B1729",
+        "sideBar.background": "#081538",
+        "input.background": "#081538",
+        "terminal.background": "#081538",
         // |DELTA|
         "activityBar.background": "#0A002F",
-        "editorGroupHeader.tabsBackground": "#010410",
-        "panel.background": "#0D031E",
-
-        "editorOverviewRuler.background": "#001030",
+        "panel.background": "#0A002F",
+        "editorGroupHeader.tabsBackground": "#04040F",
 
         // |GAMMA|
         "tab.activeBackground": "#10182C",
@@ -325,11 +332,6 @@
         "tab.unfocusedActiveBackground": "#10182C",
         "tab.unfocusedInactiveBackground": "#10182C",
 
-        // |EPSILON|
-        "sideBarSectionHeader.background": "#120222",
-        "debugToolBar.background": "#120222",
-        "breadcrumb.background": "#120034",
-        "statusBar.background": "#180040",
         // <==>
         "titleBar.activeBackground": "#080A14",
 
