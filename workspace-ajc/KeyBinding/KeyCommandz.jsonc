@@ -1,0 +1,2083 @@
+// Override key bindings by placing them into your key bindings file.
+[
+    "workbench.action.exitZenMode",
+    "closeReferenceSearch",
+    "cancelSelection",
+    /*
+    
+    <====| SYNTAX~HISTORY (Synonymz: Un'do &/or  Re'do) |====>  */
+    "redo",
+    "redo",
+    "undo",
+
+    /*
+                            <====| CURSOR COMMMANDS |====>                                  */
+    //      -> Cursor Up <-
+    "cursorUp",
+    "cursorUpSelect",
+    //      -> Cursor Down <-
+    "cursorDown",
+    "cursorDownSelect",
+    //      -> Cursor Right <-
+    "cursorRight",
+    "cursorRightSelect",
+    //      -> Cursor Left <-
+    "cursorLeft",
+    "cursorLeftSelect",
+    //      -> Cursor Pg-Up <-
+    "cursorPageUp",
+    "cursorPageUpSelect",
+    //      -> Cursor Pg-Down <-
+    "cursorPageDown",
+    "cursorPageDownSelect",
+    //      -> Cursor Top <-
+    "cursorTop",
+    "cursorTopSelect",
+    //      -> Cursor Bottom <-
+    "cursorBottom",
+    "cursorBottomSelect",
+    //      -> Cursor Home <-
+    "cursorHome",
+    "cursorHomeSelect",
+    //      -> Cursor End <-
+    "cursorEnd",
+    "cursorEndSelect",
+    /* 
+
+    ____________________________________                                                        */
+
+    //   <=> DELETION <=>
+    "deleteLeft",
+    "deleteRight",
+
+    //   <=> SELECTION <=>
+    "editor.action.selectAll",
+    "expandLineSelection",
+
+    //   <=> INDENTATION <=>
+    "outdent",
+
+    "scrollLineDown",
+    "scrollLineUp",
+    "scrollPageDown",
+    "scrollPageUp",
+    "tab",
+
+    "cursorColumnSelectDown",
+
+    "cursorColumnSelectLeft",
+
+    "cursorColumnSelectPageDown",
+
+    "cursorColumnSelectPageUp",
+
+    "cursorColumnSelectRight",
+
+    "cursorColumnSelectUp",
+
+    "removeSecondaryCursors",
+
+    "removeSecondaryCursors",
+
+    "goToNextReference",
+
+    "goToNextReference",
+
+    "goToPreviousReference",
+
+    "goToPreviousReference",
+
+    "refactorPreview.apply",
+
+    "notebook.cell.quitEdit",
+
+    "actions.find",
+
+    "breakpointWidget.action.acceptInput",
+
+    "closeBreakpointWidget",
+
+    "closeBreakpointWidget",
+
+    "cursorUndo",
+    "cursorWordEndRight",
+    "cursorWordEndRightSelect",
+    "cursorWordLeft",
+    "cursorWordLeftSelect",
+    "deleteWordLeft",
+
+    "deleteWordRight",
+
+    "editor.action.addCommentLine",
+
+    "editor.action.addSelectionToNextFindMatch",
+
+    "editor.action.autoFix",
+
+    "editor.action.autoFix",
+
+    "editor.action.blockComment",
+
+    "editor.action.cancelSelectionAnchor",
+
+    "editor.action.changeAll",
+
+    "editor.action.clipboardCopyAction",
+    "editor.action.clipboardCutAction",
+    "editor.action.clipboardPasteAction",
+    "editor.action.clipboardPasteAction",
+    "editor.action.commentLine",
+
+    "editor.action.copyLinesDownAction",
+
+    "editor.action.copyLinesUpAction",
+
+    "editor.action.defineKeybinding",
+
+    "editor.action.deleteLines",
+
+    "editor.action.diffReview.next",
+
+    "editor.action.diffReview.prev",
+
+    "editor.action.dirtydiff.next",
+
+    "editor.action.dirtydiff.previous",
+
+    "editor.action.extensioneditor.findNext",
+
+    "editor.action.extensioneditor.findPrevious",
+
+    "editor.action.extensioneditor.showfind",
+
+    "editor.action.formatDocument",
+
+    "editor.action.formatDocument.none",
+
+    "editor.action.goToImplementation",
+
+    "editor.action.goToReferences",
+
+    "editor.action.inPlaceReplace.down",
+
+    "editor.action.inPlaceReplace.up",
+
+    "editor.action.inPlaceReplace.up",
+
+    "editor.action.indentLines",
+
+    "editor.action.insertCursorAbove",
+
+    "editor.action.insertCursorAbove",
+
+    "editor.action.insertCursorAtEndOfEachLineSelected",
+
+    "editor.action.insertCursorBelow",
+
+    "editor.action.insertCursorBelow",
+
+    "editor.action.insertLineAfter",
+
+    "editor.action.insertLineBefore",
+
+    "editor.action.jumpToBracket",
+
+    "editor.action.linkedEditing",
+
+    "editor.action.marker.next",
+
+    "editor.action.marker.nextInFiles",
+
+    "editor.action.marker.prev",
+
+    "editor.action.marker.prevInFiles",
+
+    "editor.action.moveLinesDownAction",
+
+    "editor.action.moveLinesUpAction",
+
+    "editor.action.moveSelectionToNextFindMatch",
+
+    "editor.action.nextMatchFindAction",
+
+    "editor.action.nextMatchFindAction",
+
+    "editor.action.nextSelectionMatchFindAction",
+
+    "editor.action.organizeImports",
+
+    "editor.action.outdentLines",
+
+    "editor.action.peekDefinition",
+
+    "editor.action.peekImplementation",
+
+    "editor.action.previousMatchFindAction",
+
+    "editor.action.previousMatchFindAction",
+
+    "editor.action.previousSelectionMatchFindAction",
+
+    "editor.action.quickFix",
+
+    "editor.action.refactor",
+
+    "editor.action.removeCommentLine",
+
+    "editor.action.rename",
+
+    "editor.action.revealDefinition",
+
+    "editor.action.revealDefinitionAside",
+
+    "editor.action.selectFromAnchorToCursor",
+
+    "editor.action.selectHighlights",
+
+    "editor.action.setSelectionAnchor",
+
+    "editor.action.showAccessibilityHelp",
+    "editor.action.showAccessibilityHelp",
+    "editor.action.showContextMenu",
+    "editor.action.showHover",
+
+    "editor.action.smartSelect.expand",
+
+    "editor.action.smartSelect.shrink",
+
+    "editor.action.startFindReplaceAction",
+
+    "editor.action.toggleTabFocusMode",
+    "editor.action.toggleWordWrap",
+    "editor.action.triggerParameterHints",
+
+    "editor.action.triggerSuggest",
+
+    "editor.action.triggerSuggest",
+
+    "editor.action.trimTrailingWhitespace",
+
+    "editor.action.webvieweditor.findNext",
+
+    "editor.action.webvieweditor.findPrevious",
+
+    "editor.action.webvieweditor.hideFind",
+
+    "editor.action.webvieweditor.showFind",
+
+    "editor.action.wordHighlight.next",
+
+    "editor.action.wordHighlight.prev",
+
+    "editor.cancelOperation",
+    "cancellableOperation",
+    "editor.debug.action.closeExceptionWidget",
+    "exceptionWidgetVisible",
+    "editor.debug.action.showDebugHover",
+
+    "editor.debug.action.toggleBreakpoint",
+
+    "editor.emmet.action.expandAbbreviation",
+
+    "editor.fold",
+
+    "editor.foldAll",
+
+    "editor.foldAllBlockComments",
+
+    "editor.foldAllMarkerRegions",
+
+    "editor.foldLevel1",
+
+    "editor.foldLevel2",
+
+    "editor.foldLevel3",
+
+    "editor.foldLevel4",
+
+    "editor.foldLevel5",
+
+    "editor.foldLevel6",
+
+    "editor.foldLevel7",
+
+    "editor.foldRecursively",
+
+    "editor.gotoNextSymbolFromResult",
+    "hasSymbols",
+    "editor.gotoNextSymbolFromResult.cancel",
+    "hasSymbols",
+    "editor.toggleFold",
+
+    "editor.unfold",
+
+    "editor.unfoldAll",
+
+    "editor.unfoldAllMarkerRegions",
+
+    "editor.unfoldRecursively",
+
+    "insertSnippet",
+
+    "notebook.cell.execute",
+
+    "notebook.cell.executeAndInsertBelow",
+
+    "notebook.cell.executeAndSelectBelow",
+
+    "notebook.cell.pasteAbove",
+
+    "notebook.focusNextEditor",
+
+    "notebook.focusPreviousEditor",
+
+    "notebook.formatCell",
+
+    "openReferenceToSide",
+
+    "inDebugRepl && textInputFocus",
+    "repl.action.filter",
+    "inDebugRepl && textInputFocus",
+    "rerunSearchEditorSearch",
+    "inSearchEditor",
+    "search.action.focusQueryEditorWidget",
+    "inSearchEditor",
+    "search.searchEditor.action.deleteFileResults",
+    "inSearchEditor",
+    "settings.action.clearSearchResults",
+    "inSettingsEditor && inSettingsSearch",
+    "settings.action.editFocusedSetting",
+    "inSettingsSearch",
+    "settings.action.focusNextSetting",
+    "inSettingsSearch",
+    "settings.action.focusPreviousSetting",
+    "inSettingsSearch",
+    "settings.action.focusSettingsFile",
+    "inSettingsSearch && !suggestWidgetVisible",
+    "settings.action.search",
+    "inSettingsEditor",
+    "toggleExplainMode",
+    "suggestWidgetVisible",
+    "togglePeekWidgetFocus",
+
+    "workbench.action.editor.nextChange",
+
+    "workbench.action.editor.previousChange",
+
+    "workbench.action.hideComment",
+
+    "workbench.action.hideComment",
+
+    "workbench.action.submitComment",
+
+    "closeFindWidget",
+
+    "editor.action.replaceAll",
+
+    "editor.action.replaceOne",
+
+    "editor.action.replaceOne",
+
+    "editor.action.selectAllMatches",
+
+    "toggleFindCaseSensitive",
+
+    "toggleFindInSelection",
+
+    "toggleFindRegex",
+
+    "toggleFindWholeWord",
+
+    "togglePreserveCase",
+
+    "jumpToNextSnippetPlaceholder",
+
+    "jumpToPrevSnippetPlaceholder",
+
+    "leaveEditorMessage",
+    "messageVisible",
+    "leaveSnippet",
+
+    "closeDirtyDiff",
+    "dirtyDiffVisible",
+
+    "closeMarkersNavigation",
+
+    "notifications.hideToasts",
+    "notificationToastsVisible",
+    "closeParameterHints",
+
+    "closeParameterHints",
+
+    "showNextParameterHint",
+
+    "showNextParameterHint",
+
+    "showPrevParameterHint",
+
+    "acceptAlternativeSelectedSuggestion",
+
+    "acceptSelectedSuggestion",
+
+    "hideSuggestWidget",
+
+    "insertBestCompletion",
+
+    "insertNextSuggestion",
+
+    "insertPrevSuggestion",
+
+    "selectNextPageSuggestion",
+
+    "selectNextPageSuggestion",
+
+    "selectNextSuggestion",
+
+    "selectNextSuggestion",
+
+    "selectPrevPageSuggestion",
+
+    "selectPrevPageSuggestion",
+
+    "selectPrevSuggestion",
+
+    "selectPrevSuggestion",
+
+    "toggleSuggestionDetails",
+
+    "toggleSuggestionFocus",
+
+    "acceptRenameInput",
+
+    "acceptRenameInputWithPreview",
+
+    "cancelLinkedEditingInput",
+
+    "cancelLinkedEditingInput",
+
+    "cancelRenameInput",
+
+    "cancelRenameInput",
+
+    "addCursorsAtSearchResults",
+    "fileMatchOrMatchFocus && searchViewletVisible",
+    "breadcrumbs.focus",
+    "breadcrumbsPossible",
+    "breadcrumbs.focusAndSelect",
+    "breadcrumbs.focusNext",
+    "breadcrumbs.focusNext",
+
+    "breadcrumbs.focusPrevious",
+
+    "breadcrumbs.focusPrevious",
+
+    "breadcrumbs.revealFocused",
+
+    "breadcrumbs.revealFocused",
+
+    "breadcrumbs.revealFocusedFromTreeAside",
+
+    "breadcrumbs.selectFocused",
+
+    "breadcrumbs.toggleToOn",
+    "closeAccessibilityHelp",
+    "closeReplaceInFilesWidget",
+    "copyFilePath",
+    "copyRelativeFilePath",
+    "debug.openBreakpointToSide",
+    "breakpointsFocused",
+    "debug.openBreakpointToSide",
+    "breakpointsFocused",
+    "debug.removeBreakpoint",
+    "breakpointsFocused && !breakpointSelected",
+    "debug.removeWatchExpression",
+    "watchExpressionsFocused && !expressionSelected",
+    "decreaseSearchEditorContextLines",
+    "inSearchEditor",
+    "editor.debug.action.toggleInlineBreakpoint",
+
+    "editor.refocusCallHierarchy",
+    "callHierarchyVisible",
+    "editor.showCallHierarchy",
+
+    "editor.showIncomingCalls",
+    "callHierarchyVisible && callHierarchyDirection == 'outgoingCalls'",
+    "editor.showOutgoingCalls",
+    "callHierarchyVisible && callHierarchyDirection == 'incomingCalls'",
+    "explorer.openToSide",
+    "explorerViewletFocus && explorerViewletVisible && !inputFocus",
+    "filesExplorer.findInFolder",
+    "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus",
+    "history.showNext",
+    "historyNavigationEnabled && historyNavigationWidget",
+    "history.showNext",
+    "historyNavigationEnabled && historyNavigationWidget",
+    "history.showPrevious",
+    "historyNavigationEnabled && historyNavigationWidget",
+    "history.showPrevious",
+    "historyNavigationEnabled && historyNavigationWidget",
+    "increaseSearchEditorContextLines",
+    "inSearchEditor",
+    "keybindings.editor.addKeybinding",
+    "inKeybindings && keybindingFocus",
+    "keybindings.editor.clearSearchResults",
+    "inKeybindings && inKeybindingsSearch",
+    "keybindings.editor.copyKeybindingEntry",
+    "inKeybindings && keybindingFocus",
+    "keybindings.editor.defineKeybinding",
+    "inKeybindings && keybindingFocus",
+    "keybindings.editor.defineWhenExpression",
+    "inKeybindings && keybindingFocus",
+    "keybindings.editor.focusKeybindings",
+    "inKeybindings && inKeybindingsSearch",
+    "keybindings.editor.recordSearchKeys",
+    "inKeybindings && inKeybindingsSearch",
+    "keybindings.editor.removeKeybinding",
+    "inKeybindings && keybindingFocus",
+    "keybindings.editor.searchKeybindings",
+    "inKeybindings",
+    "keybindings.editor.toggleSortByPrecedence",
+    "inKeybindings",
+    "list.clear",
+    "listFocus && listHasSelectionOrFocus && !inputFocus",
+    "list.collapse",
+    "listFocus && !inputFocus",
+    "list.collapseAll",
+    "listFocus && !inputFocus",
+    "list.expand",
+    "listFocus && !inputFocus",
+    "list.expandSelectionDown",
+    "listFocus && listSupportsMultiselect && !inputFocus",
+    "list.expandSelectionUp",
+    "listFocus && listSupportsMultiselect && !inputFocus",
+    "list.focusDown",
+    "listFocus && !inputFocus",
+    "list.focusFirst",
+    "listFocus && !inputFocus",
+    "list.focusLast",
+    "listFocus && !inputFocus",
+    "list.focusPageDown",
+    "listFocus && !inputFocus",
+    "list.focusPageUp",
+    "listFocus && !inputFocus",
+    "list.focusUp",
+    "listFocus && !inputFocus",
+    "list.scrollDown",
+    "listFocus && !inputFocus",
+    "list.scrollUp",
+    "listFocus && !inputFocus",
+    "list.select",
+    "listFocus && !inputFocus",
+    "list.selectAll",
+    "listFocus && listSupportsMultiselect && !inputFocus",
+    "list.toggleExpand",
+    "listFocus && !inputFocus",
+    "list.toggleSelection",
+    "listFocus && !inputFocus",
+    "notebook.cell.changeToCode",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook' && notebookCellType == 'markdown'",
+    "notebook.cell.changeToMarkdown",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook' && notebookCellType == 'code'",
+    "notebook.cell.clearOutputs",
+    "notebookCellHasOutputs && notebookEditorFocused && !inputFocus",
+    "notebook.cell.collapseCellContent",
+    "notebookCellListFocused && !inputFocus && !notebookCellInputIsCollapsed",
+    "notebook.cell.collapseCellOutput",
+    "notebookCellHasOutputs && notebookCellListFocused && !inputFocus && !notebookCellOutputIsCollapsed",
+    "notebook.cell.copyDown",
+
+    "notebook.cell.copyUp",
+
+    "notebook.cell.delete",
+
+    "notebook.cell.edit",
+    "notebookCellListFocused && !inputFocus",
+    "notebook.cell.expandCellContent",
+    "notebookCellInputIsCollapsed && notebookCellListFocused",
+    "notebook.cell.expandCellOutput",
+    "notebookCellListFocused && notebookCellOutputIsCollapsed",
+    "notebook.cell.focusInOutput",
+    "notebookCellHasOutputs && notebookEditorFocused",
+    "notebook.cell.focusOutOutput",
+    "notebookEditorFocused",
+    "notebook.cell.insertCodeCellAbove",
+    "notebookCellListFocused && !inputFocus",
+    "notebook.cell.insertCodeCellBelow",
+    "notebookCellListFocused && !inputFocus",
+    "notebook.cell.joinAbove",
+    "notebookEditorFocused",
+    "notebook.cell.joinBelow",
+    "notebookEditorFocused",
+    "notebook.cell.moveDown",
+
+    "notebook.cell.moveUp",
+
+    "notebook.cell.split",
+    "notebookCellEditable && notebookCellEditorFocused && notebookEditable && notebookEditorFocused && !notebookEditorCursorAtEditorBeginEnd",
+    "notebook.centerActiveCell",
+    "notebookEditorFocused",
+    "notebook.find",
+    "notebookEditorFocused",
+    "notebook.focusBottom",
+
+    "notebook.focusNextEditor",
+    "notebookEditorFocused && notebookOutputFocused",
+    "notebook.focusTop",
+
+    "notebook.fold",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'",
+    "notebook.fold",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'",
+    "notebook.format",
+
+    "notebook.hideFind",
+    "notebookEditorFocused && notebookFindWidgetFocused",
+    "notebook.unfold",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'",
+    "notebook.unfold",
+    "notebookEditorFocused && !inputFocus && activeEditor == 'workbench.editor.notebook'",
+    "notification.clear",
+    "notificationFocus",
+    "notification.collapse",
+    "notificationFocus",
+    "notification.expand",
+    "notificationFocus",
+    "notification.toggle",
+    "notificationFocus",
+    "notification.toggle",
+    "notificationFocus",
+    "notifications.focusFirstToast",
+    "notificationFocus && notificationToastsVisible",
+    "notifications.focusFirstToast",
+    "notificationFocus && notificationToastsVisible",
+    "notifications.focusLastToast",
+    "notificationFocus && notificationToastsVisible",
+    "notifications.focusLastToast",
+    "notificationFocus && notificationToastsVisible",
+    "notifications.focusNextToast",
+    "notificationFocus && notificationToastsVisible",
+    "notifications.focusPreviousToast",
+    "notificationFocus && notificationToastsVisible",
+    "problems.action.copy",
+    "problemFocus",
+    "problems.action.focusFilter",
+    "focusedView == 'workbench.panel.markers.view'",
+    "problems.action.focusProblemsFromFilter",
+    "problemsFilterFocus",
+    "problems.action.open",
+    "problemFocus",
+    "problems.action.openToSide",
+    "problemFocus",
+    "problems.action.showQuickFixes",
+    "problemFocus",
+    "refactorPreview.toggleCheckedState",
+    "listFocus && refactorPreview.enabled && !inputFocus",
+    "revealFileInOS",
+
+    "revealReference",
+    "listFocus && referenceSearchVisible && !inputFocus",
+    "scm.acceptInput",
+    "scmRepository",
+    "scm.forceViewNextCommit",
+    "scmRepository",
+    "scm.forceViewPreviousCommit",
+    "scmRepository",
+    "scm.viewNextCommit",
+    "scmInputIsInLastPosition && scmRepository && !suggestWidgetVisible",
+    "scm.viewPreviousCommit",
+    "scmInputIsInFirstPosition && scmRepository && !suggestWidgetVisible",
+    "search.action.cancel",
+    "listFocus && searchViewletVisible && !inputFocus",
+    "search.action.copyMatch",
+    "fileMatchOrMatchFocus",
+    "search.action.copyPath",
+    "fileMatchOrFolderMatchWithResourceFocus",
+    "search.action.focusNextSearchResult",
+    "hasSearchResult || inSearchEditor",
+    "search.action.focusPreviousSearchResult",
+    "hasSearchResult || inSearchEditor",
+    "search.action.focusSearchFromResults",
+    "firstMatchFocus && searchViewletVisible",
+    "search.action.openInEditor",
+    "hasSearchResult && searchViewletFocus",
+    "search.action.openResult",
+    "fileMatchOrMatchFocus && searchViewletVisible",
+    "search.action.openResultToSide",
+    "fileMatchOrMatchFocus && searchViewletVisible",
+    "search.action.remove",
+    "fileMatchOrMatchFocus && searchViewletVisible",
+    "search.action.replace",
+    "matchFocus && replaceActive && searchViewletVisible",
+    "search.action.replaceAll",
+    "replaceActive && searchViewletVisible && !findWidgetVisible",
+    "search.action.replaceAllInFile",
+    "fileMatchFocus && replaceActive && searchViewletVisible",
+    "search.action.replaceAllInFile",
+    "fileMatchFocus && replaceActive && searchViewletVisible",
+    "search.action.replaceAllInFolder",
+    "folderMatchFocus && replaceActive && searchViewletVisible",
+    "search.action.replaceAllInFolder",
+    "folderMatchFocus && replaceActive && searchViewletVisible",
+    "search.focus.nextInputBox",
+    "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible",
+    "search.focus.previousInputBox",
+    "inSearchEditor && inputBoxFocus || inputBoxFocus && searchViewletVisible && !searchInputBoxFocus",
+    "selectAllSearchEditorMatches",
+    "inSearchEditor",
+    "settings.action.focusLevelUp",
+    "inSettingsEditor && !inSettingsSearch",
+    "settings.action.focusSettingControl",
+    "settingRowFocus",
+    "settings.action.focusSettingsFromSearch",
+    "inSettingsSearch && !suggestWidgetVisible",
+    "settings.action.focusSettingsList",
+    "inSettingsEditor && settingsTocRowFocus",
+    "settings.action.focusTOC",
+    "inSettingsEditor && settingRowFocus",
+    "settings.action.showContextMenu",
+    "inSettingsEditor",
+    "toggleSearchCaseSensitive",
+    "searchViewletFocus",
+    "toggleSearchEditorCaseSensitive",
+    "inSearchEditor && searchInputBoxFocus",
+    "toggleSearchEditorContextLines",
+    "inSearchEditor",
+    "toggleSearchEditorRegex",
+    "inSearchEditor && searchInputBoxFocus",
+    "toggleSearchEditorWholeWord",
+    "inSearchEditor && searchInputBoxFocus",
+    "toggleSearchPreserveCase",
+    "searchViewletFocus",
+    "toggleSearchRegex",
+    "searchViewletFocus",
+    "toggleSearchWholeWord",
+    "searchViewletFocus",
+    "workbench.action.closeActiveEditor",
+    "workbench.action.closeAllEditors",
+    "workbench.action.closeAllGroups",
+    "workbench.action.closeEditorsInGroup",
+    "workbench.action.closeFolder",
+    "emptyWorkspaceSupport",
+    "workbench.action.closeGroup",
+    "activeEditorGroupEmpty && multipleEditorGroups",
+    "workbench.action.closeQuickOpen",
+    "inQuickOpen",
+    "workbench.action.closeQuickOpen",
+    "inQuickOpen",
+    "workbench.action.closeUnmodifiedEditors",
+    "workbench.action.closeWindow",
+    "workbench.action.closeWindow",
+    "!editorIsOpen && !multipleEditorGroups",
+    "workbench.action.compareEditor.nextChange",
+    "textCompareEditorVisible",
+    "workbench.action.compareEditor.previousChange",
+    "textCompareEditorVisible",
+    "workbench.action.debug.continue",
+    "inDebugMode",
+    "workbench.action.debug.restart",
+    "inDebugMode",
+    "workbench.action.debug.run",
+    "debuggersAvailable",
+    "workbench.action.debug.start",
+    "debuggersAvailable && !inDebugMode",
+    "workbench.action.debug.stepOut",
+    "debugState == 'stopped'",
+    "workbench.action.debug.stepOver",
+    "debugState == 'stopped'",
+    "workbench.action.debug.stop",
+    "inDebugMode",
+    "workbench.action.editor.changeLanguageMode",
+    "workbench.action.files.copyPathOfActiveFile",
+    "workbench.action.files.newUntitledFile",
+    "workbench.action.files.openFile",
+    "workbench.action.files.openFolder",
+    "workbench.action.files.openLocalFile",
+    "remoteFileDialogVisible",
+    "workbench.action.files.openLocalFolder",
+    "remoteFileDialogVisible",
+    "workbench.action.files.revealActiveFileInWindows",
+    "workbench.action.files.save",
+    "workbench.action.files.saveAs",
+    "workbench.action.files.saveLocalFile",
+    "remoteFileDialogVisible",
+    "workbench.action.files.saveWithoutFormatting",
+    "workbench.action.files.showOpenedFileInNewWindow",
+    "emptyWorkspaceSupport",
+    "workbench.action.findInFiles",
+    "workbench.action.focusAboveGroup",
+    "workbench.action.focusBelowGroup",
+    "workbench.action.focusEighthEditorGroup",
+    "workbench.action.focusFifthEditorGroup",
+    "workbench.action.focusFirstEditorGroup",
+    "workbench.action.focusFourthEditorGroup",
+    "workbench.action.focusLeftGroup",
+    "workbench.action.focusNextPart",
+    "workbench.action.focusPreviousPart",
+    "workbench.action.focusRightGroup",
+    "workbench.action.focusSecondEditorGroup",
+    "workbench.action.focusSeventhEditorGroup",
+    "workbench.action.focusSideBar",
+    "workbench.action.focusSixthEditorGroup",
+    "workbench.action.focusThirdEditorGroup",
+    "workbench.action.gotoLine",
+    "workbench.action.gotoSymbol",
+    "workbench.action.hideInterfaceOverview",
+    "interfaceOverviewVisible",
+    "workbench.action.interactivePlayground.arrowDown",
+
+    "workbench.action.interactivePlayground.arrowUp",
+
+    "workbench.action.interactivePlayground.pageDown",
+
+    "workbench.action.interactivePlayground.pageUp",
+
+    "workbench.action.keepEditor",
+    "workbench.action.keybindingsReference",
+    "workbench.action.lastEditorInGroup",
+    "workbench.action.lastEditorInGroup",
+    "workbench.action.moveActiveEditorGroupDown",
+    "workbench.action.moveActiveEditorGroupLeft",
+    "workbench.action.moveActiveEditorGroupRight",
+    "workbench.action.moveActiveEditorGroupUp",
+    "workbench.action.moveEditorLeftInGroup",
+    "workbench.action.moveEditorRightInGroup",
+    "workbench.action.moveEditorToFirstGroup",
+    "workbench.action.moveEditorToLastGroup",
+    "workbench.action.moveEditorToNextGroup",
+    "workbench.action.moveEditorToPreviousGroup",
+    "workbench.action.navigateBack",
+    "workbench.action.navigateForward",
+    "workbench.action.navigateToLastEditLocation",
+    "workbench.action.newWindow",
+    "workbench.action.nextEditor",
+    "workbench.action.nextEditorInGroup",
+    "workbench.action.openEditorAtIndex1",
+    "workbench.action.openEditorAtIndex2",
+    "workbench.action.openEditorAtIndex3",
+    "workbench.action.openEditorAtIndex4",
+    "workbench.action.openEditorAtIndex5",
+    "workbench.action.openEditorAtIndex6",
+    "workbench.action.openEditorAtIndex7",
+    "workbench.action.openEditorAtIndex8",
+    "workbench.action.openEditorAtIndex9",
+    "workbench.action.openGlobalKeybindings",
+    "workbench.action.openRecent",
+    "workbench.action.openSettings",
+    "workbench.action.output.toggleOutput",
+    "workbench.action.pinEditor",
+    "!activeEditorIsPinned",
+    "workbench.action.previousEditor",
+    "workbench.action.previousEditorInGroup",
+    "workbench.action.quickOpen",
+    "workbench.action.quickOpen",
+    "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+    "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "workbench.action.quit",
+    "workbench.action.reopenClosedEditor",
+    "workbench.action.replaceInFiles",
+    "workbench.action.search.toggleQueryDetails",
+    "inSearchEditor || searchViewletFocus",
+    "workbench.action.selectTheme",
+    "workbench.action.showAllEditors",
+    "workbench.action.showAllSymbols",
+    "workbench.action.showCommands",
+    "workbench.action.showCommands",
+    "workbench.action.splitEditor",
+    "workbench.action.splitEditorOrthogonal",
+    "workbench.action.tasks.build",
+    "workbench.action.terminal.clearSelection",
+    "terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible",
+    "workbench.action.terminal.copySelection",
+    "terminalFocus && terminalProcessSupported && terminalTextSelected",
+    "workbench.action.terminal.findNext",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.findNext",
+    "terminalFindFocused && terminalProcessSupported",
+    "workbench.action.terminal.findPrevious",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.findPrevious",
+    "terminalFindFocused && terminalProcessSupported",
+    "workbench.action.terminal.focusFind",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.focusNextPane",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.focusNextPane",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.focusPreviousPane",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.focusPreviousPane",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.hideFind",
+    "terminalFindVisible && terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.hideFind",
+    "terminalFindVisible && terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.navigationModeExit",
+    "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported",
+    "workbench.action.terminal.navigationModeFocusNext",
+    "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.navigationModeFocusPrevious",
+    "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported || accessibilityModeEnabled && terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.new",
+    "workbench.action.terminal.openNativeConsole",
+    "!terminalFocus",
+    "workbench.action.terminal.paste",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.resizePaneLeft",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.resizePaneRight",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollDown",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollDownPage",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollToBottom",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollToTop",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollUp",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.scrollUpPage",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.searchWorkspace",
+    "terminalFocus && terminalProcessSupported && terminalProcessSupported && terminalTextSelected",
+    "workbench.action.terminal.sendSequence",
+    "terminalFocus",
+
+    "workbench.action.terminal.sendSequence",
+    "terminalFocus",
+
+    "workbench.action.terminal.split",
+    "terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.toggleFindCaseSensitive",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.toggleFindRegex",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.toggleFindWholeWord",
+    "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported",
+    "workbench.action.terminal.toggleTerminal",
+    "workbench.action.toggleEditorGroupLayout",
+    "workbench.action.toggleFullScreen",
+    "workbench.action.togglePanel",
+    "workbench.action.toggleSidebarVisibility",
+    "workbench.action.toggleTabsVisibility",
+    "workbench.action.toggleZenMode",
+    "workbench.action.unpinEditor",
+    "activeEditorIsPinned",
+    "workbench.action.zoomIn",
+    "workbench.action.zoomIn",
+    "workbench.action.zoomIn",
+    "workbench.action.zoomOut",
+    "workbench.action.zoomOut",
+    "workbench.action.zoomReset",
+    "workbench.actions.view.problems",
+    "workbench.debug.action.toggleRepl",
+    "debuggersAvailable",
+    "workbench.extensions.action.showRecommendedKeymapExtensions",
+    "workbench.files.action.compareWithClipboard",
+    "workbench.files.action.compareWithSaved",
+    "workbench.files.action.focusOpenEditorsView",
+    "workbench.explorer.openEditorsView.active",
+    "workbench.statusBar.clearFocus",
+    "statusBarFocused",
+    "workbench.statusBar.focusFirst",
+    "statusBarFocused",
+    "workbench.statusBar.focusLast",
+    "statusBarFocused",
+    "workbench.statusBar.focusNext",
+    "statusBarFocused",
+    "workbench.statusBar.focusNext",
+    "statusBarFocused",
+    "workbench.statusBar.focusPrevious",
+    "statusBarFocused",
+    "workbench.statusBar.focusPrevious",
+    "statusBarFocused",
+    "workbench.view.debug",
+    "workbench.view.explorer",
+    "workbench.view.extensions",
+    "workbench.view.scm",
+    "workbench.view.search",
+    "!searchViewletVisible",
+    "breadcrumbs.focusNextWithPicker",
+
+    "breadcrumbs.focusPreviousWithPicker",
+
+    "breadcrumbs.selectEditor",
+
+    "views.moveViewDown",
+    "focusedView != ''",
+    "views.moveViewLeft",
+    "focusedView != ''",
+    "views.moveViewRight",
+    "focusedView != ''",
+    "views.moveViewUp",
+    "focusedView != ''",
+    "workbench.action.debug.pause",
+    "debugState == 'running'",
+    "debug.renameWatchExpression",
+    "watchExpressionsFocused",
+    "debug.setVariable",
+    "variablesFocused",
+    "debug.toggleBreakpoint",
+    "breakpointsFocused && !inputFocus",
+    "deleteFile",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus",
+    "deleteFile",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus",
+    "editor.closeCallHierarchy",
+    "callHierarchyVisible && !config.editor.stablePeek",
+    "explorer.openAndPassFocus",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus",
+    "filesExplorer.cancelCut",
+    "explorerResourceCut && explorerViewletVisible && filesExplorerFocus && !inputFocus",
+    "filesExplorer.copy",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus",
+    "filesExplorer.cut",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus",
+    "filesExplorer.openFilePreserveFocus",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus",
+    "filesExplorer.paste",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus",
+    "firstCompressedFolder",
+    "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus",
+    "lastCompressedFolder",
+    "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedLastFocus && !inputFocus",
+    "moveFileToTrash",
+    "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus",
+    "nextCompressedFolder",
+    "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedLastFocus && !inputFocus",
+    "previousCompressedFolder",
+    "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus",
+    "remote.tunnel.closeInline",
+    "tunnelCloseable && tunnelViewFocus",
+    "remote.tunnel.copyAddressInline",
+    "tunnelViewFocus && tunnelType == 'Detected' || tunnelViewFocus && tunnelType == 'Forwarded'",
+    "remote.tunnel.label",
+    "tunnelViewFocus && tunnelType == 'Forwarded'",
+    "renameFile",
+    "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "workbench.action.debug.stepInto",
+    "debugState != 'inactive'",
+    "closeReferenceSearch",
+    "referenceSearchVisible && !config.editor.stablePeek",
+    "closeReferenceSearch",
+    "referenceSearchVisible && !config.editor.stablePeek",
+    "notifications.hideList",
+    "notificationCenterVisible",
+    "workbench.action.quickInputBack",
+    "inQuickOpen",
+    "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "inEditorsPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigateNextInFilePicker",
+    "inFilesPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigateNextInFilePicker",
+    "inFilesPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+    "inQuickOpen && inRecentFilesPicker",
+    "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+    "inEditorsPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "inFilesPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "inFilesPicker && inQuickOpen",
+    "workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+    "inQuickOpen && inRecentFilesPicker",
+    "workbench.action.reloadWindow",
+    "isDevelopment",
+    "workbench.action.toggleDevTools",
+    "isDevelopment",
+    "notifications.hideToasts",
+    "notificationFocus && notificationToastsVisible",
+    "extension.node-debug.startWithStopOnEntry",
+    "!inDebugMode && debugConfigurationType == 'node'",
+    "git.stageSelectedRanges",
+
+    "markdown.showPreview",
+    "!notebookEditorFocused && editorLangId == 'markdown'",
+    "references-view.findReferences",
+    "editorHasReferenceProvider",
+    "git.unstageSelectedRanges",
+
+    "markdown.showPreviewToSide",
+    "!notebookEditorFocused && editorLangId == 'markdown'",
+    "references-view.next",
+    "reference-list.hasResult && references-view.canNavigate",
+    "git.revertSelectedRanges",
+
+    "references-view.prev",
+    "reference-list.hasResult && references-view.canNavigate",
+    "references-view.showCallHierarchy",
+    "editorHasCallHierarchyProvider",
+    "auto-close-tag.closeTag",
+    "bookmarks.toggle",
+
+    "editor.togglequotes",
+    "extension.colorHelper.pick",
+
+    "bookmarks.jumpToNext",
+
+    "extension.colorHelper.convert",
+
+    "bookmarks.jumpToPrevious",
+
+    "bookmarks.shrinkSelection",
+
+    "bookmarks.expandSelectionToNext",
+
+    "bookmarks.expandSelectionToPrevious"
+]
+// Here are other available commands:
+// - acceptSelectedSuggestionOnEnter
+// - acceptSnippet
+// - actions.findWithSelection
+// - addRootFolder
+// - bookmarks.clear
+// - bookmarks.clearFromAllFiles
+// - bookmarks.list
+// - bookmarks.listFromAllFiles
+// - bookmarks.openSettings
+// - bookmarks.refresh
+// - bookmarks.selectLines
+// - bookmarks.supportBookmarks
+// - bookmarks.toggleLabeled
+// - bookmarks.whatsNew
+// - bookmarksExplorer.focus
+// - bookmarksExplorer.resetViewLocation
+// - bookmarksHelpAndFeedback.focus
+// - bookmarksHelpAndFeedback.openHelpLink
+// - bookmarksHelpAndFeedback.resetViewLocation
+// - breadcrumbs.toggle
+// - changeEditorIndentation
+// - cleanSearchEditorState
+// - closeReferenceSearchEditor
+// - codelens.showLensesInCurrentLine
+// - codemetrics.toggleCodeMetricsDisplayed
+// - codemetrics.toggleCodeMetricsForArrowFunctions
+// - columnSelect
+// - compareFiles
+// - compareSelected
+// - compositionEnd
+// - compositionStart
+// - createCursor
+// - cursorLineEnd
+// - cursorLineEndSelect
+// - cursorLineStart
+// - cursorLineStartSelect
+// - cursorRedo
+// - cursorWordAccessibilityLeft
+// - cursorWordAccessibilityLeftSelect
+// - cursorWordAccessibilityRight
+// - cursorWordAccessibilityRightSelect
+// - cursorWordEndLeft
+// - cursorWordEndLeftSelect
+// - cursorWordPartLeft
+// - cursorWordPartLeftSelect
+// - cursorWordPartRight
+// - cursorWordPartRightSelect
+// - cursorWordPartStartLeft
+// - cursorWordPartStartLeftSelect
+// - cursorWordRight
+// - cursorWordRightSelect
+// - cursorWordStartLeft
+// - cursorWordStartLeftSelect
+// - cursorWordStartRight
+// - cursorWordStartRightSelect
+// - cut
+// - debug.addConfiguration
+// - debug.addToWatchExpressions
+// - debug.breakWhenValueChanges
+// - debug.copyEvaluatePath
+// - debug.copyStackTrace
+// - debug.copyValue
+// - debug.enableOrDisableBreakpoint
+// - debug.installAdditionalDebuggers
+// - debug.jumpToCursor
+// - debug.startFromConfig
+// - default:compositionEnd
+// - default:compositionStart
+// - default:cut
+// - default:paste
+// - default:redo
+// - default:replacePreviousChar
+// - default:type
+// - default:undo
+// - deleteAllLeft
+// - deleteAllRight
+// - deleteInsideWord
+// - deleteWordEndLeft
+// - deleteWordEndRight
+// - deleteWordPartLeft
+// - deleteWordPartRight
+// - deleteWordStartLeft
+// - deleteWordStartRight
+// - editor.action.addCursorsToBottom
+// - editor.action.addCursorsToTop
+// - editor.action.addSelectionToPreviousFindMatch
+// - editor.action.clipboardCopyWithSyntaxHighlightingAction
+// - editor.action.detectIndentation
+// - editor.action.duplicateSelection
+// - editor.action.findReferences
+// - editor.action.fixAll
+// - editor.action.fontZoomIn
+// - editor.action.fontZoomOut
+// - editor.action.fontZoomReset
+// - editor.action.forceRetokenize
+// - editor.action.format
+// - editor.action.formatChanges
+// - editor.action.formatDocument.multiple
+// - editor.action.formatSelection.multiple
+// - editor.action.goToDeclaration
+// - editor.action.goToSelectionAnchor
+// - editor.action.goToTypeDefinition
+// - editor.action.indentUsingSpaces
+// - editor.action.indentUsingTabs
+// - editor.action.indentationToSpaces
+// - editor.action.indentationToTabs
+// - editor.action.inspectTMScopes
+// - editor.action.joinLines
+// - editor.action.measureExtHostLatency
+// - editor.action.moveCarretLeftAction
+// - editor.action.moveCarretRightAction
+// - editor.action.moveSelectionToPreviousFindMatch
+// - editor.action.nextCommentThreadAction
+// - editor.action.openDeclarationToTheSide
+// - editor.action.openLink
+// - editor.action.peekDeclaration
+// - editor.action.peekTypeDefinition
+// - editor.action.previewDeclaration
+// - editor.action.referenceSearch.trigger
+// - editor.action.reindentlines
+// - editor.action.reindentselectedlines
+// - editor.action.resetSuggestSize
+// - editor.action.revealDeclaration
+// - editor.action.selectionClipboardPaste
+// - editor.action.showDefinitionPreviewHover
+// - editor.action.showReferences
+// - editor.action.showSnippets
+// - editor.action.smartSelect.grow
+// - editor.action.sortLinesAscending
+// - editor.action.sortLinesDescending
+// - editor.action.startDebugTextMate
+// - editor.action.toggleColumnSelection
+// - editor.action.toggleMinimap
+// - editor.action.toggleRenderControlCharacter
+// - editor.action.toggleRenderWhitespace
+// - editor.action.transformToLowercase
+// - editor.action.transformToTitlecase
+// - editor.action.transformToUppercase
+// - editor.action.transpose
+// - editor.action.transposeLetters
+// - editor.action.wordHighlight.trigger
+// - editor.debug.action.addLogPoint
+// - editor.debug.action.conditionalBreakpoint
+// - editor.debug.action.goToNextBreakpoint
+// - editor.debug.action.goToPreviousBreakpoint
+// - editor.debug.action.runToCursor
+// - editor.debug.action.selectionToRepl
+// - editor.debug.action.selectionToWatch
+// - editor.debug.action.stepIntoTargets
+// - editor.emmet.action.balanceIn
+// - editor.emmet.action.balanceOut
+// - editor.emmet.action.decrementNumberByOne
+// - editor.emmet.action.decrementNumberByOneTenth
+// - editor.emmet.action.decrementNumberByTen
+// - editor.emmet.action.evaluateMathExpression
+// - editor.emmet.action.incrementNumberByOne
+// - editor.emmet.action.incrementNumberByOneTenth
+// - editor.emmet.action.incrementNumberByTen
+// - editor.emmet.action.matchTag
+// - editor.emmet.action.mergeLines
+// - editor.emmet.action.nextEditPoint
+// - editor.emmet.action.prevEditPoint
+// - editor.emmet.action.reflectCSSValue
+// - editor.emmet.action.removeTag
+// - editor.emmet.action.selectNextItem
+// - editor.emmet.action.selectPrevItem
+// - editor.emmet.action.splitJoinTag
+// - editor.emmet.action.toggleComment
+// - editor.emmet.action.updateImageSize
+// - editor.emmet.action.updateTag
+// - editor.emmet.action.wrapIndividualLinesWithAbbreviation
+// - editor.emmet.action.wrapWithAbbreviation
+// - emmet.expandAbbreviation
+// - eqMaterialThemeIcons.fixIcons
+// - explorer.download
+// - explorer.newFile
+// - explorer.newFolder
+// - explorer.openWith
+// - extension.bisect.next
+// - extension.bisect.start
+// - extension.bisect.stop
+// - extension.chrome-debug.toggleSkippingFile
+// - extension.chrome-debug.toggleSmartStep
+// - extension.cm_changelog
+// - extension.cm_find_colors_in_selection
+// - extension.cm_help
+// - extension.cm_open_palette
+// - extension.cm_open_picker
+// - extension.cm_open_picker_sel
+// - extension.cm_palette_autocomplete_add
+// - extension.cm_palette_autocomplete_remove
+// - extension.cm_restore_factory
+// - extension.colorHighlight
+// - extension.js-debug.autoAttachToProcess
+// - extension.js-debug.clearAutoAttachVariables
+// - extension.js-debug.createDiagnostics
+// - extension.js-debug.debugLink
+// - extension.js-debug.experimentEnlist
+// - extension.js-debug.revealPage
+// - extension.js-debug.setAutoAttachVariables
+// - extension.jsProfileVisualizer.table.clearCodeLenses
+// - extension.node-debug.attachNodeProcess
+// - extension.node-debug.toggleAutoAttach
+// - extension.node-debug.toggleSkippingFile
+// - extension.node-debug2.toggleSkippingFile
+// - extension.open
+// - extension.pwa-chrome-debug.addCustomBreakpoints
+// - extension.pwa-chrome-debug.removeAllCustomBreakpoints
+// - extension.pwa-chrome-debug.removeCustomBreakpoint
+// - extension.pwa-node-debug.attachNodeProcess
+// - extension.pwa-node-debug.createDebuggerTerminal
+// - extension.pwa-node-debug.npmScript
+// - extension.pwa-node-debug.pickNodeProcess
+// - extension.pwa-node-debug.prettyPrint
+// - extension.pwa-node-debug.startProfile
+// - extension.pwa-node-debug.stopProfile
+// - extension.pwa-node-debug.toggleSkippingFile
+// - extension.scanForCssClasses
+// - extensions.recommendedList.focus
+// - extensions.recommendedList.resetViewLocation
+// - files.openTimeline
+// - filesExplorer.findInWorkspace
+// - git._syncAll
+// - git.addRemote
+// - git.api.getRemoteSources
+// - git.api.getRepositories
+// - git.api.getRepositoryState
+// - git.branch
+// - git.branchFrom
+// - git.checkout
+// - git.checkoutDetached
+// - git.cherryPick
+// - git.clean
+// - git.cleanAll
+// - git.cleanAllTracked
+// - git.cleanAllUntracked
+// - git.clone
+// - git.cloneRecursive
+// - git.close
+// - git.commit
+// - git.commitAll
+// - git.commitAllAmend
+// - git.commitAllAmendNoVerify
+// - git.commitAllNoVerify
+// - git.commitAllSigned
+// - git.commitAllSignedNoVerify
+// - git.commitEmpty
+// - git.commitEmptyNoVerify
+// - git.commitNoVerify
+// - git.commitStaged
+// - git.commitStagedAmend
+// - git.commitStagedAmendNoVerify
+// - git.commitStagedNoVerify
+// - git.commitStagedSigned
+// - git.commitStagedSignedNoVerify
+// - git.createTag
+// - git.deleteBranch
+// - git.deleteTag
+// - git.fetch
+// - git.fetchAll
+// - git.fetchPrune
+// - git.ignore
+// - git.init
+// - git.merge
+// - git.openChange
+// - git.openFile
+// - git.openFile2
+// - git.openHEADFile
+// - git.openRepository
+// - git.openResource
+// - git.publish
+// - git.pull
+// - git.pullFrom
+// - git.pullRebase
+// - git.push
+// - git.pushForce
+// - git.pushTags
+// - git.pushTo
+// - git.pushToForce
+// - git.pushWithTags
+// - git.pushWithTagsForce
+// - git.rebase
+// - git.rebaseAbort
+// - git.refresh
+// - git.removeRemote
+// - git.rename
+// - git.renameBranch
+// - git.restoreCommitTemplate
+// - git.revealInExplorer
+// - git.revertChange
+// - git.setLogLevel
+// - git.showOutput
+// - git.stage
+// - git.stageAll
+// - git.stageAllMerge
+// - git.stageAllTracked
+// - git.stageAllUntracked
+// - git.stageChange
+// - git.stash
+// - git.stashApply
+// - git.stashApplyLatest
+// - git.stashDrop
+// - git.stashIncludeUntracked
+// - git.stashPop
+// - git.stashPopLatest
+// - git.sync
+// - git.syncRebase
+// - git.timeline.copyCommitId
+// - git.timeline.copyCommitMessage
+// - git.timeline.openDiff
+// - git.undoCommit
+// - git.unstage
+// - git.unstageAll
+// - github.provide-token
+// - github.publish
+// - goToNextReferenceFromEmbeddedEditor
+// - goToPreviousReferenceFromEmbeddedEditor
+// - help.tweetFeedback
+// - html-css-class-completion.cache
+// - imagePreview.zoomIn
+// - imagePreview.zoomOut
+// - javascript.goToProjectConfig
+// - javascript.reloadProjects
+// - jsBrowserBreakpoints.focus
+// - jsBrowserBreakpoints.resetViewLocation
+// - keybindings.editor.copyCommandKeybindingEntry
+// - keybindings.editor.resetKeybinding
+// - keybindings.editor.showConflicts
+// - keybindings.editor.showDefaultKeybindings
+// - keybindings.editor.showUserKeybindings
+// - lastCursorLineSelect
+// - lastCursorLineSelectDrag
+// - lastCursorWordSelect
+// - layoutEditorGroups
+// - lineBreakInsert
+// - list.focusFirstChild
+// - list.focusLastChild
+// - list.focusParent
+// - list.scrollLeft
+// - list.scrollRight
+// - list.selectAndPreserveFocus
+// - list.toggleFilterOnType
+// - list.toggleKeyboardNavigation
+// - markdown.preview.refresh
+// - markdown.preview.toggleLock
+// - markdown.showLockedPreviewToSide
+// - markdown.showPreviewSecuritySelector
+// - markdown.showSource
+// - material-icon-theme.activateIcons
+// - material-icon-theme.changeFolderColor
+// - material-icon-theme.changeFolderTheme
+// - material-icon-theme.changeOpacity
+// - material-icon-theme.changeSaturation
+// - material-icon-theme.restoreDefaultConfig
+// - material-icon-theme.toggleExplorerArrows
+// - material-icon-theme.toggleGrayscale
+// - material-icon-theme.toggleIconPacks
+// - merge-conflict.accept.all-both
+// - merge-conflict.accept.all-current
+// - merge-conflict.accept.all-incoming
+// - merge-conflict.accept.both
+// - merge-conflict.accept.current
+// - merge-conflict.accept.incoming
+// - merge-conflict.accept.selection
+// - merge-conflict.compare
+// - merge-conflict.next
+// - merge-conflict.previous
+// - notebook.cancelExecution
+// - notebook.cell.changeLanguage
+// - notebook.cell.copy
+// - notebook.cell.cut
+// - notebook.cell.insertCodeCellAtTop
+// - notebook.cell.insertMarkdownCellAbove
+// - notebook.cell.insertMarkdownCellAtTop
+// - notebook.cell.insertMarkdownCellBelow
+// - notebook.cell.paste
+// - notebook.clearAllCellsOutputs
+// - notebook.diff.cell.revertInput
+// - notebook.diff.cell.revertMetadata
+// - notebook.diff.cell.revertOutputs
+// - notebook.diff.switchToText
+// - notebook.execute
+// - notebook.inspectLayout
+// - notebook.renderAllMarkdownCells
+// - notebook.selectKernel
+// - notebook.trust
+// - notifications.clearAll
+// - notifications.focusToasts
+// - notifications.showList
+// - notifications.toggleList
+// - npm-intellisense.import
+// - npm.debugScript
+// - npm.debugScriptFromHover
+// - npm.focus
+// - npm.openScript
+// - npm.packageManager
+// - npm.refresh
+// - npm.resetViewLocation
+// - npm.runInstall
+// - npm.runScript
+// - npm.runScriptFromFolder
+// - npm.runScriptFromHover
+// - npm.runSelectedScript
+// - openInTerminal
+// - openReference
+// - outline.focus
+// - outline.resetViewLocation
+// - paste
+// - perfview.show
+// - php.untrustValidationExecutable
+// - prettier.createConfigFile
+// - prettier.openOutput
+// - problems.action.clearFilterText
+// - problems.action.copyMessage
+// - problems.action.copyRelatedInformationMessage
+// - problems.action.showMultilineMessage
+// - problems.action.showSinglelineMessage
+// - refactorPreview.discard
+// - refactorPreview.focus
+// - refactorPreview.groupByFile
+// - refactorPreview.groupByType
+// - refactorPreview.resetViewContainerLocation
+// - refactorPreview.resetViewLocation
+// - refactorPreview.toggleGrouping
+// - references-view.clear
+// - references-view.clearHistory
+// - references-view.copy
+// - references-view.copyAll
+// - references-view.copyPath
+// - references-view.findImplementations
+// - references-view.pickFromHistory
+// - references-view.refind
+// - references-view.refresh
+// - references-view.removeCallItem
+// - references-view.removeReferenceItem
+// - references-view.showIncomingCalls
+// - references-view.showOutgoingCalls
+// - references-view.tree.focus
+// - references-view.tree.resetViewLocation
+// - remote.tunnel.changeLocalPort
+// - remote.tunnel.closeCommandPalette
+// - remote.tunnel.copyAddressCommandPalette
+// - remote.tunnel.forwardCommandPalette
+// - remote.tunnel.forwardInline
+// - remote.tunnel.open
+// - remote.tunnel.openCommandPalette
+// - removeRootFolder
+// - repl.action.copyAll
+// - replacePreviousChar
+// - resetGettingStartedProgress
+// - revealInExplorer
+// - saveAll
+// - scm.openInTerminal
+// - search.action.clearHistory
+// - search.action.clearSearchResults
+// - search.action.collapseSearchResults
+// - search.action.copyAll
+// - search.action.expandSearchResults
+// - search.action.focusSearchList
+// - search.action.openEditor
+// - search.action.openNewEditor
+// - search.action.openNewEditorToSide
+// - search.action.refreshSearchResults
+// - search.action.revealInSideBar
+// - selectFirstSuggestion
+// - selectForCompare
+// - selectLastSuggestion
+// - setContext
+// - setSelection
+// - settings.filterByModified
+// - settings.filterByOnline
+// - settings.switchToJSON
+// - show.all.messages
+// - show.error.message
+// - show.information.message
+// - show.warning.message
+// - showEditorScreenReaderNotification
+// - start.progress.badge
+// - stop.progress.badge
+// - terminal.focus
+// - terminal.resetViewContainerLocation
+// - terminal.resetViewLocation
+// - timeline.focus
+// - timeline.resetViewLocation
+// - toggle.diff.ignoreTrimWhitespace
+// - toggle.diff.renderSideBySide
+// - toggleEscapeSequenceLogging
+// - typescript.goToProjectConfig
+// - typescript.openTsServerLog
+// - typescript.reloadProjects
+// - typescript.restartTsServer
+// - typescript.selectTypeScriptVersion
+// - update.check
+// - update.checkForVSCodeUpdate
+// - update.checking
+// - update.downloadNow
+// - update.downloading
+// - update.install
+// - update.restart
+// - update.showCurrentReleaseNotes
+// - update.updating
+// - vscode-icons.activateIcons
+// - vscode-icons.foldersAllDefaultIconPreset
+// - vscode-icons.hideExplorerArrowsPreset
+// - vscode-icons.hideFoldersPreset
+// - vscode-icons.jsPreset
+// - vscode-icons.jsonPreset
+// - vscode-icons.nestPreset
+// - vscode-icons.ngPreset
+// - vscode-icons.regenerateIcons
+// - vscode-icons.resetProjectDetectionDefaults
+// - vscode-icons.restoreIcons
+// - vscode-icons.tsPreset
+// - workbench.action.acceptSelectedQuickOpenItem
+// - workbench.action.addComment
+// - workbench.action.addRootFolder
+// - workbench.action.alternativeAcceptSelectedQuickOpenItem
+// - workbench.action.blur
+// - workbench.action.clearCommandHistory
+// - workbench.action.clearEditorHistory
+// - workbench.action.clearRecentFiles
+// - workbench.action.closeActivePinnedEditor
+// - workbench.action.closeEditorInAllGroups
+// - workbench.action.closeEditorsAndGroup
+// - workbench.action.closeEditorsInOtherGroups
+// - workbench.action.closeEditorsToTheLeft
+// - workbench.action.closeEditorsToTheRight
+// - workbench.action.closeOtherEditors
+// - workbench.action.closePanel
+// - workbench.action.closeSidebar
+// - workbench.action.compareEditor.focusOtherSide
+// - workbench.action.compareEditor.focusPrimarySide
+// - workbench.action.compareEditor.focusSecondarySide
+// - workbench.action.configureLanguageBasedSettings
+// - workbench.action.configureLocale
+// - workbench.action.configureRuntimeArguments
+// - workbench.action.debug.configure
+// - workbench.action.debug.disconnect
+// - workbench.action.debug.restartFrame
+// - workbench.action.debug.reverseContinue
+// - workbench.action.debug.selectandstart
+// - workbench.action.debug.stepBack
+// - workbench.action.debug.terminateThread
+// - workbench.action.decreaseViewHeight
+// - workbench.action.decreaseViewSize
+// - workbench.action.decreaseViewWidth
+// - workbench.action.duplicateWorkspaceInNewWindow
+// - workbench.action.editor.changeEOL
+// - workbench.action.editor.changeEncoding
+// - workbench.action.editorLayoutSingle
+// - workbench.action.editorLayoutThreeColumns
+// - workbench.action.editorLayoutThreeRows
+// - workbench.action.editorLayoutTwoByTwoGrid
+// - workbench.action.editorLayoutTwoColumns
+// - workbench.action.editorLayoutTwoColumnsBottom
+// - workbench.action.editorLayoutTwoRows
+// - workbench.action.editorLayoutTwoRowsRight
+// - workbench.action.evenEditorWidths
+// - workbench.action.extensionHostProfiler.stop
+// - workbench.action.files.openFileFolderInNewWindow
+// - workbench.action.files.openFileInNewWindow
+// - workbench.action.files.openFolderInNewWindow
+// - workbench.action.files.revert
+// - workbench.action.files.saveAll
+// - workbench.action.files.saveFiles
+// - workbench.action.firstEditorInGroup
+// - workbench.action.focusAboveGroupWithoutWrap
+// - workbench.action.focusActiveEditorGroup
+// - workbench.action.focusActivityBar
+// - workbench.action.focusBelowGroupWithoutWrap
+// - workbench.action.focusCommentsPanel
+// - workbench.action.focusLastEditorGroup
+// - workbench.action.focusLeftGroupWithoutWrap
+// - workbench.action.focusNextGroup
+// - workbench.action.focusPanel
+// - workbench.action.focusPreviousGroup
+// - workbench.action.focusQuickOpen
+// - workbench.action.focusRightGroupWithoutWrap
+// - workbench.action.generateColorTheme
+// - workbench.action.increaseViewHeight
+// - workbench.action.increaseViewSize
+// - workbench.action.increaseViewWidth
+// - workbench.action.inspectContextKeys
+// - workbench.action.inspectKeyMappings
+// - workbench.action.inspectKeyMappingsJSON
+// - workbench.action.installCommandLine
+// - workbench.action.joinAllGroups
+// - workbench.action.joinTwoGroups
+// - workbench.action.logStorage
+// - workbench.action.logWorkingCopies
+// - workbench.action.manageTrustedDomain
+// - workbench.action.maximizeEditor
+// - workbench.action.minimizeOtherEditors
+// - workbench.action.moveEditorToAboveGroup
+// - workbench.action.moveEditorToBelowGroup
+// - workbench.action.moveEditorToLeftGroup
+// - workbench.action.moveEditorToRightGroup
+// - workbench.action.moveFocusedView
+// - workbench.action.moveView
+// - workbench.action.navigateDown
+// - workbench.action.navigateEditorGroups
+// - workbench.action.navigateLast
+// - workbench.action.navigateLeft
+// - workbench.action.navigateRight
+// - workbench.action.navigateUp
+// - workbench.action.newGroupAbove
+// - workbench.action.newGroupBelow
+// - workbench.action.newGroupLeft
+// - workbench.action.newGroupRight
+// - workbench.action.nextPanelView
+// - workbench.action.nextSideBarView
+// - workbench.action.openActiveLogOutputFile
+// - workbench.action.openDefaultKeybindingsFile
+// - workbench.action.openDocumentationUrl
+// - workbench.action.openEditorAtIndex
+// - workbench.action.openExtensionLogsFolder
+// - workbench.action.openFolderSettings
+// - workbench.action.openFolderSettingsFile
+// - workbench.action.openGlobalKeybindingsFile
+// - workbench.action.openGlobalSettings
+// - workbench.action.openIntroductoryVideosUrl
+// - workbench.action.openIssueReporter
+// - workbench.action.openLicenseUrl
+// - workbench.action.openLogFile
+// - workbench.action.openLogsFolder
+// - workbench.action.openNewsletterSignupUrl
+// - workbench.action.openNextRecentlyUsedEditor
+// - workbench.action.openNextRecentlyUsedEditorInGroup
+// - workbench.action.openPreviousEditorFromHistory
+// - workbench.action.openPreviousRecentlyUsedEditor
+// - workbench.action.openPreviousRecentlyUsedEditorInGroup
+// - workbench.action.openPrivacyStatementUrl
+// - workbench.action.openProcessExplorer
+// - workbench.action.openRawDefaultSettings
+// - workbench.action.openRemoteSettings
+// - workbench.action.openRequestFeatureUrl
+// - workbench.action.openSettings2
+// - workbench.action.openSettingsJson
+// - workbench.action.openSnippets
+// - workbench.action.openTipsAndTricksUrl
+// - workbench.action.openTwitterUrl
+// - workbench.action.openView
+// - workbench.action.openWorkspace
+// - workbench.action.openWorkspaceConfigFile
+// - workbench.action.openWorkspaceInNewWindow
+// - workbench.action.openWorkspaceSettings
+// - workbench.action.openWorkspaceSettingsFile
+// - workbench.action.positionPanelBottom
+// - workbench.action.positionPanelLeft
+// - workbench.action.positionPanelRight
+// - workbench.action.previousPanelView
+// - workbench.action.previousSideBarView
+// - workbench.action.problems.focus
+// - workbench.action.quickOpenLeastRecentlyUsedEditor
+// - workbench.action.quickOpenNavigateNext
+// - workbench.action.quickOpenNavigateNextInTerminalPicker
+// - workbench.action.quickOpenNavigateNextInViewPicker
+// - workbench.action.quickOpenNavigatePrevious
+// - workbench.action.quickOpenNavigatePreviousInTerminalPicker
+// - workbench.action.quickOpenNavigatePreviousInViewPicker
+// - workbench.action.quickOpenPreviousEditor
+// - workbench.action.quickOpenPreviousRecentlyUsedEditor
+// - workbench.action.quickOpenRecent
+// - workbench.action.quickOpenSelectNext
+// - workbench.action.quickOpenSelectPrevious
+// - workbench.action.quickOpenTerm
+// - workbench.action.quickOpenView
+// - workbench.action.quickPickManyToggle
+// - workbench.action.quickSwitchWindow
+// - workbench.action.reloadWindowWithExtensionsDisabled
+// - workbench.action.remote.showMenu
+// - workbench.action.removeRootFolder
+// - workbench.action.reopenWithEditor
+// - workbench.action.reportPerformanceIssueUsingReporter
+// - workbench.action.resetFocusedViewLocation
+// - workbench.action.resetViewLocations
+// - workbench.action.restartExtensionHost
+// - workbench.action.revertAndCloseActiveEditor
+// - workbench.action.saveWorkspaceAs
+// - workbench.action.selectIconTheme
+// - workbench.action.selectProductIconTheme
+// - workbench.action.setLogLevel
+// - workbench.action.showAboutDialog
+// - workbench.action.showAllEditorsByMostRecentlyUsed
+// - workbench.action.showEditorsInActiveGroup
+// - workbench.action.showEditorsInGroup
+// - workbench.action.showEmmetCommands
+// - workbench.action.showErrorsWarnings
+// - workbench.action.showGettingStarted
+// - workbench.action.showInteractivePlayground
+// - workbench.action.showInterfaceOverview
+// - workbench.action.showLogs
+// - workbench.action.showRuntimeExtensions
+// - workbench.action.showWelcomePage
+// - workbench.action.showWindowLog
+// - workbench.action.splitEditorDown
+// - workbench.action.splitEditorLeft
+// - workbench.action.splitEditorRight
+// - workbench.action.splitEditorUp
+// - workbench.action.switchWindow
+// - workbench.action.tasks.configureDefaultBuildTask
+// - workbench.action.tasks.configureDefaultTestTask
+// - workbench.action.tasks.configureTaskRunner
+// - workbench.action.tasks.manageAutomaticRunning
+// - workbench.action.tasks.openUserTasks
+// - workbench.action.tasks.openWorkspaceFileTasks
+// - workbench.action.tasks.reRunTask
+// - workbench.action.tasks.restartTask
+// - workbench.action.tasks.showLog
+// - workbench.action.tasks.showTasks
+// - workbench.action.tasks.terminate
+// - workbench.action.tasks.test
+// - workbench.action.tasks.toggleProblems
+// - workbench.action.terminal.attachToSession
+// - workbench.action.terminal.clear
+// - workbench.action.terminal.focus
+// - workbench.action.terminal.focusAtIndex1
+// - workbench.action.terminal.focusAtIndex2
+// - workbench.action.terminal.focusAtIndex3
+// - workbench.action.terminal.focusAtIndex4
+// - workbench.action.terminal.focusAtIndex5
+// - workbench.action.terminal.focusAtIndex6
+// - workbench.action.terminal.focusAtIndex7
+// - workbench.action.terminal.focusAtIndex8
+// - workbench.action.terminal.focusAtIndex9
+// - workbench.action.terminal.focusNext
+// - workbench.action.terminal.focusPrevious
+// - workbench.action.terminal.kill
+// - workbench.action.terminal.manageWorkspaceShellPermissions
+// - workbench.action.terminal.newInActiveWorkspace
+// - workbench.action.terminal.relaunch
+// - workbench.action.terminal.rename
+// - workbench.action.terminal.resizePaneDown
+// - workbench.action.terminal.resizePaneUp
+// - workbench.action.terminal.runActiveFile
+// - workbench.action.terminal.runSelectedText
+// - workbench.action.terminal.scrollToNextCommand
+// - workbench.action.terminal.scrollToPreviousCommand
+// - workbench.action.terminal.selectAll
+// - workbench.action.terminal.selectDefaultShell
+// - workbench.action.terminal.selectToNextCommand
+// - workbench.action.terminal.selectToNextLine
+// - workbench.action.terminal.selectToPreviousCommand
+// - workbench.action.terminal.selectToPreviousLine
+// - workbench.action.terminal.showEnvironmentInformation
+// - workbench.action.terminal.splitInActiveWorkspace
+// - workbench.action.toggleActivityBarVisibility
+// - workbench.action.toggleAutoSave
+// - workbench.action.toggleCenteredLayout
+// - workbench.action.toggleConfirmBeforeClose
+// - workbench.action.toggleEditorType
+// - workbench.action.toggleEditorVisibility
+// - workbench.action.toggleEditorWidths
+// - workbench.action.toggleKeepEditors
+// - workbench.action.toggleKeybindingsLog
+// - workbench.action.toggleMaximizedPanel
+// - workbench.action.toggleMenuBar
+// - workbench.action.toggleMultiCursorModifier
+// - workbench.action.toggleScreencastMode
+// - workbench.action.toggleSearchOnType
+// - workbench.action.toggleSharedProcess
+// - workbench.action.toggleSidebarPosition
+// - workbench.action.toggleStatusbarVisibility
+// - workbench.action.uninstallCommandLine
+// - workbench.action.url.openUrl
+// - workbench.action.webview.openDeveloperTools
+// - workbench.action.webview.reloadWebviewAction
+// - workbench.actions.sync.compareWithLocal
+// - workbench.actions.sync.editMachineName
+// - workbench.actions.sync.replaceCurrent
+// - workbench.actions.sync.resolveResource
+// - workbench.actions.sync.turnOffSyncOnMachine
+// - workbench.actions.treeView.bookmarksExplorer.collapseAll
+// - workbench.actions.treeView.bookmarksExplorer.refresh
+// - workbench.actions.treeView.bookmarksHelpAndFeedback.collapseAll
+// - workbench.actions.treeView.bookmarksHelpAndFeedback.refresh
+// - workbench.actions.treeView.jsBrowserBreakpoints.collapseAll
+// - workbench.actions.treeView.jsBrowserBreakpoints.refresh
+// - workbench.actions.treeView.npm.collapseAll
+// - workbench.actions.treeView.npm.refresh
+// - workbench.actions.treeView.references-view.tree.collapseAll
+// - workbench.actions.treeView.references-view.tree.refresh
+// - workbench.actions.treeView.workbench.views.sync.localActivity.collapseAll
+// - workbench.actions.treeView.workbench.views.sync.localActivity.refresh
+// - workbench.actions.treeView.workbench.views.sync.machines.collapseAll
+// - workbench.actions.treeView.workbench.views.sync.machines.refresh
+// - workbench.actions.treeView.workbench.views.sync.merges.collapseAll
+// - workbench.actions.treeView.workbench.views.sync.merges.refresh
+// - workbench.actions.treeView.workbench.views.sync.remoteActivity.collapseAll
+// - workbench.actions.treeView.workbench.views.sync.remoteActivity.refresh
+// - workbench.actions.view.toggleProblems
+// - workbench.debug.action.focusBreakpointsView
+// - workbench.debug.action.focusCallStackView
+// - workbench.debug.action.focusRepl
+// - workbench.debug.action.focusVariablesView
+// - workbench.debug.action.focusWatchView
+// - workbench.debug.breakPointsView.resetViewLocation
+// - workbench.debug.callStackView.resetViewLocation
+// - workbench.debug.loadedScriptsView.focus
+// - workbench.debug.loadedScriptsView.resetViewLocation
+// - workbench.debug.panel.action.clearReplAction
+// - workbench.debug.variablesView.resetViewLocation
+// - workbench.debug.viewlet.action.addFunctionBreakpointAction
+// - workbench.debug.viewlet.action.disableAllBreakpoints
+// - workbench.debug.viewlet.action.enableAllBreakpoints
+// - workbench.debug.viewlet.action.reapplyBreakpointsAction
+// - workbench.debug.viewlet.action.removeAllBreakpoints
+// - workbench.debug.watchExpressionsView.resetViewLocation
+// - workbench.debug.welcome.focus
+// - workbench.debug.welcome.resetViewLocation
+// - workbench.explorer.fileView.focus
+// - workbench.explorer.fileView.resetViewLocation
+// - workbench.explorer.openEditorsView.resetViewLocation
+// - workbench.extensions.action.addExtensionToWorkspaceRecommendations
+// - workbench.extensions.action.addToWorkspaceFolderIgnoredRecommendations
+// - workbench.extensions.action.addToWorkspaceFolderRecommendations
+// - workbench.extensions.action.addToWorkspaceIgnoredRecommendations
+// - workbench.extensions.action.addToWorkspaceRecommendations
+// - workbench.extensions.action.checkForUpdates
+// - workbench.extensions.action.clearExtensionsSearchResults
+// - workbench.extensions.action.configure
+// - workbench.extensions.action.configureWorkspaceFolderRecommendedExtensions
+// - workbench.extensions.action.configureWorkspaceRecommendedExtensions
+// - workbench.extensions.action.copyExtension
+// - workbench.extensions.action.copyExtensionId
+// - workbench.extensions.action.debugExtensionHost
+// - workbench.extensions.action.disableAll
+// - workbench.extensions.action.disableAllWorkspace
+// - workbench.extensions.action.disableAutoUpdate
+// - workbench.extensions.action.enableAll
+// - workbench.extensions.action.enableAllWorkspace
+// - workbench.extensions.action.enableAutoUpdate
+// - workbench.extensions.action.extensionHostProfile
+// - workbench.extensions.action.ignoreRecommendation
+// - workbench.extensions.action.install.specificVersion
+// - workbench.extensions.action.installExtensions
+// - workbench.extensions.action.installVSIX
+// - workbench.extensions.action.listBuiltInExtensions
+// - workbench.extensions.action.listOutdatedExtensions
+// - workbench.extensions.action.manageAuthorizedExtensionURIs
+// - workbench.extensions.action.openExtensionsFolder
+// - workbench.extensions.action.refreshExtension
+// - workbench.extensions.action.reinstall
+// - workbench.extensions.action.removeExtensionFromWorkspaceRecommendations
+// - workbench.extensions.action.saveExtensionHostProfile
+// - workbench.extensions.action.showAzureExtensions
+// - workbench.extensions.action.showDisabledExtensions
+// - workbench.extensions.action.showEnabledExtensions
+// - workbench.extensions.action.showExtensionsForLanguage
+// - workbench.extensions.action.showExtensionsWithIds
+// - workbench.extensions.action.showInstalledExtensions
+// - workbench.extensions.action.showLanguageExtensions
+// - workbench.extensions.action.showPopularExtensions
+// - workbench.extensions.action.showRecommendedExtensions
+// - workbench.extensions.action.stopExtensionHostProfile
+// - workbench.extensions.action.toggleIgnoreExtension
+// - workbench.extensions.action.undoIgnoredRecommendation
+// - workbench.extensions.action.updateAllExtensions
+// - workbench.extensions.command.installFromVSIX
+// - workbench.extensions.installMissingDependencies
+// - workbench.files.action.acceptLocalChanges
+// - workbench.files.action.collapseExplorerFolders
+// - workbench.files.action.compareFileWith
+// - workbench.files.action.focusFilesExplorer
+// - workbench.files.action.refreshFilesExplorer
+// - workbench.files.action.revertLocalChanges
+// - workbench.files.action.saveAllInGroup
+// - workbench.files.action.showActiveFileInExplorer
+// - workbench.getCodeExchangeProxyEndpoints
+// - workbench.output.action.clearOutput
+// - workbench.output.action.switchBetweenOutputs
+// - workbench.output.action.toggleAutoScroll
+// - workbench.panel.markers.resetViewContainerLocation
+// - workbench.panel.markers.view.focus
+// - workbench.panel.markers.view.resetViewLocation
+// - workbench.panel.output.focus
+// - workbench.panel.output.resetViewContainerLocation
+// - workbench.panel.output.resetViewLocation
+// - workbench.panel.repl.resetViewContainerLocation
+// - workbench.panel.repl.view.focus
+// - workbench.panel.repl.view.resetViewLocation
+// - workbench.scm.focus
+// - workbench.scm.repositories.focus
+// - workbench.scm.repositories.resetViewLocation
+// - workbench.scm.resetViewLocation
+// - workbench.userData.actions.openSyncBackupsFolder
+// - workbench.userData.actions.signin
+// - workbench.userData.actions.turningOn
+// - workbench.userDataSync.actions.configure
+// - workbench.userDataSync.actions.manage
+// - workbench.userDataSync.actions.resolveKeybindingsConflicts
+// - workbench.userDataSync.actions.resolveSettingsConflicts
+// - workbench.userDataSync.actions.resolveSnippetsConflicts
+// - workbench.userDataSync.actions.settings
+// - workbench.userDataSync.actions.showLog
+// - workbench.userDataSync.actions.showSyncedData
+// - workbench.userDataSync.actions.syncNow
+// - workbench.userDataSync.actions.turnOff
+// - workbench.userDataSync.actions.turnOn
+// - workbench.view.debug.resetViewContainerLocation
+// - workbench.view.explorer.resetViewContainerLocation
+// - workbench.view.extension.bookmarks
+// - workbench.view.extension.bookmarks.resetViewContainerLocation
+// - workbench.view.extension.references-view
+// - workbench.view.extension.references-view.resetViewContainerLocation
+// - workbench.view.extension.test
+// - workbench.view.extension.test.resetViewContainerLocation
+// - workbench.view.extensions.resetViewContainerLocation
+// - workbench.view.remote
+// - workbench.view.remote.resetViewContainerLocation
+// - workbench.view.scm.resetViewContainerLocation
+// - workbench.view.search.focus
+// - workbench.view.search.resetViewContainerLocation
+// - workbench.view.search.resetViewLocation
+// - workbench.view.sync.resetViewContainerLocation
+// - workbench.views.extensions.builtinFeatureExtensions.focus
+// - workbench.views.extensions.builtinFeatureExtensions.resetViewLocation
+// - workbench.views.extensions.builtinProgrammingLanguageExtensions.focus
+// - workbench.views.extensions.builtinProgrammingLanguageExtensions.resetViewLocation
+// - workbench.views.extensions.builtinThemeExtensions.focus
+// - workbench.views.extensions.builtinThemeExtensions.resetViewLocation
+// - workbench.views.extensions.disabled.focus
+// - workbench.views.extensions.disabled.resetViewLocation
+// - workbench.views.extensions.enabled.focus
+// - workbench.views.extensions.enabled.resetViewLocation
+// - workbench.views.extensions.installed.empty.focus
+// - workbench.views.extensions.installed.empty.resetViewLocation
+// - workbench.views.extensions.installed.focus
+// - workbench.views.extensions.installed.resetViewLocation
+// - workbench.views.extensions.marketplace.focus
+// - workbench.views.extensions.marketplace.resetViewLocation
+// - workbench.views.extensions.otherRecommendations.focus
+// - workbench.views.extensions.otherRecommendations.resetViewLocation
+// - workbench.views.extensions.popular.focus
+// - workbench.views.extensions.popular.resetViewLocation
+// - workbench.views.extensions.searchBuiltin.focus
+// - workbench.views.extensions.searchBuiltin.resetViewLocation
+// - workbench.views.extensions.searchDisabled.focus
+// - workbench.views.extensions.searchDisabled.resetViewLocation
+// - workbench.views.extensions.searchEnabled.focus
+// - workbench.views.extensions.searchEnabled.resetViewLocation
+// - workbench.views.extensions.searchInstalled.focus
+// - workbench.views.extensions.searchInstalled.resetViewLocation
+// - workbench.views.extensions.searchOutdated.focus
+// - workbench.views.extensions.searchOutdated.resetViewLocation
+// - workbench.views.extensions.workspaceRecommendations.focus
+// - workbench.views.extensions.workspaceRecommendations.resetViewLocation
+// - workbench.views.sync.localActivity.focus
+// - workbench.views.sync.localActivity.resetViewLocation
+// - workbench.views.sync.machines.focus
+// - workbench.views.sync.machines.resetViewLocation
+// - workbench.views.sync.merges.focus
+// - workbench.views.sync.merges.resetViewLocation
+// - workbench.views.sync.remoteActivity.focus
+// - workbench.views.sync.remoteActivity.resetViewLocation

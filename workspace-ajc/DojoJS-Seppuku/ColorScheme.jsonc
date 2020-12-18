@@ -1,55 +1,40 @@
 {
-    "BackgroundColors": {
-        "ALPHA": "#01000000",
-        "BETA": "#01000000",
-        "GAMMA": "#01000000",
-        "DELTA": "#01000000",
-        "EPSILON": "#01000000",
-        "ZETA": "#01000000",
-        "ETA": "#01000000",
-        "THETA": "#01000000",
-        "IOTA": "#01000000",
-        "KAPPA": "#01000000"
-    },
+    "BACKGROUND_COLORS": [
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#160030",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00"
+    ],
 
-    "ForegroundColors": {
-        "ALPHA": "#01000000",
-        "BETA": "#01000000",
-        "GAMMA": "#01000000",
-        "DELTA": "#01000000",
-        "EPSILON": "#01000000"
-    },
+    "FOREGROUND_COLORS": [
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00"
+    ],
 
-    "BorderColors": {
-        "ALPHA": "#FF7010",
-        "BETA": "#A000FF",
-        "GAMMA": "#01000000",
-        "DELTA": "#01000000",
-        "EPSILON": "#01000000",
-        "ZETA": "#01000000",
-        "ETA": "#01000000",
-        "THETA": "#01000000",
-        "IOTA": "#01000000",
-        "KAPPA": "#01000000"
-    },
+    "BORDER_COLORS": [
+        "#FF7204",
+        "#FF8440",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#C4C4C4",
+        "#A1A1A1",
+        "#000001"
+    ],
 
-    "HighlightColors": {
-        "ALPHA": "#1CCFFF",
-        "BETA": "#40FF00",
-        "GAMMA": "#01000000",
-        "DELTA": "#01000000",
-        "EPSILON": "#01000000",
-        "ZETA": "#01000000",
-        "ETA": "#01000000",
-        "THETA": "#01000000",
-        "IOTA": "#01000000",
-        "KAPPA": "#01000000"
-    },
-    "StatusColors": {
-        "ZETA": "#01000000",
-        "ETA": "#01000000",
-        "THETA": "#01000000",
-        "IOTA": "#01000000",
-        "KAPPA": "#01000000"
-    }
+    "HIGHLIGHT_COLORS": [
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00",
+        "#ABCDEF00"
+    ]
 }
