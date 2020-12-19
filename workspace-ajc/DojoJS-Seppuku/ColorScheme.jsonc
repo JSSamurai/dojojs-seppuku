@@ -1,8 +1,46 @@
 {
+    "PrimaryColors": {
+        "Gun Metal Blues": [
+            "#030C22",
+            "#051026",
+            "#0A1A2E",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00"
+        ],
+
+        "Charcoals": [
+            "#030C22",
+            "#051026",
+            "#0A1A2E",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00"
+        ],
+
+        "TwilightBlue": [
+            "#030C22",
+            "#051026",
+            "#0A1A2E",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00"
+        ]
+    },
     "BACKGROUND_COLORS": [
+        "#030C22",
         "#ABCDEF00",
         "#ABCDEF00",
-        "#160030",
+        "",
         "#ABCDEF00",
         "#ABCDEF00",
         "#ABCDEF00"
