@@ -3,7 +3,7 @@
     "type": "dark",
     "colors": {
         "editor.foldBackground": "#FFFFFF02",
-        "editorRuler.foreground": "#00000010",
+        "editorRuler.foreground": "#34A4F805",
         "editorWhitespace.foreground": "#FF781C",
         "editorPane.background": "#222222",
         "editorLink.activeForeground": "#FFFFFF",
@@ -29,8 +29,8 @@
         "badge.background": "#00000F",
         "activityBarBadge.background": "#00000F",
         // -> Foreground
-        "activityBarBadge.foreground": "#FF1F5F",
-        "badge.foreground": "#FF1F5F",
+        "activityBarBadge.foreground": "#00FF3A",
+        "badge.foreground": "#00FF3A",
 
         //  <=> SearchEditor <=>
         "searchEditor.findMatchBackground": "#00FFF01C",
@@ -38,8 +38,8 @@
         "searchEditor.textInputBorder": "#00FF72",
 
         //  <=> Scroll~Bar Slider <=>
-        "scrollbarSlider.background": "#FF7014",
-        "scrollbarSlider.activeBackground": "#FFFF0030",
+        "scrollbarSlider.background": "#00FF3A",
+        "scrollbarSlider.activeBackground": "#00FF3A44",
 
         //  <=> UnnecessaryCode <=>
         "editorUnnecessaryCode.border": "#000000FF",
@@ -302,136 +302,129 @@
         <<~~~~~~~~~~~~~~~~~~( BACKGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~>>             */
         // * Note: "Color groups are organized from brighter to lighter."
 
-        //   <=> (DARKBLUE || BLUE) <=>
-        //   <=> (TwilightBlue) <=>
-        //   <=> (DARKBLUE || BLUE) <=>
-        "titleBar.activeBackground": "#0C0050",
-        "panel.background": "#000420",
-        "tab.activeBackground": "#10121E",
-        "tab.inactiveBackground": "#10121E",
-        "tab.unfocusedActiveBackground": "#10121E",
-        "tab.unfocusedInactiveBackground": "#10121E",
-
-        "activityBar.background": "#051026",
+        //    <<===/ GunMetal /===>>
+        //    <<======/ Editor /======>>
         "editor.background": "#0A1A2E",
+        "editorGutter.background": "#0A1A2E",
+        "minimap.background": "#0A1A2E",
+        "minimapSlider.activeBackground": "#00000F40",
+        "minimapSlider.background": "#00000F70",
 
-        "sideBarSectionHeader.background": "#10121E",
+        //    <<======/ Barz /======>>
+        "sideBar.background": "#0B203C",
+        "sideBarSectionHeader.background": "#000830",
 
-        "quickInput.background": "#10121E",
+        "titleBar.activeBackground": "#0A0060",
+        "activityBar.background": "#010625",
+        "panel.background": "#010625",
 
-        //   <=> (CHARCOAL || BLACK) <=>
+        //    <<======/ Tabz /======>>
+        "tab.activeBackground": "#0A1E3C",
+        "tab.inactiveBackground": "#0A1E3C",
+        "tab.unfocusedActiveBackground": "#0A1E3C",
+        "tab.unfocusedInactiveBackground": "#0A1E3C",
+
+        //   <<======/TextBox Backgroundz/======>>
+        "quickInput.background": "#0D1022",
+        "quickInputTitle.background": "#0D1022",
+
+        //   <===> (CHARCOAL || BLACK) <===>
         "editorGroupHeader.noTabsBackground": "#0A0A0A",
         "debugToolBar.background": "#0E0F12",
-        "editorOverviewRuler.background": "#0E0F12",
-        "sideBar.background": "#122338",
-        "terminal.background": "#110C09",
+        "editorOverviewRuler.background": "#0C0A08",
+
+        "terminal.background": "#181716",
         "statusBar.background": "#040A12",
         "breadcrumb.background": "#060030",
         "titleBar.inactiveBackground": "#040A20",
-        "editorGroupHeader.tabsBackground": "#040A12",
+        "editorGroupHeader.tabsBackground": "#080A1A",
 
-        "editorGutter.background": "#00000000", //        *>> Transparent
-        "quickInputTitle.background": "#10121E", //     *>> Transparent
         /*
 
 
 
         <<~~~~~~~~~~~~~~~~~( GROUPS PENDING DECONSTRUCTION )~~~~~~~~~~~~~~~~~~>>               */
-
         /*
-        foreground = {
-            "Emphasized":"",
-            "Standard":"",
-            "Deemphasized":"",
-            "":"",
-        }
-        <<~~~~~~~~~~~~~~~~~~~~~~( FOREGROUND CONFIRMITY )~~~~~~~~~~~~~~~~~~~~~>>               */
-        //    *==>> Foreground Emphasized
 
-        "statusBar.foreground": "#C4C4C4",
-        "sideBarTitle.foreground": "#DDDDDD",
 
-        //    *==>> Foreground Standard
+        <<~~~~~~~~~~~~~~~~~~~~( FOREGROUND CONFORMITY )~~~~~~~~~~~~~~~~~~~~>>                */
+        "sideBar.foreground": "#4DDD8D",
+        "statusBar.foreground": "#B8B8B8",
+        "sideBarTitle.foreground": "#FFFFFF",
+        "terminal.foreground": "#1DFDD1",
 
-        "terminal.foreground": "#B4B4B4",
-        "titleBar.activeForeground": "#B4B4B4",
-        "editor.foreground": "#B4B4B4",
-        "sideBar.foreground": "#B4B4B4",
-        "sideBarSectionHeader.foreground": "#B4B4B4",
+        "titleBar.activeForeground": "#CCCCCC",
+        "editor.foreground": "#DDDDDD",
+        "sideBarSectionHeader.foreground": "#60B0E4",
 
-        //    *==>> Foreground De-emphasizedR
+        //  ----> Active
+        "activityBar.foreground": "#00FF80",
+        "panelTitle.activeForeground": "#00FF80",
+        "tab.activeForeground": "#00FF80",
+        "tab.unfocusedActiveForeground": "#00FF80",
 
-        //  -> Active
-        "activityBar.foreground": "#0EEEFF",
+        //  ----> Inactive
+        "activityBar.inactiveForeground": "#5c2800",
+        "panelTitle.inactiveForeground": "#833800",
+        "titleBar.inactiveForeground": "#833800",
+        "tab.inactiveForeground": "#833800",
+        "tab.unfocusedInactiveForeground": "#833800",
+        "breadcrumb.foreground": "#908875",
 
-        "panelTitle.activeForeground": "#0EEEFF",
-        "tab.activeForeground": "#0EEEFF",
-        "tab.unfocusedActiveForeground": "#0EEEFF",
-
-        //  -> Inactive
-        "activityBar.inactiveForeground": "#2080A0",
-        "titleBar.inactiveForeground": "#2080A0",
-        "tab.inactiveForeground": "#2080A0",
-        "tab.unfocusedInactiveForeground": "#2080A0",
-        "breadcrumb.foreground": "#2080A0",
-
-        "panelTitle.inactiveForeground": "#2080A0",
         /*
 
 
 
         <<~~~~~~~~~~~~~~~~~~~~~~~~( BORDER-CONFORMITY )~~~~~~~~~~~~~~~~~~~~~~~>>               */
-        //    <===> SHADOWING EFFECTS
+        // ->> Border-Shadowing
         "scrollbar.shadow": "#000104",
         "widget.shadow": "#000104",
 
-        // <=> Ajay <=>
-        "activityBar.border": "#010001",
-        "statusBar.border": "#010001",
+        // ->> Tab-Borders
+        "tab.activeBorderTop": "#EEEEEE",
+        "tab.unfocusedActiveBorderTop": "#EEEEEE",
+        "tab.activeModifiedBorder": "#EEEEEE",
+        "tab.unfocusedActiveModifiedBorder": "#EEEEEE",
+        "tab.inactiveModifiedBorder": "#EEEEEE",
+        "tab.unfocusedInactiveModifiedBorder": "#EEEEEE",
+
+        // ->> Bar/Panel Borders
+        "activityBar.border": "#444444",
+        "sideBar.border": "#444444",
+        "activityBar.activeFocusBorder": "#2890C4",
+        "panel.border": "#FF4C00",
+        "statusBar.border": "#00C400",
+
+        "panelTitle.activeBorder": "#EEEEEE",
+        "activityBar.activeBorder": "#EEEEEE",
+
+        "sideBarSectionHeader.border": "#FF4C00",
+        "editorGroupHeader.tabsBorder": "#FF4C00",
+
+        // ->> All Other Borders
         "editorGroup.border": "#010001",
         "editorOverviewRuler.border": "#010001",
-        "panel.border": "#010001",
-        "sideBarSectionHeader.border": "#010001",
-
-        //  |ALPHA| Border: Common
         "titleBar.border": "#000000",
         "window.inactiveBorder": "#010001",
         "terminal.border": "#010001",
-        "sideBar.border": "#010001",
-
         "window.activeBorder": "#010001",
-
         "panelSection.border": "#010001",
         "panelInput.border": "#010001",
         "panelSectionHeader.border": "#010001",
-
         "debugToolBar.border": "#010001",
-
-        // |BETA| Border: Active
-        "panelTitle.activeBorder": "#010001",
-        "activityBar.activeBorder": "#010001",
-        "activityBar.activeFocusBorder": "#010001",
 
         //  -> Tab~Group~Borders
         "editorGroupHeader.border": "#010001",
-        "editorGroupHeader.tabsBorder": "#010001",
 
         //  -> Tab's Vertical Borders ("left/right sides of the tab")
         "tab.border": "#010001",
         "tab.lastPinnedBorder": "#010001",
 
         //  -> Active Bottem
-        "tab.activeBorder": "#010001",
-        "tab.unfocusedActiveBorder": "#010001",
-        //  -> Active Top
-        "tab.activeBorderTop": "#010001",
-        "tab.unfocusedActiveBorderTop": "#010001",
-        //  -> Active Modified
-        "tab.activeModifiedBorder": "#010001",
-        "tab.unfocusedActiveModifiedBorder": "#010001",
+        "tab.activeBorder": "#0DEAD000",
+        "tab.unfocusedActiveBorder": "#0DEAD000",
+
         //  -> Inactive Modified
-        "tab.inactiveModifiedBorder": "#010001",
-        "tab.unfocusedInactiveModifiedBorder": "#010001",
 
         /*                                
 
@@ -447,7 +440,7 @@
 
         //   <=> Secondary Hover Highlight Color #(FF781C) <=>
         "tab.unfocusedHoverBorder": "#FF781C",
-        "tab.hoverBorder": "#FF781C",
+        "tab.hoverBorder": "#FFFF00",
         "breadcrumb.activeSelectionForeground": "#FF781C",
 
         // <==> Secondary Hover Highlight Color
@@ -455,7 +448,7 @@
         // <===> Hover highlight nuetrals
 
         //    *==>> Opaque True-Black
-        "tab.hoverBackground": "#0E0F12A0",
+        "tab.hoverBackground": "#0E0F12",
         "list.hoverBackground": "#00000250",
         "tab.unfocusedHoverBackground": "#0E0F12A0",
         "editor.hoverHighlightBackground": "#00000250",
@@ -472,8 +465,8 @@
         "statusBarItem.prominentHoverBackground": "#EEEEEE",
 
         // Slider
-        "scrollbarSlider.hoverBackground": "#30ff00",
-        "minimapSlider.hoverBackground": "#00000250",
+        "scrollbarSlider.hoverBackground": "#30FF0070",
+        "minimapSlider.hoverBackground": "#30FF0070",
         /*
 
 
@@ -592,11 +585,6 @@
 
         //  <===> MINIMAP
 
-        // --*==>> "minimap.background": "#0F111B",    <|| DISABLED ||>
-        // ~|> MiniMap: 'Gutter'
-        // ~|> MiniMap: 'Slider'
-        "minimapSlider.activeBackground": "#FFFFFF0A",
-        "minimapSlider.background": "#00FFE056",
         /*
 
 

@@ -1,7 +1,25 @@
 {
+    //
+
+    /*
+     * Note: 'Primary Colors are used for, but are not limited to, large area Backgrounds, such as the the editor-bg, pane-bg, integrated terminal-bg, sidebar-bg, welcome page-bg, ect... Items like the sidebar-section-headers, tabs(Active & Inactive), activity bar, status-bar, breadcrumbs, titlebar ect... useally have their Bg's colored with a color from the secondary color pallete. Borders and Fonts are generally colored by an accent/contrast color. Highlighting has to have specialized colors, as highlighting needs to make items like borders, bg, text, ect... noticable, and therefore; highlight colors get there own pallete. Highlight colors should be very unbalanced, for instence 'FF8012' is a nice orange color, but notice it has maximum-red and almost no blue? it is lacking balance. Balance is desired in primary and secondary colors, accent-colors are useally unballanced a little bit, and highlight colors are either very tilted, or the can be opaque, opacity tints an area, highlighting it like a highlighter highlights a news paper.0 '
+     */
+
     "PrimaryColors": {
-        "Gun Metal Blues": [
-            "#030C22",
+        "Gun Metal": [
+            "#0A1A2E",
+            "#051026",
+            "#122338",
+            "#0A1E3C",
+            "#",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00",
+            "#ABCDEF00"
+        ],
+
+        "Charcoal": [
+            "#0A1E3C",
             "#051026",
             "#0A1A2E",
             "#ABCDEF00",
@@ -12,19 +30,8 @@
             "#ABCDEF00"
         ],
 
-        "Charcoals": [
-            "#030C22",
-            "#051026",
-            "#0A1A2E",
-            "#ABCDEF00",
-            "#ABCDEF00",
-            "#ABCDEF00",
-            "#ABCDEF00",
-            "#ABCDEF00",
-            "#ABCDEF00"
-        ],
-
-        "TwilightBlue": [
+        // * Note: "Twighlight-Zone refers to the area in the deep sea, not the old sci-fi show."
+        "TwilightZone": [
             "#030C22",
             "#051026",
             "#0A1A2E",
@@ -36,7 +43,9 @@
             "#ABCDEF00"
         ]
     },
-    "BACKGROUND_COLORS": [
+
+    //  * Note: 'Secondary colors are used for bar-bg's, and widget-bg's.'
+    "SECONDARY-COLORS": [
         "#030C22",
         "#ABCDEF00",
         "#ABCDEF00",
