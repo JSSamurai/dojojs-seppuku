@@ -61,8 +61,14 @@
         },
 
         "2| Cursor": {
-            "2a) Background": "#000080",
-            "2b) Foreground": "#FFFF00"
+            "Editor": {
+                "2a) Background": "#000080",
+                "2b) Foreground": "#FFFF00"
+            },
+            "Terminal": {
+                "2a) Background": "#000090",
+                "2b) Foreground": "#FFF000"
+            }
         },
 
         "|03| -- ": "#12345678",
