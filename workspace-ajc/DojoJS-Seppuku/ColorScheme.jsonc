@@ -55,13 +55,17 @@
     },
 
     "HIGHLGIHTING_COLOR_ASSIGNMENTS": {
-        "|01| -- SelectionColor": "#00000000",
-        "|02| -- HoverColor": "#00000000",
-        "|03| -- ActiveColor": "#00000000",
-        "|04| -- DropColor": "#00000000",
-        "|05| -- MatchColor": "#00000000",
-        "|06| -- MatchStrongColor": "#00000000",
-        "|07| -- FindColor": "#00000000",
-        "|08| -- RangeColor": "#00000000"
+        "|1| -- SelectionHighlighting": {
+            "(1a): SelectionBackground": "#FF00644A",
+            "(1b): SelectionForeground": "#EEEEEE",
+            "(1c): SelectionBorder": "#FF0777"
+        },
+        "|2| -- HoverColor": "#00000000",
+        "|3| -- ActiveColor": "#00000000",
+        "|4| -- DropColor": "#00000000",
+        "|5| -- MatchColor": "#00000000",
+        "|6| -- MatchStrongColor": "#00000000",
+        "|7| -- FindColor": "#00000000",
+        "|8| -- RangeColor": "#00000000"
     }
 }
