@@ -192,19 +192,25 @@
 
 
 
-        ........................................................................
-            <====================/ SPECIAL PROPERTIES /====================>    
-        ........................................................................
-'                                                                             */
-        // *>> Background
-        "editorIndentGuide.activeBackground": "#FF0444",
-        "editorIndentGuide.background": "#000000",
+        ............................................................
+            <==============/ SPECIAL PROPERTIES /==============>
+        ............................................................
+'                                                                               */
+        // <> Unique Special Properties
+        "tree.indentGuidesStroke": "#FF0858",
+        "editorUnnecessaryCode.opacity": "#00000080",
+        "scrollbar.shadow": "#000000",
+        "widget.shadow": "#000000",
+
+        // > Specialized Backgroundz
+        "editorIndentGuide.activeBackground": "#FF0E40",
+        "editorIndentGuide.background": "#34050A",
         "terminalCursor.background": "#000090",
         "editorCursor.background": "#000080",
         "editor.foldBackground": "#0000FF0E",
         "editor.lineHighlightBackground": "#0000006C",
 
-        // *>> Foreground
+        // >> Specialized Foregrounds
         "foreground": "#FF1072",
         "icon.foreground": "#1FFF00",
         "editorCursor.foreground": "#FF1464",
@@ -216,21 +222,13 @@
         "editorWhitespace.foreground": "#00000060",
         "editorPane.background": "#222222",
 
-        // *>> Borders
+        // >>> Specialized Borders
         "editor.lineHighlightBorder": "#FF104040",
+        "contrastBorder": "#1FFF0080",
         "focusBorder": "#FF104040",
         "editorUnnecessaryCode.border": "#FF104060",
-        "contrastBorder": "#FF104080",
-
-        // *>> None of the Above
-        "tree.indentGuidesStroke": "#FF0858",
-        "editorUnnecessaryCode.opacity": "#00000080",
-        "scrollbar.shadow": "#000000",
-        "widget.shadow": "#000000",
         /*      
             
-
-
 
 
 
@@ -240,30 +238,29 @@
               <--------------------------------------------------> 
 */
         //  *==>>   Background  <<==*
-        "editor.background": "#0C0F14", //  *|> SavedVal: |'#0C182E'|
-        "editorGutter.background": "#0F1116",
-        "welcomePage.background": "#0F1116",
-        "minimap.background": "#0F1116",
-        "statusBar.background": "#060C1A",
-        "sideBar.background": "#121C28", //  *|> SavedVal: |'#0A1E36'|
+        "editor.background": "#0D1016",
+        "minimap.background": "#0D1016",
+        "editorGutter.background": "#0D1016",
+        "welcomePage.background": "#0D1016",
+        "activityBar.background": "#030507",
+        "statusBar.background": "#580204",
+        "sideBar.background": "#101E2C",
         "sideBarSectionHeader.background": "#141414",
         "scrollbarSlider.background": "#FFFFFF",
 
-        "activityBar.background": "#0C0F14",
-        "terminal.background": "#080A0F",
-        "panel.background": "#080A0F",
-
+        "terminal.background": "#030507",
+        "panel.background": "#030507",
         "editorGroupHeader.noTabsBackground": "#191616",
-        "editorOverviewRuler.background": "#001030",
+        "editorOverviewRuler.background": "#101E2C",
         "minimapSlider.background": "#FF0A3028",
 
         //  *==>>   Foreground  <<==*
-        "editorLineNumber.foreground": "#80161E",
+        "editorLineNumber.foreground": "#90181C",
         "sideBarTitle.foreground": "#1FFF00",
         "sideBarSectionHeader.foreground": "#C4C4C4",
         "editor.foreground": "#B4B4B4",
         "sideBar.foreground": "#B4B4B4",
-        "statusBar.foreground": "#B4B4B4",
+        "statusBar.foreground": "#E5E5E5",
         "terminal.foreground": "#1FFF00",
         "breadcrumb.foreground": "#D5555D",
         "activityBar.foreground": "#DDDDDD",
@@ -272,7 +269,7 @@
 
         "sideBarSectionHeader.border": "#FF0555",
         "editorOverviewRuler.border": "#FFFFFF40",
-        "statusBar.border": "#FFFFFF40",
+        "statusBar.border": "#BABABA",
         "activityBar.border": "#FFFFFF40",
         "panel.border": "#FFFFFF40",
         "sideBar.border": "#FFFFFF40",
@@ -300,19 +297,24 @@
         "tab.unfocusedHoverBorder": "#FFFFFF",
         "tab.hoverForeground": "#FFFFFF",
         "tab.unfocusedHoverForeground": "#FFFFFF",
+
         "tab.hoverBackground": "#060020",
         "tab.unfocusedHoverBackground": "#060020",
         "breadcrumb.focusForeground": "#FFFFFF", // <> (Countz az a hover property)
 
         // > Backgroundz
-        "titleBar.inactiveBackground": "#2C4478",
-        "titleBar.activeBackground": "#040404",
-        "titleBar.border": "#FF008060",
+        "titleBar.inactiveBackground": "#301014",
+        "titleBar.activeBackground": "#2A0204",
+
+        "titleBar.activeForeground": "#BFBFBF",
+        "titleBar.inactiveForeground": "#747474",
+
+        "titleBar.border": "#FF307088",
 
         "breadcrumb.background": "#42060C",
         "editorGroupHeader.border": "#00000088",
 
-        "editorGroupHeader.tabsBackground": "#242428",
+        "editorGroupHeader.tabsBackground": "#121C28",
         "editorGroupHeader.tabsBorder": "#FFFFFF54",
 
         "tab.border": "#FFFFFF40",
@@ -328,9 +330,6 @@
         "tab.unfocusedActiveForeground": "#B8B8B8",
         "tab.inactiveForeground": "#8E2D30",
         "tab.unfocusedInactiveForeground": "#8E2D30",
-        // *>> Titlebar
-        "titleBar.activeForeground": "#D5D5D5",
-        "titleBar.inactiveForeground": "#8C333C",
         // *>> Singles
         "activityBar.inactiveForeground": "#80161E",
         "panelTitle.inactiveForeground": "#9F1E20",
@@ -406,9 +405,8 @@
 
 
     <<====================// Light-Blue (HiC/Opaque) //====================>>   */
-        "editor.selectionBackground": "#0040FF5C",
+        "editor.selectionBackground": "#000000B0",
         "selection.background": "#0040FFA0",
-
         "editor.wordHighlightBackground": "#0040FF48",
         "list.activeSelectionBackground": "#0040FF48",
         "editor.selectionHighlightBackground": "#0040FF48",
@@ -513,32 +511,6 @@
         "minimapSlider.hoverBackground": "#00FFFF99",
         // >>----> Miscellaneous (Unique/Custom)
 
-        /*
-                                                    
-        ............................................
-            <<======/ VIOLETS & PURPLE /======>>
-        ............................................
-        
-        
-        "sideBarSectionHeader.background": "#391155",
-        "scrollbarSlider.background": "#8848E4",
-        "breadcrumb.background": "#2A0458",
-*/
-
-        /*
-
-
-        
-        ..........................................
-            <============/ GOLD /============>
-        ..........................................
-        
-        */
-
-        /* 
-
-
-        <<====================// TrueBlue (HiC) //====================>>                */
         "editor.findMatchBackground": "#000000CC",
         "editor.findMatchBorder": "#60FF00",
 
