@@ -1,28 +1,21 @@
 {
-    "BACKGROUND": {
-        "A": "#000000",
-        "B": "#000000",
-        "C": "#000000",
-        "D": "#000000",
-        "E": "#000000"
-    },
+    "HighlightingSchema": {
+        "Hover": {
+            "Background": "",
+            "Foreground": "",
+            "Border": ""
+        },
 
-    "FOREGROUND": {
-        "Emphasize": "#FF0C58",
-        "Active": "#0FFFDF",
-        "ActiveAlt": "#FFFFFF",
-        "A": "#000000",
-        "B": "#000000",
-        "C": "#000000",
-        "D": "#000000",
-        "E": "#000000"
-    },
+        "Selection": {
+            "Background": "",
+            "Foreground": "",
+            "Border": ""
+        },
 
-    "BORDER": {
-        "A": "#000000",
-        "B": "#000000",
-        "C": "#000000",
-        "D": "#000000",
-        "E": "#000000"
+        "Drop": {
+            "Background": "",
+            "Foreground": "",
+            "Border": ""
+        }
     }
 }
