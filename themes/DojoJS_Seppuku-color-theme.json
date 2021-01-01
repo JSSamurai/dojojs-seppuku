@@ -3,94 +3,89 @@
     "type": "dark",
     "colors": {
         /*
-        
 
 
-        
          <> <> <> <> PENDING PLACEMENT <> <> <> <>                               */
-        "tree.indentGuidesStroke": "#000000",
+        "tree.indentGuidesStroke": "#00000000",
         "editorUnnecessaryCode.opacity": "#00000080",
         "scrollbar.shadow": "#000000",
         "widget.shadow": "#000000",
-        "editorIndentGuide.activeBackground": "#FF0444",
         "editorIndentGuide.background": "#000000",
-        "terminalCursor.background": "#3AFF00",
-        "editorCursor.background": "#3AFF00",
-        "editor.foldBackground": "#0000FF0E",
         "editor.lineHighlightBackground": "#0000006C",
-        "editorWidget.foreground": "#3AFF00",
         "editorWidget.resizeBorder": "#1dead100",
-        "editorWidget.background": "#000000B1",
-        "editorWidget.border": "#3AFF00",
-        "editorPane.background": "#222222",
-        "editor.lineHighlightBorder": "#FF104040",
-        "focusBorder": "#FFFFFF50",
-        "editorUnnecessaryCode.border": "#FF104060",
-        "input.foreground": "#3CFF00",
         "input.background": "#000000",
+        "editorWidget.background": "#000000B1",
+        "editorPane.background": "#222222",
+        "editorIndentGuide.activeBackground": "#FF0444",
+        "editor.lineHighlightBorder": "#FF104040",
+        "editorUnnecessaryCode.border": "#FF104060",
         "input.placeholderForeground": "#FF085099",
         "input.border": "#FF085048",
-        "editorHoverWidget.border": "#414141",
-        "editorHoverWidget.foreground": "#3AFF00",
+        "quickInputTitle.background": "#FF04381E",
+        "dropdown.background": "#FF04381E",
+        "terminalCursor.background": "#00FF23",
+        "editorCursor.background": "#00FF23",
+        "editor.foldBackground": "#00FF23",
+        "editorWidget.foreground": "#00FF23",
+        "editorWidget.border": "#00FF23",
+        "input.foreground": "#00FF23",
+        "editorHoverWidget.foreground": "#00FF23",
         "editorHoverWidget.background": "#06122C",
         "editorHoverWidget.statusBarBackground": "#06122C",
-        "quickInputTitle.background": "#FF04381E",
         "quickInput.background": "#001030",
+        "dropdown.listBackground": "#001030",
+        "focusBorder": "#00FF2C2C",
         "quickInput.foreground": "#B4B4B4",
         "dropdown.foreground": "#B4B4B4",
+        "editorHoverWidget.border": "#414141",
         "dropdown.border": "#414141",
-        "dropdown.background": "#FF04381E",
-        "dropdown.listBackground": "#001030",
         /*
-        
 
 
 
-        <<=================// BACKGROUNDS //=================>>                  */
-        // ===> Background-Group: "Primary Bg~Color (Editor)"
-        "editor.background": "#0F1624",
-        "editorGutter.background": "#0F1624",
-        "editorGroupHeader.noTabsBackground": "#0F1624",
-        "welcomePage.background": "#0F1624",
-        "minimap.background": "#0F1624",
 
-        // ===> Background-Group: "Shades of Black"
-        "titleBar.activeBackground": "#060A10",
-        "statusBar.background": "#060A10",
+                    <<============// EDITOR-PRIMARY //============>>
+            ==>> PRIMARY-BACKGROUNDS  */
+        //      ===> GROUP: "Black Backgrounds"
+        "titleBar.activeBackground": "#000440",
+        "statusBar.background": "#001A30",
         "badge.background": "#000C20",
-        "activityBarBadge.background": "#000C20C4",
+        "activityBarBadge.background": "#00000099",
 
-        // ===> Background-Group: "Shades of Charcoal"
-        "activityBar.background": "#0A0E1E",
+        //  ===> GROUP: "Charcoal Backgrounds"
+        "editor.background": "#101A2E",
+        "editorGutter.background": "#101A2E", 
+        "editorGroupHeader.noTabsBackground": "#222228",
+        "welcomePage.background": "#101A2E",
+        "minimap.background": "#101A2E",
+        "activityBar.background": "#0E041E",
         "editorOverviewRuler.background": "#0A0E1C",
-        "editorGroupHeader.tabsBackground": "#0A0E18",
+        "editorGroupHeader.tabsBackground": "#222228",
 
-        "panel.background": "#031A33",
-        "terminal.background": "#031A33",
+        //    ===> GROUP: "Gun-Metal Backgrounds"
+        "tab.activeBackground": "#200D35", //  *|> SavedVal: |'#1A0F3 0'|
+        "tab.unfocusedActiveBackground": "#200D35",
+        "breadcrumb.background": "#200D35",
+        "tab.inactiveBackground": "#190926",
+        "tab.unfocusedInactiveBackground": "#190926",
+        "sideBar.background": "#052035",
+        "sideBarSectionHeader.background": "#052035",
+        "panel.background": "#06152D",
+        "terminal.background": "#06152D", //  *|> SavedVal: |'#080E26'|
 
-        // ===> Background-Group: ""
-        "sideBar.background": "#04162C",
-        "sideBarSectionHeader.background": "#04162C",
-
-        // ===> Background-Group: ""
-        "breadcrumb.background": "#05253D",
-        "tab.activeBackground": "#05253D",
-        "tab.unfocusedActiveBackground": "#05253D",
-        "tab.inactiveBackground": "#051E34",
-        "tab.unfocusedInactiveBackground": "#051E34",
-
-        // ===> Background-Group: "Miscellaneous"
+        //  ===> GROUP: "Miscellaneous Backgrounds"
         "titleBar.inactiveBackground": "#1D333D",
         "minimapSlider.background": "#00FFFF20",
-        "activityBar.activeBackground": "#1Dead100", // >< DEAD ><
+        "activityBar.activeBackground": "#00000050",
         /*
 
-        <<================// FOREGROUNDZ //================>>                    */
-        //          >>       Specialized Foregrounds      <<
-        "contrastBorder": "#00FF1CC4",
-        "icon.foreground": "#3AFF00",
-        "foreground": "#00FF20",
-        "editorRuler.foreground": "#0099A806",
+        
+        <<================// PRIMARY-FOREGROUNDZ //================>>           */
+        //          >>     Specialized Foregrounds    <<
+        "contrastBorder": "#00FF80A0",
+        "icon.foreground": "#00FF23",
+        "foreground": "#00FF23",
+        "editorRuler.foreground": "#70707007",
         "editorCursor.foreground": "#FF0456",
         "terminalCursor.foreground": "#FFFFFF",
         "editorGutter.foldingControlForeground": "#FFFFFF",
@@ -98,85 +93,88 @@
         "editorWhitespace.foreground": "#00000060",
 
         //    - - - -  HiC-Reds &/or Hot-Pinks  - - - -     .
-        "activityBar.foreground": "#F0F0F0",
-        "panelTitle.activeForeground": "#FFFFFF",
-        "sideBarSectionHeader.foreground": "#34D8FF",
+        "activityBar.foreground": "#C400FF",
+        "panelTitle.activeForeground": "#00FF23",
+
         //    - - - -  HiC-Greens  - - - -                  .
         "sideBarTitle.foreground": "#FFFFFF",
-        "badge.foreground": "#00FF3E",
-        "activityBarBadge.foreground": "#00FF3E",
-        "terminal.foreground": "#00FF26",
-        "editorLink.activeForeground": "#30FF00",
+        "badge.foreground": "#00FF23",
+        "activityBarBadge.foreground": "#00FF80",
+        "terminal.foreground": "#00FF23",
+        "editorLink.activeForeground": "#00FF23",
+
         //    - - - -  HiC-Whites  - - - -                  .
-        "tab.activeForeground": "#E0E0E0",
-        "statusBar.foreground": "#E0E0E0",
+        "statusBar.foreground": "#AA40FF",
         "sideBar.foreground": "#C4C4C4",
         "editor.foreground": "#C4C4C4",
-        "titleBar.activeForeground": "#CECECE",
-        //     - - - -  LoC Nuetrals  - - - -               .
+        "titleBar.activeForeground": "#D2D2D2",
         "editorLineNumber.activeForeground": "#FFFFFF",
-        "editorLineNumber.foreground": "#BB6070",
-        "titleBar.inactiveForeground": "#747474",
-        "breadcrumb.foreground": "#888888",
-        "activityBar.inactiveForeground": "#286C84",
-        //    - - - -  All OThers  - - - -                  .
-        "tab.inactiveForeground": "#2480A4",
-        "tab.unfocusedInactiveForeground": "#2480A4",
-        "panelTitle.inactiveForeground": "#3C7AA4",
+        "tab.activeForeground": "#D8D8D8",
 
+        //  <<--------|| Foregrounds ||-------->>
+        "titleBar.inactiveForeground": "#747474",
+
+        //  <<--------|| Cyan, Teal & GunMetal Foregrounds ||-------->>
+        "sideBarSectionHeader.foreground": "#34D8FF",
+        "breadcrumb.foreground": "#2078A0",
+        "activityBar.inactiveForeground": "#4C0088", //          |>  SavedVal: |'#286C84'|
+        "tab.inactiveForeground": "#2078A0",
+        "tab.unfocusedInactiveForeground": "#2078A0",
+        "panelTitle.inactiveForeground": "#2078A0",
+        "tab.unfocusedActiveForeground": "#0CCCC4",
+        "editorLineNumber.foreground": "#2078A0",
         /*
 
 
-        <<============// BORDERZ //============>>                               */
-        // ===> BordersGroup: 'OffBlack'
-        "activityBar.border": "#070000",
+
+              <<==============// BORDERZ //==============>>      
+        <<--------------|| Gun Metal Borders ||-------------->                */
+        "activityBar.border": "#000000",
         "tab.border": "#060000",
         "tab.lastPinnedBorder": "#060000",
         "editorOverviewRuler.border": "#040000",
         "sideBar.border": "#040000",
         "editorGroupHeader.border": "#040000AF",
-        // ===> BordersGroup: 'GunMetal'
-        "tab.activeBorder": "#05253D",
-        "tab.unfocusedActiveBorder": "#05253D",
+        /*
+        <<--------------|| Gun Metal Borders ||-------------->                */
+        "tab.activeBorder": "#200D35",
+        "tab.unfocusedActiveBorder": "#200D35",
         // ===> BordersGroup: 'Grey'
         "panel.border": "#646464",
-        "titleBar.border": "#646464",
+        "titleBar.border": "#000000",
         "editorGroup.border": "#1E2127",
-        // ===> BordersGroup: 'White'
-        "tab.activeBorderTop": "#FFFFFF",
-        "tab.unfocusedActiveBorderTop": "#FFFFFF",
-        "sideBarSectionHeader.border": "#D8D8D8",
-        "statusBar.border": "#D8D8D8",
-        "editorGroupHeader.tabsBorder": "#FFFFFFAA",
-        // ===> BordersGroup: 'NeonRed'
-        "tab.activeModifiedBorder": "#FF064A",
-        "tab.inactiveModifiedBorder": "#FF064A",
-        "tab.unfocusedActiveModifiedBorder": "#FF064A",
-        "tab.unfocusedInactiveModifiedBorder": "#FF064A",
-        "activityBar.activeBorder": "#FF064A",
-        // ===> BordersGroup: 'Green'
-        "panelTitle.activeBorder": "#00FF20",
         /*
-=
-=
-=
-=
-=
-=
-=
-=
-    <<=========// Theme Highlighting Groupz //=========>>        
-        
-         |> HoverHighlighting                                                  */
-        //  - Highlight Background -ON- Hover -
+        <<--------------|ColorGroup: (Whites &/or Greys)|-------------->        */
+        //  |SubGroup|--> Sidebar
+        "sideBarSectionHeader.border": "#D8D8D8",
+        "statusBar.border": "#A040FF",
+        //  |SubGroup|-->  'Active-Tab'
+        "tab.activeBorderTop": "#00FF23",
+        "tab.unfocusedActiveBorderTop": "#00FF23",
+        "editorGroupHeader.tabsBorder": "#00FF0FC4",
+        /*
+        <<--------------|ColorGroup: (Reds)|-------------->        */
+        "tab.activeModifiedBorder": "#00FF23",
+        "tab.inactiveModifiedBorder": "#00FF23",
+        "tab.unfocusedActiveModifiedBorder": "#00FF23",
+        "tab.unfocusedInactiveModifiedBorder": "#00FF23",
+        "activityBar.activeBorder": "#00FF23",
+        /*
+        <<--------------|ColorGroup: (Greens)|-------------->        */
+        "panelTitle.activeBorder": "#FFFFFF",
+        /*
+
+
+        <<=========// Theme Highlighting Groupz //=========>>            */
+        //      <<~~~~~~~~~( On Hover )~~~~~~~~~>>
         "tab.hoverBackground": "#001D48",
         "tab.unfocusedHoverBackground": "#001D48",
         "minimapSlider.hoverBackground": "#FF005099",
-        //  - Highlight Foreground -ON- Hover -
+
         "tab.hoverForeground": "#FFFFFF",
         "tab.unfocusedHoverForeground": "#FFFFFF",
         "breadcrumb.focusForeground": "#FFFFFF", // This is a Hover Property
-        //  - Highlight Border -ON- Hover -
+
         "tab.hoverBorder": "#FFFFFF",
         "tab.unfocusedHoverBorder": "#FFFFFF",
         /* 
@@ -200,46 +198,9 @@
         "minimap.selectionHighlight": "#FF004C",
         "editor.selectionHighlightBorder": "#FF004C",
         "menubar.selectionBorder": "#00FF0033",
-        /*
-    
 
-
-                  <============// TERMINAL //============>>
-* NOTE: "Swaped Bright Blue for a Red, bucuase the theme is red, and the bright blue colors the path that the terminal has selected"
-
-*/
-        //   <>  BLACK  <>                       _
-        "terminal.ansiBlack": "#232323",
-        "terminal.ansiBrightBlack": "#404040",
-        //   <>  WHITE  <>                      _
-        "terminal.ansiWhite": "#CECECE",
-        "terminal.ansiBrightWhite": "#FFFFFF",
-        //   <>  BLUE  <>                       _
-        "terminal.ansiBlue": "#3BB4F4",
-        //   <>  CYAN  <>                       _
-        "terminal.ansiBrightCyan": "#00FFEF",
-        "terminal.ansiCyan": "#0CC4CC",
-        //   <>  GREEN  <>                      _
-        "terminal.ansiBrightGreen": "#3EE222",
-        "terminal.ansiGreen": "#32AA23",
-        //   <>  MAGENTA  <>                     _
-        "terminal.ansiBrightMagenta": "#FF00FF",
-        "terminal.ansiMagenta": "#DA40A8",
-        //   <>  YELLOW  <>                     _
-        "terminal.ansiBrightYellow": "#FFFF1F",
-        "terminal.ansiYellow": "#C4C432",
-        //   <>  RED  <>                        _
-        "terminal.ansiBrightRed": "#FF2800",
-        "terminal.ansiRed": "#E44C40",
-        "terminal.ansiBrightBlue": "#FF0F4F",
-        /*
-
-
-
-        */
         // ->  Background
         "scrollbarSlider.background": "#FFFFFF",
-
         "breadcrumbPicker.background": "#001030",
         //  <=> SearchEditor <=>
         "searchEditor.findMatchBackground": "#00FFF01C",
@@ -464,15 +425,15 @@
         
         */
 
-        "welcomePage.buttonHoverBackground": "#3AFF00",
-        "sash.hoverBorder": "#3AFF00",
-        "list.hoverForeground": "#3AFF00",
+        "welcomePage.buttonHoverBackground": "#00FF23",
+        "sash.hoverBorder": "#00FF23",
+        "list.hoverForeground": "#00FF23",
         // *==>> Emphasized Foregroundz
 
         //  *==>> Border
-        "activityBar.activeFocusBorder": "#3AFF00",
-        "menu.separatorBackground": "#3AFF00",
-        "menu.border": "#3AFF00",
+        "activityBar.activeFocusBorder": "#FFFFFF",
+        "menu.separatorBackground": "#00FF23",
+        "menu.border": "#00FF23",
         // >>---->  Opaque Cyan Properties
 
         "scrollbarSlider.hoverBackground": "#3AFF00C4",
@@ -573,8 +534,8 @@
         "settings.numberInputBackground": "#0C0408",
 
         //    <===> Foreground
-        "settings.dropdownForeground": "#00FF20",
-        "settings.textInputForeground": "#00FF20",
+        "settings.dropdownForeground": "#00FF23",
+        "settings.textInputForeground": "#00FF23",
         "settings.checkboxForeground": "#FFE414",
         "settings.numberInputForeground": "#FFE414",
         "settings.headerForeground": "#FFC400",
@@ -605,7 +566,27 @@
         "peekViewTitleDescription.foreground": "#C4C035B0",
         "peekViewTitleLabel.foreground": "#C4C035B0",
         "pickerGroup.border": "#C4C035B0",
-        "pickerGroup.foreground": "#C4C035B0"
+        "pickerGroup.foreground": "#C4C035B0",
+        /*
+
+
+            <<=========// Terminal-Syntax-Colors //=========>>                     */
+        "terminal.ansiBlack": "#232323",
+        "terminal.ansiBrightBlack": "#404040",
+        "terminal.ansiWhite": "#CECECE",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBlue": "#3BB4F4",
+        "terminal.ansiBrightCyan": "#00FFEF",
+        "terminal.ansiCyan": "#0CC4CC",
+        "terminal.ansiBrightGreen": "#3EE222",
+        "terminal.ansiGreen": "#32AA23",
+        "terminal.ansiBrightMagenta": "#FF00FF",
+        "terminal.ansiMagenta": "#DA40A8",
+        "terminal.ansiBrightYellow": "#FFFF1F",
+        "terminal.ansiYellow": "#C4C432",
+        "terminal.ansiBrightRed": "#FF2800",
+        "terminal.ansiRed": "#E44C40",
+        "terminal.ansiBrightBlue": "#FF0F4F"
     },
     /*
 
