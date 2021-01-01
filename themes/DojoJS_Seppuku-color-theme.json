@@ -4,35 +4,9 @@
     "colors": {
         /*
 
-
          <> <> <> <> PENDING PLACEMENT <> <> <> <>                               */
-
-        "input.background": "#000000",
-        "editorWidget.background": "#000000B1",
         "editorPane.background": "#222222",
-        "editor.lineHighlightBackground": "#00000054",
-        "editor.lineHighlightBorder": "#000000",
-        "input.placeholderForeground": "#247290",
-        "input.border": "#000000",
-        "quickInputTitle.background": "#000000",
-        "dropdown.background": "#000000",
-        "editor.foldBackground": "#10022450",
-        "editorWidget.foreground": "#CCCCCC",
-        "editorWidget.border": "#888888",
-        "input.foreground": "#00FF23",
-        "editorHoverWidget.foreground": "#00FF23",
-        "editorHoverWidget.background": "#06122C",
-        "editorHoverWidget.statusBarBackground": "#06122C",
-        "quickInput.background": "#001030",
-        "dropdown.listBackground": "#001030",
-        "focusBorder": "#00FF2C2C",
-        "quickInput.foreground": "#DDDDDD",
-        "dropdown.foreground": "#DDDDDD",
-        "editorHoverWidget.border": "#006080",
-        "dropdown.border": "#006080",
-
         /*
-    ________________________________________________________________________________  
 
 
 
@@ -40,42 +14,40 @@
 
 
 
-
-      <<=========// SPECIALIZED-PROPERTIES ~&~ EDITOR-ITEMS //=========>>        
-
+  
+  
+  <<==========// SPECIALIZED-PROPERTIES ~&~ EDITOR-ITEMS //==========>>
         <<====| Blacks |====>>                                                    */
-        "editorUnnecessaryCode.opacity": "#00000099",
-        "scrollbar.shadow": "#080000",
-        "widget.shadow": "#080000",
+        "scrollbar.shadow": "#060000",
+        "widget.shadow": "#060000",
+        "editor.lineHighlightBorder": "#000000",
+        "editorIndentGuide.background": "#000000E4",
+        "editorUnnecessaryCode.opacity": "#000000A4",
+        "editor.lineHighlightBackground": "#00000064",
         /*
         <<====| HC Blues |====>>                                                  */
-        "editorIndentGuide.background": "#00040C",
         "editorCursor.foreground": "#08DDFF",
         "terminalCursor.foreground": "#08DDFF",
         "tree.indentGuidesStroke": "#08CCFF",
         "editorIndentGuide.activeBackground": "#08CCFF",
         /*
-        <<====| Yellows |====>>                                                   */
+        <<--------| Miscellaneous |-------->>                                     */
+        "editorUnnecessaryCode.border": "#FF104060",
+        "editor.foldBackground": "#10022450",
         "editorCursor.background": "#FFC400",
         "terminalCursor.background": "#FFC400",
-        /*
-        <<====| Red |====>>                                                  */
-        "editorUnnecessaryCode.border": "#FF104060",
-        /*
-        <<====| Violet/Purple |====>>                                             */
+        "focusBorder": "#00FF2C2C",
 
-        /*
-         ><      HIDDEN/UNUSED       >< */
+        //              ><  HIDDEN/UNUSED  ><               _
         "editorWidget.resizeBorder": "#1dead100",
         /*
-
 
 
 
         <<============// PRIMARY-EDITOR-ITEMS/SECTIONS //============>>           */
         //  <<====|| Black Backgrounds ||====>>
         "badge.background": "#000C20",
-        "activityBarBadge.background": "#00000099",
+        "activityBarBadge.background": "#000000",
         //  <<====|| Charcoal Backgrounds ||====>>
         "editor.background": "#101A2E",
         "editorGutter.background": "#101A2E",
@@ -149,9 +121,7 @@
         "editorLineNumber.foreground": "#2078A0",
         /*
 
-
-
-              <<==============// BORDERZ //==============>>      
+            <<==============// BORDERZ //==============>>          
         <<--------------|| Gun Metal Borders ||-------------->                */
         "activityBar.border": "#000000",
         "tab.border": "#060000",
@@ -210,7 +180,30 @@
 
 
         <<=============// Widgetz ~&~ Toolz //=============>>      */
-
+        /*
+        <<--------| Backgrounds |-------->>                                       */
+        "input.background": "#000000",
+        "editorWidget.background": "#040C2CC4",
+        "quickInputTitle.background": "#000000",
+        "dropdown.background": "#000000",
+        "editorHoverWidget.background": "#06122C",
+        "editorHoverWidget.statusBarBackground": "#06122C",
+        "quickInput.background": "#001030",
+        "dropdown.listBackground": "#001030",
+        /*
+        <<--------| Foregrounds Properties |-------->>                            */
+        "editorWidget.foreground": "#CCCCCC",
+        "input.placeholderForeground": "#247290",
+        "input.foreground": "#00FF23",
+        "editorHoverWidget.foreground": "#00FF23",
+        "quickInput.foreground": "#DDDDDD",
+        "dropdown.foreground": "#DDDDDD",
+        /*
+        <<--------| Border Properties |-------->>                                 */
+        "editorHoverWidget.border": "#006080",
+        "input.border": "#000000",
+        "editorWidget.border": "#888888",
+        "dropdown.border": "#006080",
         /* 
  
 
@@ -219,16 +212,15 @@
 
       <<================// Item & Syntax Highlighting //================>>
         *=>> Highlight -ON- Select (Drag & Select)                                */
-        "editor.selectionBackground": "#FF004C4C", // Drag & Select Editor
-        "selection.background": "#FF004C4C", // Drag & Select Inputs
-        "list.activeSelectionBackground": "#FF004C4C",
-        "editor.selectionHighlightBackground": "#FF004C4C",
-        "editorSuggestWidget.selectedBackground": "#FF004C4C",
-        "terminal.selectionBackground": "#FF004C4C",
-        "list.inactiveSelectionBackground": "#FF004C4C",
-        "editor.inactiveSelectionBackground": "#FF004C4C",
+        "editor.selectionBackground": "#AE00FF4E",
+        "selection.background": "#AE00FF4E",
+        "list.activeSelectionBackground": "#000408",
+        "editor.selectionHighlightBackground": "#000408",
+        "editorSuggestWidget.selectedBackground": "#000408",
+        "terminal.selectionBackground": "#000408",
+        "list.inactiveSelectionBackground": "#000408",
+        "editor.inactiveSelectionBackground": "#000408",
 
-        //        * Special Selection~Highlight Properties *
         "menu.selectionBorder": "#FF004C",
         "minimap.selectionHighlight": "#FF004C",
         "editor.selectionHighlightBorder": "#FF004C",
