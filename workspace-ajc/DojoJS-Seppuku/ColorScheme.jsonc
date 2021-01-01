@@ -1,21 +1,55 @@
 {
-    "HighlightingSchema": {
-        "Hover": {
-            "Background": "",
-            "Foreground": "",
-            "Border": ""
+    "ThemePropertyGroups": {
+        "Special": {
+            "ColorScheme": {
+                "Alpha": "#00000000",
+                "Beta": "#00000000",
+                "Gamma": "#00000000",
+                "Delta": "#00000000",
+                "Epsilon": "#00000000",
+                "Zeta": "#00000000",
+                "Eta": "#00000000",
+                "Theta": "#00000000"
+            }
         },
 
-        "Selection": {
-            "Background": "",
-            "Foreground": "",
-            "Border": ""
+        "ItemsAndSections": {
+            "ColorScheme": {
+                "Charcoal": "#101A2E",
+                "Beta": "#00000000",
+                "Gamma": "#00000000",
+                "Delta": "#00000000",
+                "Epsilon": "#00000000",
+                "Zeta": "#00000000",
+                "Eta": "#00000000",
+                "Theta": "#00000000"
+            }
         },
 
-        "Drop": {
-            "Background": "",
-            "Foreground": "",
-            "Border": ""
+        "WidgetsAndTools": {
+            "ColorScheme": {
+                "Alpha": "#00000000",
+                "Beta": "#00000000",
+                "Gamma": "#00000000",
+                "Delta": "#00000000",
+                "Epsilon": "#00000000",
+                "Zeta": "#00000000",
+                "Eta": "#00000000",
+                "Theta": "#00000000"
+            }
+        },
+
+        "SyntaxAndEditorHighlighting": {
+            "ColorScheme": {
+                "Alpha": "#00000000",
+                "Beta": "#00000000",
+                "Gamma": "#00000000",
+                "Delta": "#00000000",
+                "Epsilon": "#00000000",
+                "Zeta": "#00000000",
+                "Eta": "#00000000",
+                "Theta": "#00000000"
+            }
         }
     }
 }

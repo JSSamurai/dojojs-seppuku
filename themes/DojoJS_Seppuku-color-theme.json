@@ -6,28 +6,19 @@
 
 
          <> <> <> <> PENDING PLACEMENT <> <> <> <>                               */
-        "tree.indentGuidesStroke": "#00000000",
-        "editorUnnecessaryCode.opacity": "#00000080",
-        "scrollbar.shadow": "#000000",
-        "widget.shadow": "#000000",
-        "editorIndentGuide.background": "#000000",
-        "editor.lineHighlightBackground": "#0000006C",
-        "editorWidget.resizeBorder": "#1dead100",
+
         "input.background": "#000000",
         "editorWidget.background": "#000000B1",
         "editorPane.background": "#222222",
-        "editorIndentGuide.activeBackground": "#FF0444",
-        "editor.lineHighlightBorder": "#FF104040",
-        "editorUnnecessaryCode.border": "#FF104060",
-        "input.placeholderForeground": "#FF085099",
-        "input.border": "#FF085048",
-        "quickInputTitle.background": "#FF04381E",
-        "dropdown.background": "#FF04381E",
-        "terminalCursor.background": "#00FF23",
-        "editorCursor.background": "#00FF23",
-        "editor.foldBackground": "#00FF23",
-        "editorWidget.foreground": "#00FF23",
-        "editorWidget.border": "#00FF23",
+        "editor.lineHighlightBackground": "#00000054",
+        "editor.lineHighlightBorder": "#000000",
+        "input.placeholderForeground": "#247290",
+        "input.border": "#000000",
+        "quickInputTitle.background": "#000000",
+        "dropdown.background": "#000000",
+        "editor.foldBackground": "#10022450",
+        "editorWidget.foreground": "#CCCCCC",
+        "editorWidget.border": "#888888",
         "input.foreground": "#00FF23",
         "editorHoverWidget.foreground": "#00FF23",
         "editorHoverWidget.background": "#06122C",
@@ -35,48 +26,82 @@
         "quickInput.background": "#001030",
         "dropdown.listBackground": "#001030",
         "focusBorder": "#00FF2C2C",
-        "quickInput.foreground": "#B4B4B4",
-        "dropdown.foreground": "#B4B4B4",
-        "editorHoverWidget.border": "#414141",
-        "dropdown.border": "#414141",
+        "quickInput.foreground": "#DDDDDD",
+        "dropdown.foreground": "#DDDDDD",
+        "editorHoverWidget.border": "#006080",
+        "dropdown.border": "#006080",
+
+        /*
+    ________________________________________________________________________________  
+
+
+
+
+
+
+
+
+      <<=========// SPECIALIZED-PROPERTIES ~&~ EDITOR-ITEMS //=========>>        
+
+        <<====| Blacks |====>>                                                    */
+        "editorUnnecessaryCode.opacity": "#00000099",
+        "scrollbar.shadow": "#080000",
+        "widget.shadow": "#080000",
+        /*
+        <<====| HC Blues |====>>                                                  */
+        "editorIndentGuide.background": "#00040C",
+        "editorCursor.foreground": "#08DDFF",
+        "terminalCursor.foreground": "#08DDFF",
+        "tree.indentGuidesStroke": "#08CCFF",
+        "editorIndentGuide.activeBackground": "#08CCFF",
+        /*
+        <<====| Yellows |====>>                                                   */
+        "editorCursor.background": "#FFC400",
+        "terminalCursor.background": "#FFC400",
+        /*
+        <<====| Red |====>>                                                  */
+        "editorUnnecessaryCode.border": "#FF104060",
+        /*
+        <<====| Violet/Purple |====>>                                             */
+
+        /*
+         ><      HIDDEN/UNUSED       >< */
+        "editorWidget.resizeBorder": "#1dead100",
         /*
 
 
 
 
-                    <<============// EDITOR-PRIMARY //============>>
-            ==>> PRIMARY-BACKGROUNDS  */
-        //      ===> GROUP: "Black Backgrounds"
-        "titleBar.activeBackground": "#000440",
-        "statusBar.background": "#001A30",
+        <<============// PRIMARY-EDITOR-ITEMS/SECTIONS //============>>           */
+        //  <<====|| Black Backgrounds ||====>>
         "badge.background": "#000C20",
         "activityBarBadge.background": "#00000099",
-
-        //  ===> GROUP: "Charcoal Backgrounds"
+        //  <<====|| Charcoal Backgrounds ||====>>
         "editor.background": "#101A2E",
-        "editorGutter.background": "#101A2E", 
-        "editorGroupHeader.noTabsBackground": "#222228",
+        "editorGutter.background": "#101A2E",
         "welcomePage.background": "#101A2E",
         "minimap.background": "#101A2E",
         "activityBar.background": "#0E041E",
         "editorOverviewRuler.background": "#0A0E1C",
-        "editorGroupHeader.tabsBackground": "#222228",
-
-        //    ===> GROUP: "Gun-Metal Backgrounds"
-        "tab.activeBackground": "#200D35", //  *|> SavedVal: |'#1A0F3 0'|
+        //  <<====|| Violet Backgrounds ||====>>
+        "tab.activeBackground": "#200D35",
         "tab.unfocusedActiveBackground": "#200D35",
         "breadcrumb.background": "#200D35",
         "tab.inactiveBackground": "#190926",
         "tab.unfocusedInactiveBackground": "#190926",
+        //  <<====|| Gun-Metal Backgrounds ||====>>
         "sideBar.background": "#052035",
         "sideBarSectionHeader.background": "#052035",
         "panel.background": "#06152D",
-        "terminal.background": "#06152D", //  *|> SavedVal: |'#080E26'|
-
-        //  ===> GROUP: "Miscellaneous Backgrounds"
+        "terminal.background": "#06152D",
+        "statusBar.background": "#001A30",
+        "minimapSlider.background": "#00C4E02E",
+        //  <<====|| Miscellaneous Backgrounds ||====>>
         "titleBar.inactiveBackground": "#1D333D",
-        "minimapSlider.background": "#00FFFF20",
         "activityBar.activeBackground": "#00000050",
+        "titleBar.activeBackground": "#000636",
+        "editorGroupHeader.noTabsBackground": "#212121",
+        "editorGroupHeader.tabsBackground": "#212121",
         /*
 
         
@@ -85,15 +110,14 @@
         "contrastBorder": "#00FF80A0",
         "icon.foreground": "#00FF23",
         "foreground": "#00FF23",
-        "editorRuler.foreground": "#70707007",
-        "editorCursor.foreground": "#FF0456",
-        "terminalCursor.foreground": "#FFFFFF",
-        "editorGutter.foldingControlForeground": "#FFFFFF",
+
+        "editorGutter.foldingControlForeground": "#C400FF",
         "debugConsoleInputIcon.foreground": "#FFFFFF",
-        "editorWhitespace.foreground": "#00000060",
+        "editorWhitespace.foreground": "#0080904C",
+        "editorRuler.foreground": "#70707007",
 
         //    - - - -  HiC-Reds &/or Hot-Pinks  - - - -     .
-        "activityBar.foreground": "#C400FF",
+        "activityBar.foreground": "#FFFFFF",
         "panelTitle.activeForeground": "#00FF23",
 
         //    - - - -  HiC-Greens  - - - -                  .
@@ -177,13 +201,24 @@
 
         "tab.hoverBorder": "#FFFFFF",
         "tab.unfocusedHoverBorder": "#FFFFFF",
+
+        /*
+
+
+
+
+
+
+        <<=============// Widgetz ~&~ Toolz //=============>>      */
+
         /* 
  
 
 
 
- |> Highlight -ON- Select (Drag & Select)                                          */
-        //      * Highlight BG -ON- (Select/Drag-&-Select) *
+
+      <<================// Item & Syntax Highlighting //================>>
+        *=>> Highlight -ON- Select (Drag & Select)                                */
         "editor.selectionBackground": "#FF004C4C", // Drag & Select Editor
         "selection.background": "#FF004C4C", // Drag & Select Inputs
         "list.activeSelectionBackground": "#FF004C4C",
