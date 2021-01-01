@@ -54,18 +54,18 @@
         "terminalCursor.background": "#ff4000",
         "editorCursor.background": "#ff4000",
         "editor.foldBackground": "#10022450",
-        /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        /* * * * * * * * * * * * * * * * * * * * * * * * * *
+
   ~ End
 
 
 
-
  
-    ____________________________________________________________________________
-         <<============// EDITOR-SECTIONS -&- FACE STYLING //============>>       L1  
-    ____________________________________________________________________________
+    ________________________________________________________________________
+       <<============// EDITOR-SECTIONS -&- FACE STYLING //============>>       L1  
+    ________________________________________________________________________
 
-    
+
                 <<=========// PRIMARY BACKGROUNDS //=========>>                 L2  */
         /*
         <<====|| Black Backgrounds ||====>>                                     L3  */
@@ -81,12 +81,12 @@
         "editorOverviewRuler.background": "#111D2E",
         /*
         <<====|| LoC Violet Backgrounds ||====>>                                L3  */
-        "tab.activeBackground": "#200D35",
-        "tab.unfocusedActiveBackground": "#200D35",
-        "breadcrumb.background": "#200D35",
-        "tab.inactiveBackground": "#190926",
-        "tab.unfocusedInactiveBackground": "#190926",
-        "activityBar.background": "#0E041E",
+        "tab.activeBackground": "#1C0843",
+        "tab.unfocusedActiveBackground": "#1C0843",
+        "breadcrumb.background": "#1C0843",
+        "tab.inactiveBackground": "#140832",
+        "tab.unfocusedInactiveBackground": "#140832",
+        "activityBar.background": "#15053A",
         /*
         <<====|| LoC GunMetal, Oxford & Blue Backgrounds ||====>>               L3  */
         "sideBar.background": "#052035",
@@ -176,8 +176,8 @@
         <<====|| ColorGroup: (Violets) ||====>>                           */
         "panel.border": "#9030FF",
         "statusBar.border": "#9030FF",
-        "tab.activeBorder": "#200D35",
-        "tab.unfocusedActiveBorder": "#200D35",
+        "tab.activeBorder": "#1C0843",
+        "tab.unfocusedActiveBorder": "#1C0843",
         /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
   ~ End
 
@@ -191,8 +191,8 @@
 
     
         <<====|| Highlight on Hover ||====>>                                    L3  */
-        "tab.hoverBackground": "#200D35",
-        "tab.unfocusedHoverBackground": "#200D35",
+        "tab.hoverBackground": "#1C0843",
+        "tab.unfocusedHoverBackground": "#1C0843",
         "tab.hoverForeground": "#08FF6A",
         "tab.unfocusedHoverForeground": "#08FF6A",
         "breadcrumb.focusForeground": "#08FF6A", // This is a Hover Property
