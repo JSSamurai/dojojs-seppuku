@@ -1,16 +1,8 @@
 {
     "ThemePropertyGroups": {
-        "Special": {
-            "ColorScheme": {
-                "Alpha": "#00000000",
-                "Beta": "#00000000",
-                "Gamma": "#00000000",
-                "Delta": "#00000000",
-                "Epsilon": "#00000000",
-                "Zeta": "#00000000",
-                "Eta": "#00000000",
-                "Theta": "#00000000"
-            }
+        "Highlighting": {
+            "Hover": ["#000000"],
+            "Selection": ["#000000"]
         },
 
         "ItemsAndSections": {
