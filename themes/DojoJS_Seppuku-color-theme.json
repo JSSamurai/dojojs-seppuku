@@ -9,39 +9,42 @@
 
         // ==> Black Backgrounds
         //  (*>> Black BGs
-        "editor.background": "#0A121E",
-        "editorGutter.background": "#0A121E",
-        "welcomePage.background": "#0A121E",
+        "editor.background": "#0A0D13",
+        "welcomePage.background": "#0A0D13",
+        "editorGutter.background": "#0A0D13",
+        "minimap.background": "#0A0D13",
+        "editorOverviewRuler.background": "#03060A",
 
-        "editorGroupHeader.tabsBackground": "#02050C",
-        "sideBar.background": "#020816",
-        "sideBarSectionHeader.background": "#020816",
-        "editorHoverWidget.background": "#00040D",
+        "sideBar.background": "#0D171F",
+        "sideBarSectionHeader.background": "#03060A",
+        "editorHoverWidget.background": "#03060A",
         "menu.background": "#020816",
         "editorPane.background": "#020816",
-        "panel.background": "#000313",
-        "terminal.background": "#0C101A",
-        "statusBar.background": "#000000",
+        "panel.background": "#010204",
+        "terminal.background": "#0D0F11",
+        "statusBar.background": "#04080C",
 
         // - GunMetal Blue(s)
-        "tab.activeBackground": "#001442",
-        "tab.unfocusedActiveBackground": "#001442",
-        "tab.inactiveBackground": "#081025",
-        "tab.unfocusedInactiveBackground": "#081025",
-        "breadcrumb.background": "#0E2444",
-        "editorHoverWidget.statusBarBackground": "#0E151D",
-        "activityBar.background": "#030D29",
-        "editorOverviewRuler.background": "#030D29",
+        "editorGroupHeader.tabsBackground": "#020408",
+        "tab.activeBackground": "#1A2F34AE",
+        "tab.inactiveBackground": "#1A2F3464",
+        "tab.unfocusedActiveBackground": "#1A2F34AE",
+        "tab.unfocusedInactiveBackground": "#1A2F3464",
 
-        "editorGroupHeader.noTabsBackground": "#202020",
+        "breadcrumb.background": "#181C20",
+        "activityBar.background": "#020412",
+        "editorHoverWidget.statusBarBackground": "#181E25",
+
+        "editorGroupHeader.noTabsBackground": "#181616",
         "titleBar.inactiveBackground": "#181616",
         "titleBar.activeBackground": "#030314",
 
         //  <----|| Minimap ~&~ ScrollBar-Slider BGs ||---->
-        "minimapSlider.background": "#00FF2E2E",
-        "minimapSlider.activeBackground": "#00FF2E12",
-        "scrollbarSlider.background": "#20FF00C4",
-        "scrollbarSlider.activeBackground": "#20FF0064",
+        "minimapSlider.background": "#23C4FF4C",
+        "minimapSlider.activeBackground": "#23C4FF",
+        "scrollbarSlider.background": "#FF6C00C0",
+        "scrollbarSlider.activeBackground": "#FF6C00",
+        "breadcrumbPicker.background": "#111111",
         /*
         
 
@@ -51,35 +54,36 @@
         
         */
         // *--> Red Foregrounds
-        "sideBarSectionHeader.foreground": "#12BCFF",
+        "sideBarSectionHeader.foreground": "#1AAAC4",
 
         // ---> Green Foregrounds
-        "sideBarTitle.foreground": "#00FF24",
-        "terminal.foreground": "#00FF24",
-        "statusBar.foreground": "#12BCFF",
+        "sideBarTitle.foreground": "#FFFFFF",
+        "terminal.foreground": "#DDDDDD",
+        "statusBar.foreground": "#EEEEEE",
 
         // ===> Blue Foregrounds
-        "menu.foreground": "#12BCFF",
+        "menu.foreground": "#CCCCCC",
         "panelTitle.inactiveForeground": "#248096",
         "titleBar.inactiveForeground": "#248096",
-        "activityBar.inactiveForeground": "#004864",
+        "activityBar.inactiveForeground": "#125B76",
+        "breadcrumb.foreground": "#646464",
 
         //  :|> White & Grey Foregrounds
-        "panelTitle.activeForeground": "#FFFFFF",
-        "activityBar.foreground": "#F0F0F0",
-        "debugConsoleInputIcon.foreground": "#FFFFFF",
+        "panelTitle.activeForeground": "#23C4FF",
+        "activityBar.foreground": "#23C4FF",
+        "debugConsoleInputIcon.foreground": "#23C4FF",
         "editorLink.activeForeground": "#F8FFFF",
-        "tab.activeForeground": "#DADADA",
-        "tab.unfocusedActiveForeground": "#DADADA",
-        "sideBar.foreground": "#BABABA",
+        "tab.activeForeground": "#E2E2E2",
+        "tab.unfocusedActiveForeground": "#C2C2C2",
+        "sideBar.foreground": "#A0A0A0",
 
         "editorHoverWidget.foreground": "#C2C2C2",
 
-        "editor.foreground": "#209A9D",
+        "editor.foreground": "#40BBE0",
         "titleBar.activeForeground": "#B0B0B0",
         "tab.inactiveForeground": "#707070",
         "tab.unfocusedInactiveForeground": "#707070",
-        "breadcrumb.foreground": "#707070",
+
         /*
 
 
@@ -90,57 +94,57 @@
                 <<==========// Border Properties //==========>>                                         */
 
         //   :|> Opaque Borders
-        "editorGroupHeader.border": "#040000C4",
-        "editorGroupHeader.tabsBorder": "#FFFFFF56",
+        "editorGroupHeader.border": "#02040ADD",
+        "editorGroupHeader.tabsBorder": "#14DDFF70",
+        "activityBar.border": "#14DDFF60",
         "tab.activeBorderTop": "#1Dead100",
         "tab.unfocusedActiveBorderTop": "#1Dead100",
 
         //   :|> Black & Grey Borders
-        "sideBar.border": "#000000",
-        "activityBar.border": "#000000",
-        "tab.border": "#050505",
-        "tab.lastPinnedBorder": "#050505",
-        "sideBarSectionHeader.border": "#0C0216",
-        "titleBar.border": "#285028",
+        "sideBar.border": "#000A00",
+        "tab.border": "#000A00",
+        "tab.lastPinnedBorder": "#000A00",
+        "sideBarSectionHeader.border": "#188AAA",
+        "titleBar.border": "#383836",
+        "panel.border": "#383836",
+        "statusBar.border": "#383836",
+        "editorOverviewRuler.border": "#383836",
 
         // ===> GunMetal-Blue Borders
-        "panel.border": "#009AA4",
-        "statusBar.border": "#009AA4",
-        "editorOverviewRuler.border": "#009AA4",
-        "editorGroup.border": "#009AA4",
+        "editorGroup.border": "#383836",
 
         // *==> Violet Borders
-        "tab.activeModifiedBorder": "#0FFF00",
-        "tab.unfocusedInactiveModifiedBorder": "#00C44C",
-        "tab.inactiveModifiedBorder": "#00C44C",
-        "tab.unfocusedActiveModifiedBorder": "#0FFF00",
+        "tab.activeModifiedBorder": "#FF6C00",
+        "tab.unfocusedInactiveModifiedBorder": "#FF6C00",
+        "tab.inactiveModifiedBorder": "#FF6C00",
+        "tab.unfocusedActiveModifiedBorder": "#FF6C00",
 
         // -->> Orange Borders
-        "panelTitle.activeBorder": "#FF7600",
-        "activityBar.activeBorder": "#FF7600",
-        "tab.activeBorder": "#FF7600",
-        "tab.unfocusedActiveBorder": "#FF7600",
-        "editorHoverWidget.border": "#5E0D00",
+        "panelTitle.activeBorder": "#FF6C00",
+        "activityBar.activeBorder": "#FF6C00",
+        "tab.activeBorder": "#14DDFF",
+        "tab.unfocusedActiveBorder": "#14DDFF",
+        "editorHoverWidget.border": "#23C4FF",
         /* 
 
 
         <<==============// HIGHLIGHTING ~&~ ON FOCUS PROPERTIES //==============>>                  */
         // -->> Drag-N-Drop Highlight Properties
-        "sideBar.dropBackground": "#00FF4AAA",
-        "editorGroup.dropBackground": "#00FF4AAA",
-        "panelSection.dropBackground": "#00FF4AAA",
-        "list.dropBackground": "#00FF4AAA",
-        "activityBar.dropBorder": "#00FF4A",
-        "panel.dropBorder": "#00FF4A",
+        "sideBar.dropBackground": "#1FFFDD7C",
+        "editorGroup.dropBackground": "#1FFFDD7C",
+        "panelSection.dropBackground": "#1FFFDD7C",
+        "list.dropBackground": "#1FFFDD7C",
+        "activityBar.dropBorder": "#1FFFDD",
+        "panel.dropBorder": "#1FFFDD",
 
         // *->> Hover Highlight Properties
-        "tab.hoverBackground": "#00164E",
-        "tab.unfocusedHoverBackground": "#00164E",
-        "tab.hoverForeground": "#0EEEFF",
-        "tab.unfocusedHoverForeground": "#0EEEFF",
-        "tab.hoverBorder": "#00FF23",
-        "tab.unfocusedHoverBorder": "#00FF23",
-        "breadcrumb.focusForeground": "#FF7500", //
+        "tab.hoverBackground": "#1A2D34D2",
+        "tab.unfocusedHoverBackground": "#1A2D34D2",
+        "tab.hoverForeground": "#1FFFDD",
+        "tab.unfocusedHoverForeground": "#1FFFDD",
+        "tab.hoverBorder": "#23C4FF",
+        "tab.unfocusedHoverBorder": "#23C4FF",
+        "breadcrumb.focusForeground": "#23C4FF",
 
         "sash.hoverBorder": "#12BCFF",
         "list.hoverForeground": "#12BCFF",
@@ -165,22 +169,22 @@
         
         
         <<==========|[ Selection ~&~ Focus Highlighting ]|==========>>                  */
-        "selection.background": "#0C00FF7C",
+        "selection.background": "#00A0FF74",
         "minimap.selectionHighlight": "#00FF00",
         // -->>  SubGroup (Selection/Focus): |> Editor
-        "editor.selectionBackground": "#0C00FF60",
+        "editor.selectionBackground": "#00A0FF4C",
         "editor.selectionForeground": "#FFFFFF",
-        "editor.inactiveSelectionBackground": "#0C00FF50",
+        "editor.inactiveSelectionBackground": "#0C40FF4C",
         "editor.selectionHighlightBackground": "#000000",
         "editor.selectionHighlightBorder": "#12BCFF",
-        "editorSuggestWidget.selectedBackground": "#0C00FF50",
-        "editorOverviewRuler.selectionHighlightForeground": "#0C00FF50",
+        "editorSuggestWidget.selectedBackground": "#0C40FF4C",
+        "editorOverviewRuler.selectionHighlightForeground": "#0C40FF4C",
         // -->> SubGroup (Selection/Focus): |> ('List Selection Properties')
-        "list.activeSelectionBackground": "#0C00FF40",
-        "list.inactiveSelectionBackground": "#0C00FF40",
+        "list.activeSelectionBackground": "#0C40FF4C",
+        "list.inactiveSelectionBackground": "#0C40FF4C",
         "list.inactiveFocusBackground": "#1Dead100",
-        "list.focusBackground": "#FFFFFF24",
-        "list.focusForeground": "#C4C4C4",
+        "list.focusBackground": "#0C40FF4C",
+        "list.focusForeground": "#E2E2E2",
         "list.activeSelectionForeground": "#0EEEFF",
         "list.inactiveSelectionForeground": "#CCCCCC",
         "list.deemphasizedForeground": "#699696",
@@ -191,9 +195,9 @@
         "menu.selectionBorder": "#00FF00",
         "menu.selectionForeground": "#DADADA",
 
-        "menubar.selectionBackground": "#0C00FF50",
-        "menubar.selectionBorder": "#0C00FF50",
-        "menubar.selectionForeground": "#0C00FF50",
+        "menubar.selectionBackground": "#0C40FF4C",
+        "menubar.selectionBorder": "#0C40FF4C",
+        "menubar.selectionForeground": "#0C40FF4C",
         // -->> SubGroup (Selection/Focus): |> ('Miscellaneous')
         "breadcrumb.activeSelectionForeground": "#4FFFFF",
         "activityBar.activeBackground": "#00033333", // ===> Activates-On -> ActivityBar Icon Selected
@@ -259,7 +263,7 @@
         "editorLineNumber.foreground": "#00D0FF4C",
         "editorLineNumber.activeForeground": "#14E0FF",
         "editorGutter.foldingControlForeground": "#20FAFF",
-        "editor.foldBackground": "#07080A51",
+        "editor.foldBackground": "#00494910",
         "editor.lineHighlightBackground": "#00000050",
         "editor.lineHighlightBorder": "#000000",
         /*
@@ -282,13 +286,13 @@
  
         <|================( Special Properties )================|>              L2       */
         "descriptionForeground": "#FFB555",
-        "scrollbar.shadow": "#000000FF",
-        "widget.shadow": "#000000FF",
-        "editorUnnecessaryCode.opacity": "#0000008D",
-        "editorUnnecessaryCode.border": "#FF240054",
-        "contrastBorder": "#148AB4",
-        "icon.foreground": "#00FF1C",
-        "foreground": "#FF720A",
+        "scrollbar.shadow": "#000000DD",
+        "widget.shadow": "#000000DD",
+        "editorUnnecessaryCode.opacity": "#0000007B",
+        "editorUnnecessaryCode.border": "#FF00143C",
+        "contrastBorder": "#1AADDA",
+        "icon.foreground": "#23C4FF",
+        "foreground": "#26BEE6",
         "focusBorder": "#004058", //  ~~( HIDDEN )~~
         "editorWhitespace.foreground": "#0080904C",
         "editorRuler.foreground": "#009AAA0D",
@@ -300,7 +304,6 @@
                                                                                 */
         // ->  Background
 
-        "breadcrumbPicker.background": "#001030",
         "searchEditor.findMatchBackground": "#00FFF01C",
         "searchEditor.findMatchBorder": "#00FFF0",
         "searchEditor.textInputBorder": "#00FF72",
@@ -313,7 +316,9 @@
         "notificationCenterHeader.foreground": "#010103",
         "notificationToast.border": "#0020FF",
         "imagePreview.border": "#EE00EE", //                            Wtf?
-        "textBlockQuote.border": "#E000E0", //                          Wtf?
+        "textBlockQuote.border": "#CCCCCC", //                          Wtf?
+        "textBlockQuote.background": "#1BBFFF48",
+
         "scm.providerBorder": "#EE00EE", //                             Wtf?
         "progressBar.background": "#EE00EE", //                         Wtf?
         "editorGutter.commentRangeForeground": "#E000E0", //            Wtf?
@@ -606,34 +611,20 @@
 
         <<==============// JavaScript (Standard Tokens) //====================>>                       
         */
+        /*
 
+
+
+
+ >>  SOURCE/FUNDAMENTAL BASE TOKENZ                                                                    */
         {
             "name": "",
-            "scope": ["source.js"],
+            "scope": ["source.js", "meta.block", "variable.other.readwrite.js"],
             "settings": {
-                "foreground": "#588AAA",
+                "foreground": "#477aa0",
                 "fontStyle": ""
             }
         },
-
-        {
-            "name": "Variable: Read & Write",
-            "scope": ["variable.other.readwrite.js"],
-            "settings": {
-                "foreground": "#588AAA",
-                "fontStyle": ""
-            }
-        },
-
-        {
-            "name": "1st LvL Block",
-            "scope": ["meta.block"],
-            "settings": {
-                "foreground": "#588AAA",
-                "fontStyle": ""
-            }
-        },
-
         {
             "name": "Line-Comment (//)",
             "scope": ["comment.line.double-slash"],
@@ -669,35 +660,92 @@
                 "fontStyle": "italic"
             }
         },
+        /*
 
-        {
-            "name": "Containers (BOLD)",
-            "scope": ["storage.type.class.js", "storage.type.function.js", "storage.type.js"],
-            "settings": {
-                "foreground": "#148234",
-                "fontStyle": "bold"
-            }
-        },
 
+
+
+ ->  PUNCTUATION & BRACE TOKENZ                                                                        */
         {
-            "name": "Containers (STD)",
-            "scope": ["storage.type.property.js"],
+            "name": "Punctuation & Braces",
+            "scope": [
+                "meta.brace.round.js",
+                "meta.brace.square.js",
+                "punctuation.definition.string.begin.js",
+                "punctuation.definition.string.end.js",
+                "punctuation.definition.string.template.end.js",
+                "punctuation.definition.string.template.begin.js",
+                "punctuation.definition.parameters.end.js",
+                "punctuation.definition.parameters.begin.js",
+                "punctuation.definition.block.js ",
+                "punctuation.terminator.statement.js",
+                "punctuation.definition.binding-pattern.object.js"
+            ],
             "settings": {
-                "foreground": "#14A040",
+                "foreground": "#00A238",
                 "fontStyle": ""
             }
         },
 
         {
             "name": "Letterless Operators (BOLD)",
-            "scope": ["punctuation.accessor.js"],
+            "scope": ["punctuation.accessor.js", "punctuation.terminator.statement.js"],
 
             "settings": {
-                "foreground": "#00C420",
+                "foreground": "#0ACA4A",
                 "fontStyle": "bold"
             }
         },
 
+        {
+            "name": "Letterless Operators (STD)",
+            "scope": ["punctuation.separator.comma.js", "punctuation.terminator.statement.js"],
+
+            "settings": {
+                "foreground": "#00D040",
+                "fontStyle": ""
+            }
+        },
+        /* 
+
+
+
+
+ ---> <--------| STORAGE/CONTAINER TOKENZ |--------> <-----------------------------------------------  */
+        {
+            "name": "Containers (B)",
+            "scope": ["storage.type.class.js", "storage.type.function.js"],
+            "settings": {
+                "foreground": "#14804A",
+                "fontStyle": "bold"
+            }
+        },
+
+        {
+            "name": "Containers (standard)",
+            "scope": ["storage.type.js"],
+            "settings": {
+                "foreground": "#189A58",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "Containers (i)",
+            "scope": ["storage.type.property.js"],
+            "settings": {
+                "foreground": "#009C70",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* 
+
+
+
+
+
+ >>  KEY CONTROL-WORDS                                                                                 */
         {
             "name": "Basic Javascript Statments",
             "scope": [
@@ -707,7 +755,7 @@
                 "keyword.control.conditional.js"
             ],
             "settings": {
-                "foreground": "#DC7730",
+                "foreground": "#D06C28",
                 "fontStyle": "italic"
             }
         },
@@ -721,7 +769,7 @@
                 "keyword.operator.new.js"
             ],
             "settings": {
-                "foreground": "#DC7730",
+                "foreground": "#D06C28",
                 "fontStyle": ""
             }
         },
@@ -734,17 +782,29 @@
                 "keyword.operator.bitwise.js",
                 "keyword.operator.logical.js",
                 "keyword.operator.comparison.js",
-                "storage.type.function.arrow.js"
+                "storage.type.function.arrow.js",
+                "keyword.operator.relational.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.assignment.compound.js"
             ],
             "settings": {
-                "foreground": "#F08024",
+                "foreground": "#FF6444",
                 "fontStyle": ""
             }
         },
 
         {
-            "name": "Function, Method, & Class Defined-Names",
-            "scope": ["entity.name.type.class.js", "meta.definition.method.js"],
+            "name": "Class Defined-Names",
+            "scope": ["entity.name.type.class.js"],
+            "settings": {
+                "foreground": "#6C488E",
+                "fontStyle": "bold underline"
+            }
+        },
+
+        {
+            "name": "Method Defined-Names",
+            "scope": ["meta.definition.method.js"],
             "settings": {
                 "foreground": "#6C488E",
                 "fontStyle": "bold"
@@ -768,7 +828,12 @@
                 "fontStyle": "bold"
             }
         },
+        /* 
 
+
+
+
+ +  <<=======|| VARIABLEZ/OBJECTS TOKENZ ||=========================================================>> */
         {
             "name": "Object",
             "scope": ["variable.other.object.js"],
@@ -788,6 +853,19 @@
         },
 
         {
+            "name": "",
+            "scope": ["variable.parameter.js", "meta.parameters.js"],
+            "settings": {
+                "foreground": "#B4B4B4",
+                "fontStyle": ""
+            }
+        },
+        /* 
+
+
+
+ ~ <<~~~~>> CONSTANT TOKENS <<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>> */
+        {
             "name": "Numbers, Boolean-Values, & Escaped-Chars",
 
             "scope": [
@@ -805,33 +883,19 @@
 
         {
             "name": "Numbers, Undefined, Null, Boolean-Values, & Escaped-Chars",
-
             "scope": ["constant.language.undefined.js", "constant.language.null.js"],
-
             "settings": {
                 "foreground": "#991444",
                 "fontStyle": "italic"
             }
         },
 
-        {
-            "name": "",
-            "scope": ["variable.parameter.js", "meta.parameters.js"],
-            "settings": {
-                "foreground": "#C5C5C5",
-                "fontStyle": ""
-            }
-        },
+        /* 
 
-        {
-            "name": "",
-            "scope": [],
-            "settings": {
-                "foreground": "#C8C8C8",
-                "fontStyle": ""
-            }
-        },
 
+
+
+ >>> STRING TOKENZ                                                                                     */
         {
             "name": "Strings (wrapped in either single & double quotes)",
             "scope": ["string.quoted.double.js", "string.quoted.single.js"],
@@ -849,35 +913,23 @@
                 "fontStyle": "italic"
             }
         },
+        /* 
 
-        {
-            "name": "Punctuation & Braces",
-            "scope": [
-                "meta.brace.round.js",
-                "meta.brace.square.js",
-                "punctuation.definition.string.begin.js",
-                "punctuation.definition.string.end.js",
-                "punctuation.definition.string.template.end.js",
-                "punctuation.definition.string.template.begin.js",
-                "punctuation.definition.parameters.end.js",
-                "punctuation.definition.parameters.begin.js",
-                "punctuation.definition.block.js ",
-                "punctuation.separator.comma.js",
-                "punctuation.terminator.statement.js",
-                "punctuation.definition.binding-pattern.object.js"
-            ],
-            "settings": {
-                "foreground": "#00AA32",
-                "fontStyle": ""
-            }
-        },
 
+
+
+
+ > ||> MISCELLANEOUS TOKENZ <|| < .................................................................... */
         {
             "name": "",
-            "scope": ["support.function.js", "support.type.object.module.js"],
+            "scope": [
+                "support.function.js",
+                "support.type.object.module.js",
+                "keyword.operator.expression.import.js"
+            ],
             "settings": {
-                "foreground": "#947E6F",
-                "fontStyle": "italic"
+                "foreground": "#7E702C",
+                "fontStyle": ""
             }
         },
 
