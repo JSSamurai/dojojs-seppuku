@@ -3,110 +3,98 @@
     "type": "dark",
     "colors": {
         /*
+        
+        
+  *>  BACKGROUND PROPERTIES                                                */
 
+        // ~  Black & Near-Black(s)
+        "editorGroupHeader.tabsBackground": "#03080E",
+        "editorOverviewRuler.background": "#060606",
+        "editorHoverWidget.background": "#060606",
+        "activityBar.background": "#060606",
+        "panel.background": "#060606",
+        "terminal.background": "#060606",
 
-        <|==( Background Properties )==|>       */
+        // ~ Dark Blue-Grey(s)
+        "statusBar.background": "#10161B",
+        "editor.background": "#0A1014",
+        "welcomePage.background": "#0A1014",
+        "editorGutter.background": "#0A1014",
+        "minimap.background": "#041018",
 
-        // ==> Black Backgrounds
-        //  (*>> Black BGs
-        "editor.background": "#0A0D13",
-        "welcomePage.background": "#0A0D13",
-        "editorGutter.background": "#0A0D13",
-        "minimap.background": "#0A0D13",
-        "editorOverviewRuler.background": "#03060A",
-
-        "sideBar.background": "#0D171F",
-        "sideBarSectionHeader.background": "#03060A",
-        "editorHoverWidget.background": "#03060A",
-        "menu.background": "#020816",
-        "editorPane.background": "#020816",
-        "panel.background": "#010204",
-        "terminal.background": "#0D0F11",
-        "statusBar.background": "#04080C",
-
-        // - GunMetal Blue(s)
-        "editorGroupHeader.tabsBackground": "#020408",
-        "tab.activeBackground": "#1A2F34AE",
-        "tab.inactiveBackground": "#1A2F3464",
-        "tab.unfocusedActiveBackground": "#1A2F34AE",
-        "tab.unfocusedInactiveBackground": "#1A2F3464",
+        // ~   GunMetal~Blue(s) [Tabs, Sidebar, Menus...]
+        "sideBar.background": "#04111C",
+        "sideBarSectionHeader.background": "#04111C",
+        "menu.background": "#060F18",
+        "editorPane.background": "#060F18",
+        "tab.activeBackground": "#144C6A80", //    *==>  SavedVal: [#1A2F34AE]
+        "tab.inactiveBackground": "#144C6A4C",
+        "tab.unfocusedActiveBackground": "#144C6A80",
+        "tab.unfocusedInactiveBackground": "#144C6A4C",
 
         "breadcrumb.background": "#181C20",
-        "activityBar.background": "#020412",
         "editorHoverWidget.statusBarBackground": "#181E25",
 
         "editorGroupHeader.noTabsBackground": "#181616",
         "titleBar.inactiveBackground": "#181616",
-        "titleBar.activeBackground": "#030314",
+        "titleBar.activeBackground": "#050D40",
 
         //  <----|| Minimap ~&~ ScrollBar-Slider BGs ||---->
         "minimapSlider.background": "#23C4FF4C",
         "minimapSlider.activeBackground": "#23C4FF",
         "scrollbarSlider.background": "#FF6C00C0",
-        "scrollbarSlider.activeBackground": "#FF6C00",
+        "scrollbarSlider.activeBackground": "#FF043C",
         "breadcrumbPicker.background": "#111111",
+
+        //  ~  Hidden & Omitted Bg-Properties
+        "activityBar.activeBackground": "#1Dead100",
         /*
         
-
-
-
-          <<------------<( Foreground Properties )>------------>>   
         
-        */
-        // *--> Red Foregrounds
-        "sideBarSectionHeader.foreground": "#1AAAC4",
+  *>  FOREROUND PROPERTIES                                                 */
 
-        // ---> Green Foregrounds
-        "sideBarTitle.foreground": "#FFFFFF",
-        "terminal.foreground": "#DDDDDD",
-        "statusBar.foreground": "#EEEEEE",
-
-        // ===> Blue Foregrounds
-        "menu.foreground": "#CCCCCC",
-        "panelTitle.inactiveForeground": "#248096",
-        "titleBar.inactiveForeground": "#248096",
-        "activityBar.inactiveForeground": "#125B76",
-        "breadcrumb.foreground": "#646464",
-
-        //  :|> White & Grey Foregrounds
-        "panelTitle.activeForeground": "#23C4FF",
-        "activityBar.foreground": "#23C4FF",
+        "sideBarTitle.foreground": "#FF043C",
+        "terminal.foreground": "#FF043C",
+        "breadcrumb.foreground": "#902430",
+        "titleBar.inactiveForeground": "#145B61",
+        "panelTitle.inactiveForeground": "#124C50",
+        "activityBar.inactiveForeground": "#0F3C40",
+        "panelTitle.activeForeground": "#0AFFD8",
+        "activityBar.foreground": "#0AFFD8",
         "debugConsoleInputIcon.foreground": "#23C4FF",
-        "editorLink.activeForeground": "#F8FFFF",
-        "tab.activeForeground": "#E2E2E2",
-        "tab.unfocusedActiveForeground": "#C2C2C2",
-        "sideBar.foreground": "#A0A0A0",
-
-        "editorHoverWidget.foreground": "#C2C2C2",
-
         "editor.foreground": "#40BBE0",
+
+        //  > White Foregrounds
+        "editorLink.activeForeground": "#FFFFFF",
+        "statusBar.foreground": "#FFFFFF",
+        "tab.activeForeground": "#E2E2E2",
+        "menu.foreground": "#CCCCCC",
+        "tab.unfocusedActiveForeground": "#C2C2C2",
+        "editorHoverWidget.foreground": "#C2C2C2",
+        "sideBarSectionHeader.foreground": "#CCBB80",
+        "sideBar.foreground": "#A0A0A0",
         "titleBar.activeForeground": "#B0B0B0",
         "tab.inactiveForeground": "#707070",
         "tab.unfocusedInactiveForeground": "#707070",
-
         /*
 
 
 
-
-
-
-                <<==========// Border Properties //==========>>                                         */
-
+  ~>  BORDER PROPERTIES                                              */
         //   :|> Opaque Borders
         "editorGroupHeader.border": "#02040ADD",
-        "editorGroupHeader.tabsBorder": "#14DDFF70",
-        "activityBar.border": "#14DDFF60",
-        "tab.activeBorderTop": "#1Dead100",
-        "tab.unfocusedActiveBorderTop": "#1Dead100",
+        "editorGroupHeader.tabsBorder": "#FFFFFF44",
+        "tab.activeBorderTop": "#FF043C",
+        "tab.unfocusedActiveBorderTop": "#FF043C",
 
         //   :|> Black & Grey Borders
         "sideBar.border": "#000A00",
         "tab.border": "#000A00",
         "tab.lastPinnedBorder": "#000A00",
-        "sideBarSectionHeader.border": "#188AAA",
+        "sideBarSectionHeader.border": "#006E5B",
         "titleBar.border": "#383836",
-        "panel.border": "#383836",
+        "activityBar.border": "#005664",
+        "panel.border": "#FFFFFF4C",
         "statusBar.border": "#383836",
         "editorOverviewRuler.border": "#383836",
 
@@ -114,22 +102,26 @@
         "editorGroup.border": "#383836",
 
         // *==> Violet Borders
-        "tab.activeModifiedBorder": "#FF6C00",
-        "tab.unfocusedInactiveModifiedBorder": "#FF6C00",
-        "tab.inactiveModifiedBorder": "#FF6C00",
-        "tab.unfocusedActiveModifiedBorder": "#FF6C00",
+        "tab.activeModifiedBorder": "#FF043C",
+        "tab.unfocusedInactiveModifiedBorder": "#FF043C",
+        "tab.inactiveModifiedBorder": "#FF043C",
+        "tab.unfocusedActiveModifiedBorder": "#FF043C",
 
         // -->> Orange Borders
-        "panelTitle.activeBorder": "#FF6C00",
-        "activityBar.activeBorder": "#FF6C00",
-        "tab.activeBorder": "#14DDFF",
-        "tab.unfocusedActiveBorder": "#14DDFF",
-        "editorHoverWidget.border": "#23C4FF",
+        "panelTitle.activeBorder": "#FF043C",
+        "activityBar.activeBorder": "#FF043C",
+        "tab.activeBorder": "#1Dead100",
+        "tab.unfocusedActiveBorder": "#1Dead100",
+        "editorHoverWidget.border": "#680010",
         /* 
+        *================================================================================*
 
 
-        <<==============// HIGHLIGHTING ~&~ ON FOCUS PROPERTIES //==============>>                  */
-        // -->> Drag-N-Drop Highlight Properties
+
+
+
+  <<--------------||HIGHLIGHT PROPERTIES: (Drag-&-Drop, Hover/OnFocus & Selection)||-------------->>   */
+        // # Drag-N-Drop Highlight Properties
         "sideBar.dropBackground": "#1FFFDD7C",
         "editorGroup.dropBackground": "#1FFFDD7C",
         "panelSection.dropBackground": "#1FFFDD7C",
@@ -137,14 +129,14 @@
         "activityBar.dropBorder": "#1FFFDD",
         "panel.dropBorder": "#1FFFDD",
 
-        // *->> Hover Highlight Properties
+        // # Hover Highlight Properties
         "tab.hoverBackground": "#1A2D34D2",
         "tab.unfocusedHoverBackground": "#1A2D34D2",
         "tab.hoverForeground": "#1FFFDD",
         "tab.unfocusedHoverForeground": "#1FFFDD",
-        "tab.hoverBorder": "#23C4FF",
-        "tab.unfocusedHoverBorder": "#23C4FF",
-        "breadcrumb.focusForeground": "#23C4FF",
+        "tab.hoverBorder": "#FFFFFF",
+        "tab.unfocusedHoverBorder": "#FF043C",
+        "breadcrumb.focusForeground": "#FF043C",
 
         "sash.hoverBorder": "#12BCFF",
         "list.hoverForeground": "#12BCFF",
@@ -162,16 +154,12 @@
         "button.secondaryHoverBackground": "#000000B4",
         "button.hoverBackground": "#000000B4",
         "extensionButton.prominentHoverBackground": "#000000B4",
-
-        // ===> Hover-Widget Properties
-
         /*
-        
-        
-        <<==========|[ Selection ~&~ Focus Highlighting ]|==========>>                  */
+    ~>      Selection ~&~ Focus Highlighting                                            */
         "selection.background": "#00A0FF74",
         "minimap.selectionHighlight": "#00FF00",
-        // -->>  SubGroup (Selection/Focus): |> Editor
+
+        // # Editor Selection Properties
         "editor.selectionBackground": "#00A0FF4C",
         "editor.selectionForeground": "#FFFFFF",
         "editor.inactiveSelectionBackground": "#0C40FF4C",
@@ -179,7 +167,8 @@
         "editor.selectionHighlightBorder": "#12BCFF",
         "editorSuggestWidget.selectedBackground": "#0C40FF4C",
         "editorOverviewRuler.selectionHighlightForeground": "#0C40FF4C",
-        // -->> SubGroup (Selection/Focus): |> ('List Selection Properties')
+
+        // # List Selection Properties
         "list.activeSelectionBackground": "#0C40FF4C",
         "list.inactiveSelectionBackground": "#0C40FF4C",
         "list.inactiveFocusBackground": "#1Dead100",
@@ -190,7 +179,8 @@
         "list.deemphasizedForeground": "#699696",
         "list.filterMatchBackground": "#00004C",
         "list.filterMatchBorder": "#FFFFFF",
-        // -->> SubGroup (Selection/Focus): |> ('Menu/MenuBar Properties')
+
+        // # Menu/MenuBar Selection Properties
         "menu.selectionBackground": "#000000",
         "menu.selectionBorder": "#00FF00",
         "menu.selectionForeground": "#DADADA",
@@ -198,9 +188,8 @@
         "menubar.selectionBackground": "#0C40FF4C",
         "menubar.selectionBorder": "#0C40FF4C",
         "menubar.selectionForeground": "#0C40FF4C",
-        // -->> SubGroup (Selection/Focus): |> ('Miscellaneous')
+
         "breadcrumb.activeSelectionForeground": "#4FFFFF",
-        "activityBar.activeBackground": "#00033333", // ===> Activates-On -> ActivityBar Icon Selected
         /*
 
 
@@ -215,12 +204,12 @@
  --  -------------------------------------------------------------------  --
 
         <<====|| Text-Inputs ||====>>                                           L3      */
-        "input.background": "#080204",
-        "input.placeholderForeground": "#00FF2A",
-        "input.foreground": "#1FFF00",
-        "input.border": "#002038",
+        "input.background": "#0C0305",
+        "input.placeholderForeground": "#FF0F446B",
+        "input.foreground": "#0AFFD8",
+        "input.border": "#4C4C4C",
         "inputOption.activeBackground": "#000000",
-        "inputOption.activeForeground": "#FF7500",
+        "inputOption.activeForeground": "#FF043C",
         "inputOption.activeBorder": "#00FF00",
         "quickInput.foreground": "#FF7C24",
         "quickInput.background": "#001030",
@@ -228,7 +217,7 @@
         /*
 
         <<====|| Widgets ||====>>                                               L3      */
-        "editorWidget.background": "#040824",
+        "editorWidget.background": "#080A0F",
         "editorWidget.foreground": "#C4C4C4",
         "editorWidget.border": "#00C4C4",
         "editorWidget.resizeBorder": "#1dead100", // ~ Hidden
@@ -240,7 +229,7 @@
         //      <<---| SubGroup: "ListFilterWidget" |--->>                      L4
         "listFilterWidget.background": "#2E2E34",
         "listFilterWidget.noMatchesOutline": "#806850",
-        "listFilterWidget.outline": "#0FF0FF",
+        "listFilterWidget.outline": "#0FFFF0",
         //      <<---| SubGroup: "DebugExceptionWidget" |--->>                  L4
         "debugExceptionWidget.background": "#2E2E34",
         "debugExceptionWidget.border": "#806850",
@@ -255,8 +244,8 @@
 
         <<====|| IndentGuides ||====>>                                          L3  */
         "editorIndentGuide.background": "#00263DE0",
-        "editorIndentGuide.activeBackground": "#0FF0FF",
-        "tree.indentGuidesStroke": "#20FAFF",
+        "editorIndentGuide.activeBackground": "#0FFFF0",
+        "tree.indentGuidesStroke": "#0FFFF0",
         /*
 
         <<====|| Line Numbers, Line-Highlighting -&- Line-Folding ||====>>      L3  */
@@ -278,10 +267,10 @@
 
         <<====|| Badgez ||====>>                                                L3       */
         "badge.background": "#000A03",
-        "badge.foreground": "#12BCFF",
+        "badge.foreground": "#0AFFD8",
         // *==> Activity-Bar Badge
         "activityBarBadge.background": "#000A03",
-        "activityBarBadge.foreground": "#12BCFF",
+        "activityBarBadge.foreground": "#0AFFD8",
         /*
  
         <|================( Special Properties )================|>              L2       */
@@ -290,10 +279,10 @@
         "widget.shadow": "#000000DD",
         "editorUnnecessaryCode.opacity": "#0000007B",
         "editorUnnecessaryCode.border": "#FF00143C",
-        "contrastBorder": "#1AADDA",
-        "icon.foreground": "#23C4FF",
+        "contrastBorder": "#18A4CC",
+        "icon.foreground": "#FF043C",
         "foreground": "#26BEE6",
-        "focusBorder": "#004058", //  ~~( HIDDEN )~~
+        "focusBorder": "#1Dead100",
         "editorWhitespace.foreground": "#0080904C",
         "editorRuler.foreground": "#009AAA0D",
 
@@ -436,14 +425,14 @@
         "extensionButton.prominentForeground": "#209A9D",
         "debugIcon.breakpointForeground": "#209A9D",
         //  *>> Border
-        "window.inactiveBorder": "#414141",
-        "window.activeBorder": "#414141",
-        "debugToolBar.border": "#414141",
-        "panelInput.border": "#414141",
-        "panelSectionHeader.border": "#414141",
-        "terminal.border": "#414141",
-        "panelSection.border": "#414141",
-        "checkbox.border": "#414141",
+        "window.inactiveBorder": "#FF043C",
+        "window.activeBorder": "#FF043C",
+        "debugToolBar.border": "#FF043C",
+        "panelInput.border": "#FF043C",
+        "panelSectionHeader.border": "#FF043C",
+        "terminal.border": "#FF043C",
+        "panelSection.border": "#FF043C",
+        "checkbox.border": "#FF043C",
 
         // *==>> Emphasized Foregroundz
 
